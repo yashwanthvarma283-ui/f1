@@ -27,3 +27,8 @@ dist-ssr
 scripts/cache
 .edge-*
 *.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class

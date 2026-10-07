@@ -1,22 +1,13 @@
-import React, { useState, useEffect, useMemo } from 'react'
+import React, { useMemo } from 'react'
 import {
-  Calendar,
   Clock,
-  MapPin,
   CloudSun,
-  Wind,
   Droplets,
   Trophy,
-  Activity,
-  AlertCircle,
-  Timer,
-  ChevronRight,
-  ShieldCheck,
   TrendingUp,
 } from 'lucide-react'
 import { useQuery } from '@tanstack/react-query'
 import { useTimezone } from '@/context/TimezoneContext'
-import { CountryFlag } from '@/lib/flags'
 import { getTeamMeta } from '@/lib/teams'
 import { CircuitOutline } from '@/features/hero/CircuitOutline'
 import { CountdownTicker } from '@/features/hero/CountdownTicker'
@@ -39,7 +30,7 @@ interface ForecastDay {
 }
 
 export const UpcomingRaceView: React.FC<UpcomingRaceViewProps> = ({
-  year,
+  year: _year,
   round,
   raceMeta,
 }) => {

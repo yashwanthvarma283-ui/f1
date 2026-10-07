@@ -14,7 +14,10 @@ import {
   DriverTyreLapState,
   DriverRaceSummaryStats,
   DriverSessionInfo,
+  SessionDataset,
+  RaceResultEntry,
 } from '@/types/data'
+import { getTeamMeta } from '@/lib/teams'
 import { jolpicaClient } from './jolpicaClient'
 
 class StaticDataClient {
@@ -128,9 +131,13 @@ class StaticDataClient {
   }
 
   /**
-   * Get full session dataset bundle
+   * Get full session dataset bundle (static FastF1 or Jolpica live fallback)
    */
-  async getSessionDataset(year: number, roundSlug: string | number, session = 'race') {
+  async getSessionDataset(
+    year: number,
+    roundSlug: string | number,
+    session = 'race'
+  ): Promise<SessionDataset> {
     const folder = await this.resolveRoundFolder(year, roundSlug)
     const basePath = `/data/${year}/${folder}/${session}`
 
@@ -150,7 +157,7 @@ class StaticDataClient {
       weather,
       lapFeed,
     ] = await Promise.all([
-      this.fetchJson<any[]>(`${basePath}/results.json`),
+      this.fetchJson<RaceResultEntry[]>(`${basePath}/results.json`),
       this.fetchJson<DriverSessionInfo[]>(`${basePath}/drivers.json`),
       this.fetchJson<LapData[]>(`${basePath}/laps.json`),
       this.fetchJson<LapPositionSnapshot[]>(`${basePath}/positions-by-lap.json`),
@@ -166,26 +173,331 @@ class StaticDataClient {
       this.fetchJson<LapFeedEntry[]>(`${basePath}/lap-feed.json`),
     ])
 
-    const isAvailable = Boolean(laps && laps.length > 0)
+    // Case 1: Pre-extracted high-resolution telemetry exists (e.g. 2024 season)
+    if (laps && laps.length > 0) {
+      return {
+        isAvailable: true,
+        isHistoricalArchive: false,
+        dataSource: 'fastf1',
+        results: results || [],
+        drivers: drivers || [],
+        laps: laps || [],
+        positionsByLap: positionsByLap || [],
+        gapsByLap: gapsByLap || [],
+        overtakes: overtakes || [],
+        stints: stints || [],
+        pitstops: pitstops || [],
+        tyreDegradation: tyreDegradation || [],
+        driverStats: driverStats || [],
+        radio: radio || [],
+        raceControl: raceControl || [],
+        weather: weather || [],
+        lapFeed: lapFeed || [],
+      }
+    }
+
+    // Case 2: Static results are available on disk without high-frequency telemetry
+    if (results && results.length > 0) {
+      return {
+        isAvailable: true,
+        isHistoricalArchive: true,
+        dataSource: 'fastf1',
+        results: results,
+        drivers: drivers || [],
+        laps: [],
+        positionsByLap: positionsByLap || [],
+        gapsByLap: gapsByLap || [],
+        overtakes: overtakes || [],
+        stints: stints || [],
+        pitstops: pitstops || [],
+        tyreDegradation: tyreDegradation || [],
+        driverStats: driverStats || [],
+        radio: radio || [],
+        raceControl: raceControl || [],
+        weather: weather || [],
+        lapFeed: lapFeed || [],
+      }
+    }
+
+    // Case 3: Historical archive fallback to Jolpica API (1950–2023)
+    const matchRound = folder.match(/^(\d+)/)
+    const roundNum = matchRound
+      ? parseInt(matchRound[1], 10)
+      : parseInt(String(roundSlug).replace(/\D/g, ''), 10)
+
+    if (roundNum > 0) {
+      try {
+        const isQuali = session.toLowerCase().includes('quali')
+        if (isQuali) {
+          const qualiData = await jolpicaClient.getQualifyingResults(year, roundNum)
+          const rawQuali = qualiData?.QualifyingResults || []
+          if (rawQuali.length > 0) {
+            const finalResults = rawQuali.map((r: any, idx: number) => {
+              const driverNum = parseInt(r.number, 10) || idx + 1
+              const pos = parseInt(r.position, 10) || idx + 1
+              const driverCode =
+                r.Driver?.code ||
+                (r.Driver?.familyName ? r.Driver.familyName.slice(0, 3).toUpperCase() : `D${driverNum}`)
+              const teamName = r.Constructor?.name || 'Independent'
+
+              return {
+                position: pos,
+                classifiedPosition: String(pos),
+                grid: pos,
+                status: 'Classified',
+                points: 0,
+                laps: 0,
+                time: r.Q3 || r.Q2 || r.Q1 || 'No time',
+                driverNumber: driverNum,
+                driverCode,
+                teamName,
+              }
+            })
+
+            const finalDrivers: DriverSessionInfo[] = rawQuali.map((r: any, idx: number) => {
+              const driverNum = parseInt(r.number, 10) || idx + 1
+              const driverCode =
+                r.Driver?.code ||
+                (r.Driver?.familyName ? r.Driver.familyName.slice(0, 3).toUpperCase() : `D${driverNum}`)
+              const teamName = r.Constructor?.name || 'Independent'
+              const teamMeta = getTeamMeta(teamName)
+
+              return {
+                driverNumber: driverNum,
+                driverId: r.Driver?.driverId,
+                broadcastName: r.Driver?.familyName?.toUpperCase() || driverCode,
+                fullName: `${r.Driver?.givenName || ''} ${r.Driver?.familyName || ''}`.trim() || driverCode,
+                nameAcronym: driverCode,
+                teamName,
+                teamColour: teamMeta.color,
+                firstName: r.Driver?.givenName || '',
+                lastName: r.Driver?.familyName || '',
+                headshotUrl: null,
+                countryCode: r.Driver?.nationality,
+              }
+            })
+
+            return {
+              isAvailable: true,
+              isHistoricalArchive: true,
+              dataSource: 'jolpica',
+              results: finalResults,
+              drivers: finalDrivers,
+              laps: [],
+              positionsByLap: [],
+              gapsByLap: [],
+              overtakes: [],
+              stints: [],
+              pitstops: [],
+              tyreDegradation: [],
+              driverStats: [],
+              radio: [],
+              raceControl: [],
+              weather: [],
+              lapFeed: [],
+            }
+          }
+        } else {
+          // Race session
+          const raceData = await jolpicaClient.getRaceResults(year, roundNum)
+          const rawResults = raceData?.Results || []
+          if (rawResults.length > 0) {
+            const finalResults = rawResults.map((r: any, idx: number) => {
+              const driverNum = parseInt(r.number, 10) || idx + 1
+              const pos = parseInt(r.position, 10) || idx + 1
+              const grid = parseInt(r.grid, 10) || 0
+              const driverCode =
+                r.Driver?.code ||
+                (r.Driver?.familyName ? r.Driver.familyName.slice(0, 3).toUpperCase() : `D${driverNum}`)
+              const teamName = r.Constructor?.name || 'Independent'
+
+              let timeStr = ''
+              if (r.Time?.time) {
+                timeStr = r.Time.time
+              } else if (r.status === 'Finished') {
+                timeStr = 'Finished'
+              } else {
+                timeStr = r.status || 'Not classified'
+              }
+
+              return {
+                position: pos,
+                classifiedPosition: r.positionText || String(pos),
+                grid,
+                status: r.status || 'Finished',
+                points: parseFloat(r.points) || 0,
+                laps: parseInt(r.laps, 10) || 0,
+                time: timeStr,
+                driverNumber: driverNum,
+                driverCode,
+                teamName,
+              }
+            })
+
+            const finalDrivers: DriverSessionInfo[] = rawResults.map((r: any, idx: number) => {
+              const driverNum = parseInt(r.number, 10) || idx + 1
+              const driverCode =
+                r.Driver?.code ||
+                (r.Driver?.familyName ? r.Driver.familyName.slice(0, 3).toUpperCase() : `D${driverNum}`)
+              const teamName = r.Constructor?.name || 'Independent'
+              const teamMeta = getTeamMeta(teamName)
+
+              return {
+                driverNumber: driverNum,
+                driverId: r.Driver?.driverId,
+                broadcastName: r.Driver?.familyName?.toUpperCase() || driverCode,
+                fullName: `${r.Driver?.givenName || ''} ${r.Driver?.familyName || ''}`.trim() || driverCode,
+                nameAcronym: driverCode,
+                teamName,
+                teamColour: teamMeta.color,
+                firstName: r.Driver?.givenName || '',
+                lastName: r.Driver?.familyName || '',
+                headshotUrl: null,
+                countryCode: r.Driver?.nationality,
+              }
+            })
+
+            const finalDriverStats: DriverRaceSummaryStats[] = rawResults.map((r: any, idx: number) => {
+              const driverNum = parseInt(r.number, 10) || idx + 1
+              const pos = parseInt(r.position, 10) || idx + 1
+              const grid = parseInt(r.grid, 10) || 0
+              const driverCode =
+                r.Driver?.code ||
+                (r.Driver?.familyName ? r.Driver.familyName.slice(0, 3).toUpperCase() : `D${driverNum}`)
+
+              return {
+                driverNumber: driverNum,
+                driverCode,
+                grid,
+                finish: pos,
+                positionsGained: grid > 0 ? grid - pos : 0,
+                fastestLapTime: r.FastestLap?.Time?.time || null,
+                fastestLapDuration: null,
+                averagePaceSeconds: null,
+                bestSector1: null,
+                bestSector2: null,
+                bestSector3: null,
+                pitStopCount: 0,
+                lapsLed: pos === 1 ? parseInt(r.laps, 10) || 0 : 0,
+                stintsCount: 1,
+                compoundsUsed: [],
+              }
+            })
+
+            let finalPitstops: PitStopData[] = []
+            if (year >= 2012) {
+              try {
+                const rawPits = await jolpicaClient.getPitStops(year, roundNum)
+                if (rawPits && rawPits.length > 0) {
+                  finalPitstops = rawPits.map((p: any) => {
+                    const driver = finalDrivers.find((d) => d.driverId === p.driverId)
+                    return {
+                      driverNumber: driver ? driver.driverNumber : parseInt(p.driverId, 10) || 0,
+                      lapNumber: parseInt(p.lap, 10) || 1,
+                      stopNumber: parseInt(p.stop, 10) || 1,
+                      pitDurationSeconds: parseFloat(p.duration) || null,
+                      pitLaneDurationSeconds: parseFloat(p.duration) || null,
+                      timestamp: p.time,
+                    }
+                  })
+                }
+              } catch {
+                // Pit stops fallback silent
+              }
+            }
+
+            const winner = rawResults[0]
+            const p2 = rawResults[1]
+            const p3 = rawResults[2]
+            const winnerName = winner
+              ? `${winner.Driver?.givenName || ''} ${winner.Driver?.familyName || ''}`.trim()
+              : 'Winner'
+            const winnerLaps = winner ? parseInt(winner.laps, 10) || 50 : 50
+
+            const finalLapFeed: LapFeedEntry[] = [
+              {
+                lap: 1,
+                headline: `Grand Prix Start: ${raceData.raceName || 'Grand Prix'}`,
+                summary: `The ${year} ${raceData.raceName || 'Grand Prix'} commenced with ${rawResults.length} drivers on the starting grid.`,
+                leaderCode:
+                  winner?.Driver?.code ||
+                  winner?.Driver?.familyName?.slice(0, 3).toUpperCase() ||
+                  'P1',
+                gapToSecond: '0.000',
+                events: [
+                  {
+                    type: 'FLAG',
+                    description: `Official race start of the ${year} ${raceData.raceName || 'Grand Prix'}.`,
+                    importance: 'high',
+                  },
+                ],
+              },
+              {
+                lap: winnerLaps,
+                headline: `Chequered Flag: Victory for ${winnerName}`,
+                summary: `${winnerName} (${winner?.Constructor?.name || 'Constructor'}) took victory in the ${year} ${raceData.raceName || 'Grand Prix'}${p2 ? `, followed by ${p2.Driver?.givenName} ${p2.Driver?.familyName}` : ''}${p3 ? ` and ${p3.Driver?.givenName} ${p3.Driver?.familyName}` : ''}.`,
+                leaderCode:
+                  winner?.Driver?.code ||
+                  winner?.Driver?.familyName?.slice(0, 3).toUpperCase() ||
+                  'P1',
+                gapToSecond: p2?.Time?.time || '0.000',
+                events: [
+                  {
+                    type: 'FLAG',
+                    description: `Chequered flag: ${winnerName} takes victory.`,
+                    importance: 'high',
+                  },
+                ],
+              },
+            ]
+
+            return {
+              isAvailable: true,
+              isHistoricalArchive: true,
+              dataSource: 'jolpica',
+              results: finalResults,
+              drivers: finalDrivers,
+              laps: [],
+              positionsByLap: [],
+              gapsByLap: [],
+              overtakes: [],
+              stints: [],
+              pitstops: finalPitstops,
+              tyreDegradation: [],
+              driverStats: finalDriverStats,
+              radio: [],
+              raceControl: [],
+              weather: [],
+              lapFeed: finalLapFeed,
+            }
+          }
+        }
+      } catch {
+        // Jolpica network error or rate limit
+      }
+    }
 
     return {
-      isAvailable,
-      results: results || [],
-      drivers: drivers || [],
-      laps: laps || [],
-      positionsByLap: positionsByLap || [],
-      gapsByLap: gapsByLap || [],
-      overtakes: overtakes || [],
-      stints: stints || [],
-      pitstops: pitstops || [],
-      tyreDegradation: tyreDegradation || [],
-      driverStats: driverStats || [],
-      radio: radio || [],
-      raceControl: raceControl || [],
-      weather: weather || [],
-      lapFeed: lapFeed || [],
+      isAvailable: false,
+      isHistoricalArchive: false,
+      dataSource: 'none',
+      results: [],
+      drivers: [],
+      laps: [],
+      positionsByLap: [],
+      gapsByLap: [],
+      overtakes: [],
+      stints: [],
+      pitstops: [],
+      tyreDegradation: [],
+      driverStats: [],
+      radio: [],
+      raceControl: [],
+      weather: [],
+      lapFeed: [],
     }
   }
 }
 
 export const staticDataClient = new StaticDataClient()
+

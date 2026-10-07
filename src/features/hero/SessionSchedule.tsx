@@ -14,7 +14,7 @@ export const SessionSchedule: React.FC<SessionScheduleProps> = ({
   sessions,
   activeSessionId,
 }) => {
-  const { timezoneAbbr, formatTime, formatDate, formatWeekday } = useTimezone()
+  const { timezoneAbbr, formatTime, formatDate } = useTimezone()
 
   // Map session type to semantic F1 badge variant
   const getBadgeVariant = (type: string) => {

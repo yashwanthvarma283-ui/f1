@@ -32,6 +32,12 @@ describe('Timezone utility module', () => {
     expect(getTimezoneAbbreviation('UTC', winterDate)).toBe('UTC')
   })
 
+  it('correctly retrieves timezone offset string', () => {
+    const winterDate = new Date('2026-01-15T12:00:00Z')
+    expect(getTimezoneOffsetString('UTC', winterDate)).toBe('UTC')
+    expect(getTimezoneOffsetString('Asia/Singapore', winterDate)).toBe('UTC+08:00')
+  })
+
   it('formats time in 24h and 12h modes correctly', () => {
     // 14:30 UTC
     const date = new Date('2026-10-09T14:30:00Z')

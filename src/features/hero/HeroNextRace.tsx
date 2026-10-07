@@ -1,6 +1,5 @@
 import React, { useMemo } from 'react'
 import { Link } from 'react-router-dom'
-import { motion, useReducedMotion } from 'motion/react'
 import { F1Race, LiveSessionStatus, DriverStandingItem, LastRaceResultPayload } from '@/api/types'
 import { SessionService } from '@/api/sessionService'
 import { useTimezone } from '@/context/TimezoneContext'
@@ -33,7 +32,6 @@ export const HeroNextRace: React.FC<HeroNextRaceProps> = ({
   drivers = [],
   lastResult = null,
 }) => {
-  const shouldReduceMotion = useReducedMotion()
   const { formatFullRaceDate, formatWeekendSpan } = useTimezone()
 
   // Extract weekend sessions and find the next session

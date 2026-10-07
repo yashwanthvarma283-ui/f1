@@ -1,8 +1,7 @@
 import React, { useState, useMemo } from 'react'
-import { useParams, Link } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { motion, AnimatePresence, useReducedMotion } from 'motion/react'
-import { AlertCircle, ArrowLeft } from 'lucide-react'
 import { staticDataClient } from '@/api/staticDataClient'
 import { RaceHeader, RaceTabId } from '@/features/race/RaceHeader'
 import { OverviewTab } from '@/features/race/OverviewTab'
@@ -13,7 +12,6 @@ import { PacePositionsTab } from '@/features/race/PacePositionsTab'
 import { TeamRadioTab } from '@/features/race/TeamRadioTab'
 import { CommentaryTab } from '@/features/race/CommentaryTab'
 import { UpcomingRaceView } from '@/features/race/UpcomingRaceView'
-import { Button } from '@/components/ui/Button'
 import { Skeleton } from '@/components/ui/Skeleton'
 
 export const RacePage: React.FC = () => {
@@ -60,7 +58,6 @@ export const RacePage: React.FC = () => {
   })
 
   const isLoading = metaQuery.isLoading || sessionQuery.isLoading
-  const isError = metaQuery.isError || sessionQuery.isError
   const dataset = sessionQuery.data
 
   return (
@@ -76,6 +73,8 @@ export const RacePage: React.FC = () => {
         activeTab={activeTab}
         onTabChange={setActiveTab}
         isDatasetAvailable={Boolean(dataset?.isAvailable)}
+        isHistoricalArchive={Boolean(dataset?.isHistoricalArchive)}
+        dataSource={dataset?.dataSource}
       />
 
       {/* Main Content Area */}
@@ -120,6 +119,7 @@ export const RacePage: React.FC = () => {
                   raceControl={dataset.raceControl}
                   overtakes={dataset.overtakes}
                   driverStats={dataset.driverStats}
+                  isHistoricalArchive={dataset.isHistoricalArchive}
                 />
               )}
 

@@ -55,6 +55,44 @@ class JolpicaClient {
   }
 
   /**
+   * Fetches official race classification for a specific season and round.
+   */
+  async getRaceResults(season: string | number, round: string | number): Promise<any | null> {
+    try {
+      const data = await this.request<any>(`/${season}/${round}/results.json`)
+      const race = data?.MRData?.RaceTable?.Races?.[0]
+      return race || null
+    } catch {
+      return null
+    }
+  }
+
+  /**
+   * Fetches official qualifying classification for a specific season and round.
+   */
+  async getQualifyingResults(season: string | number, round: string | number): Promise<any | null> {
+    try {
+      const data = await this.request<any>(`/${season}/${round}/qualifying.json`)
+      const race = data?.MRData?.RaceTable?.Races?.[0]
+      return race || null
+    } catch {
+      return null
+    }
+  }
+
+  /**
+   * Fetches official pit stops for a specific season and round (available from 2012).
+   */
+  async getPitStops(season: string | number, round: string | number): Promise<any[]> {
+    try {
+      const data = await this.request<any>(`/${season}/${round}/pitstops.json?limit=100`)
+      return data?.MRData?.RaceTable?.Races?.[0]?.PitStops || []
+    } catch {
+      return []
+    }
+  }
+
+  /**
    * Fetches the last completed race results.
    */
   async getLastRaceResult(): Promise<LastRaceResultPayload | null> {

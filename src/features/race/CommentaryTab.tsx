@@ -2,20 +2,16 @@ import React, { useState, useMemo } from 'react'
 import {
   MessageSquare,
   Search,
-  Filter,
   Zap,
   Wrench,
   AlertTriangle,
   Flame,
-  Flag,
   ExternalLink,
   ChevronRight,
   Film,
   Sparkles,
 } from 'lucide-react'
 import { LapFeedEntry, DriverSessionInfo } from '@/types/data'
-import { Badge } from '@/components/ui/Badge'
-import { Button } from '@/components/ui/Button'
 
 interface CommentaryTabProps {
   lapFeed: LapFeedEntry[]

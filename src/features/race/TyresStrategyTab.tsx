@@ -1,15 +1,14 @@
 import React, { useState, useMemo } from 'react'
+import { Link } from 'react-router-dom'
 import {
   Layers,
   Wrench,
   TrendingDown,
   Info,
-  Clock,
-  Filter,
   Sparkles,
 } from 'lucide-react'
 import { getTeamMeta } from '@/lib/teams'
-import { Badge } from '@/components/ui/Badge'
+
 import {
   StintData,
   PitStopData,
@@ -39,7 +38,6 @@ export const TyresStrategyTab: React.FC<TyresStrategyTabProps> = ({
   tyreDegradation,
   drivers,
 }) => {
-  const [selectedDriverNumber, setSelectedDriverNumber] = useState<number | 'all'>('all')
   const [showTooltip, setShowTooltip] = useState<boolean>(false)
 
   // Driver lookup map
@@ -105,11 +103,34 @@ export const TyresStrategyTab: React.FC<TyresStrategyTabProps> = ({
     }
   }, [tyreDegradation])
 
-  // Filtered tyre deg rows
-  const filteredDegradation = useMemo(() => {
-    if (selectedDriverNumber === 'all') return tyreDegradation.slice(0, 40)
-    return tyreDegradation.filter((d) => d.driverNumber === selectedDriverNumber)
-  }, [tyreDegradation, selectedDriverNumber])
+  if (stints.length === 0 && pitstops.length === 0) {
+    return (
+      <div className="p-8 sm:p-12 text-center rounded-2xl border border-[var(--border)] bg-[var(--surface-1)] space-y-4">
+        <div className="w-12 h-12 mx-auto rounded-2xl bg-[var(--surface-2)] border border-[var(--border)] flex items-center justify-center text-[var(--accent)]">
+          <Layers className="w-6 h-6" />
+        </div>
+        <div className="max-w-md mx-auto space-y-2">
+          <span className="px-2.5 py-0.5 rounded font-mono text-[10px] font-bold uppercase tracking-wider text-amber-400 bg-amber-500/10 border border-amber-500/20">
+            Historical Strategy Archive
+          </span>
+          <h3 className="font-display font-black text-lg text-[var(--text)] uppercase tracking-tight">
+            Tyre Compound &amp; Stint Telemetry
+          </h3>
+          <p className="text-xs font-mono text-[var(--text-muted)] leading-relaxed">
+            Per-lap tyre compound allocation and fuel-corrected degradation telemetry are active for modern telemetry seasons (2018–present). Pit stop stationary timing logs are available from the 2012 season onward.
+          </p>
+        </div>
+        <div className="pt-2">
+          <Link
+            to="/race/2024-01-sakhir"
+            className="text-xs font-mono font-bold text-[var(--accent)] hover:underline"
+          >
+            Explore 2024 Tyre Degradation &amp; Pit Gantt &rarr;
+          </Link>
+        </div>
+      </div>
+    )
+  }
 
   return (
     <div className="space-y-8">

@@ -2,12 +2,9 @@ import React, { useState, useMemo } from 'react'
 import {
   Radio,
   Search,
-  Filter,
   Volume2,
-  Clock,
   ExternalLink,
   ShieldCheck,
-  Sparkles,
 } from 'lucide-react'
 import { getTeamMeta } from '@/lib/teams'
 import { TeamRadioClip, DriverSessionInfo } from '@/types/data'
@@ -25,12 +22,6 @@ export const TeamRadioTab: React.FC<TeamRadioTabProps> = ({
   const [selectedDriver, setSelectedDriver] = useState<string>('all')
   const [selectedTeam, setSelectedTeam] = useState<string>('all')
   const [lapFilter, setLapFilter] = useState<'all' | 'mapped' | 'unmapped'>('all')
-
-  const driverMap = useMemo(() => {
-    const map = new Map<number, DriverSessionInfo>()
-    drivers.forEach((d) => map.set(d.driverNumber, d))
-    return map
-  }, [drivers])
 
   const teamsList = useMemo(() => {
     const set = new Set<string>()
@@ -257,7 +248,22 @@ export const TeamRadioTab: React.FC<TeamRadioTabProps> = ({
         })}
       </div>
 
-      {filteredClips.length === 0 && (
+      {radioClips.length === 0 ? (
+        <div className="p-12 text-center rounded-2xl border border-[var(--border)] bg-[var(--surface-1)] space-y-3">
+          <Radio className="w-8 h-8 text-amber-400 mx-auto opacity-70" />
+          <div>
+            <span className="px-2.5 py-0.5 rounded font-mono text-[10px] font-bold uppercase tracking-wider text-amber-400 bg-amber-500/10 border border-amber-500/20 inline-block">
+              Historical Audio Archive
+            </span>
+          </div>
+          <h3 className="font-display font-bold text-sm uppercase text-[var(--text)]">
+            Team Radio Broadcast Feeds Not Available
+          </h3>
+          <p className="text-xs font-mono text-[var(--text-muted)] max-w-md mx-auto leading-relaxed">
+            Live broadcast team radio clips with driver audio feeds are active for the modern telemetry era (2018–present via OpenF1 and FOM). Historical radio transmissions were not publicly recorded in this era.
+          </p>
+        </div>
+      ) : filteredClips.length === 0 ? (
         <div className="p-12 text-center rounded-2xl border border-[var(--border)] bg-[var(--surface-1)] space-y-2">
           <Volume2 className="w-8 h-8 text-[var(--text-muted)] mx-auto opacity-50" />
           <h3 className="font-display font-bold text-sm uppercase text-[var(--text)]">
@@ -267,7 +273,7 @@ export const TeamRadioTab: React.FC<TeamRadioTabProps> = ({
             No clips match the current search or driver/team filter.
           </p>
         </div>
-      )}
+      ) : null}
     </div>
   )
 }

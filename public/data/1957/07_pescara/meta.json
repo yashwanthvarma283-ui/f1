@@ -1,0 +1,25 @@
+{
+  "year": 1957,
+  "round": 7,
+  "slug": "pescara",
+  "raceName": "Pescara Grand Prix",
+  "circuit": {
+    "id": "pescara",
+    "name": "Pescara Circuit",
+    "locality": "Pescara",
+    "country": "Italy",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "1957-08-18T14:00:00Z",
+      "endIso": "1957-08-18T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

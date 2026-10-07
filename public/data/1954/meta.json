@@ -1,0 +1,197 @@
+{
+  "year": 1954,
+  "totalRaces": 9,
+  "extractedRaces": 9,
+  "lastUpdated": "2026-10-07T16:02:59.313852+00:00",
+  "races": [
+    {
+      "round": 1,
+      "slug": "buenos_aires",
+      "raceName": "Argentine Grand Prix",
+      "circuitId": "buenos_aires",
+      "circuitName": "Buenos Aires Circuit",
+      "country": "Argentina",
+      "date": "1954-01-17",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "fangio",
+        "name": "Juan Fangio",
+        "code": "FAN",
+        "constructorName": "Maserati"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 2,
+      "slug": "indianapolis",
+      "raceName": "Indianapolis 500",
+      "circuitId": "indianapolis",
+      "circuitName": "Indianapolis Circuit",
+      "country": "USA",
+      "date": "1954-05-31",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "vukovich",
+        "name": "Bill Vukovich",
+        "code": "VUK",
+        "constructorName": "Kurtis Kraft"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 3,
+      "slug": "spa",
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "circuitName": "Spa Circuit",
+      "country": "Belgium",
+      "date": "1954-06-20",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "fangio",
+        "name": "Juan Fangio",
+        "code": "FAN",
+        "constructorName": "Maserati"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 4,
+      "slug": "reims",
+      "raceName": "French Grand Prix",
+      "circuitId": "reims",
+      "circuitName": "Reims Circuit",
+      "country": "France",
+      "date": "1954-07-04",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "fangio",
+        "name": "Juan Fangio",
+        "code": "FAN",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 5,
+      "slug": "silverstone",
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "circuitName": "Silverstone Circuit",
+      "country": "UK",
+      "date": "1954-07-17",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "gonzalez",
+        "name": "Jos\u00e9 Froil\u00e1n Gonz\u00e1lez",
+        "code": "GON",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 6,
+      "slug": "n_rburg",
+      "raceName": "German Grand Prix",
+      "circuitId": "n_rburg",
+      "circuitName": "N\u00fcrburg Circuit",
+      "country": "Germany",
+      "date": "1954-08-01",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "fangio",
+        "name": "Juan Fangio",
+        "code": "FAN",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 7,
+      "slug": "bern",
+      "raceName": "Swiss Grand Prix",
+      "circuitId": "bern",
+      "circuitName": "Bern Circuit",
+      "country": "Switzerland",
+      "date": "1954-08-22",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "fangio",
+        "name": "Juan Fangio",
+        "code": "FAN",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 8,
+      "slug": "monza",
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "circuitName": "Monza Circuit",
+      "country": "Italy",
+      "date": "1954-09-05",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "fangio",
+        "name": "Juan Fangio",
+        "code": "FAN",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 9,
+      "slug": "barcelona",
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "barcelona",
+      "circuitName": "Barcelona Circuit",
+      "country": "Spain",
+      "date": "1954-10-24",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hawthorn",
+        "name": "Mike Hawthorn",
+        "code": "HAW",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    }
+  ]
+}

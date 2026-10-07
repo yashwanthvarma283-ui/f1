@@ -1,16 +1,11 @@
 import React, { useState, useMemo } from 'react'
+import { Link } from 'react-router-dom'
 import {
   BarChart3,
-  TrendingUp,
-  Sliders,
   Check,
-  ChevronDown,
-  Sparkles,
   Zap,
 } from 'lucide-react'
 import { getTeamMeta } from '@/lib/teams'
-import { Badge } from '@/components/ui/Badge'
-import { Button } from '@/components/ui/Button'
 import {
   LapPositionSnapshot,
   LapData,
@@ -26,6 +21,12 @@ interface PacePositionsTabProps {
 }
 
 type ChartViewMode = 'positions' | 'lap-times' | 'gap-to-leader'
+
+const SVG_WIDTH = 850
+const SVG_HEIGHT = 340
+const CHART_PADDING = { top: 20, right: 30, bottom: 30, left: 40 }
+const CHART_W = SVG_WIDTH - CHART_PADDING.left - CHART_PADDING.right
+const CHART_H = SVG_HEIGHT - CHART_PADDING.top - CHART_PADDING.bottom
 
 export const PacePositionsTab: React.FC<PacePositionsTabProps> = ({
   positionsByLap,
@@ -91,13 +92,6 @@ export const PacePositionsTab: React.FC<PacePositionsTabProps> = ({
     return { aStats, bStats, aDriver, bDriver, aFaster, bFaster }
   }, [compareDriverA, compareDriverB, statsMap, driverMap, laps, totalLaps])
 
-  // SVG Chart Dimensions
-  const svgWidth = 850
-  const svgHeight = 340
-  const padding = { top: 20, right: 30, bottom: 30, left: 40 }
-  const chartW = svgWidth - padding.left - padding.right
-  const chartH = svgHeight - padding.top - padding.bottom
-
   // Position chart paths
   const positionPaths = useMemo(() => {
     return selectedDrivers.map((driverNumber) => {
@@ -109,9 +103,9 @@ export const PacePositionsTab: React.FC<PacePositionsTabProps> = ({
         const snap = positionsByLap.find((p) => p.lap === lap)
         const posEntry = snap?.positions.find((p) => p.driverNumber === driverNumber)
         if (posEntry) {
-          const x = padding.left + ((lap - 1) / (totalLaps - 1)) * chartW
+          const x = CHART_PADDING.left + ((lap - 1) / (totalLaps - 1)) * CHART_W
           // Inverted Y: P1 is near top, P20 near bottom
-          const y = padding.top + ((posEntry.position - 1) / 19) * chartH
+          const y = CHART_PADDING.top + ((posEntry.position - 1) / 19) * CHART_H
           points.push({ x, y })
         }
       }
@@ -129,7 +123,7 @@ export const PacePositionsTab: React.FC<PacePositionsTabProps> = ({
         lastPoint: points[points.length - 1],
       }
     })
-  }, [selectedDrivers, positionsByLap, totalLaps, driverMap, chartW, chartH, padding])
+  }, [selectedDrivers, positionsByLap, totalLaps, driverMap])
 
   // Lap time chart paths (with outlier filtering)
   const lapTimePaths = useMemo(() => {
@@ -160,9 +154,9 @@ export const PacePositionsTab: React.FC<PacePositionsTabProps> = ({
       for (let lap = 1; lap <= totalLaps; lap++) {
         const lapData = laps.find((l) => l.driverNumber === driverNumber && l.lapNumber === lap)
         if (lapData?.lapDuration && (!filterOutliers || lapData.lapDuration <= maxTime)) {
-          const x = padding.left + ((lap - 1) / (totalLaps - 1)) * chartW
+          const x = CHART_PADDING.left + ((lap - 1) / (totalLaps - 1)) * CHART_W
           const clamped = Math.max(minTime, Math.min(maxTime, lapData.lapDuration))
-          const y = padding.top + chartH - ((clamped - minTime) / timeRange) * chartH
+          const y = CHART_PADDING.top + CHART_H - ((clamped - minTime) / timeRange) * CHART_H
           points.push({ x, y })
         }
       }
@@ -179,7 +173,36 @@ export const PacePositionsTab: React.FC<PacePositionsTabProps> = ({
         d,
       }
     })
-  }, [selectedDrivers, laps, totalLaps, filterOutliers, driverMap, chartW, chartH, padding])
+  }, [selectedDrivers, laps, totalLaps, filterOutliers, driverMap])
+
+  if (!positionsByLap || positionsByLap.length === 0) {
+    return (
+      <div className="p-8 sm:p-12 text-center rounded-2xl border border-[var(--border)] bg-[var(--surface-1)] space-y-4">
+        <div className="w-12 h-12 mx-auto rounded-2xl bg-[var(--surface-2)] border border-[var(--border)] flex items-center justify-center text-[var(--accent)]">
+          <BarChart3 className="w-6 h-6" />
+        </div>
+        <div className="max-w-md mx-auto space-y-2">
+          <span className="px-2.5 py-0.5 rounded font-mono text-[10px] font-bold uppercase tracking-wider text-amber-400 bg-amber-500/10 border border-amber-500/20">
+            Historical Pace Archive
+          </span>
+          <h3 className="font-display font-black text-lg text-[var(--text)] uppercase tracking-tight">
+            Pace &amp; Position Telemetry
+          </h3>
+          <p className="text-xs font-mono text-[var(--text-muted)] leading-relaxed">
+            Position-by-lap charts and telemetry gap tracking curves are active for the modern telemetry era (2018–present). Official classification and driver statistics for this race are preserved in the Overview and Drivers tabs.
+          </p>
+        </div>
+        <div className="pt-2">
+          <Link
+            to="/race/2024-01-sakhir"
+            className="text-xs font-mono font-bold text-[var(--accent)] hover:underline"
+          >
+            Explore 2024 Lap-by-Lap Progression &rarr;
+          </Link>
+        </div>
+      </div>
+    )
+  }
 
   return (
     <div className="space-y-8">
@@ -282,12 +305,12 @@ export const PacePositionsTab: React.FC<PacePositionsTabProps> = ({
 
         <div className="w-full overflow-x-auto">
           <svg
-            viewBox={`0 0 ${svgWidth} ${svgHeight}`}
+            viewBox={`0 0 ${SVG_WIDTH} ${SVG_HEIGHT}`}
             className="w-full h-auto min-w-[700px] font-mono text-[10px]"
           >
             {/* Grid lines */}
             {[0, 0.25, 0.5, 0.75, 1].map((frac, idx) => {
-              const y = padding.top + frac * chartH
+              const y = CHART_PADDING.top + frac * CHART_H
               const label =
                 viewMode === 'positions'
                   ? `P${Math.round(1 + frac * 19)}`
@@ -296,16 +319,16 @@ export const PacePositionsTab: React.FC<PacePositionsTabProps> = ({
               return (
                 <g key={idx}>
                   <line
-                    x1={padding.left}
+                    x1={CHART_PADDING.left}
                     y1={y}
-                    x2={padding.left + chartW}
+                    x2={CHART_PADDING.left + CHART_W}
                     y2={y}
                     stroke="var(--border)"
                     strokeDasharray="4 4"
                     opacity={0.6}
                   />
                   <text
-                    x={padding.left - 8}
+                    x={CHART_PADDING.left - 8}
                     y={y + 3}
                     textAnchor="end"
                     fill="var(--text-muted)"
@@ -320,19 +343,19 @@ export const PacePositionsTab: React.FC<PacePositionsTabProps> = ({
             {/* X-axis ticks (Laps) */}
             {[1, Math.round(totalLaps / 4), Math.round(totalLaps / 2), Math.round((totalLaps * 3) / 4), totalLaps].map(
               (lap, i) => {
-                const x = padding.left + ((lap - 1) / (totalLaps - 1)) * chartW
+                const x = CHART_PADDING.left + ((lap - 1) / (totalLaps - 1)) * CHART_W
                 return (
                   <g key={i}>
                     <line
                       x1={x}
-                      y1={padding.top + chartH}
+                      y1={CHART_PADDING.top + CHART_H}
                       x2={x}
-                      y2={padding.top + chartH + 5}
+                      y2={CHART_PADDING.top + CHART_H + 5}
                       stroke="var(--border)"
                     />
                     <text
                       x={x}
-                      y={padding.top + chartH + 18}
+                      y={CHART_PADDING.top + CHART_H + 18}
                       textAnchor="middle"
                       fill="var(--text-muted)"
                       fontSize={10}

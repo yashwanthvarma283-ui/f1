@@ -1,0 +1,176 @@
+{
+  "year": 1957,
+  "totalRaces": 8,
+  "extractedRaces": 8,
+  "lastUpdated": "2026-10-07T16:02:57.832299+00:00",
+  "races": [
+    {
+      "round": 1,
+      "slug": "buenos_aires",
+      "raceName": "Argentine Grand Prix",
+      "circuitId": "buenos_aires",
+      "circuitName": "Buenos Aires Circuit",
+      "country": "Argentina",
+      "date": "1957-01-13",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "fangio",
+        "name": "Juan Fangio",
+        "code": "FAN",
+        "constructorName": "Maserati"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 2,
+      "slug": "monte_carlo",
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monte_carlo",
+      "circuitName": "Monte Carlo Circuit",
+      "country": "Monaco",
+      "date": "1957-05-19",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "fangio",
+        "name": "Juan Fangio",
+        "code": "FAN",
+        "constructorName": "Maserati"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 3,
+      "slug": "indianapolis",
+      "raceName": "Indianapolis 500",
+      "circuitId": "indianapolis",
+      "circuitName": "Indianapolis Circuit",
+      "country": "USA",
+      "date": "1957-05-30",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hanks",
+        "name": "Sam Hanks",
+        "code": "HAN",
+        "constructorName": "Epperly"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 4,
+      "slug": "rouen",
+      "raceName": "French Grand Prix",
+      "circuitId": "rouen",
+      "circuitName": "Rouen Circuit",
+      "country": "France",
+      "date": "1957-07-07",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "fangio",
+        "name": "Juan Fangio",
+        "code": "FAN",
+        "constructorName": "Maserati"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 5,
+      "slug": "liverpool",
+      "raceName": "British Grand Prix",
+      "circuitId": "liverpool",
+      "circuitName": "Liverpool Circuit",
+      "country": "UK",
+      "date": "1957-07-20",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "brooks",
+        "name": "Tony Brooks",
+        "code": "BRO",
+        "constructorName": "Vanwall"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 6,
+      "slug": "n_rburg",
+      "raceName": "German Grand Prix",
+      "circuitId": "n_rburg",
+      "circuitName": "N\u00fcrburg Circuit",
+      "country": "Germany",
+      "date": "1957-08-04",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "fangio",
+        "name": "Juan Fangio",
+        "code": "FAN",
+        "constructorName": "Maserati"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 7,
+      "slug": "pescara",
+      "raceName": "Pescara Grand Prix",
+      "circuitId": "pescara",
+      "circuitName": "Pescara Circuit",
+      "country": "Italy",
+      "date": "1957-08-18",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "moss",
+        "name": "Stirling Moss",
+        "code": "MOS",
+        "constructorName": "Vanwall"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 8,
+      "slug": "monza",
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "circuitName": "Monza Circuit",
+      "country": "Italy",
+      "date": "1957-09-08",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "moss",
+        "name": "Stirling Moss",
+        "code": "MOS",
+        "constructorName": "Vanwall"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    }
+  ]
+}

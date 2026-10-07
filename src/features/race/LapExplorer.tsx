@@ -1,15 +1,14 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react'
+import { Link } from 'react-router-dom'
 import { motion, AnimatePresence, useReducedMotion } from 'motion/react'
 import {
   Play,
   Pause,
   SkipBack,
   SkipForward,
-  FastForward,
   Radio,
   Flag,
   Flame,
-  Volume2,
   AlertTriangle,
   Wrench,
   ChevronRight,
@@ -17,10 +16,8 @@ import {
   Thermometer,
   ShieldAlert,
   Sliders,
-  Filter,
 } from 'lucide-react'
 import { getTeamMeta } from '@/lib/teams'
-import { Badge } from '@/components/ui/Badge'
 import { Button } from '@/components/ui/Button'
 import {
   LapPositionSnapshot,
@@ -57,7 +54,6 @@ export const LapExplorer: React.FC<LapExplorerProps> = ({
   const [currentLap, setCurrentLap] = useState<number>(1)
   const [isPlaying, setIsPlaying] = useState<boolean>(false)
   const [playbackSpeed, setPlaybackSpeed] = useState<number>(1) // 1x, 2x, 5x
-  const [radioFilterDriver, setRadioFilterDriver] = useState<string>('all')
 
   const shouldReduceMotion = useReducedMotion()
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null)
@@ -162,10 +158,8 @@ export const LapExplorer: React.FC<LapExplorerProps> = ({
   }, [lapFeed, currentLap])
 
   const currentRadio = useMemo(() => {
-    const clips = radioClips.filter((r) => r.lapNumber === currentLap)
-    if (radioFilterDriver === 'all') return clips
-    return clips.filter((r) => r.driverCode.toLowerCase() === radioFilterDriver.toLowerCase())
-  }, [radioClips, currentLap, radioFilterDriver])
+    return radioClips.filter((r) => r.lapNumber === currentLap)
+  }, [radioClips, currentLap])
 
   const currentRaceControl = useMemo(() => {
     return raceControl.filter((rc) => rc.lapNumber === currentLap)
@@ -184,6 +178,35 @@ export const LapExplorer: React.FC<LapExplorerProps> = ({
   // Jump helper
   const jumpToLap = (targetLap: number) => {
     setCurrentLap(Math.min(totalLaps, Math.max(1, targetLap)))
+  }
+
+  if (!positionsByLap || positionsByLap.length === 0) {
+    return (
+      <div className="p-8 sm:p-12 text-center rounded-2xl border border-[var(--border)] bg-[var(--surface-1)] space-y-5">
+        <div className="w-14 h-14 mx-auto rounded-2xl bg-[var(--surface-2)] border border-[var(--border)] flex items-center justify-center text-[var(--accent)] shadow-xs">
+          <Sliders className="w-7 h-7" />
+        </div>
+        <div className="max-w-md mx-auto space-y-2">
+          <span className="px-2.5 py-0.5 rounded font-mono text-[10px] font-bold uppercase tracking-wider text-amber-400 bg-amber-500/10 border border-amber-500/20">
+            Historical Archive Mode
+          </span>
+          <h3 className="font-display font-black text-xl text-[var(--text)] uppercase tracking-tight">
+            Per-Lap Telemetry Scrubber
+          </h3>
+          <p className="text-xs font-mono text-[var(--text-muted)] leading-relaxed">
+            High-frequency per-lap telemetry, live timing towers, and audio scrubbers are active for the modern telemetry era (2018–present). Official classification, finishing orders, and driver statistics for this Grand Prix are preserved in the Overview and Drivers tabs.
+          </p>
+        </div>
+        <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
+          <Link
+            to="/race/2024-01-sakhir"
+            className="px-4 py-2 rounded-xl bg-[var(--accent)] text-white text-xs font-mono font-bold hover:bg-[var(--accent)]/90 transition-colors shadow-xs"
+          >
+            Explore 2024 Bahrain Telemetry Scrubber &rarr;
+          </Link>
+        </div>
+      </div>
+    )
   }
 
   return (

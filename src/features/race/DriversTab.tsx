@@ -1,19 +1,12 @@
 import React, { useState, useMemo } from 'react'
 import { motion, AnimatePresence } from 'motion/react'
 import {
-  Users,
-  Trophy,
   ArrowUp,
   ArrowDown,
   Minus,
-  Timer,
-  Gauge,
   X,
-  Layers,
-  Sparkles,
 } from 'lucide-react'
 import { getTeamMeta } from '@/lib/teams'
-import { Badge } from '@/components/ui/Badge'
 import { Button } from '@/components/ui/Button'
 import {
   DriverSessionInfo,

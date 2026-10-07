@@ -4,7 +4,7 @@ const content = fs.readFileSync('F:/F1/scripts/marina_bay_raw.svg', 'utf8')
 
 // Find path4158 d
 const matchD = content.match(/<path[\s\S]*?id="path4158"[\s\S]*?d="([^"]+)"/) || content.match(/<path[\s\S]*?d="([^"]+)"[\s\S]*?id="path4158"/)
-const rawD = matchD[1]
+const _rawD = matchD[1]
 
 // Check text elements
 const textRegex = /<text([^>]+)>([\s\S]*?)<\/text>/g

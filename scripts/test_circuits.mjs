@@ -1,5 +1,3 @@
-import fs from 'fs'
-
 async function check() {
   const geojson = await fetch('https://raw.githubusercontent.com/bacinger/f1-circuits/master/circuits/sg-2008.geojson').then(r => r.json())
   const coords = geojson.features[0].geometry.coordinates

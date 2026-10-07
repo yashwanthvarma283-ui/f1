@@ -3,7 +3,6 @@ import { motion, useReducedMotion } from 'motion/react'
 import {
   Trophy,
   Zap,
-  Clock,
   ArrowUp,
   ArrowDown,
   Minus,
@@ -13,7 +12,6 @@ import {
   Thermometer,
   Flag,
   AlertTriangle,
-  ShieldAlert,
 } from 'lucide-react'
 import { getTeamMeta } from '@/lib/teams'
 import {
@@ -23,16 +21,46 @@ import {
   RaceControlMessage,
   OvertakeEvent,
   DriverRaceSummaryStats,
+  RaceResultEntry,
 } from '@/types/data'
 
 interface OverviewTabProps {
-  results: any[]
+  results: RaceResultEntry[]
   drivers: DriverSessionInfo[]
   laps: LapData[]
   weather: WeatherSnapshot[]
   raceControl: RaceControlMessage[]
   overtakes: OvertakeEvent[]
   driverStats: DriverRaceSummaryStats[]
+  isHistoricalArchive?: boolean
+}
+
+function formatRaceTime(time: string | undefined | null, status: string | undefined, isWinner: boolean): string {
+  if (!time && !status) return '—'
+  if (isWinner) {
+    if (time && time !== 'Finished') {
+      return time.replace(/^0 days /, '').replace(/\.0+$/, '').slice(0, 12)
+    }
+    return 'Winner'
+  }
+  if (time) {
+    if (time.startsWith('+')) return `${time}s`
+    if (time.startsWith('0 days 00:00:')) {
+      const sec = time.replace('0 days 00:00:', '').slice(0, 6)
+      return `+${sec}s`
+    }
+    if (time.startsWith('0 days ')) {
+      const rest = time.replace('0 days ', '').slice(0, 10)
+      return `+${rest}`
+    }
+    if (time !== 'Finished' && time !== 'Not classified') {
+      return time
+    }
+  }
+  if (status && status !== 'Finished') {
+    return status
+  }
+  return time || status || 'Finished'
 }
 
 export const OverviewTab: React.FC<OverviewTabProps> = ({
@@ -43,6 +71,7 @@ export const OverviewTab: React.FC<OverviewTabProps> = ({
   raceControl,
   overtakes,
   driverStats,
+  isHistoricalArchive = false,
 }) => {
   const shouldReduceMotion = useReducedMotion()
 
@@ -233,7 +262,7 @@ export const OverviewTab: React.FC<OverviewTabProps> = ({
                       {isWinner ? 'WINNER TIME' : 'INTERVAL'}
                     </span>
                     <span className="font-bold text-[var(--text)]">
-                      {isWinner ? '1:31:44.742' : `+${(Math.random() * 20 + 5).toFixed(3)}s`}
+                      {formatRaceTime(res.time, res.status, isWinner)}
                     </span>
                   </div>
 
@@ -248,8 +277,31 @@ export const OverviewTab: React.FC<OverviewTabProps> = ({
         </div>
       )}
 
+      {/* Historical Era Classification Notice */}
+      {(isHistoricalArchive || (!fastestLap && !weatherSummary && keyMoments.length === 0)) && (
+        <div className="p-5 sm:p-6 rounded-2xl border border-amber-500/20 bg-amber-500/5 flex items-start gap-4">
+          <div className="p-2.5 rounded-xl bg-amber-500/10 border border-amber-500/20 text-amber-400 shrink-0">
+            <Trophy className="w-5 h-5" />
+          </div>
+          <div className="space-y-1">
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="font-mono text-xs font-bold uppercase tracking-wider text-amber-400">
+                Official Historical Grand Prix Archive
+              </span>
+              <span className="text-[10px] font-mono text-[var(--text-muted)] bg-[var(--surface-2)] px-2 py-0.5 rounded">
+                JOLPICA / ERGAST ARCHIVE
+              </span>
+            </div>
+            <p className="text-xs font-sans text-[var(--text-muted)] leading-relaxed">
+              Official FIA World Championship finishing classification, grid positions, and championship points are preserved from historical archives. High-frequency track weather sensors, micro-telemetry transponders, and live race control message feeds were introduced in modern Formula 1 eras.
+            </p>
+          </div>
+        </div>
+      )}
+
       {/* 2. Highlights Strip: Fastest Lap + Weather Telemetry */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+      {(fastestLap || weatherSummary) && (
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
         {/* Fastest Lap Award */}
         {fastestLap && (
           <div className="md:col-span-2 f1-card-accent p-5 rounded-2xl border border-[var(--border)] bg-[var(--surface-1)] flex flex-col justify-between">
@@ -350,6 +402,7 @@ export const OverviewTab: React.FC<OverviewTabProps> = ({
           </div>
         )}
       </div>
+      )}
 
       {/* 3. Key Moments Timeline */}
       {keyMoments.length > 0 && (
@@ -512,21 +565,21 @@ export const OverviewTab: React.FC<OverviewTabProps> = ({
                     <td className="py-3 px-4 text-right whitespace-nowrap">
                       {r.status === 'Finished' ? (
                         <span className="text-[var(--text)] font-semibold">
-                          {finish === 1 ? r.time.replace('0 days ', '') : `+${(finish * 4.2).toFixed(3)}s`}
+                          {formatRaceTime(r.time, r.status, finish === 1)}
                         </span>
                       ) : (
-                        <span className="text-rose-400 font-bold uppercase">{r.status}</span>
+                        <span className="text-rose-400 font-bold uppercase">{r.status || 'Not classified'}</span>
                       )}
                     </td>
 
                     {/* Fastest Lap */}
                     <td className="py-3 px-3 text-right text-[var(--text-muted)] whitespace-nowrap">
-                      {stats?.fastestLapTime || '--:--.---'}
+                      {stats?.fastestLapTime || '—'}
                     </td>
 
                     {/* Pit Stop Count */}
                     <td className="py-3 px-3 text-center whitespace-nowrap text-[var(--text-muted)]">
-                      {stats?.pitStopCount ?? 2}
+                      {stats?.pitStopCount !== undefined && stats.pitStopCount > 0 ? stats.pitStopCount : '—'}
                     </td>
 
                     {/* Points */}

@@ -3,7 +3,6 @@ import path from 'path'
 import { CONFIG } from './lib/config'
 import { jolpica } from './lib/jolpica'
 import { extractRace } from './extract'
-import { SeasonMeta, RaceSummaryMeta } from '../src/types/data'
 
 interface UpdateReport {
   year: number

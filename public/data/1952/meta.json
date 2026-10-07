@@ -1,0 +1,136 @@
+{
+  "year": 1952,
+  "totalRaces": 8,
+  "extractedRaces": 8,
+  "lastUpdated": "2026-10-07T16:03:00.674604+00:00",
+  "races": [
+    {
+      "round": 1,
+      "slug": "bern",
+      "raceName": "Swiss Grand Prix",
+      "circuitId": "bern",
+      "circuitName": "Bern Circuit",
+      "country": "Switzerland",
+      "date": "1952-05-18",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 2,
+      "slug": "indianapolis",
+      "raceName": "Indianapolis 500",
+      "circuitId": "indianapolis",
+      "circuitName": "Indianapolis Circuit",
+      "country": "USA",
+      "date": "1952-05-30",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 3,
+      "slug": "spa",
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "circuitName": "Spa Circuit",
+      "country": "Belgium",
+      "date": "1952-06-22",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 4,
+      "slug": "rouen",
+      "raceName": "French Grand Prix",
+      "circuitId": "rouen",
+      "circuitName": "Rouen Circuit",
+      "country": "France",
+      "date": "1952-07-06",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 5,
+      "slug": "silverstone",
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "circuitName": "Silverstone Circuit",
+      "country": "UK",
+      "date": "1952-07-19",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 6,
+      "slug": "n_rburg",
+      "raceName": "German Grand Prix",
+      "circuitId": "n_rburg",
+      "circuitName": "N\u00fcrburg Circuit",
+      "country": "Germany",
+      "date": "1952-08-03",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 7,
+      "slug": "zandvoort",
+      "raceName": "Dutch Grand Prix",
+      "circuitId": "zandvoort",
+      "circuitName": "Zandvoort Circuit",
+      "country": "Netherlands",
+      "date": "1952-08-17",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 8,
+      "slug": "monza",
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "circuitName": "Monza Circuit",
+      "country": "Italy",
+      "date": "1952-09-07",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    }
+  ]
+}

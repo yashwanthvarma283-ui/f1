@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { DriverStandingItem, LastRaceResultPayload } from '@/api/types'
 import { getTeamMeta } from '@/lib/teams'
 import { Skeleton } from '@/components/ui/Skeleton'
-import { CloudMoon, Trophy, Flag, Thermometer, Droplets, Wind, AlertCircle } from 'lucide-react'
+import { CloudMoon, Trophy, Flag, Droplets, Wind, AlertCircle } from 'lucide-react'
 
 interface WeekendIntelProps {
   circuitName?: string
@@ -16,7 +16,7 @@ interface WeekendIntelProps {
 }
 
 export const WeekendIntel: React.FC<WeekendIntelProps> = ({
-  circuitName = 'Marina Bay',
+  circuitName: _circuitName = 'Marina Bay',
   locality = 'Singapore',
   drivers = [],
   lastResult = null,

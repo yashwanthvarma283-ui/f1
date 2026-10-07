@@ -247,3 +247,36 @@ export interface DriverTyreLapState {
   topSpeedKmh?: number | null
   minCornerSpeedKmh?: number | null
 }
+
+export interface RaceResultEntry {
+  position: number
+  classifiedPosition: string
+  grid: number
+  status: string
+  points: number
+  laps: number
+  time: string
+  driverNumber: number
+  driverCode: string
+  teamName: string
+}
+
+export interface SessionDataset {
+  isAvailable: boolean
+  isHistoricalArchive?: boolean
+  dataSource?: 'fastf1' | 'jolpica' | 'none'
+  results: RaceResultEntry[]
+  drivers: DriverSessionInfo[]
+  laps: LapData[]
+  positionsByLap: LapPositionSnapshot[]
+  gapsByLap: any[]
+  overtakes: OvertakeEvent[]
+  stints: StintData[]
+  pitstops: PitStopData[]
+  tyreDegradation: DriverTyreLapState[]
+  driverStats: DriverRaceSummaryStats[]
+  radio: TeamRadioClip[]
+  raceControl: RaceControlMessage[]
+  weather: WeatherSnapshot[]
+  lapFeed: LapFeedEntry[]
+}

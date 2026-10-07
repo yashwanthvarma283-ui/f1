@@ -25,7 +25,7 @@ import { TimezoneSelector } from '@/components/timezone/TimezoneSelector'
 import { Badge } from '@/components/ui/Badge'
 import { Button } from '@/components/ui/Button'
 import { Skeleton } from '@/components/ui/Skeleton'
-import { SeasonRaceMeta, RaceDetailMeta } from '@/types/data'
+import { RaceDetailMeta } from '@/types/data'
 
 // Complete Formula 1 championship seasons from 1950 to 2026 (77 seasons)
 const ALL_YEARS = Array.from({ length: 2026 - 1950 + 1 }, (_, i) => 2026 - i)
@@ -49,7 +49,7 @@ export const CalendarPage: React.FC = () => {
   const [filterStatus, setFilterStatus] = useState<'all' | 'completed' | 'upcoming' | 'sprint'>('all')
   const [expandedRound, setExpandedRound] = useState<number | null>(null)
 
-  const { timezone, timezoneAbbr, formatTime, formatDate, formatWeekendSpan } = useTimezone()
+  const { timezoneAbbr, formatTime, formatDate, formatWeekendSpan } = useTimezone()
   const shouldReduceMotion = useReducedMotion()
 
   // Query season metadata
@@ -83,7 +83,7 @@ export const CalendarPage: React.FC = () => {
   const filteredRaces = useMemo(() => {
     if (!seasonMeta?.races) return []
 
-    return seasonMeta.races.filter((race, index) => {
+    return seasonMeta.races.filter((race) => {
       // Search
       const q = searchQuery.toLowerCase().trim()
       const matchesSearch =
@@ -514,4 +514,88 @@ export const CalendarPage: React.FC = () => {
                         className="font-mono text-[10px] text-emerald-400 border-emerald-500/30 bg-emerald-500/10"
                       >
                         {race.coverageScore}% Telemetry
-                      <
+                      </Badge>
+                    )}
+                  </div>
+
+                  {/* Expandable Session Timetable Drawer */}
+                  <div className="pt-2">
+                    <button
+                      onClick={(e) => toggleSchedule(race.round, e)}
+                      className="w-full py-1.5 px-2 rounded-lg bg-[var(--surface-2)]/60 hover:bg-[var(--surface-2)] text-[var(--text-muted)] hover:text-[var(--text)] text-[11px] font-mono flex items-center justify-between transition-colors border border-[var(--border)]/40"
+                    >
+                      <span>Session Schedule ({timezoneAbbr})</span>
+                      {isExpanded ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
+                    </button>
+
+                    <AnimatePresence>
+                      {isExpanded && (
+                        <motion.div
+                          initial={{ opacity: 0, height: 0 }}
+                          animate={{ opacity: 1, height: 'auto' }}
+                          exit={{ opacity: 0, height: 0 }}
+                          transition={{ duration: 0.2 }}
+                          className="overflow-hidden mt-2 pt-2 border-t border-[var(--border)]/60 space-y-1.5"
+                        >
+                          {expandedRaceMeta?.schedule ? (
+                            Object.entries(expandedRaceMeta.schedule).map(([sessionName, sessionData]) => (
+                              <div
+                                key={sessionName}
+                                className="flex items-center justify-between text-[11px] font-mono py-1 px-1.5 rounded bg-[var(--surface-2)]/40"
+                              >
+                                <span className="font-semibold text-[var(--text)]">{sessionName}</span>
+                                <span className="text-[var(--text-muted)]">
+                                  {formatDate(sessionData.startIso)} • {formatTime(sessionData.startIso)}
+                                </span>
+                              </div>
+                            ))
+                          ) : (
+                            <div className="text-[11px] font-mono text-[var(--text-muted)] py-1 text-center">
+                              {race.hasSprint
+                                ? 'Sprint Format: FP1, Sprint Quali, Sprint, Quali, Race'
+                                : 'Standard Format: FP1, FP2, FP3, Quali, Race'}
+                            </div>
+                          )}
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
+                  </div>
+                </div>
+
+                {/* Bottom Action Footer */}
+                <Link
+                  to={raceHref}
+                  className="px-5 py-3 border-t border-[var(--border)] bg-[var(--surface-2)]/40 hover:bg-[var(--accent)] hover:text-white text-xs font-mono font-bold flex items-center justify-between transition-colors group-hover:bg-[var(--accent)] group-hover:text-white"
+                >
+                  <span>{race.isCompleted ? 'VIEW RACE TELEMETRY' : 'RACE WEEKEND HUB'}</span>
+                  <ChevronRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5" />
+                </Link>
+              </motion.div>
+            )
+          })}
+        </div>
+      )}
+
+      {/* Empty Search Filter State */}
+      {!isLoading && !isError && filteredRaces.length === 0 && (
+        <div className="p-12 text-center rounded-2xl border border-[var(--border)] bg-[var(--surface-1)] space-y-3">
+          <Filter className="w-8 h-8 text-[var(--text-muted)] mx-auto opacity-50" />
+          <h3 className="font-display font-bold text-lg text-[var(--text)] uppercase">No Grands Prix Found</h3>
+          <p className="text-xs font-mono text-[var(--text-muted)] max-w-sm mx-auto">
+            No races match your active search &ldquo;{searchQuery}&rdquo; and filter criteria.
+          </p>
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={() => {
+              setSearchQuery('')
+              setFilterStatus('all')
+            }}
+          >
+            Clear Filters
+          </Button>
+        </div>
+      )}
+    </div>
+  )
+}

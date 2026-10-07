@@ -6,7 +6,6 @@ import {
   Clock,
   MapPin,
   ShieldCheck,
-  Zap,
   Activity,
   Radio,
   Sliders,
@@ -40,6 +39,8 @@ interface RaceHeaderProps {
   activeTab: RaceTabId
   onTabChange: (tab: RaceTabId) => void
   isDatasetAvailable: boolean
+  isHistoricalArchive?: boolean
+  dataSource?: 'fastf1' | 'jolpica' | 'none'
 }
 
 export const RACE_TABS: { id: RaceTabId; label: string; icon: React.ReactNode }[] = [
@@ -62,6 +63,8 @@ export const RaceHeader: React.FC<RaceHeaderProps> = ({
   activeTab,
   onTabChange,
   isDatasetAvailable,
+  isHistoricalArchive = false,
+  dataSource = 'none',
 }) => {
   const { timezoneAbbr, formatWeekendSpan } = useTimezone()
 
@@ -101,16 +104,22 @@ export const RaceHeader: React.FC<RaceHeaderProps> = ({
               </span>
 
               {isDatasetAvailable ? (
-                <span className="px-2.5 py-0.5 rounded font-mono text-[10px] font-bold uppercase tracking-wider text-emerald-400 bg-emerald-500/10 border border-emerald-500/20">
-                  CLASSIFIED
-                </span>
+                isHistoricalArchive ? (
+                  <span className="px-2.5 py-0.5 rounded font-mono text-[10px] font-bold uppercase tracking-wider text-amber-400 bg-amber-500/10 border border-amber-500/20">
+                    HISTORICAL ARCHIVE • {dataSource === 'jolpica' ? 'JOLPICA' : 'STATIC'}
+                  </span>
+                ) : (
+                  <span className="px-2.5 py-0.5 rounded font-mono text-[10px] font-bold uppercase tracking-wider text-emerald-400 bg-emerald-500/10 border border-emerald-500/20">
+                    CLASSIFIED
+                  </span>
+                )
               ) : (
-                <span className="px-2.5 py-0.5 rounded font-mono text-[10px] font-bold uppercase tracking-wider text-amber-400 bg-amber-500/10 border border-amber-500/20">
-                  UPCOMING / LIMITED
+                <span className="px-2.5 py-0.5 rounded font-mono text-[10px] font-bold uppercase tracking-wider text-sky-400 bg-sky-500/10 border border-sky-500/20">
+                  UPCOMING SCHEDULE
                 </span>
               )}
 
-              {coverageReport && (
+              {coverageReport ? (
                 <Badge
                   variant="neutral"
                   className="font-mono text-[10px] text-emerald-400 border-emerald-500/30 bg-emerald-500/10 flex items-center gap-1"
@@ -118,7 +127,14 @@ export const RaceHeader: React.FC<RaceHeaderProps> = ({
                   <ShieldCheck className="w-3 h-3" />
                   {overallCoverage}% TELEMETRY VERIFIED
                 </Badge>
-              )}
+              ) : isHistoricalArchive ? (
+                <Badge
+                  variant="neutral"
+                  className="font-mono text-[10px] text-amber-400 border-amber-500/30 bg-amber-500/10 flex items-center gap-1"
+                >
+                  LIMITED DATA (HISTORICAL ARCHIVE)
+                </Badge>
+              ) : null}
             </div>
 
             <div className="flex items-start gap-4">
