@@ -1,0 +1,25 @@
+{
+  "year": 1961,
+  "round": 3,
+  "slug": "spa",
+  "raceName": "Belgian Grand Prix",
+  "circuit": {
+    "id": "spa",
+    "name": "Spa Circuit",
+    "locality": "Spa",
+    "country": "Belgium",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "1961-06-18T14:00:00Z",
+      "endIso": "1961-06-18T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

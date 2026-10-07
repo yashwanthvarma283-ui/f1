@@ -1,0 +1,1924 @@
+[
+  {
+    "lap": 1,
+    "headline": "Lap 1: Grand Prix Race Start",
+    "summary": "Lights out and away we go! RUS leads into the opening complex with clean starts across the grid.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+1.243s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "PINK HEAD PADDING MATERIAL MUST BE USED",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "AWNINGS MAY BE USED",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "LOW GRIP CONDITIONS",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "GREEN LIGHT - PIT EXIT OPEN",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "PIT EXIT CLOSED",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "RISK OF RAIN FOR F1 RACE IS 100%",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "DRS DISABLED",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "YELLOW IN TRACK SECTOR 5",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "DOUBLE YELLOW IN TRACK SECTOR 5",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "ABORTED START",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 5",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "FORMATION LAP WILL START AT 12:47",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "INCIDENT INVOLVING CAR 4 (NOR) NOTED - STARTING PROCEDURE INFRINGEMENT",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: INCIDENT INVOLVING CAR 4 (NOR) UNDER INVESTIGATION - STARTING PROCEDURE INFRINGEMENT",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "SESSION STARTED",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "GREEN LIGHT - PIT EXIT OPEN",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "YELLOW IN TRACK SECTOR 11",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 11",
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by RUS (90.975s)",
+        "driverNumber": 63,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 2,
+    "headline": "Lap 2: SAI leads by +87.758s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +87.758s lead over RUS.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+87.758s",
+    "events": [
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by SAI (89.021s)",
+        "driverNumber": 55,
+        "importance": "high"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by RUS (85.804s)",
+        "driverNumber": 63,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 3,
+    "headline": "Lap 3: SAI leads by +86.472s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +86.472s lead over RUS.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+86.472s",
+    "events": [
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by RUS (85.598s)",
+        "driverNumber": 63,
+        "importance": "high"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by NOR (85.402s)",
+        "driverNumber": 4,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 4,
+    "headline": "Lap 4: SAI leads by +85.574s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +85.574s lead over RUS.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+85.574s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "DOUBLE YELLOW IN TRACK SECTOR 10",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 10",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes BEA for P14",
+        "driverNumber": 27,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "BOT overtakes HUL for P15",
+        "driverNumber": 77,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ZHO overtakes BOT for P16",
+        "driverNumber": 24,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by NOR (85.165s)",
+        "driverNumber": 4,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 5,
+    "headline": "Lap 5: SAI leads by +84.706s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +84.706s lead over RUS.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+84.706s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "TURN 10 INCIDENT INVOLVING CARS 50 (BEA) AND 43 (COL) NOTED - CAUSING A COLLISION",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes GAS for P10",
+        "driverNumber": 1,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "BEA overtakes ZHO for P16",
+        "driverNumber": 50,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes BEA for P17",
+        "driverNumber": 11,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by NOR (85.012s)",
+        "driverNumber": 4,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 6,
+    "headline": "Lap 6: SAI leads by +82.466s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +82.466s lead over RUS.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+82.466s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "INCIDENT INVOLVING CARS 63 (RUS), 22 (TSU) AND 30 (LAW) NOTED - STARTING PROCEDURE INFRINGEMENT",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CAR 24 (ZHO) TIME 1:29.677 DELETED - TRACK LIMITS AT TURN 4 LAP 5 12:56:34",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: TURN 10 INCIDENT INVOLVING CARS 50 (BEA) AND 43 (COL) UNDER INVESTIGATION - CAUSING A COLLISION",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes ALO for P9",
+        "driverNumber": 1,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes COL for P13",
+        "driverNumber": 27,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by RUS (84.675s)",
+        "driverNumber": 63,
+        "importance": "high"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (84.311s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 7,
+    "headline": "Lap 7: SAI leads by +81.901s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +81.901s lead over RUS.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+81.901s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 43 (COL) TIME 1:27.143 DELETED - TRACK LIMITS AT TURN 2 LAP 6 12:57:37",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 8,
+    "headline": "Lap 8: SAI leads by +81.035s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +81.035s lead over RUS.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+81.035s",
+    "events": []
+  },
+  {
+    "lap": 9,
+    "headline": "Lap 9: SAI leads by +80.082s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +80.082s lead over RUS.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+80.082s",
+    "events": [
+      {
+        "type": "PENALTY",
+        "description": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 50 (BEA) - CAUSING A COLLISION",
+        "importance": "high"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by RUS (84.238s)",
+        "driverNumber": 63,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 10,
+    "headline": "Lap 10: SAI leads by +78.971s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +78.971s lead over RUS.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+78.971s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes PIA for P8",
+        "driverNumber": 1,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by NOR (84.088s)",
+        "driverNumber": 4,
+        "importance": "high"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (84.015s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 11,
+    "headline": "Lap 11: SAI leads by +76.696s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +76.696s lead over RUS.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+76.696s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes LAW for P7",
+        "driverNumber": 1,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes HAM for P12",
+        "driverNumber": 27,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by RUS (83.928s)",
+        "driverNumber": 63,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 12,
+    "headline": "Lap 12: SAI leads by +75.279s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +75.279s lead over RUS.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+75.279s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "DOUBLE YELLOW IN TRACK SECTOR 13",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 13",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CAR 44 (HAM) TIME 1:31.858 DELETED - TRACK LIMITS AT TURN 12 LAP 11 13:05:45",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "COL overtakes HAM for P13",
+        "driverNumber": 43,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "BEA overtakes BOT for P15",
+        "driverNumber": 50,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes BEA for P16",
+        "driverNumber": 11,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (83.430s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 13,
+    "headline": "Lap 13: SAI leads by +75.658s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +75.658s lead over RUS.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+75.658s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: INCIDENT INVOLVING CAR 4 (NOR) WILL BE INVESTIGATED AFTER THE RACE - STARTING PROCEDURE INFRINGEMENT",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: INCIDENT INVOLVING CARS 63 (RUS), 22 (TSU) AND 30 (LAW) WILL BE INVESTIGATED AFTER THE RACE - STARTING PROCEDURE INFRINGEMENT",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 14,
+    "headline": "Lap 14: SAI leads by +75.808s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +75.808s lead over RUS.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+75.808s",
+    "events": []
+  },
+  {
+    "lap": 15,
+    "headline": "Lap 15: SAI leads by +74.757s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +74.757s lead over RUS.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+74.757s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 43 (COL) TIME 1:24.750 DELETED - TRACK LIMITS AT TURN 2 LAP 14 13:09:01",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 16,
+    "headline": "Lap 16: SAI leads by +72.949s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +72.949s lead over RUS.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+72.949s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "GAS overtakes ALO for P10",
+        "driverNumber": 10,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 17,
+    "headline": "Lap 17: SAI leads by +72.992s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +72.992s lead over RUS.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+72.992s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 14 (ALO) TIME 1:28.626 DELETED - TRACK LIMITS AT TURN 2 LAP 16 13:11:43",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 18,
+    "headline": "Lap 18: SAI leads by +72.541s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +72.541s lead over RUS.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+72.541s",
+    "events": []
+  },
+  {
+    "lap": 19,
+    "headline": "Lap 19: SAI leads by +72.678s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +72.678s lead over RUS.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+72.678s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "INCIDENT INVOLVING CAR 43 (COL) NOTED - LEAVING THE TRACK AND GAINING AN ADVANTAGE",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CAR 43 (COL) TIME 1:24.836 DELETED - TRACK LIMITS AT TURN 2 LAP 18 13:14:42",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "BEA overtakes HAM for P14",
+        "driverNumber": 50,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 20,
+    "headline": "Lap 20: SAI leads by +71.128s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +71.128s lead over RUS.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+71.128s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 44 (HAM) TIME 1:26.872 DELETED - TRACK LIMITS AT TURN 2 LAP 19 13:16:09",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 21,
+    "headline": "Lap 21: SAI leads by +70.014s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +70.014s lead over RUS.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+70.014s",
+    "events": []
+  },
+  {
+    "lap": 22,
+    "headline": "Lap 22: SAI leads by +66.123s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +66.123s lead over RUS.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+66.123s",
+    "events": []
+  },
+  {
+    "lap": 23,
+    "headline": "Lap 23: SAI leads by +65.063s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +65.063s lead over RUS.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+65.063s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 55 (SAI) TIME 1:27.774 DELETED - TRACK LIMITS AT TURN 4 LAP 22 13:20:41",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "BEA overtakes COL for P13",
+        "driverNumber": 50,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HAM overtakes BEA for P14",
+        "driverNumber": 44,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 24,
+    "headline": "Lap 24: Pit Lane Activity (1 Stops)",
+    "summary": "1 driver(s) dive into the pits. SAI stays out in P1 (+63.786s gap).",
+    "leaderCode": "SAI",
+    "gapToSecond": "+63.786s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 43 (COL) TIME 1:28.291 DELETED - TRACK LIMITS AT TURN 4 LAP 23 13:22:04",
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "LEC boxes for pit stop (INTERMEDIATE) in 24.6s",
+        "driverNumber": 16,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes LEC for P6",
+        "driverNumber": 1,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 25,
+    "headline": "Lap 25: Pit Lane Activity (1 Stops)",
+    "summary": "1 driver(s) dive into the pits. SAI stays out in P1 (+62.860s gap).",
+    "leaderCode": "SAI",
+    "gapToSecond": "+62.860s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "HUL boxes for pit stop (INTERMEDIATE) in 25.4s",
+        "driverNumber": 27,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LAW overtakes LEC for P7",
+        "driverNumber": 30,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PIA overtakes LAW for P8",
+        "driverNumber": 81,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "GAS overtakes PIA for P9",
+        "driverNumber": 10,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ALO overtakes GAS for P10",
+        "driverNumber": 14,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 26,
+    "headline": "Lap 26: Pit Lane Activity (1 Stops)",
+    "summary": "1 driver(s) dive into the pits. SAI stays out in P1 (+62.097s gap).",
+    "leaderCode": "SAI",
+    "gapToSecond": "+62.097s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "DOUBLE YELLOW IN TRACK SECTOR 2",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 2",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: INCIDENT INVOLVING CAR 43 (COL) REVIEWED NO FURTHER INVESTIGATION - LEAVING THE TRACK AND GAINING AN ADVANTAGE",
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "COL boxes for pit stop (INTERMEDIATE) in 25.3s",
+        "driverNumber": 43,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "GAS overtakes LAW for P7",
+        "driverNumber": 10,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ALO overtakes GAS for P9",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "BEA overtakes HUL for P11",
+        "driverNumber": 50,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HAM overtakes BEA for P12",
+        "driverNumber": 44,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 27,
+    "headline": "Lap 27: Pit Lane Activity (8 Stops)",
+    "summary": "8 driver(s) dive into the pits. SAI stays out in P1 (+47.779s gap).",
+    "leaderCode": "SAI",
+    "gapToSecond": "+47.779s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "TURN 1 INCIDENT INVOLVING CARS 81 (PIA) AND 30 (LAW) NOTED - CAUSING A COLLISION",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CAR 30 (LAW) TIME 1:32.246 DELETED - TRACK LIMITS AT TURN 2 LAP 26 13:25:46",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "DOUBLE YELLOW IN TRACK SECTOR 2",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "YELLOW IN TRACK SECTOR 2",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 1",
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "PIA boxes for pit stop (INTERMEDIATE) in 26.1s",
+        "driverNumber": 81,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "ALO boxes for pit stop (INTERMEDIATE) in 25.1s",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "HAM boxes for pit stop (INTERMEDIATE) in 25.2s",
+        "driverNumber": 44,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "SAI boxes for pit stop (INTERMEDIATE) in 25.9s",
+        "driverNumber": 55,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "BEA boxes for pit stop (INTERMEDIATE) in 35.7s",
+        "driverNumber": 50,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "PER boxes for pit stop (INTERMEDIATE) in 26.6s",
+        "driverNumber": 11,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "ZHO boxes for pit stop (INTERMEDIATE) in 25.2s",
+        "driverNumber": 24,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "HUL boxes for pit stop (INTERMEDIATE) in 59.0s",
+        "driverNumber": 27,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "OCO overtakes TSU for P4",
+        "driverNumber": 31,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LEC overtakes BEA for P11",
+        "driverNumber": 16,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "BOT overtakes COL for P15",
+        "driverNumber": 77,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ZHO overtakes HUL for P17",
+        "driverNumber": 24,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 28,
+    "headline": "Lap 28: Virtual Safety Car Period",
+    "summary": "Virtual Safety Car active across all sectors. Drivers managing delta times.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+39.387s",
+    "events": [
+      {
+        "type": "VSC",
+        "description": "VIRTUAL SAFETY CAR DEPLOYED",
+        "importance": "high"
+      },
+      {
+        "type": "FLAG",
+        "description": "DOUBLE YELLOW IN TRACK SECTOR 2",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 2",
+        "importance": "medium"
+      },
+      {
+        "type": "VSC",
+        "description": "VIRTUAL SAFETY CAR ENDING",
+        "importance": "high"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "RUS boxes for pit stop (INTERMEDIATE) in 25.6s",
+        "driverNumber": 63,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "NOR boxes for pit stop (INTERMEDIATE) in 24.7s",
+        "driverNumber": 4,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "TSU boxes for pit stop (INTERMEDIATE) in 25.4s",
+        "driverNumber": 22,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "LAW boxes for pit stop (INTERMEDIATE) in 28.2s",
+        "driverNumber": 30,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "ZHO boxes for pit stop (INTERMEDIATE) in 27.1s",
+        "driverNumber": 24,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes TSU for P5",
+        "driverNumber": 1,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LAW overtakes PIA for P8",
+        "driverNumber": 30,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LEC overtakes ALO for P9",
+        "driverNumber": 16,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "BOT overtakes BEA for P12",
+        "driverNumber": 77,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 29,
+    "headline": "Lap 29: OCO overtakes RUS for P2",
+    "summary": "OCO overtakes RUS for P2. SAI controls the race with a +47.234s advantage.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+47.234s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "TRACK CLEAR",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CARS 81 (PIA) AND 30 (LAW) UNDER INVESTIGATION - CAUSING A COLLISION",
+        "importance": "medium"
+      },
+      {
+        "type": "PENALTY",
+        "description": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 81 (PIA) - CAUSING A COLLISION",
+        "importance": "high"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "HUL boxes for pit stop (WET) in 28.6s",
+        "driverNumber": 27,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "OCO overtakes RUS for P2",
+        "driverNumber": 31,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes NOR for P3",
+        "driverNumber": 1,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "GAS overtakes OCO for P4",
+        "driverNumber": 10,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LEC overtakes LAW for P8",
+        "driverNumber": 16,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 30,
+    "headline": "Lap 30: Safety Car Deployed",
+    "summary": "The Safety Car is out on track as the field neutralizes. SAI leads with the pack compressed.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+38.073s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 24 (ZHO) TIMED AT 13:32:27",
+        "driverNumber": 24,
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CAR 30 (LAW) TIME 2:05.322 DELETED - TRACK LIMITS AT TURN 5 LAP 29 13:31:38",
+        "importance": "medium"
+      },
+      {
+        "type": "SAFETY_CAR",
+        "description": "SAFETY CAR DEPLOYED",
+        "importance": "high"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "COL boxes for pit stop (INTERMEDIATE) in 25.2s",
+        "driverNumber": 43,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "NOR overtakes RUS for P5",
+        "driverNumber": 4,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LAW overtakes HAM for P11",
+        "driverNumber": 30,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 31,
+    "headline": "Lap 31: Pit Lane Activity (1 Stops)",
+    "summary": "1 driver(s) dive into the pits. SAI stays out in P1 (+58.767s gap).",
+    "leaderCode": "SAI",
+    "gapToSecond": "+58.767s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "INCIDENT INVOLVING CAR 27 (HUL) NOTED - CONTINUING ON TRACK AFTER RECEIVING ASSISTANCE",
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "ZHO boxes for pit stop (WET) in 1283.1s",
+        "driverNumber": 24,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ZHO overtakes COL for P16",
+        "driverNumber": 24,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 32,
+    "headline": "Lap 32: Pit Lane Activity (16 Stops)",
+    "summary": "16 driver(s) dive into the pits. SAI stays out in P1 (+62.789s gap).",
+    "leaderCode": "SAI",
+    "gapToSecond": "+62.789s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 63 (RUS) TIME 2:05.485 DELETED - TRACK LIMITS AT TURN 2 LAP 31 13:34:24",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "DOUBLE YELLOW IN TRACK SECTOR 14",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "SESSION ABORTED",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "RED FLAG",
+        "importance": "high"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 14",
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "OCO boxes for pit stop (INTERMEDIATE) in 1408.6s",
+        "driverNumber": 31,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "VER boxes for pit stop (INTERMEDIATE) in 1409.3s",
+        "driverNumber": 1,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "GAS boxes for pit stop (INTERMEDIATE) in 1407.5s",
+        "driverNumber": 10,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "NOR boxes for pit stop (INTERMEDIATE) in 1415.3s",
+        "driverNumber": 4,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "RUS boxes for pit stop (INTERMEDIATE) in 1415.8s",
+        "driverNumber": 63,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "TSU boxes for pit stop (WET) in 1419.0s",
+        "driverNumber": 22,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "LEC boxes for pit stop (INTERMEDIATE) in 1420.2s",
+        "driverNumber": 16,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "PIA boxes for pit stop (INTERMEDIATE) in 1420.2s",
+        "driverNumber": 81,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "ALO boxes for pit stop (INTERMEDIATE) in 1422.8s",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "LAW boxes for pit stop (WET) in 1422.7s",
+        "driverNumber": 30,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "HAM boxes for pit stop (INTERMEDIATE) in 1425.7s",
+        "driverNumber": 44,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "BOT boxes for pit stop (INTERMEDIATE) in 1422.0s",
+        "driverNumber": 77,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "SAI boxes for pit stop (INTERMEDIATE) in 1424.6s",
+        "driverNumber": 55,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "PER boxes for pit stop (WET) in 1425.2s",
+        "driverNumber": 11,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "BEA boxes for pit stop (INTERMEDIATE) in 1424.7s",
+        "driverNumber": 50,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "ZHO boxes for pit stop (INTERMEDIATE) in 68.5s",
+        "driverNumber": 24,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 33,
+    "headline": "Lap 33: SAI leads by +96.340s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +96.340s lead over OCO.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+96.340s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "AWNINGS MAY BE USED",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "TURN 1 INCIDENT INVOLVING CARS 44 (HAM) AND 30 (LAW) NOTED - CAUSING A COLLISION",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: BLACK FLAG FOR CAR 27 (HUL)",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "PUSH CARS TO FRONT IN ORDER: 24",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CARS 44 (HAM) AND 30 (LAW) REVIEWED NO FURTHER INVESTIGATION - CAUSING A COLLISION",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "RACE WILL RESUME AT 14:02",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "ORDER FOR RESTART: 31, 1, 10, 4, 63, 22, 16, 81, 14, 30, 44, 77, 55, 11, 50, 24",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "RACE WILL RESUME AT 14:06 - ROLLING START PROCEDURE",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "RACE WILL RESUME AT 14:02 - ROLLING START PROCEDURE",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "TRACK CLEAR",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "SESSION STARTED",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "ROLLING START",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "DOUBLE YELLOW IN TRACK SECTOR 13",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LEC overtakes TSU for P7",
+        "driverNumber": 16,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ZHO overtakes BEA for P15",
+        "driverNumber": 24,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 34,
+    "headline": "Lap 34: SAI leads by +85.418s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +85.418s lead over OCO.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+85.418s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 13",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RUS overtakes NOR for P5",
+        "driverNumber": 63,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PIA overtakes TSU for P8",
+        "driverNumber": 81,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HAM overtakes ALO for P10",
+        "driverNumber": 44,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes BOT for P13",
+        "driverNumber": 11,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 35,
+    "headline": "Lap 35: SAI leads by +80.552s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +80.552s lead over OCO.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+80.552s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 4 (NOR) TIME 1:36.887 DELETED - TRACK LIMITS AT TURN 4 LAP 34 14:05:12",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CAR 16 (LEC) TIME 1:37.098 DELETED - TRACK LIMITS AT TURN 8 LAP 34 14:05:35",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "BEA overtakes BOT for P14",
+        "driverNumber": 50,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 36,
+    "headline": "Lap 36: SAI leads by +77.439s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +77.439s lead over OCO.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+77.439s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "YELLOW IN TRACK SECTOR 7",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "DOUBLE YELLOW IN TRACK SECTOR 7",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "YELLOW IN TRACK SECTOR 8",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 7",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 8",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "BOT overtakes BEA for P14",
+        "driverNumber": 77,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ZHO overtakes BOT for P15",
+        "driverNumber": 24,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 37,
+    "headline": "Lap 37: SAI leads by +75.609s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +75.609s lead over OCO.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+75.609s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 50 (BEA) TIME 1:47.937 DELETED - TRACK LIMITS AT TURN 7 LAP 36 14:08:58",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 38,
+    "headline": "Lap 38: SAI leads by +73.440s",
+    "summary": "SAI commanding the Grand Prix with a comfortable +73.440s lead over OCO.",
+    "leaderCode": "SAI",
+    "gapToSecond": "+73.440s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "DOUBLE YELLOW IN TRACK SECTOR 13",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 13",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 39,
+    "headline": "Lap 39: Safety Car Deployed",
+    "summary": "The Safety Car is out on track as the field neutralizes. OCO leads with the pack compressed.",
+    "leaderCode": "OCO",
+    "gapToSecond": "+4.101s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 50 (BEA) TIME 1:31.737 DELETED - TRACK LIMITS AT TURN 12 LAP 37 14:11:02",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "DOUBLE YELLOW IN TRACK SECTOR 9",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "DOUBLE YELLOW IN TRACK SECTOR 8",
+        "importance": "medium"
+      },
+      {
+        "type": "SAFETY_CAR",
+        "description": "SAFETY CAR DEPLOYED",
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "OCO overtakes SAI for P1",
+        "driverNumber": 31,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes OCO for P2",
+        "driverNumber": 1,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "GAS overtakes VER for P3",
+        "driverNumber": 10,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RUS overtakes GAS for P4",
+        "driverNumber": 63,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 40,
+    "headline": "Lap 40: OCO leads by +1.386s",
+    "summary": "OCO maintains a steady +1.386s cushion ahead of chasing VER.",
+    "leaderCode": "OCO",
+    "gapToSecond": "+1.386s",
+    "events": []
+  },
+  {
+    "lap": 41,
+    "headline": "Lap 41: OCO leads by +0.968s",
+    "summary": "OCO under intense pressure from VER within DRS range (+0.968s).",
+    "leaderCode": "OCO",
+    "gapToSecond": "+0.968s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "INCIDENT INVOLVING CAR 55 (SAI) NOTED",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 42,
+    "headline": "Lap 42: Safety Car Deployed",
+    "summary": "The Safety Car is out on track as the field neutralizes. OCO leads with the pack compressed.",
+    "leaderCode": "OCO",
+    "gapToSecond": "+0.380s",
+    "events": [
+      {
+        "type": "SAFETY_CAR",
+        "description": "SAFETY CAR IN THIS LAP",
+        "importance": "high"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 8",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 9",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "TRACK CLEAR",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 43,
+    "headline": "Lap 43: VER overtakes OCO for P1",
+    "summary": "VER overtakes OCO for P1. VER controls the race with a +1.298s advantage.",
+    "leaderCode": "VER",
+    "gapToSecond": "+1.298s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: INCIDENT INVOLVING CAR 55 (SAI) WILL BE INVESTIGATED AFTER THE RACE",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "DOUBLE YELLOW IN TRACK SECTOR 13",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes OCO for P1",
+        "driverNumber": 1,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LEC overtakes RUS for P4",
+        "driverNumber": 16,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PIA overtakes LEC for P6",
+        "driverNumber": 81,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LAW overtakes HAM for P9",
+        "driverNumber": 30,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 44,
+    "headline": "Lap 44: VER leads by +1.918s",
+    "summary": "VER maintains a steady +1.918s cushion ahead of chasing OCO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+1.918s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 4 (NOR) TIME 1:31.039 DELETED - TRACK LIMITS AT TURN 2 LAP 43 14:20:07",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 13",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 45,
+    "headline": "Lap 45: VER leads by +2.813s",
+    "summary": "VER maintains a steady +2.813s cushion ahead of chasing OCO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+2.813s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 14 (ALO) TIME 1:53.466 DELETED - TRACK LIMITS AT TURN 12 LAP 43 14:21:23",
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (82.876s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 46,
+    "headline": "Lap 46: VER leads by +3.102s",
+    "summary": "VER commanding the Grand Prix with a comfortable +3.102s lead over OCO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+3.102s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "TURN 4 INCIDENT INVOLVING CAR 16 (LEC) NOTED - REJOINING UNSAFELY",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RUS overtakes LEC for P4",
+        "driverNumber": 63,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "NOR overtakes PIA for P6",
+        "driverNumber": 4,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 47,
+    "headline": "Lap 47: VER leads by +3.595s",
+    "summary": "VER commanding the Grand Prix with a comfortable +3.595s lead over OCO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+3.595s",
+    "events": [
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (82.453s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 48,
+    "headline": "Lap 48: VER leads by +4.235s",
+    "summary": "VER commanding the Grand Prix with a comfortable +4.235s lead over OCO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+4.235s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 16 (LEC) TIME 1:27.032 DELETED - TRACK LIMITS AT TURN 4 LAP 46 14:24:43",
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (82.290s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 49,
+    "headline": "Lap 49: VER leads by +4.992s",
+    "summary": "VER commanding the Grand Prix with a comfortable +4.992s lead over OCO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+4.992s",
+    "events": [
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (82.241s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 50,
+    "headline": "Lap 50: VER leads by +5.637s",
+    "summary": "VER commanding the Grand Prix with a comfortable +5.637s lead over OCO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+5.637s",
+    "events": [
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (82.043s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 51,
+    "headline": "Lap 51: VER leads by +6.498s",
+    "summary": "VER commanding the Grand Prix with a comfortable +6.498s lead over OCO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+6.498s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: TURN 4 INCIDENT INVOLVING CAR 16 (LEC) REVIEWED NO FURTHER INVESTIGATION - REJOINING UNSAFELY",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 52,
+    "headline": "Lap 52: VER leads by +6.687s",
+    "summary": "VER commanding the Grand Prix with a comfortable +6.687s lead over OCO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+6.687s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "DOUBLE YELLOW IN TRACK SECTOR 13",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 13",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CAR 81 (PIA) TIME 1:26.267 DELETED - TRACK LIMITS AT TURN 12 LAP 51 14:32:31",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 53,
+    "headline": "Lap 53: VER leads by +6.995s",
+    "summary": "VER commanding the Grand Prix with a comfortable +6.995s lead over OCO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+6.995s",
+    "events": []
+  },
+  {
+    "lap": 54,
+    "headline": "Lap 54: VER leads by +7.564s",
+    "summary": "VER commanding the Grand Prix with a comfortable +7.564s lead over OCO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+7.564s",
+    "events": []
+  },
+  {
+    "lap": 55,
+    "headline": "Lap 55: VER leads by +7.943s",
+    "summary": "VER commanding the Grand Prix with a comfortable +7.943s lead over OCO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+7.943s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "HAM overtakes PER for P10",
+        "driverNumber": 44,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 56,
+    "headline": "Lap 56: VER leads by +8.742s",
+    "summary": "VER commanding the Grand Prix with a comfortable +8.742s lead over OCO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+8.742s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "TURN 2 INCIDENT INVOLVING CARS 11 (PER) AND 30 (LAW) NOTED",
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (82.005s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 57,
+    "headline": "Lap 57: VER leads by +9.342s",
+    "summary": "VER commanding the Grand Prix with a comfortable +9.342s lead over OCO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+9.342s",
+    "events": [
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (81.862s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 58,
+    "headline": "Lap 58: VER leads by +9.953s",
+    "summary": "VER commanding the Grand Prix with a comfortable +9.953s lead over OCO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+9.953s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "ALO overtakes ZHO for P14",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (81.782s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 59,
+    "headline": "Lap 59: VER leads by +10.562s",
+    "summary": "VER commanding the Grand Prix with a comfortable +10.562s lead over OCO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+10.562s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: TURN 2 INCIDENT INVOLVING CARS 11 (PER) AND 30 (LAW) REVIEWED NO FURTHER INVESTIGATION",
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (81.551s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 60,
+    "headline": "Lap 60: VER leads by +11.342s",
+    "summary": "VER commanding the Grand Prix with a comfortable +11.342s lead over OCO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+11.342s",
+    "events": [
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (81.331s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 61,
+    "headline": "Lap 61: VER leads by +12.291s",
+    "summary": "VER commanding the Grand Prix with a comfortable +12.291s lead over OCO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+12.291s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 14 (ALO) TIME 1:24.826 DELETED - TRACK LIMITS AT TURN 2 LAP 60 14:44:20",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 62,
+    "headline": "Lap 62: VER leads by +13.258s",
+    "summary": "VER commanding the Grand Prix with a comfortable +13.258s lead over OCO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+13.258s",
+    "events": [
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (81.069s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 63,
+    "headline": "Lap 63: VER leads by +14.046s",
+    "summary": "VER commanding the Grand Prix with a comfortable +14.046s lead over OCO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+14.046s",
+    "events": []
+  },
+  {
+    "lap": 64,
+    "headline": "Lap 64: VER leads by +14.788s",
+    "summary": "VER commanding the Grand Prix with a comfortable +14.788s lead over OCO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+14.788s",
+    "events": [
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (81.029s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 65,
+    "headline": "Lap 65: VER leads by +15.623s",
+    "summary": "VER commanding the Grand Prix with a comfortable +15.623s lead over OCO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+15.623s",
+    "events": [
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (80.990s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 66,
+    "headline": "Lap 66: VER leads by +16.426s",
+    "summary": "VER commanding the Grand Prix with a comfortable +16.426s lead over OCO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+16.426s",
+    "events": []
+  },
+  {
+    "lap": 67,
+    "headline": "Lap 67: VER leads by +18.062s",
+    "summary": "VER commanding the Grand Prix with a comfortable +18.062s lead over OCO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+18.062s",
+    "events": [
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (80.472s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 68,
+    "headline": "Lap 68: VER leads by +18.472s",
+    "summary": "VER commanding the Grand Prix with a comfortable +18.472s lead over OCO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+18.472s",
+    "events": []
+  },
+  {
+    "lap": 69,
+    "headline": "Lap 69: VER leads by +19.414s",
+    "summary": "VER commanding the Grand Prix with a comfortable +19.414s lead over OCO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+19.414s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CHEQUERED FLAG",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "SESSION FINISHED",
+        "importance": "medium"
+      }
+    ]
+  }
+]

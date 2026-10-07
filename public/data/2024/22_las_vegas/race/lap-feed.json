@@ -1,0 +1,1762 @@
+[
+  {
+    "lap": 1,
+    "headline": "Lap 1: Grand Prix Race Start",
+    "summary": "Lights out and away we go! RUS leads into the opening complex with clean starts across the grid.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+0.615s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "PINK HEAD PADDING MATERIAL MUST BE USED",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "GREEN LIGHT - PIT EXIT OPEN",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "PIT EXIT CLOSED",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "RISK OF RAIN FOR F1 RACE IS 0%",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "DRS DISABLED",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "GREEN LIGHT - PIT EXIT OPEN",
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by RUS (103.267s)",
+        "driverNumber": 63,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 2,
+    "headline": "Lap 2: RUS leads by +0.871s",
+    "summary": "RUS under intense pressure from LEC within DRS range (+0.871s).",
+    "leaderCode": "RUS",
+    "gapToSecond": "+0.871s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "DRS ENABLED",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes PIA for P8",
+        "driverNumber": 27,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ALO overtakes MAG for P14",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes ALB for P16",
+        "driverNumber": 11,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by RUS (99.077s)",
+        "driverNumber": 63,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 3,
+    "headline": "Lap 3: RUS leads by +0.336s",
+    "summary": "RUS under intense pressure from LEC within DRS range (+0.336s).",
+    "leaderCode": "RUS",
+    "gapToSecond": "+0.336s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "TURN 8 INCIDENT INVOLVING CARS 24 (ZHO) AND 30 (LAW) NOTED - LEAVING THE TRACK AND GAINING AN ADVANTAGE",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "TURN 14 INCIDENT INVOLVING CARS 30 (LAW) AND 20 (MAG) NOTED",
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by RUS (98.864s)",
+        "driverNumber": 63,
+        "importance": "high"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by LEC (98.329s)",
+        "driverNumber": 16,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 4,
+    "headline": "Lap 4: Pit Lane Activity (1 Stops)",
+    "summary": "1 driver(s) dive into the pits. RUS stays out in P1 (+0.089s gap).",
+    "leaderCode": "RUS",
+    "gapToSecond": "+0.089s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: TURN 8 INCIDENT INVOLVING CARS 24 (ZHO) AND 30 (LAW) REVIEWED NO FURTHER INVESTIGATION - LEAVING THE TRACK AND GAINING AN ADVANTAGE",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: TURN 14 INCIDENT INVOLVING CARS 30 (LAW) AND 20 (MAG) REVIEWED NO FURTHER INVESTIGATION",
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "ALO boxes for pit stop (SOFT) in 21.4s",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes GAS for P4",
+        "driverNumber": 1,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "MAG overtakes ALO for P14",
+        "driverNumber": 20,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes MAG for P15",
+        "driverNumber": 11,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ALB overtakes PER for P16",
+        "driverNumber": 23,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 5,
+    "headline": "Lap 5: RUS leads by +1.130s",
+    "summary": "RUS maintains a steady +1.130s cushion ahead of chasing LEC.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+1.130s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "INCIDENT INVOLVING CAR 81 (PIA) NOTED - FALSE START",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PIA overtakes HUL for P8",
+        "driverNumber": 81,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "COL overtakes ALO for P19",
+        "driverNumber": 43,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by RUS (98.136s)",
+        "driverNumber": 63,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 6,
+    "headline": "Lap 6: RUS leads by +1.452s",
+    "summary": "RUS maintains a steady +1.452s cushion ahead of chasing LEC.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+1.452s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "HAM overtakes HUL for P9",
+        "driverNumber": 44,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 7,
+    "headline": "Lap 7: SAI overtakes LEC for P2",
+    "summary": "SAI overtakes LEC for P2. RUS controls the race with a +2.620s advantage.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+2.620s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: INCIDENT INVOLVING CAR 81 (PIA) UNDER INVESTIGATION - FALSE START",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes LEC for P2",
+        "driverNumber": 55,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes MAG for P14",
+        "driverNumber": 11,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 8,
+    "headline": "Lap 8: VER overtakes LEC for P3",
+    "summary": "VER overtakes LEC for P3. RUS controls the race with a +3.851s advantage.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+3.851s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes LEC for P3",
+        "driverNumber": 1,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "NOR overtakes GAS for P5",
+        "driverNumber": 4,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HAM overtakes PIA for P8",
+        "driverNumber": 44,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 9,
+    "headline": "Lap 9: Pit Lane Activity (4 Stops)",
+    "summary": "4 driver(s) dive into the pits. RUS stays out in P1 (+5.612s gap).",
+    "leaderCode": "RUS",
+    "gapToSecond": "+5.612s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "LEC boxes for pit stop (MEDIUM) in 21.3s",
+        "driverNumber": 16,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "STR boxes for pit stop (MEDIUM) in 34.9s",
+        "driverNumber": 18,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "ALB boxes for pit stop (MEDIUM) in 22.0s",
+        "driverNumber": 23,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "NOR boxes for pit stop (MEDIUM) in 21.2s",
+        "driverNumber": 4,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "GAS overtakes LEC for P4",
+        "driverNumber": 10,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HAM overtakes NOR for P5",
+        "driverNumber": 44,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "TSU overtakes GAS for P6",
+        "driverNumber": 22,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PIA overtakes HAM for P8",
+        "driverNumber": 81,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 10,
+    "headline": "Lap 10: VER overtakes SAI for P2",
+    "summary": "VER overtakes SAI for P2. RUS controls the race with a +8.071s advantage.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+8.071s",
+    "events": [
+      {
+        "type": "PENALTY",
+        "description": "FIA STEWARDS: 5 SECOND TIME PENALTY FOR CAR 81 (PIA) - FALSE START",
+        "importance": "high"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "GAS boxes for pit stop (MEDIUM) in 22.2s",
+        "driverNumber": 10,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "TSU boxes for pit stop (MEDIUM) in 21.2s",
+        "driverNumber": 22,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "SAI boxes for pit stop (MEDIUM) in 21.1s",
+        "driverNumber": 55,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "PIA boxes for pit stop (MEDIUM) in 27.7s",
+        "driverNumber": 81,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes SAI for P2",
+        "driverNumber": 1,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HAM overtakes GAS for P4",
+        "driverNumber": 44,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes HAM for P5",
+        "driverNumber": 27,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "OCO overtakes TSU for P6",
+        "driverNumber": 31,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 11,
+    "headline": "Lap 11: HAM overtakes SAI for P3",
+    "summary": "HAM overtakes SAI for P3. RUS controls the race with a +13.733s advantage.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+13.733s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "VER boxes for pit stop (MEDIUM) in 20.7s",
+        "driverNumber": 1,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "ZHO boxes for pit stop (MEDIUM) in 23.0s",
+        "driverNumber": 24,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "LAW boxes for pit stop (MEDIUM) in 21.1s",
+        "driverNumber": 30,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "OCO boxes for pit stop (MEDIUM) in 15.7s",
+        "driverNumber": 31,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HAM overtakes SAI for P3",
+        "driverNumber": 44,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes HAM for P4",
+        "driverNumber": 27,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes HUL for P5",
+        "driverNumber": 11,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "MAG overtakes ZHO for P7",
+        "driverNumber": 20,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by NOR (97.795s)",
+        "driverNumber": 4,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 12,
+    "headline": "Lap 12: HAM overtakes VER for P2",
+    "summary": "HAM overtakes VER for P2. RUS controls the race with a +11.189s advantage.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+11.189s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "OCO boxes for pit stop (MEDIUM) in 21.1s",
+        "driverNumber": 31,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "RUS boxes for pit stop (MEDIUM) in 21.1s",
+        "driverNumber": 63,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HAM overtakes VER for P2",
+        "driverNumber": 44,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes HAM for P3",
+        "driverNumber": 27,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes HUL for P4",
+        "driverNumber": 11,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "MAG overtakes OCO for P6",
+        "driverNumber": 20,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 13,
+    "headline": "Lap 13: HAM overtakes RUS for P1",
+    "summary": "HAM overtakes RUS for P1. HAM controls the race with a +0.375s advantage.",
+    "leaderCode": "HAM",
+    "gapToSecond": "+0.375s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 18 (STR) TIME 2:09.226 DELETED - TRACK LIMITS AT TURN 8 LAP 10 22:20:07",
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "HAM boxes for pit stop (MEDIUM) in 21.1s",
+        "driverNumber": 44,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HAM overtakes RUS for P1",
+        "driverNumber": 44,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes HUL for P3",
+        "driverNumber": 11,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes MAG for P6",
+        "driverNumber": 55,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LEC overtakes BOT for P7",
+        "driverNumber": 16,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 14,
+    "headline": "Lap 14: RUS overtakes HAM for P1",
+    "summary": "RUS overtakes HAM for P1. RUS controls the race with a +6.801s advantage.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+6.801s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "HUL boxes for pit stop (MEDIUM) in 21.5s",
+        "driverNumber": 27,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RUS overtakes HAM for P1",
+        "driverNumber": 63,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes RUS for P2",
+        "driverNumber": 11,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes PER for P3",
+        "driverNumber": 1,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes HUL for P4",
+        "driverNumber": 55,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 15,
+    "headline": "Lap 15: VER overtakes PER for P2",
+    "summary": "VER overtakes PER for P2. RUS controls the race with a +9.179s advantage.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+9.179s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 81 (PIA) TIME 2:01.018 DELETED - TRACK LIMITS AT TURN 8 LAP 11 22:21:33",
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "GAS boxes for pit stop (HARD) in 24.5s",
+        "driverNumber": 10,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes PER for P2",
+        "driverNumber": 1,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LEC overtakes HUL for P5",
+        "driverNumber": 16,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "NOR overtakes LEC for P6",
+        "driverNumber": 4,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HAM overtakes NOR for P7",
+        "driverNumber": 44,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by HAM (97.772s)",
+        "driverNumber": 44,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 16,
+    "headline": "Lap 16: SAI overtakes PER for P3",
+    "summary": "SAI overtakes PER for P3. RUS controls the race with a +9.829s advantage.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+9.829s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "COL boxes for pit stop (HARD) in 21.2s",
+        "driverNumber": 43,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes PER for P3",
+        "driverNumber": 55,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HAM overtakes NOR for P6",
+        "driverNumber": 44,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "TSU overtakes MAG for P8",
+        "driverNumber": 22,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PIA overtakes BOT for P10",
+        "driverNumber": 81,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by HAM (97.091s)",
+        "driverNumber": 44,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 17,
+    "headline": "Lap 17: Pit Lane Activity (3 Stops)",
+    "summary": "3 driver(s) dive into the pits. RUS stays out in P1 (+10.015s gap).",
+    "leaderCode": "RUS",
+    "gapToSecond": "+10.015s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 27 (HUL) TIME 1:55.523 DELETED - TRACK LIMITS AT TURN 8 LAP 15 22:28:12",
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "PER boxes for pit stop (HARD) in 21.3s",
+        "driverNumber": 11,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "MAG boxes for pit stop (MEDIUM) in 22.0s",
+        "driverNumber": 20,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "BOT boxes for pit stop (HARD) in 21.6s",
+        "driverNumber": 77,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LEC overtakes PER for P4",
+        "driverNumber": 16,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HAM overtakes LEC for P5",
+        "driverNumber": 44,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "NOR overtakes HAM for P6",
+        "driverNumber": 4,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PIA overtakes MAG for P9",
+        "driverNumber": 81,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 18,
+    "headline": "Lap 18: RUS leads by +10.007s",
+    "summary": "RUS commanding the Grand Prix with a comfortable +10.007s lead over VER.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+10.007s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "TSU overtakes PER for P7",
+        "driverNumber": 22,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PIA overtakes TSU for P8",
+        "driverNumber": 81,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ALB overtakes PIA for P9",
+        "driverNumber": 23,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes ALB for P11",
+        "driverNumber": 27,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 19,
+    "headline": "Lap 19: RUS leads by +9.682s",
+    "summary": "RUS commanding the Grand Prix with a comfortable +9.682s lead over VER.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+9.682s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes ALO for P10",
+        "driverNumber": 27,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 20,
+    "headline": "Lap 20: RUS leads by +9.795s",
+    "summary": "RUS commanding the Grand Prix with a comfortable +9.795s lead over VER.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+9.795s",
+    "events": []
+  },
+  {
+    "lap": 21,
+    "headline": "Lap 21: RUS leads by +10.026s",
+    "summary": "RUS commanding the Grand Prix with a comfortable +10.026s lead over VER.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+10.026s",
+    "events": []
+  },
+  {
+    "lap": 22,
+    "headline": "Lap 22: RUS leads by +10.149s",
+    "summary": "RUS commanding the Grand Prix with a comfortable +10.149s lead over VER.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+10.149s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes ALB for P9",
+        "driverNumber": 27,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by HAM (97.086s)",
+        "driverNumber": 44,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 23,
+    "headline": "Lap 23: RUS leads by +9.943s",
+    "summary": "RUS commanding the Grand Prix with a comfortable +9.943s lead over VER.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+9.943s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "ZHO overtakes ALO for P11",
+        "driverNumber": 24,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 24,
+    "headline": "Lap 24: Pit Lane Activity (1 Stops)",
+    "summary": "1 driver(s) dive into the pits. RUS stays out in P1 (+10.062s gap).",
+    "leaderCode": "RUS",
+    "gapToSecond": "+10.062s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "ALO boxes for pit stop (HARD) in 21.4s",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes ALO for P12",
+        "driverNumber": 11,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "OCO overtakes PER for P14",
+        "driverNumber": 31,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 25,
+    "headline": "Lap 25: Pit Lane Activity (2 Stops)",
+    "summary": "2 driver(s) dive into the pits. RUS stays out in P1 (+10.376s gap).",
+    "leaderCode": "RUS",
+    "gapToSecond": "+10.376s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "ALB boxes for pit stop (HARD) in 24.5s",
+        "driverNumber": 23,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "PIA boxes for pit stop (HARD) in 21.1s",
+        "driverNumber": 81,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes PIA for P8",
+        "driverNumber": 27,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ZHO overtakes ALB for P10",
+        "driverNumber": 24,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes ZHO for P11",
+        "driverNumber": 11,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LAW overtakes PER for P12",
+        "driverNumber": 30,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 26,
+    "headline": "Lap 26: Pit Lane Activity (1 Stops)",
+    "summary": "1 driver(s) dive into the pits. RUS stays out in P1 (+11.271s gap).",
+    "leaderCode": "RUS",
+    "gapToSecond": "+11.271s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "COL boxes for pit stop (MEDIUM) in 21.2s",
+        "driverNumber": 43,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes PIA for P9",
+        "driverNumber": 11,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LAW overtakes PER for P11",
+        "driverNumber": 30,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "OCO overtakes LAW for P12",
+        "driverNumber": 31,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "STR overtakes OCO for P13",
+        "driverNumber": 18,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by HAM (97.055s)",
+        "driverNumber": 44,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 27,
+    "headline": "Lap 27: LEC overtakes VER for P2",
+    "summary": "LEC overtakes VER for P2. RUS controls the race with a +14.884s advantage.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+14.884s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 1 (VER) TIME 1:38.362 DELETED - TRACK LIMITS AT TURN 8 LAP 26 22:45:49",
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "VER boxes for pit stop (HARD) in 22.3s",
+        "driverNumber": 1,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "HAM boxes for pit stop (HARD) in 21.4s",
+        "driverNumber": 44,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LEC overtakes VER for P2",
+        "driverNumber": 16,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ALO overtakes COL for P15",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "MAG overtakes ALO for P16",
+        "driverNumber": 20,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "BOT overtakes MAG for P17",
+        "driverNumber": 77,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 28,
+    "headline": "Lap 28: SAI overtakes VER for P3",
+    "summary": "SAI overtakes VER for P3. RUS controls the race with a +15.058s advantage.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+15.058s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "STR boxes for pit stop (HARD) in 21.6s",
+        "driverNumber": 18,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "SAI boxes for pit stop (HARD) in 20.9s",
+        "driverNumber": 55,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes VER for P3",
+        "driverNumber": 55,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "NOR overtakes SAI for P4",
+        "driverNumber": 4,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "OCO overtakes LAW for P11",
+        "driverNumber": 31,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PIA overtakes STR for P13",
+        "driverNumber": 81,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 29,
+    "headline": "Lap 29: NOR overtakes SAI for P3",
+    "summary": "NOR overtakes SAI for P3. RUS controls the race with a +15.452s advantage.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+15.452s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 55 (SAI) TIME 1:41.611 DELETED - TRACK LIMITS AT TURN 17 LAP 27 22:48:32",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CAR 55 (SAI) LAP DELETED - TRACK LIMITS AT TURN 17 (NEXT LAP PIT)",
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "TSU boxes for pit stop (HARD) in 21.2s",
+        "driverNumber": 22,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "NOR overtakes SAI for P3",
+        "driverNumber": 4,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes NOR for P4",
+        "driverNumber": 1,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HAM overtakes VER for P5",
+        "driverNumber": 44,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes TSU for P7",
+        "driverNumber": 27,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by HAM (96.951s)",
+        "driverNumber": 44,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 30,
+    "headline": "Lap 30: VER overtakes NOR for P3",
+    "summary": "VER overtakes NOR for P3. RUS controls the race with a +16.366s advantage.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+16.366s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "TURN 3 INCIDENT INVOLVING CARS 30 (LAW) AND 31 (OCO) NOTED - CAUSING A COLLISION",
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "NOR boxes for pit stop (HARD) in 20.7s",
+        "driverNumber": 4,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes NOR for P3",
+        "driverNumber": 1,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes TSU for P8",
+        "driverNumber": 11,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ZHO overtakes PER for P9",
+        "driverNumber": 24,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "OCO overtakes ZHO for P10",
+        "driverNumber": 31,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by HAM (96.748s)",
+        "driverNumber": 44,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 31,
+    "headline": "Lap 31: HAM overtakes VER for P3",
+    "summary": "HAM overtakes VER for P3. RUS controls the race with a +21.533s advantage.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+21.533s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: TURN 3 INCIDENT INVOLVING CARS 30 (LAW) AND 31 (OCO) REVIEWED NO FURTHER INVESTIGATION - CAUSING A COLLISION",
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "LEC boxes for pit stop (HARD) in 21.6s",
+        "driverNumber": 16,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HAM overtakes VER for P3",
+        "driverNumber": 44,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes HAM for P5",
+        "driverNumber": 55,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes SAI for P6",
+        "driverNumber": 27,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PIA overtakes OCO for P10",
+        "driverNumber": 81,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by HAM (96.412s)",
+        "driverNumber": 44,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 32,
+    "headline": "Lap 32: HAM overtakes LEC for P2",
+    "summary": "HAM overtakes LEC for P2. RUS controls the race with a +27.653s advantage.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+27.653s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "PER boxes for pit stop (MEDIUM) in 21.0s",
+        "driverNumber": 11,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "RUS boxes for pit stop (HARD) in 21.0s",
+        "driverNumber": 63,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HAM overtakes LEC for P2",
+        "driverNumber": 44,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes HAM for P3",
+        "driverNumber": 1,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes VER for P4",
+        "driverNumber": 55,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PIA overtakes ZHO for P9",
+        "driverNumber": 81,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 33,
+    "headline": "Lap 33: Pit Lane Activity (1 Stops)",
+    "summary": "1 driver(s) dive into the pits. RUS stays out in P1 (+11.243s gap).",
+    "leaderCode": "RUS",
+    "gapToSecond": "+11.243s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "HUL boxes for pit stop (HARD) in 21.7s",
+        "driverNumber": 27,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "NOR overtakes HUL for P6",
+        "driverNumber": 4,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PIA overtakes PER for P8",
+        "driverNumber": 81,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ZHO overtakes PIA for P9",
+        "driverNumber": 24,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "OCO overtakes ZHO for P10",
+        "driverNumber": 31,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 34,
+    "headline": "Lap 34: Pit Lane Activity (1 Stops)",
+    "summary": "1 driver(s) dive into the pits. RUS stays out in P1 (+10.307s gap).",
+    "leaderCode": "RUS",
+    "gapToSecond": "+10.307s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "ZHO boxes for pit stop (HARD) in 21.8s",
+        "driverNumber": 24,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PIA overtakes HUL for P7",
+        "driverNumber": 81,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "OCO overtakes PIA for P8",
+        "driverNumber": 31,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "TSU overtakes ZHO for P9",
+        "driverNumber": 22,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LAW overtakes OCO for P10",
+        "driverNumber": 30,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 35,
+    "headline": "Lap 35: Pit Lane Activity (1 Stops)",
+    "summary": "1 driver(s) dive into the pits. RUS stays out in P1 (+9.458s gap).",
+    "leaderCode": "RUS",
+    "gapToSecond": "+9.458s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "BOT boxes for pit stop (MEDIUM) in 22.8s",
+        "driverNumber": 77,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "TSU overtakes OCO for P8",
+        "driverNumber": 22,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ALO overtakes ZHO for P12",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "MAG overtakes ALO for P13",
+        "driverNumber": 20,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes MAG for P14",
+        "driverNumber": 11,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by HAM (96.397s)",
+        "driverNumber": 44,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 36,
+    "headline": "Lap 36: RUS leads by +8.725s",
+    "summary": "RUS commanding the Grand Prix with a comfortable +8.725s lead over HAM.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+8.725s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes OCO for P9",
+        "driverNumber": 27,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ALO overtakes HUL for P11",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by HAM (96.288s)",
+        "driverNumber": 44,
+        "importance": "high"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by LEC (96.285s)",
+        "driverNumber": 16,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 37,
+    "headline": "Lap 37: RUS leads by +8.058s",
+    "summary": "RUS commanding the Grand Prix with a comfortable +8.058s lead over HAM.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+8.058s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "ALO overtakes OCO for P10",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes LAW for P12",
+        "driverNumber": 11,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by HAM (96.177s)",
+        "driverNumber": 44,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 38,
+    "headline": "Lap 38: Pit Lane Activity (1 Stops)",
+    "summary": "1 driver(s) dive into the pits. RUS stays out in P1 (+7.799s gap).",
+    "leaderCode": "RUS",
+    "gapToSecond": "+7.799s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "LAW boxes for pit stop (HARD) in 20.6s",
+        "driverNumber": 30,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "MAG overtakes LAW for P13",
+        "driverNumber": 20,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "COL overtakes MAG for P14",
+        "driverNumber": 43,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by HAM (96.148s)",
+        "driverNumber": 44,
+        "importance": "high"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by SAI (96.125s)",
+        "driverNumber": 55,
+        "importance": "high"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by LEC (96.079s)",
+        "driverNumber": 16,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 39,
+    "headline": "Lap 39: RUS leads by +7.404s",
+    "summary": "RUS commanding the Grand Prix with a comfortable +7.404s lead over HAM.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+7.404s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes OCO for P11",
+        "driverNumber": 11,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ZHO overtakes LAW for P15",
+        "driverNumber": 24,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "STR overtakes ZHO for P16",
+        "driverNumber": 18,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by HAM (95.880s)",
+        "driverNumber": 44,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 40,
+    "headline": "Lap 40: RUS leads by +6.974s",
+    "summary": "RUS commanding the Grand Prix with a comfortable +6.974s lead over HAM.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+6.974s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 18 (STR) TIME 1:38.027 DELETED - TRACK LIMITS AT TURN 8 LAP 39 23:08:14",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 23:09:30",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "MAG overtakes OCO for P12",
+        "driverNumber": 20,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by LEC (95.674s)",
+        "driverNumber": 16,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 41,
+    "headline": "Lap 41: SAI overtakes VER for P3",
+    "summary": "SAI overtakes VER for P3. RUS controls the race with a +5.895s advantage.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+5.895s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 23:09:45",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes VER for P3",
+        "driverNumber": 55,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "COL overtakes OCO for P13",
+        "driverNumber": 43,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by HAM (95.480s)",
+        "driverNumber": 44,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 42,
+    "headline": "Lap 42: RUS leads by +5.435s",
+    "summary": "RUS commanding the Grand Prix with a comfortable +5.435s lead over HAM.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+5.435s",
+    "events": []
+  },
+  {
+    "lap": 43,
+    "headline": "Lap 43: RUS leads by +5.347s",
+    "summary": "RUS commanding the Grand Prix with a comfortable +5.347s lead over HAM.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+5.347s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 23:13:22",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 23:13:38",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 44,
+    "headline": "Lap 44: RUS leads by +5.063s",
+    "summary": "RUS commanding the Grand Prix with a comfortable +5.063s lead over HAM.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+5.063s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes TSU for P8",
+        "driverNumber": 27,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ZHO overtakes OCO for P14",
+        "driverNumber": 24,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 45,
+    "headline": "Lap 45: Pit Lane Activity (1 Stops)",
+    "summary": "1 driver(s) dive into the pits. RUS stays out in P1 (+4.994s gap).",
+    "leaderCode": "RUS",
+    "gapToSecond": "+4.994s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "OCO boxes for pit stop (HARD) in 21.9s",
+        "driverNumber": 31,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes ALO for P10",
+        "driverNumber": 11,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "STR overtakes OCO for P15",
+        "driverNumber": 18,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 46,
+    "headline": "Lap 46: RUS leads by +5.154s",
+    "summary": "RUS commanding the Grand Prix with a comfortable +5.154s lead over HAM.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+5.154s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "LEC overtakes VER for P4",
+        "driverNumber": 16,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LAW overtakes OCO for P16",
+        "driverNumber": 30,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 47,
+    "headline": "Lap 47: RUS leads by +5.880s",
+    "summary": "RUS commanding the Grand Prix with a comfortable +5.880s lead over HAM.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+5.880s",
+    "events": []
+  },
+  {
+    "lap": 48,
+    "headline": "Lap 48: Pit Lane Activity (1 Stops)",
+    "summary": "1 driver(s) dive into the pits. RUS stays out in P1 (+6.674s gap).",
+    "leaderCode": "RUS",
+    "gapToSecond": "+6.674s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 44 (HAM) TIME 1:37.086 DELETED - TRACK LIMITS AT TURN 8 LAP 47 23:19:59",
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "NOR boxes for pit stop (HARD) in 21.1s",
+        "driverNumber": 4,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 49,
+    "headline": "Lap 49: RUS leads by +7.063s",
+    "summary": "RUS commanding the Grand Prix with a comfortable +7.063s lead over HAM.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+7.063s",
+    "events": []
+  },
+  {
+    "lap": 50,
+    "headline": "Lap 50: RUS leads by +7.313s",
+    "summary": "RUS commanding the Grand Prix with a comfortable +7.313s lead over HAM.",
+    "leaderCode": "RUS",
+    "gapToSecond": "+7.313s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CHEQUERED FLAG",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 23:25:47",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CAR 16 (LEC) TIME 1:37.218 DELETED - TRACK LIMITS AT TURN 8 LAP 50 23:24:59",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "YELLOW IN TRACK SECTOR 6",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "DRS DISABLED IN ZONE 1",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "DRS ENABLED IN ZONE 1",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 6",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ZHO overtakes COL for P13",
+        "driverNumber": 24,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "GAS overtakes OCO for P17",
+        "driverNumber": 10,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ALB overtakes BOT for P18",
+        "driverNumber": 23,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by NOR (94.876s)",
+        "driverNumber": 4,
+        "importance": "high"
+      }
+    ]
+  }
+]

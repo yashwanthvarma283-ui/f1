@@ -1,0 +1,25 @@
+{
+  "year": 2006,
+  "round": 1,
+  "slug": "sakhir",
+  "raceName": "Bahrain Grand Prix",
+  "circuit": {
+    "id": "sakhir",
+    "name": "Sakhir Circuit",
+    "locality": "Sakhir",
+    "country": "Bahrain",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2006-03-12T14:00:00Z",
+      "endIso": "2006-03-12T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

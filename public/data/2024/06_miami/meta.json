@@ -1,0 +1,31 @@
+{
+  "year": 2024,
+  "round": 6,
+  "slug": "miami",
+  "raceName": "Miami Grand Prix",
+  "circuit": {
+    "id": "miami",
+    "name": "Miami International Autodrome",
+    "locality": "Miami",
+    "country": "USA",
+    "lat": 25.9581,
+    "long": -80.2389,
+    "turns": 15,
+    "lengthKm": 5.412,
+    "lapRecord": {
+      "time": "1:31.447",
+      "driver": "Pedro de la Rosa",
+      "year": "2005"
+    }
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2024-05-05T20:00:00Z",
+      "endIso": "2024-05-05T22:00:00.000Z",
+      "openF1SessionKey": 9507
+    }
+  },
+  "coverage": {
+    "Race": 98
+  }
+}

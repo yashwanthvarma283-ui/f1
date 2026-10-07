@@ -1,0 +1,25 @@
+{
+  "year": 2001,
+  "round": 5,
+  "slug": "barcelona",
+  "raceName": "Spanish Grand Prix",
+  "circuit": {
+    "id": "barcelona",
+    "name": "Barcelona Circuit",
+    "locality": "Barcelona",
+    "country": "Spain",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2001-04-29T14:00:00Z",
+      "endIso": "2001-04-29T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

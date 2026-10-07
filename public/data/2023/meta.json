@@ -1,0 +1,470 @@
+{
+  "year": 2023,
+  "totalRaces": 22,
+  "extractedRaces": 22,
+  "lastUpdated": "2026-10-07T15:59:45.529991+00:00",
+  "races": [
+    {
+      "round": 1,
+      "slug": "sakhir",
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "sakhir",
+      "circuitName": "Sakhir Circuit",
+      "country": "Bahrain",
+      "date": "2023-03-05",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "max_verstappen",
+        "name": "Max Verstappen",
+        "code": "VER",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 2,
+      "slug": "jeddah",
+      "raceName": "Saudi Arabian Grand Prix",
+      "circuitId": "jeddah",
+      "circuitName": "Jeddah Circuit",
+      "country": "Saudi Arabia",
+      "date": "2023-03-19",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "perez",
+        "name": "Sergio P\u00e9rez",
+        "code": "P\u00c9R",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 3,
+      "slug": "melbourne",
+      "raceName": "Australian Grand Prix",
+      "circuitId": "melbourne",
+      "circuitName": "Melbourne Circuit",
+      "country": "Australia",
+      "date": "2023-04-02",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "max_verstappen",
+        "name": "Max Verstappen",
+        "code": "VER",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 4,
+      "slug": "baku",
+      "raceName": "Azerbaijan Grand Prix",
+      "circuitId": "baku",
+      "circuitName": "Baku Circuit",
+      "country": "Azerbaijan",
+      "date": "2023-04-30",
+      "hasSprint": true,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "perez",
+        "name": "Sergio P\u00e9rez",
+        "code": "P\u00c9R",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 5,
+      "slug": "miami",
+      "raceName": "Miami Grand Prix",
+      "circuitId": "miami",
+      "circuitName": "Miami Circuit",
+      "country": "United States",
+      "date": "2023-05-07",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "max_verstappen",
+        "name": "Max Verstappen",
+        "code": "VER",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 6,
+      "slug": "monaco",
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "circuitName": "Monaco Circuit",
+      "country": "Monaco",
+      "date": "2023-05-28",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "max_verstappen",
+        "name": "Max Verstappen",
+        "code": "VER",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 7,
+      "slug": "barcelona",
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "barcelona",
+      "circuitName": "Barcelona Circuit",
+      "country": "Spain",
+      "date": "2023-06-04",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "max_verstappen",
+        "name": "Max Verstappen",
+        "code": "VER",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 8,
+      "slug": "montr_al",
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "montr_al",
+      "circuitName": "Montr\u00e9al Circuit",
+      "country": "Canada",
+      "date": "2023-06-18",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "max_verstappen",
+        "name": "Max Verstappen",
+        "code": "VER",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 9,
+      "slug": "spielberg",
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "spielberg",
+      "circuitName": "Spielberg Circuit",
+      "country": "Austria",
+      "date": "2023-07-02",
+      "hasSprint": true,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "max_verstappen",
+        "name": "Max Verstappen",
+        "code": "VER",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 10,
+      "slug": "silverstone",
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "circuitName": "Silverstone Circuit",
+      "country": "Great Britain",
+      "date": "2023-07-09",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "max_verstappen",
+        "name": "Max Verstappen",
+        "code": "VER",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 11,
+      "slug": "budapest",
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "budapest",
+      "circuitName": "Budapest Circuit",
+      "country": "Hungary",
+      "date": "2023-07-23",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "max_verstappen",
+        "name": "Max Verstappen",
+        "code": "VER",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 12,
+      "slug": "spa_francorchamps",
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa_francorchamps",
+      "circuitName": "Spa-Francorchamps Circuit",
+      "country": "Belgium",
+      "date": "2023-07-30",
+      "hasSprint": true,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "max_verstappen",
+        "name": "Max Verstappen",
+        "code": "VER",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 13,
+      "slug": "zandvoort",
+      "raceName": "Dutch Grand Prix",
+      "circuitId": "zandvoort",
+      "circuitName": "Zandvoort Circuit",
+      "country": "Netherlands",
+      "date": "2023-08-27",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "max_verstappen",
+        "name": "Max Verstappen",
+        "code": "VER",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 14,
+      "slug": "monza",
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "circuitName": "Monza Circuit",
+      "country": "Italy",
+      "date": "2023-09-03",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "max_verstappen",
+        "name": "Max Verstappen",
+        "code": "VER",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 15,
+      "slug": "marina_bay",
+      "raceName": "Singapore Grand Prix",
+      "circuitId": "marina_bay",
+      "circuitName": "Marina Bay Circuit",
+      "country": "Singapore",
+      "date": "2023-09-17",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "sainz",
+        "name": "Carlos Sainz",
+        "code": "SAI",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 16,
+      "slug": "suzuka",
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "circuitName": "Suzuka Circuit",
+      "country": "Japan",
+      "date": "2023-09-24",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "max_verstappen",
+        "name": "Max Verstappen",
+        "code": "VER",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 17,
+      "slug": "lusail",
+      "raceName": "Qatar Grand Prix",
+      "circuitId": "lusail",
+      "circuitName": "Lusail Circuit",
+      "country": "Qatar",
+      "date": "2023-10-08",
+      "hasSprint": true,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "max_verstappen",
+        "name": "Max Verstappen",
+        "code": "VER",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 18,
+      "slug": "austin",
+      "raceName": "United States Grand Prix",
+      "circuitId": "austin",
+      "circuitName": "Austin Circuit",
+      "country": "United States",
+      "date": "2023-10-22",
+      "hasSprint": true,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "max_verstappen",
+        "name": "Max Verstappen",
+        "code": "VER",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 19,
+      "slug": "mexico_city",
+      "raceName": "Mexico City Grand Prix",
+      "circuitId": "mexico_city",
+      "circuitName": "Mexico City Circuit",
+      "country": "Mexico",
+      "date": "2023-10-29",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "max_verstappen",
+        "name": "Max Verstappen",
+        "code": "VER",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 20,
+      "slug": "s_o_paulo",
+      "raceName": "S\u00e3o Paulo Grand Prix",
+      "circuitId": "s_o_paulo",
+      "circuitName": "S\u00e3o Paulo Circuit",
+      "country": "Brazil",
+      "date": "2023-11-05",
+      "hasSprint": true,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "max_verstappen",
+        "name": "Max Verstappen",
+        "code": "VER",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 21,
+      "slug": "las_vegas",
+      "raceName": "Las Vegas Grand Prix",
+      "circuitId": "las_vegas",
+      "circuitName": "Las Vegas Circuit",
+      "country": "United States",
+      "date": "2023-11-18",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "max_verstappen",
+        "name": "Max Verstappen",
+        "code": "VER",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 22,
+      "slug": "yas_island",
+      "raceName": "Abu Dhabi Grand Prix",
+      "circuitId": "yas_island",
+      "circuitName": "Yas Island Circuit",
+      "country": "Abu Dhabi",
+      "date": "2023-11-26",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "max_verstappen",
+        "name": "Max Verstappen",
+        "code": "VER",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    }
+  ]
+}

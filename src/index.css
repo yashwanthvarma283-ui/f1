@@ -1,0 +1,404 @@
+@import "tailwindcss";
+
+:root {
+  /* =========================================================================
+     PHASE 1: F1 COLOUR SYSTEM - Light Mode ("Race Day")
+     ========================================================================= */
+  --bg: #F2F2F5;
+  --surface-1: #FFFFFF;
+  --surface-2: #EAEAF0;
+  --surface-3: #DCDCE6;
+  --border: #D0D0DC;
+  --border-subtle: #E2E2EC;
+  --text: #15151E;
+  --text-muted: #4A4A5C;
+  --accent: #D40500;            /* Darkened for AA on white */
+  --accent-text: #B80400;       /* 6.5:1 on white, 5.0:1 on surface-2 for WCAG AA */
+  --accent-hover: #E10600;
+  --accent-glow: rgba(212, 5, 0, 0.25);
+  --accent-glow-subtle: rgba(212, 5, 0, 0.08);
+
+  /* Card elevation tokens */
+  --card-shadow: 0 2px 8px -2px rgba(21, 21, 30, 0.06), 0 1px 3px rgba(21, 21, 30, 0.04);
+  --card-shadow-hover: 0 8px 24px -4px rgba(21, 21, 30, 0.12), 0 2px 6px -1px rgba(21, 21, 30, 0.06);
+
+  /* Timing-screen semantic colours (both modes, AA calibrated) */
+  --timing-purple: #B138DD;      /* Overall best / Sector 1 */
+  --timing-purple-text: #7B1FA2; /* 6.8:1 on white, 5.2:1 on surface-2 for WCAG AA text */
+  --timing-green: #03803B;       /* Personal best / Sector 2 (darkened for AA on light: 5.6:1) */
+  --timing-yellow: #D9A400;      /* Sector 3 / Yellow flag in light mode (darkened for AA on light) */
+
+  /* Tyre tones */
+  --tyre-soft: #FF3B30;
+  --tyre-medium: #D9A400;
+  --tyre-hard: #E2E2EC;
+  --tyre-hard-text: #15151E;
+  --tyre-inter: #39B54A;
+  --tyre-wet: #1E6BFF;
+
+  /* Session badge semantic tokens */
+  --session-fp: #D9A400;
+  --session-fp-text: #15151E;
+  --session-qual: #B138DD;
+  --session-qual-text: #FFFFFF;
+  --session-sprint: #FF8A00;
+  --session-sprint-text: #FFFFFF;
+  --session-race: #D40500;
+  --session-race-text: #FFFFFF;
+
+  /* =========================================================================
+     PHASE 3: MOTION SYSTEM TOKENS
+     ========================================================================= */
+  --ease-out: cubic-bezier(.22, 1, .36, 1);
+  --ease-in-out: cubic-bezier(.65, 0, .35, 1);
+  --ease-spring: cubic-bezier(.34, 1.56, .64, 1);
+  --dur-fast: 120ms;
+  --dur-base: 200ms;
+  --dur-slow: 400ms;
+  --dur-hero: 700ms;
+
+  /* Fonts */
+  --font-display: "Barlow Condensed", "Titillium Web", -apple-system, sans-serif;
+  --font-sans: "Barlow", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  color-scheme: light;
+}
+
+html.dark {
+  /* =========================================================================
+     PHASE 1: F1 COLOUR SYSTEM - Dark Mode ("Race Night", default)
+     ========================================================================= */
+  --bg: #0B0B0F;                /* Carbon black */
+  --surface-1: #15151E;         /* F1 official dark */
+  --surface-2: #1E1E2A;
+  --surface-3: #272735;
+  --border: #2E2E3E;
+  --border-subtle: #242432;
+  --text: #FFFFFF;
+  --text-muted: #B4B4C4;        /* Hits 4.5:1 on surface-1 */
+  --accent: #E10600;            /* F1 red */
+  --accent-text: #FF352C;       /* 5.1:1 on surface-1, 6.2:1 on bg for WCAG AA */
+  --accent-hover: #FF1E16;
+  --accent-glow: rgba(225, 6, 0, 0.35);
+  --accent-glow-subtle: rgba(225, 6, 0, 0.15);
+
+  --card-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.45);
+  --card-shadow-hover: 0 12px 32px -4px rgba(0, 0, 0, 0.65), 0 0 20px var(--accent-glow);
+
+  --timing-purple: #B138DD;
+  --timing-purple-text: #D670FF;  /* 6.2:1 on surface-1 (#15151E) for WCAG AA text */
+  --timing-green: #00D26A;
+  --timing-yellow: #FFD60A;
+
+  --tyre-soft: #FF3B30;
+  --tyre-medium: #FFD60A;
+  --tyre-hard: #F0F0F0;
+  --tyre-hard-text: #0B0B0F;
+  --tyre-inter: #39B54A;
+  --tyre-wet: #1E6BFF;
+
+  --session-fp: #FFD60A;
+  --session-fp-text: #0B0B0F;
+  --session-qual: #B138DD;
+  --session-qual-text: #FFFFFF;
+  --session-sprint: #FF8A00;
+  --session-sprint-text: #FFFFFF;
+  --session-race: #E10600;
+  --session-race-text: #FFFFFF;
+
+  color-scheme: dark;
+}
+
+@theme {
+  --font-display: "Barlow Condensed", "Titillium Web", sans-serif;
+  --font-sans: "Barlow", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-bg: var(--bg);
+  --color-surface-1: var(--surface-1);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-border: var(--border);
+  --color-border-subtle: var(--border-subtle);
+  --color-text: var(--text);
+  --color-text-muted: var(--text-muted);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-glow: var(--accent-glow);
+
+  --color-timing-purple: var(--timing-purple);
+  --color-timing-green: var(--timing-green);
+  --color-timing-yellow: var(--timing-yellow);
+
+  --color-tyre-soft: var(--tyre-soft);
+  --color-tyre-medium: var(--tyre-medium);
+  --color-tyre-hard: var(--tyre-hard);
+  --color-tyre-inter: var(--tyre-inter);
+  --color-tyre-wet: var(--tyre-wet);
+
+  --color-session-fp: var(--session-fp);
+  --color-session-qual: var(--session-qual);
+  --color-session-sprint: var(--session-sprint);
+  --color-session-race: var(--session-race);
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg);
+  color: var(--text);
+  overflow-x: hidden;
+  min-height: 100dvh;
+}
+
+/* Subtle carbon-fibre texture (CSS-only, 2-4% opacity) in dark mode */
+html.dark body {
+  background-color: var(--bg);
+  background-image: 
+    linear-gradient(45deg, rgba(255, 255, 255, 0.025) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(255, 255, 255, 0.025) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, rgba(255, 255, 255, 0.025) 75%),
+    linear-gradient(-45deg, transparent 75%, rgba(255, 255, 255, 0.025) 75%);
+  background-size: 8px 8px;
+  background-position: 0 0, 0 4px, 4px -4px, -4px 0px;
+}
+
+/* =========================================================================
+   F1 STYLE LANGUAGE UTILITIES
+   ========================================================================= */
+
+/* Angled / skewed accent cut echoing the F1 logo slash */
+.f1-skew {
+  transform: skewX(-12deg);
+}
+
+.f1-unskew {
+  transform: skewX(12deg);
+}
+
+.f1-slash-tag {
+  display: inline-flex;
+  align-items: center;
+  transform: skewX(-12deg);
+  border-radius: 3px;
+}
+
+.f1-slash-tag > * {
+  transform: skewX(12deg);
+}
+
+/* Thin red top-edge accent for key cards */
+.f1-card-accent {
+  position: relative;
+}
+
+.f1-card-accent::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--accent);
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* Checkered-flag motif divider used sparingly */
+.checkered-divider {
+  height: 6px;
+  width: 100%;
+  background-image:
+    linear-gradient(45deg, var(--border) 25%, transparent 25%),
+    linear-gradient(-45deg, var(--border) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, var(--border) 75%),
+    linear-gradient(-45deg, transparent 75%, var(--border) 75%);
+  background-size: 8px 8px;
+  background-position: 0 0, 0 4px, 4px -4px, -4px 0px;
+  opacity: 0.6;
+}
+
+/* Finished session checkered icon motif */
+.checkered-flag-icon {
+  width: 14px;
+  height: 14px;
+  background-image:
+    linear-gradient(45deg, currentColor 25%, transparent 25%),
+    linear-gradient(-45deg, currentColor 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, currentColor 75%),
+    linear-gradient(-45deg, transparent 75%, currentColor 75%);
+  background-size: 4px 4px;
+  background-position: 0 0, 0 2px, 2px -2px, -2px 0px;
+  display: inline-block;
+  opacity: 0.9;
+}
+
+/* =========================================================================
+   ANIMATIONS & MOTION SYSTEM
+   ========================================================================= */
+
+/* Timetable NEXT row soft pulsing red outline (2s loop, opacity only) */
+@keyframes f1-pulse-outline {
+  0%, 100% {
+    box-shadow: 0 0 0 1px rgba(225, 6, 0, 0.25), 0 0 8px rgba(225, 6, 0, 0.12);
+  }
+  50% {
+    box-shadow: 0 0 0 1.5px rgba(225, 6, 0, 0.8), 0 0 14px var(--accent-glow);
+  }
+}
+
+.timetable-next-pulse {
+  animation: f1-pulse-outline 2s var(--ease-in-out) infinite;
+}
+
+/* Seconds tile subtle red tick pulse */
+@keyframes f1-seconds-pulse {
+  0%, 100% {
+    box-shadow: inset 0 0 0 1px var(--border);
+  }
+  50% {
+    box-shadow: inset 0 0 0 1px var(--accent), 0 0 12px var(--accent-glow);
+  }
+}
+
+.seconds-tick-pulse {
+  animation: f1-seconds-pulse 1s var(--ease-out) infinite;
+}
+
+/* Skeleton shimmer: transform-based sweep, 1.4s */
+@keyframes shimmer-sweep {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.skeleton-shimmer {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--surface-2);
+}
+
+.skeleton-shimmer::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.08) 50%,
+    transparent 100%
+  );
+  animation: shimmer-sweep 1.4s infinite;
+}
+
+html:not(.dark) .skeleton-shimmer::after {
+  background-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(0, 0, 0, 0.05) 50%,
+    transparent 100%
+  );
+}
+
+/* View Transitions API circular reveal support */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+::view-transition-old(root) {
+  z-index: 1;
+}
+
+::view-transition-new(root) {
+  z-index: 9999;
+}
+
+/* Fallback theme transition class for crossfade */
+.theme-transitioning,
+.theme-transitioning *,
+.theme-transitioning *::before,
+.theme-transitioning *::after {
+  transition: background-color var(--dur-base) var(--ease-out),
+              border-color var(--dur-base) var(--ease-out),
+              color var(--dur-base) var(--ease-out),
+              box-shadow var(--dur-base) var(--ease-out) !important;
+}
+
+/* Scrollbars */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: var(--surface-2);
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Hero title line mask reveal */
+@keyframes f1-title-mask-reveal {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.f1-title-reveal {
+  animation: f1-title-mask-reveal 0.65s var(--ease-out) 0.1s both;
+}
+
+/* =========================================================================
+   PREFERS-REDUCED-MOTION
+   ========================================================================= */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
+  .timetable-next-pulse,
+  .seconds-tick-pulse,
+  .skeleton-shimmer::after,
+  .f1-title-reveal {
+    animation: none !important;
+  }
+}

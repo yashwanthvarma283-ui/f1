@@ -1,0 +1,12 @@
+{
+  "dark": {
+    "violationsCount": 0,
+    "passesCount": 1,
+    "violations": []
+  },
+  "light": {
+    "violationsCount": 0,
+    "passesCount": 1,
+    "violations": []
+  }
+}

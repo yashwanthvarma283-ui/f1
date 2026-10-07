@@ -1,0 +1,25 @@
+{
+  "year": 1989,
+  "round": 8,
+  "slug": "silverstone",
+  "raceName": "British Grand Prix",
+  "circuit": {
+    "id": "silverstone",
+    "name": "Silverstone Circuit",
+    "locality": "Silverstone",
+    "country": "UK",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "1989-07-16T14:00:00Z",
+      "endIso": "1989-07-16T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

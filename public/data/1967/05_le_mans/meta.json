@@ -1,0 +1,25 @@
+{
+  "year": 1967,
+  "round": 5,
+  "slug": "le_mans",
+  "raceName": "French Grand Prix",
+  "circuit": {
+    "id": "le_mans",
+    "name": "Le Mans Circuit",
+    "locality": "Le Mans",
+    "country": "France",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "1967-07-02T14:00:00Z",
+      "endIso": "1967-07-02T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

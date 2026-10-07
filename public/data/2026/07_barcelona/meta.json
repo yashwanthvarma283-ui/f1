@@ -1,0 +1,25 @@
+{
+  "year": 2026,
+  "round": 7,
+  "slug": "barcelona",
+  "raceName": "Barcelona Grand Prix",
+  "circuit": {
+    "id": "barcelona",
+    "name": "Barcelona Circuit",
+    "locality": "Barcelona",
+    "country": "Spain",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2026-06-14T14:00:00Z",
+      "endIso": "2026-06-14T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 0
+  }
+}

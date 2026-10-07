@@ -1,0 +1,1716 @@
+[
+  {
+    "lap": 1,
+    "headline": "Lap 1: Safety Car Deployed",
+    "summary": "The Safety Car is out on track as the field neutralizes. LEC leads with the pack compressed.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.414s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "GREEN LIGHT - PIT EXIT OPEN",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "PIT EXIT CLOSED",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "DOUBLE YELLOW IN TRACK SECTOR 7",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 7",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "DOUBLE YELLOW IN TRACK SECTOR 12",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 12",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "RISK OF RAIN FOR F1 RACE IS 0%",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "DRS DISABLED",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "GREEN LIGHT - PIT EXIT OPEN",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "DOUBLE YELLOW IN TRACK SECTOR 3",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "YELLOW IN TRACK SECTOR 6",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "YELLOW IN TRACK SECTOR 4",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "DOUBLE YELLOW IN TRACK SECTOR 4",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "YELLOW IN TRACK SECTOR 5",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 6",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "YELLOW IN TRACK SECTOR 6",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 5",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 6",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "DOUBLE YELLOW IN TRACK SECTOR 10",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "YELLOW IN TRACK SECTOR 9",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "YELLOW IN TRACK SECTOR 11",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 10",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "RED FLAG",
+        "importance": "high"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 3",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 4",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 9",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 11",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "LAP 1 TURN 1 INCIDENT NOTED",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "TURN 8 INCIDENT INVOLVING CARS 10 (GAS) AND 31 (OCO) NOTED - CAUSING A COLLISION",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "ORDER FOR RESTART: 16, 81, 55, 4, 63, 1, 44, 22, 23, 10, 31, 18, 3, 14, 2, 77, 24",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: LAP 1 TURN 1 INCIDENT REVIEWED NO FURTHER INVESTIGATION",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "RACE WILL RESUME AT 15:44",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: TURN 8 INCIDENT INVOLVING CARS 10 (GAS) AND 31 (OCO) UNDER INVESTIGATION - CAUSING A COLLISION",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "TRACK CLEAR",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "DOUBLE YELLOW IN TRACK SECTOR 13",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 13",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "DOUBLE YELLOW IN TRACK SECTOR 3",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 3",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "RACE WILL RESUME AT 15:44 - STANDING START PROCEDURE",
+        "importance": "medium"
+      },
+      {
+        "type": "SAFETY_CAR",
+        "description": "ALL CARS MAY OVERTAKE THE SAFETY CAR",
+        "importance": "high"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "VER boxes for pit stop (HARD) in 2372.6s",
+        "driverNumber": 1,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "GAS boxes for pit stop (HARD) in 2381.8s",
+        "driverNumber": 10,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "ALO boxes for pit stop (HARD) in 2389.4s",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "LEC boxes for pit stop (MEDIUM) in 2358.0s",
+        "driverNumber": 16,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "STR boxes for pit stop (HARD) in 2383.5s",
+        "driverNumber": 18,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "SAR boxes for pit stop (HARD) in 2391.6s",
+        "driverNumber": 2,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "TSU boxes for pit stop (MEDIUM) in 2377.5s",
+        "driverNumber": 22,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "ALB boxes for pit stop (MEDIUM) in 2381.3s",
+        "driverNumber": 23,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "ZHO boxes for pit stop (MEDIUM) in 2386.4s",
+        "driverNumber": 24,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "RIC boxes for pit stop (MEDIUM) in 2385.8s",
+        "driverNumber": 3,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "NOR boxes for pit stop (MEDIUM) in 2365.5s",
+        "driverNumber": 4,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "HAM boxes for pit stop (HARD) in 2375.3s",
+        "driverNumber": 44,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "SAI boxes for pit stop (MEDIUM) in 2327.0s",
+        "driverNumber": 55,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "RUS boxes for pit stop (HARD) in 2369.3s",
+        "driverNumber": 63,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "BOT boxes for pit stop (HARD) in 2394.0s",
+        "driverNumber": 77,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "PIA boxes for pit stop (MEDIUM) in 2357.6s",
+        "driverNumber": 81,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by LEC (2456.330s)",
+        "driverNumber": 16,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 2,
+    "headline": "Lap 2: TSU overtakes LEC for P1",
+    "summary": "TSU overtakes LEC for P1. TSU controls the race with a +0.186s advantage.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+0.186s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "STANDING START",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "TSU overtakes LEC for P1",
+        "driverNumber": 22,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ALB overtakes PIA for P2",
+        "driverNumber": 23,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "GAS overtakes SAI for P3",
+        "driverNumber": 10,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "STR overtakes NOR for P4",
+        "driverNumber": 18,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by TSU (148.277s)",
+        "driverNumber": 22,
+        "importance": "high"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by ALB (142.255s)",
+        "driverNumber": 23,
+        "importance": "high"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by GAS (139.618s)",
+        "driverNumber": 10,
+        "importance": "high"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by STR (134.844s)",
+        "driverNumber": 18,
+        "importance": "high"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by RIC (130.108s)",
+        "driverNumber": 3,
+        "importance": "high"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by ALO (124.571s)",
+        "driverNumber": 14,
+        "importance": "high"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by SAR (121.235s)",
+        "driverNumber": 2,
+        "importance": "high"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by BOT (116.358s)",
+        "driverNumber": 77,
+        "importance": "high"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by ZHO (112.131s)",
+        "driverNumber": 24,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 3,
+    "headline": "Lap 3: LEC overtakes TSU for P1",
+    "summary": "LEC overtakes TSU for P1. LEC controls the race with a +2.743s advantage.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.743s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "LEC overtakes TSU for P1",
+        "driverNumber": 16,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PIA overtakes ALB for P2",
+        "driverNumber": 81,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes GAS for P3",
+        "driverNumber": 55,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "NOR overtakes STR for P4",
+        "driverNumber": 4,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by LEC (84.624s)",
+        "driverNumber": 16,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 4,
+    "headline": "Lap 4: LEC leads by +2.432s",
+    "summary": "LEC maintains a steady +2.432s cushion ahead of chasing PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.432s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "DRS ENABLED",
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by LEC (82.625s)",
+        "driverNumber": 16,
+        "importance": "high"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by PIA (82.314s)",
+        "driverNumber": 81,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 5,
+    "headline": "Lap 5: LEC leads by +2.656s",
+    "summary": "LEC maintains a steady +2.656s cushion ahead of chasing PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.656s",
+    "events": [
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by LEC (81.795s)",
+        "driverNumber": 16,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 6,
+    "headline": "Lap 6: LEC leads by +2.865s",
+    "summary": "LEC maintains a steady +2.865s cushion ahead of chasing PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.865s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "LAP 1 INCIDENT INVOLVING CARS 55 (SAI) AND 81 (PIA) NOTED - CAUSING A COLLISION",
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by LEC (81.145s)",
+        "driverNumber": 16,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 7,
+    "headline": "Lap 7: LEC leads by +2.693s",
+    "summary": "LEC maintains a steady +2.693s cushion ahead of chasing PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.693s",
+    "events": [
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by LEC (80.980s)",
+        "driverNumber": 16,
+        "importance": "high"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by PIA (80.808s)",
+        "driverNumber": 81,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 8,
+    "headline": "Lap 8: LEC leads by +2.721s",
+    "summary": "LEC maintains a steady +2.721s cushion ahead of chasing PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.721s",
+    "events": [
+      {
+        "type": "PENALTY",
+        "description": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 31 (OCO) - CAUSING A COLLISION",
+        "importance": "high"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by SAI (80.272s)",
+        "driverNumber": 55,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 9,
+    "headline": "Lap 9: LEC leads by +2.513s",
+    "summary": "LEC maintains a steady +2.513s cushion ahead of chasing PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.513s",
+    "events": [
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by LEC (80.114s)",
+        "driverNumber": 16,
+        "importance": "high"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by PIA (79.906s)",
+        "driverNumber": 81,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 10,
+    "headline": "Lap 10: LEC leads by +2.628s",
+    "summary": "LEC maintains a steady +2.628s cushion ahead of chasing PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.628s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: LAP 1 INCIDENT INVOLVING CARS 55 (SAI) AND 81 (PIA) REVIEWED NO FURTHER INVESTIGATION - CAUSING A COLLISION",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 11,
+    "headline": "Lap 11: LEC leads by +2.480s",
+    "summary": "LEC maintains a steady +2.480s cushion ahead of chasing PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.480s",
+    "events": []
+  },
+  {
+    "lap": 12,
+    "headline": "Lap 12: LEC leads by +2.363s",
+    "summary": "LEC maintains a steady +2.363s cushion ahead of chasing PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.363s",
+    "events": []
+  },
+  {
+    "lap": 13,
+    "headline": "Lap 13: LEC leads by +2.091s",
+    "summary": "LEC maintains a steady +2.091s cushion ahead of chasing PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.091s",
+    "events": [
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by LEC (79.017s)",
+        "driverNumber": 16,
+        "importance": "high"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by PIA (78.745s)",
+        "driverNumber": 81,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 14,
+    "headline": "Lap 14: LEC leads by +2.192s",
+    "summary": "LEC maintains a steady +2.192s cushion ahead of chasing PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.192s",
+    "events": []
+  },
+  {
+    "lap": 15,
+    "headline": "Lap 15: Pit Lane Activity (1 Stops)",
+    "summary": "1 driver(s) dive into the pits. LEC stays out in P1 (+2.618s gap).",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.618s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "BOT boxes for pit stop (MEDIUM) in 24.2s",
+        "driverNumber": 77,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAR overtakes BOT for P14",
+        "driverNumber": 2,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ZHO overtakes SAR for P15",
+        "driverNumber": 24,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 16,
+    "headline": "Lap 16: LEC leads by +2.291s",
+    "summary": "LEC maintains a steady +2.291s cushion ahead of chasing PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.291s",
+    "events": []
+  },
+  {
+    "lap": 17,
+    "headline": "Lap 17: LEC leads by +2.040s",
+    "summary": "LEC maintains a steady +2.040s cushion ahead of chasing PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.040s",
+    "events": [
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by BOT (76.561s)",
+        "driverNumber": 77,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 18,
+    "headline": "Lap 18: LEC leads by +2.292s",
+    "summary": "LEC maintains a steady +2.292s cushion ahead of chasing PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.292s",
+    "events": []
+  },
+  {
+    "lap": 19,
+    "headline": "Lap 19: LEC leads by +2.629s",
+    "summary": "LEC maintains a steady +2.629s cushion ahead of chasing PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.629s",
+    "events": []
+  },
+  {
+    "lap": 20,
+    "headline": "Lap 20: LEC leads by +2.960s",
+    "summary": "LEC maintains a steady +2.960s cushion ahead of chasing PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.960s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 77 (BOT) TIME 1:17.829 DELETED - TRACK LIMITS AT TURN 10 LAP 19 16:10:02",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 21,
+    "headline": "Lap 21: LEC leads by +3.089s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.089s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.089s",
+    "events": []
+  },
+  {
+    "lap": 22,
+    "headline": "Lap 22: LEC leads by +3.054s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.054s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.054s",
+    "events": []
+  },
+  {
+    "lap": 23,
+    "headline": "Lap 23: LEC leads by +3.254s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.254s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.254s",
+    "events": []
+  },
+  {
+    "lap": 24,
+    "headline": "Lap 24: LEC leads by +3.165s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.165s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.165s",
+    "events": []
+  },
+  {
+    "lap": 25,
+    "headline": "Lap 25: LEC leads by +2.976s",
+    "summary": "LEC maintains a steady +2.976s cushion ahead of chasing PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.976s",
+    "events": []
+  },
+  {
+    "lap": 26,
+    "headline": "Lap 26: LEC leads by +2.971s",
+    "summary": "LEC maintains a steady +2.971s cushion ahead of chasing PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.971s",
+    "events": []
+  },
+  {
+    "lap": 27,
+    "headline": "Lap 27: LEC leads by +3.143s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.143s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.143s",
+    "events": []
+  },
+  {
+    "lap": 28,
+    "headline": "Lap 28: LEC leads by +3.224s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.224s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.224s",
+    "events": []
+  },
+  {
+    "lap": 29,
+    "headline": "Lap 29: LEC leads by +3.181s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.181s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.181s",
+    "events": []
+  },
+  {
+    "lap": 30,
+    "headline": "Lap 30: LEC leads by +2.642s",
+    "summary": "LEC maintains a steady +2.642s cushion ahead of chasing PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.642s",
+    "events": []
+  },
+  {
+    "lap": 31,
+    "headline": "Lap 31: LEC leads by +2.698s",
+    "summary": "LEC maintains a steady +2.698s cushion ahead of chasing PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.698s",
+    "events": []
+  },
+  {
+    "lap": 32,
+    "headline": "Lap 32: LEC leads by +2.542s",
+    "summary": "LEC maintains a steady +2.542s cushion ahead of chasing PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.542s",
+    "events": []
+  },
+  {
+    "lap": 33,
+    "headline": "Lap 33: LEC leads by +3.108s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.108s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.108s",
+    "events": []
+  },
+  {
+    "lap": 34,
+    "headline": "Lap 34: LEC leads by +2.767s",
+    "summary": "LEC maintains a steady +2.767s cushion ahead of chasing PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.767s",
+    "events": []
+  },
+  {
+    "lap": 35,
+    "headline": "Lap 35: LEC leads by +2.842s",
+    "summary": "LEC maintains a steady +2.842s cushion ahead of chasing PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.842s",
+    "events": []
+  },
+  {
+    "lap": 36,
+    "headline": "Lap 36: LEC leads by +3.035s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.035s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.035s",
+    "events": []
+  },
+  {
+    "lap": 37,
+    "headline": "Lap 37: LEC leads by +2.722s",
+    "summary": "LEC maintains a steady +2.722s cushion ahead of chasing PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.722s",
+    "events": []
+  },
+  {
+    "lap": 38,
+    "headline": "Lap 38: LEC leads by +2.925s",
+    "summary": "LEC maintains a steady +2.925s cushion ahead of chasing PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+2.925s",
+    "events": []
+  },
+  {
+    "lap": 39,
+    "headline": "Lap 39: LEC leads by +3.106s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.106s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.106s",
+    "events": []
+  },
+  {
+    "lap": 40,
+    "headline": "Lap 40: LEC leads by +3.324s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.324s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.324s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 16:37:27",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 41,
+    "headline": "Lap 41: LEC leads by +3.476s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.476s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.476s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 16:37:37",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 16:37:45",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 24 (ZHO) TIMED AT 16:38:22",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 24 (ZHO) TIMED AT 16:38:29",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 2 (SAR) TIMED AT 16:38:35",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 24 (ZHO) TIMED AT 16:38:48",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 42,
+    "headline": "Lap 42: Pit Lane Activity (1 Stops)",
+    "summary": "1 driver(s) dive into the pits. LEC stays out in P1 (+3.994s gap).",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.994s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 3 (RIC) TIMED AT 16:38:54",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 2 (SAR) TIMED AT 16:38:56",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 14 (ALO) TIMED AT 16:39:32",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 3 (RIC) TIMED AT 16:39:35",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 14 (ALO) TIMED AT 16:39:57",
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "STR boxes for pit stop (MEDIUM) in 24.1s",
+        "driverNumber": 18,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 43,
+    "headline": "Lap 43: LEC leads by +4.327s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +4.327s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+4.327s",
+    "events": []
+  },
+  {
+    "lap": 44,
+    "headline": "Lap 44: LEC leads by +4.328s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +4.328s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+4.328s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 18 (STR) TIMED AT 16:41:37",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 45,
+    "headline": "Lap 45: LEC leads by +3.869s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.869s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.869s",
+    "events": []
+  },
+  {
+    "lap": 46,
+    "headline": "Lap 46: LEC leads by +3.925s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.925s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.925s",
+    "events": []
+  },
+  {
+    "lap": 47,
+    "headline": "Lap 47: LEC leads by +3.139s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.139s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.139s",
+    "events": []
+  },
+  {
+    "lap": 48,
+    "headline": "Lap 48: Pit Lane Activity (1 Stops)",
+    "summary": "1 driver(s) dive into the pits. LEC stays out in P1 (+3.593s gap).",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.593s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "STR boxes for pit stop (HARD) in 28.2s",
+        "driverNumber": 18,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ALO overtakes STR for P11",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RIC overtakes ALO for P12",
+        "driverNumber": 3,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAR overtakes RIC for P13",
+        "driverNumber": 2,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ZHO overtakes SAR for P14",
+        "driverNumber": 24,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 49,
+    "headline": "Lap 49: LEC leads by +3.223s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.223s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.223s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 24 (ZHO) TIMED AT 16:49:00",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 24 (ZHO) TIMED AT 16:49:14",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 50,
+    "headline": "Lap 50: LEC leads by +3.388s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.388s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.388s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 2 (SAR) TIMED AT 16:49:29",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 16:49:32",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 24 (ZHO) TIMED AT 16:49:37",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 2 (SAR) TIMED AT 16:49:43",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 2 (SAR) TIMED AT 16:49:59",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CAR 18 (STR) TIME 1:49.132 DELETED - TRACK LIMITS AT TURN 16 LAP 48 16:49:14",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "BOT overtakes ZHO for P14",
+        "driverNumber": 77,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 51,
+    "headline": "Lap 51: Pit Lane Activity (1 Stops)",
+    "summary": "1 driver(s) dive into the pits. LEC stays out in P1 (+3.507s gap).",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.507s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 10 (GAS) TIMED AT 16:51:35",
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "HAM boxes for pit stop (MEDIUM) in 24.2s",
+        "driverNumber": 44,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "BOT overtakes SAR for P13",
+        "driverNumber": 77,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 52,
+    "headline": "Lap 52: Pit Lane Activity (1 Stops)",
+    "summary": "1 driver(s) dive into the pits. LEC stays out in P1 (+3.410s gap).",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.410s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 10 (GAS) TIMED AT 16:52:00",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 10 (GAS) TIMED AT 16:52:22",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 3 (RIC) TIMED AT 16:53:05",
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "VER boxes for pit stop (MEDIUM) in 23.8s",
+        "driverNumber": 1,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 53,
+    "headline": "Lap 53: LEC leads by +3.271s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.271s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.271s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "DOUBLE YELLOW IN TRACK SECTOR 13",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 14 (ALO) TIMED AT 16:53:32",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 13",
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by HAM (76.458s)",
+        "driverNumber": 44,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 54,
+    "headline": "Lap 54: LEC leads by +3.276s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.276s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.276s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 18 (STR) TIMED AT 16:55:33",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 23 (ALB) TIMED AT 16:55:33",
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (75.815s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 55,
+    "headline": "Lap 55: LEC leads by +3.277s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.277s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.277s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 24 (ZHO) TIMED AT 16:55:54",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 23 (ALB) TIMED AT 16:55:58",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 2 (SAR) TIMED AT 16:56:00",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 18 (STR) TIMED AT 16:56:05",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 24 (ZHO) TIMED AT 16:56:23",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 22 (TSU) TIMED AT 16:56:34",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 2 (SAR) TIMED AT 16:56:35",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 22 (TSU) TIMED AT 16:56:42",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 22 (TSU) TIMED AT 16:56:50",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "STR overtakes ZHO for P15",
+        "driverNumber": 18,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (75.398s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 56,
+    "headline": "Lap 56: LEC leads by +3.467s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.467s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.467s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "STR overtakes SAR for P14",
+        "driverNumber": 18,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by HAM (74.423s)",
+        "driverNumber": 44,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 57,
+    "headline": "Lap 57: Pit Lane Activity (1 Stops)",
+    "summary": "1 driver(s) dive into the pits. LEC stays out in P1 (+3.127s gap).",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.127s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 16:58:46",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 3 (RIC) TIMED AT 16:59:03",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 14 (ALO) TIMED AT 16:59:14",
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "SAR boxes for pit stop (HARD) in 24.3s",
+        "driverNumber": 2,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ZHO overtakes SAR for P15",
+        "driverNumber": 24,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 58,
+    "headline": "Lap 58: LEC leads by +3.443s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.443s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.443s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 14 (ALO) TIME 1:23.377 DELETED - TRACK LIMITS AT TURN 10 LAP 52 16:54:24",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 3 (RIC) TIMED AT 17:00:07",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 14 (ALO) TIMED AT 17:00:29",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 59,
+    "headline": "Lap 59: LEC leads by +3.451s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.451s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.451s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 44 (HAM) TIME 1:16.855 DELETED - TRACK LIMITS AT TURN 10 LAP 58 17:01:04",
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by HAM (74.204s)",
+        "driverNumber": 44,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 60,
+    "headline": "Lap 60: LEC leads by +3.654s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.654s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.654s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 10 (GAS) TIMED AT 17:03:02",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 61,
+    "headline": "Lap 61: LEC leads by +3.562s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.562s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.562s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 10 (GAS) TIMED AT 17:03:38",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 62,
+    "headline": "Lap 62: LEC leads by +3.203s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.203s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.203s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 10 (GAS) TIMED AT 17:05:23",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 63,
+    "headline": "Lap 63: LEC leads by +3.153s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.153s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.153s",
+    "events": [
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by HAM (74.165s)",
+        "driverNumber": 44,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 64,
+    "headline": "Lap 64: LEC leads by +3.502s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.502s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.502s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 23 (ALB) TIMED AT 17:07:30",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 22 (TSU) TIMED AT 17:07:49",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 23 (ALB) TIMED AT 17:08:12",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 22 (TSU) TIMED AT 17:08:28",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 65,
+    "headline": "Lap 65: LEC leads by +3.286s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.286s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.286s",
+    "events": []
+  },
+  {
+    "lap": 66,
+    "headline": "Lap 66: LEC leads by +3.437s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +3.437s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+3.437s",
+    "events": []
+  },
+  {
+    "lap": 67,
+    "headline": "Lap 67: LEC leads by +4.092s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +4.092s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+4.092s",
+    "events": []
+  },
+  {
+    "lap": 68,
+    "headline": "Lap 68: LEC leads by +4.611s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +4.611s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+4.611s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 2 (SAR) TIMED AT 17:13:29",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 2 (SAR) TIMED AT 17:13:39",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAR overtakes ZHO for P15",
+        "driverNumber": 2,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 69,
+    "headline": "Lap 69: LEC leads by +5.609s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +5.609s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+5.609s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 24 (ZHO) TIMED AT 17:13:48",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 2 (SAR) TIMED AT 17:14:44",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 70,
+    "headline": "Lap 70: Pit Lane Activity (1 Stops)",
+    "summary": "1 driver(s) dive into the pits. LEC stays out in P1 (+7.112s gap).",
+    "leaderCode": "LEC",
+    "gapToSecond": "+7.112s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 24 (ZHO) TIMED AT 17:15:02",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 2 (SAR) TIMED AT 17:15:03",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 2 (SAR) TIMED AT 17:15:10",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 24 (ZHO) TIMED AT 17:15:18",
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "ZHO boxes for pit stop (HARD) in 24.3s",
+        "driverNumber": 24,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 71,
+    "headline": "Lap 71: LEC leads by +9.134s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +9.134s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+9.134s",
+    "events": []
+  },
+  {
+    "lap": 72,
+    "headline": "Lap 72: LEC leads by +10.239s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +10.239s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+10.239s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 24 (ZHO) TIMED AT 17:18:22",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 24 (ZHO) TIMED AT 17:18:39",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 73,
+    "headline": "Lap 73: LEC leads by +10.301s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +10.301s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+10.301s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 24 (ZHO) TIMED AT 17:19:37",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 74,
+    "headline": "Lap 74: LEC leads by +10.552s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +10.552s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+10.552s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 24 (ZHO) TIMED AT 17:20:15",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 75,
+    "headline": "Lap 75: LEC leads by +10.809s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +10.809s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+10.809s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 18 (STR) TIMED AT 17:21:35",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 17:22:08",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 76,
+    "headline": "Lap 76: LEC leads by +10.591s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +10.591s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+10.591s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 3 (RIC) TIMED AT 17:22:42",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 14 (ALO) TIMED AT 17:23:10",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 77,
+    "headline": "Lap 77: LEC leads by +10.392s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +10.392s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+10.392s",
+    "events": []
+  },
+  {
+    "lap": 78,
+    "headline": "Lap 78: LEC leads by +8.882s",
+    "summary": "LEC commanding the Grand Prix with a comfortable +8.882s lead over PIA.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+8.882s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CHEQUERED FLAG",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 18 (STR) TIMED AT 17:26:30",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CAR 4 (NOR) TIME 1:17.296 DELETED - TRACK LIMITS AT TURN 10 LAP 78 17:26:06",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ALO overtakes TSU for P8",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RIC overtakes ALB for P9",
+        "driverNumber": 3,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "BOT overtakes GAS for P10",
+        "driverNumber": 77,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "STR overtakes ALO for P11",
+        "driverNumber": 18,
+        "importance": "medium"
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "year": 2020,
+  "round": 2,
+  "slug": "spielberg",
+  "raceName": "Styrian Grand Prix",
+  "circuit": {
+    "id": "spielberg",
+    "name": "Spielberg Circuit",
+    "locality": "Spielberg",
+    "country": "Austria",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2020-07-12T14:00:00Z",
+      "endIso": "2020-07-12T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

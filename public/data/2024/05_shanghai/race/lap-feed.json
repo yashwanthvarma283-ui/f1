@@ -1,0 +1,1721 @@
+[
+  {
+    "lap": 1,
+    "headline": "Lap 1: Grand Prix Race Start",
+    "summary": "Lights out and away we go! VER leads into the opening complex with clean starts across the grid.",
+    "leaderCode": "VER",
+    "gapToSecond": "+1.645s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "DRS ENABLED IN ZONE 2",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "DRS ENABLED IN ZONE 1",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "GREEN LIGHT - PIT EXIT OPEN",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "PIT EXIT CLOSED",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "RISK OF RAIN FOR F1 RACE IS 10%",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "DRS DISABLED",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "GREEN LIGHT - PIT EXIT OPEN",
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (101.528s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 2,
+    "headline": "Lap 2: VER leads by +2.670s",
+    "summary": "VER maintains a steady +2.670s cushion ahead of chasing ALO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+2.670s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "DRS ENABLED",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes HUL for P8",
+        "driverNumber": 55,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "STR overtakes SAI for P9",
+        "driverNumber": 18,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "MAG overtakes ZHO for P17",
+        "driverNumber": 20,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (100.103s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 3,
+    "headline": "Lap 3: VER leads by +3.164s",
+    "summary": "VER commanding the Grand Prix with a comfortable +3.164s lead over ALO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+3.164s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "TURN 6 INCIDENT INVOLVING CARS 18 (STR) AND 27 (HUL) NOTED - FORCING ANOTHER DRIVER OFF THE TRACK",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CAR 27 (HUL) TIME 1:43.687 DELETED - TRACK LIMITS AT TURN 6 LAP 2 15:05:58",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HAM overtakes ZHO for P18",
+        "driverNumber": 44,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 4,
+    "headline": "Lap 4: VER leads by +4.170s",
+    "summary": "VER commanding the Grand Prix with a comfortable +4.170s lead over ALO.",
+    "leaderCode": "VER",
+    "gapToSecond": "+4.170s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "HAM overtakes MAG for P17",
+        "driverNumber": 44,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 5,
+    "headline": "Lap 5: PER overtakes ALO for P2",
+    "summary": "PER overtakes ALO for P2. VER controls the race with a +5.436s advantage.",
+    "leaderCode": "VER",
+    "gapToSecond": "+5.436s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "TURN 14 INCIDENT INVOLVING CARS 23 (ALB) AND 10 (GAS) NOTED - FORCING ANOTHER DRIVER OFF THE TRACK",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes ALO for P2",
+        "driverNumber": 11,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 6,
+    "headline": "Lap 6: VER leads by +5.945s",
+    "summary": "VER commanding the Grand Prix with a comfortable +5.945s lead over PER.",
+    "leaderCode": "VER",
+    "gapToSecond": "+5.945s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 10 (GAS) TIME 1:42.847 DELETED - TRACK LIMITS AT TURN 14 LAP 4 15:10:25",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 7,
+    "headline": "Lap 7: NOR overtakes ALO for P3",
+    "summary": "NOR overtakes ALO for P3. VER controls the race with a +6.410s advantage.",
+    "leaderCode": "VER",
+    "gapToSecond": "+6.410s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "NOR overtakes ALO for P3",
+        "driverNumber": 4,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "BOT overtakes HUL for P10",
+        "driverNumber": 77,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 8,
+    "headline": "Lap 8: Pit Lane Activity (3 Stops)",
+    "summary": "3 driver(s) dive into the pits. VER stays out in P1 (+7.013s gap).",
+    "leaderCode": "VER",
+    "gapToSecond": "+7.013s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: TURN 6 INCIDENT INVOLVING CARS 18 (STR) AND 27 (HUL) UNDER INVESTIGATION - FORCING ANOTHER DRIVER OFF THE TRACK",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: TURN 14 INCIDENT INVOLVING CARS 23 (ALB) AND 10 (GAS) UNDER INVESTIGATION - FORCING ANOTHER DRIVER OFF THE TRACK",
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "TSU boxes for pit stop (SOFT) in 23.1s",
+        "driverNumber": 22,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "ZHO boxes for pit stop (MEDIUM) in 23.3s",
+        "driverNumber": 24,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "HUL boxes for pit stop (MEDIUM) in 23.0s",
+        "driverNumber": 27,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "OCO overtakes HUL for P11",
+        "driverNumber": 31,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ALB overtakes OCO for P12",
+        "driverNumber": 23,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "GAS overtakes ALB for P13",
+        "driverNumber": 10,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RIC overtakes GAS for P14",
+        "driverNumber": 3,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 9,
+    "headline": "Lap 9: Pit Lane Activity (5 Stops)",
+    "summary": "5 driver(s) dive into the pits. VER stays out in P1 (+7.626s gap).",
+    "leaderCode": "VER",
+    "gapToSecond": "+7.626s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "STR boxes for pit stop (SOFT) in 23.8s",
+        "driverNumber": 18,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "ALB boxes for pit stop (MEDIUM) in 23.2s",
+        "driverNumber": 23,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "OCO boxes for pit stop (MEDIUM) in 23.1s",
+        "driverNumber": 31,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "HAM boxes for pit stop (SOFT) in 22.5s",
+        "driverNumber": 44,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "BOT boxes for pit stop (MEDIUM) in 22.9s",
+        "driverNumber": 77,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LEC overtakes RUS for P6",
+        "driverNumber": 16,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "GAS overtakes BOT for P10",
+        "driverNumber": 10,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RIC overtakes ALB for P12",
+        "driverNumber": 3,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "MAG overtakes HUL for P15",
+        "driverNumber": 20,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 10,
+    "headline": "Lap 10: VER leads by +8.042s",
+    "summary": "VER commanding the Grand Prix with a comfortable +8.042s lead over PER.",
+    "leaderCode": "VER",
+    "gapToSecond": "+8.042s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: TURN 6 INCIDENT INVOLVING CARS 18 (STR) AND 27 (HUL) NO FURTHER ACTION - FORCING ANOTHER DRIVER OFF THE TRACK",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: TURN 14 INCIDENT INVOLVING CARS 23 (ALB) AND 10 (GAS) NO FURTHER ACTION - FORCING ANOTHER DRIVER OFF THE TRACK",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CAR 2 (SAR) TIME 1:44.213 DELETED - TRACK LIMITS AT TURN 6 LAP 8 15:16:26",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "GAS overtakes STR for P9",
+        "driverNumber": 10,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RIC overtakes GAS for P10",
+        "driverNumber": 3,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "MAG overtakes BOT for P11",
+        "driverNumber": 20,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAR overtakes RIC for P12",
+        "driverNumber": 2,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 11,
+    "headline": "Lap 11: Pit Lane Activity (3 Stops)",
+    "summary": "3 driver(s) dive into the pits. VER stays out in P1 (+8.408s gap).",
+    "leaderCode": "VER",
+    "gapToSecond": "+8.408s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "GAS boxes for pit stop (MEDIUM) in 39.7s",
+        "driverNumber": 10,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "ALO boxes for pit stop (MEDIUM) in 23.0s",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "RUS boxes for pit stop (MEDIUM) in 22.4s",
+        "driverNumber": 63,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LEC overtakes ALO for P4",
+        "driverNumber": 16,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes LEC for P6",
+        "driverNumber": 55,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RIC overtakes GAS for P9",
+        "driverNumber": 3,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "MAG overtakes RIC for P10",
+        "driverNumber": 20,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 12,
+    "headline": "Lap 12: Pit Lane Activity (1 Stops)",
+    "summary": "1 driver(s) dive into the pits. VER stays out in P1 (+9.356s gap).",
+    "leaderCode": "VER",
+    "gapToSecond": "+9.356s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "SAR boxes for pit stop (SOFT) in 23.2s",
+        "driverNumber": 2,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RIC overtakes ALO for P7",
+        "driverNumber": 3,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "MAG overtakes RUS for P8",
+        "driverNumber": 20,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "STR overtakes GAS for P11",
+        "driverNumber": 18,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes STR for P13",
+        "driverNumber": 27,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 13,
+    "headline": "Lap 13: NOR overtakes PER for P2",
+    "summary": "NOR overtakes PER for P2. VER controls the race with a +7.317s advantage.",
+    "leaderCode": "VER",
+    "gapToSecond": "+7.317s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "VER boxes for pit stop (MEDIUM) in 22.4s",
+        "driverNumber": 1,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "PER boxes for pit stop (MEDIUM) in 22.0s",
+        "driverNumber": 11,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "NOR overtakes PER for P2",
+        "driverNumber": 4,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ALO overtakes MAG for P8",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RUS overtakes ALO for P9",
+        "driverNumber": 63,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes SAR for P12",
+        "driverNumber": 27,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 14,
+    "headline": "Lap 14: NOR overtakes VER for P1",
+    "summary": "NOR overtakes VER for P1. NOR controls the race with a +7.095s advantage.",
+    "leaderCode": "NOR",
+    "gapToSecond": "+7.095s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "RIC boxes for pit stop (MEDIUM) in 22.5s",
+        "driverNumber": 3,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "NOR overtakes VER for P1",
+        "driverNumber": 4,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LEC overtakes NOR for P2",
+        "driverNumber": 16,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PIA overtakes LEC for P4",
+        "driverNumber": 81,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes PIA for P5",
+        "driverNumber": 55,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 15,
+    "headline": "Lap 15: NOR leads by +6.919s",
+    "summary": "NOR commanding the Grand Prix with a comfortable +6.919s lead over LEC.",
+    "leaderCode": "NOR",
+    "gapToSecond": "+6.919s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "STR overtakes RIC for P9",
+        "driverNumber": 18,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes STR for P11",
+        "driverNumber": 27,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "BOT overtakes HUL for P12",
+        "driverNumber": 77,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "OCO overtakes BOT for P13",
+        "driverNumber": 31,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (99.591s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 16,
+    "headline": "Lap 16: VER overtakes LEC for P2",
+    "summary": "VER overtakes LEC for P2. NOR controls the race with a +5.842s advantage.",
+    "leaderCode": "NOR",
+    "gapToSecond": "+5.842s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "INCIDENT INVOLVING CAR 10 (GAS) NOTED - UNSAFE CONDITION",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: INCIDENT INVOLVING CAR 10 (GAS) WILL BE INVESTIGATED AFTER THE RACE - UNSAFE CONDITION",
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "PIA boxes for pit stop (MEDIUM) in 22.6s",
+        "driverNumber": 81,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes LEC for P2",
+        "driverNumber": 1,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes PIA for P4",
+        "driverNumber": 55,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes SAI for P5",
+        "driverNumber": 11,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RIC overtakes ZHO for P17",
+        "driverNumber": 3,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 17,
+    "headline": "Lap 17: Pit Lane Activity (2 Stops)",
+    "summary": "2 driver(s) dive into the pits. NOR stays out in P1 (+3.661s gap).",
+    "leaderCode": "NOR",
+    "gapToSecond": "+3.661s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "MAG boxes for pit stop (HARD) in 22.9s",
+        "driverNumber": 20,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "SAI boxes for pit stop (MEDIUM) in 22.6s",
+        "driverNumber": 55,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes SAI for P4",
+        "driverNumber": 11,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ALO overtakes PIA for P6",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RUS overtakes ALO for P7",
+        "driverNumber": 63,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "STR overtakes RUS for P8",
+        "driverNumber": 18,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (99.519s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 18,
+    "headline": "Lap 18: NOR leads by +1.737s",
+    "summary": "NOR maintains a steady +1.737s cushion ahead of chasing VER.",
+    "leaderCode": "NOR",
+    "gapToSecond": "+1.737s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "ALO overtakes SAI for P5",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RUS overtakes ALO for P6",
+        "driverNumber": 63,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PIA overtakes RUS for P7",
+        "driverNumber": 81,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "TSU overtakes MAG for P14",
+        "driverNumber": 22,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 19,
+    "headline": "Lap 19: VER overtakes NOR for P1",
+    "summary": "VER overtakes NOR for P1. VER controls the race with a +0.782s advantage.",
+    "leaderCode": "VER",
+    "gapToSecond": "+0.782s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes NOR for P1",
+        "driverNumber": 1,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RIC overtakes TSU for P14",
+        "driverNumber": 3,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 20,
+    "headline": "Lap 20: VER leads by +2.868s",
+    "summary": "VER maintains a steady +2.868s cushion ahead of chasing NOR.",
+    "leaderCode": "VER",
+    "gapToSecond": "+2.868s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "OCO overtakes BOT for P11",
+        "driverNumber": 31,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HAM overtakes OCO for P12",
+        "driverNumber": 44,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RIC overtakes HAM for P13",
+        "driverNumber": 3,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "TSU overtakes RIC for P14",
+        "driverNumber": 22,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 21,
+    "headline": "Lap 21: PER overtakes LEC for P3",
+    "summary": "PER overtakes LEC for P3. VER controls the race with a +5.944s advantage.",
+    "leaderCode": "VER",
+    "gapToSecond": "+5.944s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "YELLOW IN TRACK SECTOR 13",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "YELLOW IN TRACK SECTOR 12",
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "LEC boxes for pit stop (MEDIUM) in 22.3s",
+        "driverNumber": 16,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "STR boxes for pit stop (MEDIUM) in 22.9s",
+        "driverNumber": 18,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "HAM boxes for pit stop (MEDIUM) in 22.6s",
+        "driverNumber": 44,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes LEC for P3",
+        "driverNumber": 11,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes STR for P8",
+        "driverNumber": 55,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RIC overtakes HAM for P12",
+        "driverNumber": 3,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "TSU overtakes RIC for P13",
+        "driverNumber": 22,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 22,
+    "headline": "Lap 22: Virtual Safety Car Period",
+    "summary": "Virtual Safety Car active across all sectors. Drivers managing delta times.",
+    "leaderCode": "VER",
+    "gapToSecond": "+10.294s",
+    "events": [
+      {
+        "type": "VSC",
+        "description": "VIRTUAL SAFETY CAR DEPLOYED",
+        "importance": "high"
+      },
+      {
+        "type": "FLAG",
+        "description": "DOUBLE YELLOW IN TRACK SECTOR 13",
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "NOR boxes for pit stop (MEDIUM) in 22.1s",
+        "driverNumber": 4,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ALO overtakes LEC for P4",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RUS overtakes ALO for P5",
+        "driverNumber": 63,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PIA overtakes RUS for P6",
+        "driverNumber": 81,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes PIA for P7",
+        "driverNumber": 55,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 23,
+    "headline": "Lap 23: Safety Car Deployed",
+    "summary": "The Safety Car is out on track as the field neutralizes. LEC leads with the pack compressed.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+32.526s",
+    "events": [
+      {
+        "type": "SAFETY_CAR",
+        "description": "SAFETY CAR DEPLOYED",
+        "importance": "high"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 12",
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "VER boxes for pit stop (HARD) in 22.2s",
+        "driverNumber": 1,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "GAS boxes for pit stop (HARD) in 23.9s",
+        "driverNumber": 10,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "PER boxes for pit stop (HARD) in 22.3s",
+        "driverNumber": 11,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "ALO boxes for pit stop (HARD) in 22.6s",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "TSU boxes for pit stop (MEDIUM) in 22.3s",
+        "driverNumber": 22,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "ALB boxes for pit stop (MEDIUM) in 23.6s",
+        "driverNumber": 23,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "ZHO boxes for pit stop (HARD) in 25.6s",
+        "driverNumber": 24,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "HUL boxes for pit stop (HARD) in 23.3s",
+        "driverNumber": 27,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "OCO boxes for pit stop (HARD) in 23.2s",
+        "driverNumber": 31,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "RUS boxes for pit stop (MEDIUM) in 22.7s",
+        "driverNumber": 63,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LEC overtakes VER for P1",
+        "driverNumber": 16,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "STR overtakes NOR for P2",
+        "driverNumber": 18,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 24,
+    "headline": "Lap 24: NOR overtakes VER for P3",
+    "summary": "NOR overtakes VER for P3. LEC controls the race with a +28.546s advantage.",
+    "leaderCode": "LEC",
+    "gapToSecond": "+28.546s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "SAR boxes for pit stop (MEDIUM) in 22.6s",
+        "driverNumber": 2,
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "PIA boxes for pit stop (MEDIUM) in 22.2s",
+        "driverNumber": 81,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "NOR overtakes VER for P3",
+        "driverNumber": 4,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PIA overtakes PER for P4",
+        "driverNumber": 81,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes NOR for P5",
+        "driverNumber": 55,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RUS overtakes PIA for P7",
+        "driverNumber": 63,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 25,
+    "headline": "Lap 25: Safety Car Deployed",
+    "summary": "The Safety Car is out on track as the field neutralizes. VER leads with the pack compressed.",
+    "leaderCode": "VER",
+    "gapToSecond": "+18.097s",
+    "events": [
+      {
+        "type": "SAFETY_CAR",
+        "description": "INCIDENT INVOLVING CARS 2 (SAR) AND 27 (HUL) NOTED - SAFETY CAR INFRINGEMENT",
+        "importance": "high"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 13",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes LEC for P1",
+        "driverNumber": 1,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes STR for P2",
+        "driverNumber": 11,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes SAI for P5",
+        "driverNumber": 27,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ZHO overtakes ALO for P6",
+        "driverNumber": 24,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 26,
+    "headline": "Lap 26: Safety Car Deployed",
+    "summary": "The Safety Car is out on track as the field neutralizes. HUL leads with the pack compressed.",
+    "leaderCode": "HUL",
+    "gapToSecond": "+1.817s",
+    "events": [
+      {
+        "type": "SAFETY_CAR",
+        "description": "SAFETY CAR IN THIS LAP",
+        "importance": "high"
+      },
+      {
+        "type": "FLAG",
+        "description": "TRACK CLEAR",
+        "importance": "medium"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "STR boxes for pit stop (HARD) in 93.2s",
+        "driverNumber": 18,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes VER for P1",
+        "driverNumber": 27,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ZHO overtakes PER for P2",
+        "driverNumber": 24,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "OCO overtakes LEC for P3",
+        "driverNumber": 31,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HAM overtakes STR for P4",
+        "driverNumber": 44,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 27,
+    "headline": "Lap 27: Safety Car Deployed",
+    "summary": "The Safety Car is out on track as the field neutralizes. VER leads with the pack compressed.",
+    "leaderCode": "VER",
+    "gapToSecond": "+20.046s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "YELLOW IN TRACK SECTOR 7",
+        "importance": "medium"
+      },
+      {
+        "type": "SAFETY_CAR",
+        "description": "SAFETY CAR DEPLOYED",
+        "importance": "high"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "MAG boxes for pit stop (HARD) in 25.7s",
+        "driverNumber": 20,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes HUL for P1",
+        "driverNumber": 1,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes ZHO for P2",
+        "driverNumber": 11,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LEC overtakes OCO for P3",
+        "driverNumber": 16,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "NOR overtakes HAM for P4",
+        "driverNumber": 4,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 28,
+    "headline": "Lap 28: STR overtakes VER for P1",
+    "summary": "STR overtakes VER for P1. STR controls the race with a +258.398s advantage.",
+    "leaderCode": "STR",
+    "gapToSecond": "+258.398s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "TURN 14 INCIDENT INVOLVING CARS 18 (STR) AND 3 (RIC) NOTED - CAUSING A COLLISION",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 7",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "STR overtakes VER for P1",
+        "driverNumber": 18,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "NOR overtakes PER for P2",
+        "driverNumber": 4,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RUS overtakes LEC for P3",
+        "driverNumber": 63,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RIC overtakes NOR for P4",
+        "driverNumber": 3,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 29,
+    "headline": "Lap 29: VER overtakes STR for P1",
+    "summary": "VER overtakes STR for P1. VER controls the race with a +18.715s advantage.",
+    "leaderCode": "VER",
+    "gapToSecond": "+18.715s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "DOUBLE YELLOW IN TRACK SECTOR 18",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 18",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes STR for P1",
+        "driverNumber": 1,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes RUS for P3",
+        "driverNumber": 11,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LEC overtakes RIC for P4",
+        "driverNumber": 16,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes PIA for P5",
+        "driverNumber": 55,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 30,
+    "headline": "Lap 30: STR overtakes VER for P1",
+    "summary": "STR overtakes VER for P1. STR controls the race with a +18.135s advantage.",
+    "leaderCode": "STR",
+    "gapToSecond": "+18.135s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "DOUBLE YELLOW IN TRACK SECTOR 18",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "TURN 6 INCIDENT INVOLVING CARS 20 (MAG) AND 22 (TSU) NOTED - CAUSING A COLLISION",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 18",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "STR overtakes VER for P1",
+        "driverNumber": 18,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 31,
+    "headline": "Lap 31: Safety Car Deployed",
+    "summary": "The Safety Car is out on track as the field neutralizes. STR leads with the pack compressed.",
+    "leaderCode": "STR",
+    "gapToSecond": "+42.665s",
+    "events": [
+      {
+        "type": "SAFETY_CAR",
+        "description": "SAFETY CAR IN THIS LAP",
+        "importance": "high"
+      },
+      {
+        "type": "FLAG",
+        "description": "TRACK CLEAR",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "MAG overtakes RUS for P8",
+        "driverNumber": 20,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 32,
+    "headline": "Lap 32: Safety Car Deployed",
+    "summary": "The Safety Car is out on track as the field neutralizes. STR leads with the pack compressed.",
+    "leaderCode": "STR",
+    "gapToSecond": "+39.784s",
+    "events": [
+      {
+        "type": "SAFETY_CAR",
+        "description": "FIA STEWARDS: INCIDENT INVOLVING CARS 2 (SAR) AND 27 (HUL) UNDER INVESTIGATION - SAFETY CAR INFRINGEMENT",
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PIA overtakes RIC for P10",
+        "driverNumber": 81,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes PIA for P11",
+        "driverNumber": 27,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (98.604s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 33,
+    "headline": "Lap 33: Safety Car Deployed",
+    "summary": "The Safety Car is out on track as the field neutralizes. STR leads with the pack compressed.",
+    "leaderCode": "STR",
+    "gapToSecond": "+35.989s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "DRS ENABLED",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: TURN 14 INCIDENT INVOLVING CARS 18 (STR) AND 3 (RIC) UNDER INVESTIGATION - CAUSING A COLLISION",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: TURN 6 INCIDENT INVOLVING CARS 20 (MAG) AND 22 (TSU) UNDER INVESTIGATION - CAUSING A COLLISION",
+        "importance": "medium"
+      },
+      {
+        "type": "SAFETY_CAR",
+        "description": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 2 (SAR) - SAFETY CAR INFRINGEMENT",
+        "importance": "high"
+      },
+      {
+        "type": "PIT_STOP",
+        "description": "RIC boxes for pit stop (MEDIUM) in 24.5s",
+        "driverNumber": 3,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ZHO overtakes RIC for P12",
+        "driverNumber": 24,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (98.406s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 34,
+    "headline": "Lap 34: STR leads by +31.446s",
+    "summary": "STR commanding the Grand Prix with a comfortable +31.446s lead over VER.",
+    "leaderCode": "STR",
+    "gapToSecond": "+31.446s",
+    "events": [
+      {
+        "type": "PENALTY",
+        "description": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 18 (STR) - CAUSING A COLLISION",
+        "importance": "high"
+      },
+      {
+        "type": "PENALTY",
+        "description": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 20 (MAG) - CAUSING A COLLISION",
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ALO overtakes SAI for P5",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RUS overtakes MAG for P8",
+        "driverNumber": 63,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PIA overtakes RUS for P9",
+        "driverNumber": 81,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HAM overtakes RIC for P13",
+        "driverNumber": 44,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 35,
+    "headline": "Lap 35: Pit Lane Activity (1 Stops)",
+    "summary": "1 driver(s) dive into the pits. STR stays out in P1 (+24.533s gap).",
+    "leaderCode": "STR",
+    "gapToSecond": "+24.533s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "STR boxes for pit stop (MEDIUM) in 34.7s",
+        "driverNumber": 18,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes MAG for P10",
+        "driverNumber": 27,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 36,
+    "headline": "Lap 36: VER overtakes STR for P1",
+    "summary": "VER overtakes STR for P1. VER controls the race with a +7.218s advantage.",
+    "leaderCode": "VER",
+    "gapToSecond": "+7.218s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes STR for P1",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 37,
+    "headline": "Lap 37: VER leads by +7.861s",
+    "summary": "VER commanding the Grand Prix with a comfortable +7.861s lead over STR.",
+    "leaderCode": "VER",
+    "gapToSecond": "+7.861s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "GAS overtakes SAR for P16",
+        "driverNumber": 10,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 38,
+    "headline": "Lap 38: Pit Lane Activity (1 Stops)",
+    "summary": "1 driver(s) dive into the pits. VER stays out in P1 (+8.455s gap).",
+    "leaderCode": "VER",
+    "gapToSecond": "+8.455s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "GAS boxes for pit stop (HARD) in 22.8s",
+        "driverNumber": 10,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAR overtakes GAS for P16",
+        "driverNumber": 2,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 39,
+    "headline": "Lap 39: VER leads by +9.352s",
+    "summary": "VER commanding the Grand Prix with a comfortable +9.352s lead over STR.",
+    "leaderCode": "VER",
+    "gapToSecond": "+9.352s",
+    "events": []
+  },
+  {
+    "lap": 40,
+    "headline": "Lap 40: Pit Lane Activity (1 Stops)",
+    "summary": "1 driver(s) dive into the pits. VER stays out in P1 (+10.301s gap).",
+    "leaderCode": "VER",
+    "gapToSecond": "+10.301s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "ZHO boxes for pit stop (HARD) in 23.2s",
+        "driverNumber": 24,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 41,
+    "headline": "Lap 41: Safety Car Deployed",
+    "summary": "The Safety Car is out on track as the field neutralizes. VER leads with the pack compressed.",
+    "leaderCode": "VER",
+    "gapToSecond": "+11.379s",
+    "events": [
+      {
+        "type": "SAFETY_CAR",
+        "description": "INCIDENT INVOLVING CARS 27 (HUL) AND 3 (RIC) NOTED - SAFETY CAR INFRINGEMENT",
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 42,
+    "headline": "Lap 42: Safety Car Deployed",
+    "summary": "The Safety Car is out on track as the field neutralizes. VER leads with the pack compressed.",
+    "leaderCode": "VER",
+    "gapToSecond": "+12.105s",
+    "events": [
+      {
+        "type": "SAFETY_CAR",
+        "description": "FIA STEWARDS: INCIDENT INVOLVING CARS 27 (HUL) AND 3 (RIC) WILL BE INVESTIGATED AFTER THE RACE - SAFETY CAR INFRINGEMENT",
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 43,
+    "headline": "Lap 43: Pit Lane Activity (1 Stops)",
+    "summary": "1 driver(s) dive into the pits. VER stays out in P1 (+13.232s gap).",
+    "leaderCode": "VER",
+    "gapToSecond": "+13.232s",
+    "events": [
+      {
+        "type": "PIT_STOP",
+        "description": "ALO boxes for pit stop (SOFT) in 23.1s",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes ALO for P5",
+        "driverNumber": 55,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 44,
+    "headline": "Lap 44: VER leads by +14.285s",
+    "summary": "VER commanding the Grand Prix with a comfortable +14.285s lead over STR.",
+    "leaderCode": "VER",
+    "gapToSecond": "+14.285s",
+    "events": []
+  },
+  {
+    "lap": 45,
+    "headline": "Lap 45: VER leads by +15.360s",
+    "summary": "VER commanding the Grand Prix with a comfortable +15.360s lead over STR.",
+    "leaderCode": "VER",
+    "gapToSecond": "+15.360s",
+    "events": [
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by ALO (97.810s)",
+        "driverNumber": 14,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 46,
+    "headline": "Lap 46: VER leads by +16.663s",
+    "summary": "VER commanding the Grand Prix with a comfortable +16.663s lead over STR.",
+    "leaderCode": "VER",
+    "gapToSecond": "+16.663s",
+    "events": []
+  },
+  {
+    "lap": 47,
+    "headline": "Lap 47: VER leads by +17.895s",
+    "summary": "VER commanding the Grand Prix with a comfortable +17.895s lead over STR.",
+    "leaderCode": "VER",
+    "gapToSecond": "+17.895s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "MAG overtakes HUL for P10",
+        "driverNumber": 20,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 48,
+    "headline": "Lap 48: VER leads by +18.867s",
+    "summary": "VER commanding the Grand Prix with a comfortable +18.867s lead over STR.",
+    "leaderCode": "VER",
+    "gapToSecond": "+18.867s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes MAG for P10",
+        "driverNumber": 27,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "GAS overtakes SAR for P16",
+        "driverNumber": 10,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 49,
+    "headline": "Lap 49: VER leads by +20.086s",
+    "summary": "VER commanding the Grand Prix with a comfortable +20.086s lead over STR.",
+    "leaderCode": "VER",
+    "gapToSecond": "+20.086s",
+    "events": []
+  },
+  {
+    "lap": 50,
+    "headline": "Lap 50: VER leads by +21.229s",
+    "summary": "VER commanding the Grand Prix with a comfortable +21.229s lead over STR.",
+    "leaderCode": "VER",
+    "gapToSecond": "+21.229s",
+    "events": []
+  },
+  {
+    "lap": 51,
+    "headline": "Lap 51: VER leads by +22.670s",
+    "summary": "VER commanding the Grand Prix with a comfortable +22.670s lead over STR.",
+    "leaderCode": "VER",
+    "gapToSecond": "+22.670s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "TURN 6 INCIDENT INVOLVING CARS 2 (SAR) AND 10 (GAS) NOTED - FORCING ANOTHER DRIVER OFF THE TRACK",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CAR 10 (GAS) TIME 1:41.551 DELETED - TRACK LIMITS AT TURN 6 LAP 48 16:31:04",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 52,
+    "headline": "Lap 52: VER leads by +23.964s",
+    "summary": "VER commanding the Grand Prix with a comfortable +23.964s lead over STR.",
+    "leaderCode": "VER",
+    "gapToSecond": "+23.964s",
+    "events": []
+  },
+  {
+    "lap": 53,
+    "headline": "Lap 53: VER leads by +25.712s",
+    "summary": "VER commanding the Grand Prix with a comfortable +25.712s lead over STR.",
+    "leaderCode": "VER",
+    "gapToSecond": "+25.712s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: TURN 6 INCIDENT INVOLVING CARS 2 (SAR) AND 10 (GAS) REVIEWED NO FURTHER INVESTIGATION - FORCING ANOTHER DRIVER OFF THE TRACK",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 54,
+    "headline": "Lap 54: VER leads by +27.510s",
+    "summary": "VER commanding the Grand Prix with a comfortable +27.510s lead over STR.",
+    "leaderCode": "VER",
+    "gapToSecond": "+27.510s",
+    "events": []
+  },
+  {
+    "lap": 55,
+    "headline": "Lap 55: VER leads by +28.848s",
+    "summary": "VER commanding the Grand Prix with a comfortable +28.848s lead over STR.",
+    "leaderCode": "VER",
+    "gapToSecond": "+28.848s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 23 (ALB) TIME 1:42.424 DELETED - TRACK LIMITS AT TURN 6 LAP 54 16:41:02",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "TRACK SURFACE SLIPPERY IN TRACK SECTOR 16",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 56,
+    "headline": "Lap 56: VER leads by +30.097s",
+    "summary": "VER commanding the Grand Prix with a comfortable +30.097s lead over STR.",
+    "leaderCode": "VER",
+    "gapToSecond": "+30.097s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 16",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CHEQUERED FLAG",
+        "importance": "medium"
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "year": 1998,
+  "round": 3,
+  "slug": "buenos_aires",
+  "raceName": "Argentine Grand Prix",
+  "circuit": {
+    "id": "buenos_aires",
+    "name": "Buenos Aires Circuit",
+    "locality": "Buenos Aires",
+    "country": "Argentina",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "1998-04-12T14:00:00Z",
+      "endIso": "1998-04-12T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

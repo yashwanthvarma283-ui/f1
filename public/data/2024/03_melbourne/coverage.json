@@ -1,0 +1,22 @@
+{
+  "raceName": "Australian Grand Prix",
+  "year": 2024,
+  "round": 3,
+  "generatedAt": "2026-10-07T13:19:44.755Z",
+  "disagreements": [],
+  "sessions": {
+    "Race": {
+      "sessionKey": 9488,
+      "driversCount": 19,
+      "lapsCount": 998,
+      "stintsAvailable": true,
+      "pitStopsCount": 37,
+      "radioClipsCount": 120,
+      "radioMappedPercentage": 75,
+      "raceControlMessagesCount": 82,
+      "raceControlMappedPercentage": 100,
+      "weatherCount": 144,
+      "overallCompletenessPercent": 98
+    }
+  }
+}

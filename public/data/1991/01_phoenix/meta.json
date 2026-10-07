@@ -1,0 +1,25 @@
+{
+  "year": 1991,
+  "round": 1,
+  "slug": "phoenix",
+  "raceName": "United States Grand Prix",
+  "circuit": {
+    "id": "phoenix",
+    "name": "Phoenix Circuit",
+    "locality": "Phoenix",
+    "country": "USA",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "1991-03-10T14:00:00Z",
+      "endIso": "1991-03-10T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

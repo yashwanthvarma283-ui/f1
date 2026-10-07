@@ -1,0 +1,998 @@
+[
+  {
+    "id": "rc_0_0",
+    "timestamp": "2024-09-15T10:16:05",
+    "category": "Information",
+    "message": "DRS DISABLED IN ZONE 1",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_1",
+    "timestamp": "2024-09-15T10:16:05",
+    "category": "Information",
+    "message": "DRS DISABLED IN ZONE 2",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_2",
+    "timestamp": "2024-09-15T10:16:31",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 1",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_3",
+    "timestamp": "2024-09-15T10:16:31",
+    "category": "Information",
+    "message": "DRS ENABLED IN ZONE 1",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_4",
+    "timestamp": "2024-09-15T10:16:31",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 2",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_5",
+    "timestamp": "2024-09-15T10:16:31",
+    "category": "Information",
+    "message": "DRS ENABLED IN ZONE 2",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_6",
+    "timestamp": "2024-09-15T10:16:31",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 3",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_7",
+    "timestamp": "2024-09-15T10:16:31",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 4",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_8",
+    "timestamp": "2024-09-15T10:16:31",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 5",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_9",
+    "timestamp": "2024-09-15T10:16:31",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 6",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_10",
+    "timestamp": "2024-09-15T10:16:31",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 7",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_11",
+    "timestamp": "2024-09-15T10:16:31",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 8",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_12",
+    "timestamp": "2024-09-15T10:16:31",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 9",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_13",
+    "timestamp": "2024-09-15T10:16:31",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 10",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_14",
+    "timestamp": "2024-09-15T10:16:31",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 11",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_15",
+    "timestamp": "2024-09-15T10:16:31",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 12",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_16",
+    "timestamp": "2024-09-15T10:16:31",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 13",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_17",
+    "timestamp": "2024-09-15T10:16:31",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 14",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_18",
+    "timestamp": "2024-09-15T10:16:31",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 15",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_19",
+    "timestamp": "2024-09-15T10:16:31",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 16",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_20",
+    "timestamp": "2024-09-15T10:16:31",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 17",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_21",
+    "timestamp": "2024-09-15T10:16:31",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 18",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_22",
+    "timestamp": "2024-09-15T10:16:31",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 19",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_23",
+    "timestamp": "2024-09-15T10:16:31",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 20",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_24",
+    "timestamp": "2024-09-15T10:16:31",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 21",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_25",
+    "timestamp": "2024-09-15T10:16:36",
+    "category": "Flag",
+    "flag": "YELLOW",
+    "message": "YELLOW IN TRACK SECTOR 7",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_26",
+    "timestamp": "2024-09-15T10:16:59",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 7",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_27",
+    "timestamp": "2024-09-15T10:17:10",
+    "category": "Flag",
+    "flag": "DOUBLE YELLOW",
+    "message": "DOUBLE YELLOW IN TRACK SECTOR 6",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_28",
+    "timestamp": "2024-09-15T10:17:18",
+    "category": "Flag",
+    "flag": "YELLOW",
+    "message": "YELLOW IN TRACK SECTOR 7",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_29",
+    "timestamp": "2024-09-15T10:17:21",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 6",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_30",
+    "timestamp": "2024-09-15T10:17:36",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 7",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_31",
+    "timestamp": "2024-09-15T10:17:42",
+    "category": "Flag",
+    "flag": "YELLOW",
+    "message": "YELLOW IN TRACK SECTOR 7",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_32",
+    "timestamp": "2024-09-15T10:17:43",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 7",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_33",
+    "timestamp": "2024-09-15T10:20:01",
+    "category": "Flag",
+    "flag": "GREEN",
+    "message": "GREEN LIGHT - PIT EXIT OPEN",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_34",
+    "timestamp": "2024-09-15T10:27:03",
+    "category": "Flag",
+    "flag": "YELLOW",
+    "message": "YELLOW IN TRACK SECTOR 6",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_35",
+    "timestamp": "2024-09-15T10:27:09",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 6",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_36",
+    "timestamp": "2024-09-15T10:30:01",
+    "category": "Information",
+    "message": "PIT EXIT CLOSED",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_37",
+    "timestamp": "2024-09-15T10:35:03",
+    "category": "Flag",
+    "flag": "YELLOW",
+    "message": "YELLOW IN TRACK SECTOR 2",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_38",
+    "timestamp": "2024-09-15T10:35:04",
+    "category": "Information",
+    "message": "DRS DISABLED IN ZONE 2",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_39",
+    "timestamp": "2024-09-15T10:35:07",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 2",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_40",
+    "timestamp": "2024-09-15T10:35:07",
+    "category": "Information",
+    "message": "DRS ENABLED IN ZONE 2",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_41",
+    "timestamp": "2024-09-15T10:35:11",
+    "category": "Flag",
+    "flag": "YELLOW",
+    "message": "YELLOW IN TRACK SECTOR 1",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_42",
+    "timestamp": "2024-09-15T10:35:12",
+    "category": "Information",
+    "message": "DRS DISABLED IN ZONE 2",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_43",
+    "timestamp": "2024-09-15T10:35:15",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 1",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_44",
+    "timestamp": "2024-09-15T10:35:15",
+    "category": "Information",
+    "message": "DRS ENABLED IN ZONE 2",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_45",
+    "timestamp": "2024-09-15T10:36:03",
+    "category": "Information",
+    "message": "TRACK SURFACE SLIPPERY IN TRACK SECTOR 10",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_46",
+    "timestamp": "2024-09-15T10:36:22",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 10",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_47",
+    "timestamp": "2024-09-15T10:36:39",
+    "category": "Information",
+    "message": "TRACK SURFACE SLIPPERY IN TRACK SECTOR 10",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_48",
+    "timestamp": "2024-09-15T10:36:41",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 10",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_49",
+    "timestamp": "2024-09-15T10:45:20",
+    "category": "Information",
+    "message": "RISK OF RAIN FOR F1 RACE IS 0 %",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_50",
+    "timestamp": "2024-09-15T10:52:44",
+    "category": "Information",
+    "message": "TRACK SURFACE SLIPPERY IN TRACK SECTOR 17",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_51",
+    "timestamp": "2024-09-15T10:53:11",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 17",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_52",
+    "timestamp": "2024-09-15T10:57:03",
+    "category": "Information",
+    "message": "DRS DISABLED",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_53",
+    "timestamp": "2024-09-15T11:02:10",
+    "category": "Flag",
+    "flag": "YELLOW",
+    "message": "YELLOW IN TRACK SECTOR 16",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_54",
+    "timestamp": "2024-09-15T11:02:12",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 16",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_55",
+    "timestamp": "2024-09-15T11:04:11",
+    "category": "Flag",
+    "flag": "GREEN",
+    "message": "GREEN LIGHT - PIT EXIT OPEN",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_56",
+    "timestamp": "2024-09-15T11:04:56",
+    "category": "Information",
+    "message": "TRACK SURFACE SLIPPERY IN TRACK SECTOR 6",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_57",
+    "timestamp": "2024-09-15T11:05:01",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 6",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_58",
+    "timestamp": "2024-09-15T11:05:18",
+    "category": "Information",
+    "message": "TRACK SURFACE SLIPPERY IN TRACK SECTOR 6",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_59",
+    "timestamp": "2024-09-15T11:06:10",
+    "category": "Information",
+    "message": "DRS ENABLED",
+    "driverNumber": null,
+    "lapNumber": 2
+  },
+  {
+    "id": "rc_0_60",
+    "timestamp": "2024-09-15T11:06:29",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 6",
+    "driverNumber": null,
+    "lapNumber": 2
+  },
+  {
+    "id": "rc_0_61",
+    "timestamp": "2024-09-15T11:06:43",
+    "category": "Information",
+    "message": "TRACK SURFACE SLIPPERY IN TRACK SECTOR 6",
+    "driverNumber": null,
+    "lapNumber": 2
+  },
+  {
+    "id": "rc_0_62",
+    "timestamp": "2024-09-15T11:07:41",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 6",
+    "driverNumber": null,
+    "lapNumber": 2
+  },
+  {
+    "id": "rc_0_63",
+    "timestamp": "2024-09-15T11:48:38",
+    "category": "Information",
+    "message": "CAR 1 (VER) TIME 1:50.602 DELETED - TRACK LIMITS AT TURN 15 LAP 24 15:47:39",
+    "driverNumber": null,
+    "lapNumber": 25
+  },
+  {
+    "id": "rc_0_64",
+    "timestamp": "2024-09-15T11:55:27",
+    "category": "Information",
+    "message": "TRACK SURFACE SLIPPERY IN TRACK SECTOR 6",
+    "driverNumber": null,
+    "lapNumber": 29
+  },
+  {
+    "id": "rc_0_65",
+    "timestamp": "2024-09-15T11:55:45",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 6",
+    "driverNumber": null,
+    "lapNumber": 29
+  },
+  {
+    "id": "rc_0_66",
+    "timestamp": "2024-09-15T12:09:05",
+    "category": "Flag",
+    "flag": "YELLOW",
+    "message": "YELLOW IN TRACK SECTOR 2",
+    "driverNumber": null,
+    "lapNumber": 36
+  },
+  {
+    "id": "rc_0_67",
+    "timestamp": "2024-09-15T12:09:06",
+    "category": "Information",
+    "message": "DRS DISABLED IN ZONE 2",
+    "driverNumber": null,
+    "lapNumber": 36
+  },
+  {
+    "id": "rc_0_68",
+    "timestamp": "2024-09-15T12:09:10",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 2",
+    "driverNumber": null,
+    "lapNumber": 36
+  },
+  {
+    "id": "rc_0_69",
+    "timestamp": "2024-09-15T12:09:10",
+    "category": "Information",
+    "message": "DRS ENABLED IN ZONE 2",
+    "driverNumber": null,
+    "lapNumber": 36
+  },
+  {
+    "id": "rc_0_70",
+    "timestamp": "2024-09-15T12:11:11",
+    "category": "Information",
+    "message": "CAR 31 (OCO) TIME 1:55.839 DELETED - TRACK LIMITS AT TURN 1 LAP 36 16:09:08",
+    "driverNumber": null,
+    "lapNumber": 37
+  },
+  {
+    "id": "rc_0_71",
+    "timestamp": "2024-09-15T12:31:06",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 16:31:05",
+    "driverNumber": null,
+    "lapNumber": 49
+  },
+  {
+    "id": "rc_0_72",
+    "timestamp": "2024-09-15T12:31:21",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 16:31:21",
+    "driverNumber": null,
+    "lapNumber": 49
+  },
+  {
+    "id": "rc_0_73",
+    "timestamp": "2024-09-15T12:32:09",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 31 (OCO) TIMED AT 16:32:09",
+    "driverNumber": null,
+    "lapNumber": 49
+  },
+  {
+    "id": "rc_0_74",
+    "timestamp": "2024-09-15T12:32:22",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 16:32:21",
+    "driverNumber": null,
+    "lapNumber": 49
+  },
+  {
+    "id": "rc_0_75",
+    "timestamp": "2024-09-15T12:32:31",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 16:32:30",
+    "driverNumber": null,
+    "lapNumber": 49
+  },
+  {
+    "id": "rc_0_76",
+    "timestamp": "2024-09-15T12:33:21",
+    "category": "Flag",
+    "flag": "DOUBLE YELLOW",
+    "message": "DOUBLE YELLOW IN TRACK SECTOR 4",
+    "driverNumber": null,
+    "lapNumber": 50
+  },
+  {
+    "id": "rc_0_77",
+    "timestamp": "2024-09-15T12:33:22",
+    "category": "Information",
+    "message": "DRS DISABLED IN ZONE 1",
+    "driverNumber": null,
+    "lapNumber": 50
+  },
+  {
+    "id": "rc_0_78",
+    "timestamp": "2024-09-15T12:33:23",
+    "category": "Flag",
+    "flag": "YELLOW",
+    "message": "YELLOW IN TRACK SECTOR 3",
+    "driverNumber": null,
+    "lapNumber": 50
+  },
+  {
+    "id": "rc_0_79",
+    "timestamp": "2024-09-15T12:34:38",
+    "category": "VirtualSafetyCar",
+    "message": "VIRTUAL SAFETY CAR DEPLOYED",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_80",
+    "timestamp": "2024-09-15T12:34:52",
+    "category": "Information",
+    "message": "MEDICAL CAR DEPLOYED",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_81",
+    "timestamp": "2024-09-15T12:37:07",
+    "category": "Flag",
+    "flag": "CHEQUERED",
+    "message": "CHEQUERED FLAG",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_82",
+    "timestamp": "2024-09-15T12:43:02",
+    "category": "Information",
+    "message": "TURN 2 INCIDENT INVOLVING CARS 11 (PER) AND 55 (SAI) NOTED - CAUSING A COLLISION",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_83",
+    "timestamp": "2024-09-15T12:43:09",
+    "category": "Information",
+    "message": "FIA STEWARDS: TURN 2 INCIDENT INVOLVING CARS 11 (PER) AND 55 (SAI) WILL BE INVESTIGATED AFTER THE RACE - CAUSING A COLLISION",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_84",
+    "timestamp": "2024-09-15T12:43:18",
+    "category": "Flag",
+    "flag": "DOUBLE YELLOW",
+    "message": "DOUBLE YELLOW IN TRACK SECTOR 3",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_85",
+    "timestamp": "2024-09-15T12:46:47",
+    "category": "VirtualSafetyCar",
+    "message": "INCIDENT INVOLVING CAR 27 (HUL) NOTED - VIRTUAL SAFETY CAR INFRINGEMENT",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_86",
+    "timestamp": "2024-09-15T12:46:58",
+    "category": "VirtualSafetyCar",
+    "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 27 (HUL) WILL BE INVESTIGATED AFTER THE RACE - VIRTUAL SAFETY CAR INFRINGEMENT",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_87",
+    "timestamp": "2024-09-15T12:47:11",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "TRACK CLEAR",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_88",
+    "timestamp": "2024-09-15T12:47:11",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 3",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_89",
+    "timestamp": "2024-09-15T12:47:11",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 4",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_90",
+    "timestamp": "2024-09-15T12:47:38",
+    "category": "VirtualSafetyCar",
+    "message": "INCIDENT INVOLVING CAR 1 (VER) NOTED - VIRTUAL SAFETY CAR INFRINGEMENT",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_91",
+    "timestamp": "2024-09-15T12:47:43",
+    "category": "Flag",
+    "flag": "DOUBLE YELLOW",
+    "message": "DOUBLE YELLOW IN TRACK SECTOR 4",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_92",
+    "timestamp": "2024-09-15T12:47:49",
+    "category": "VirtualSafetyCar",
+    "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 1 (VER) WILL BE INVESTIGATED AFTER THE RACE - VIRTUAL SAFETY CAR INFRINGEMENT",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_93",
+    "timestamp": "2024-09-15T12:47:51",
+    "category": "Flag",
+    "flag": "DOUBLE YELLOW",
+    "message": "DOUBLE YELLOW IN TRACK SECTOR 3",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_94",
+    "timestamp": "2024-09-15T12:48:24",
+    "category": "Information",
+    "message": "TRACK SURFACE SLIPPERY IN TRACK SECTOR 18",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_95",
+    "timestamp": "2024-09-15T12:48:25",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 18",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_96",
+    "timestamp": "2024-09-15T12:48:28",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 18",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_97",
+    "timestamp": "2024-09-15T12:48:34",
+    "category": "Flag",
+    "flag": "DOUBLE YELLOW",
+    "message": "DOUBLE YELLOW IN TRACK SECTOR 18",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_98",
+    "timestamp": "2024-09-15T12:48:37",
+    "category": "Flag",
+    "flag": "YELLOW",
+    "message": "YELLOW IN TRACK SECTOR 18",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_99",
+    "timestamp": "2024-09-15T12:48:45",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 3",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_100",
+    "timestamp": "2024-09-15T12:48:46",
+    "category": "Flag",
+    "flag": "YELLOW",
+    "message": "YELLOW IN TRACK SECTOR 3",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_101",
+    "timestamp": "2024-09-15T12:48:56",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 18",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_102",
+    "timestamp": "2024-09-15T12:49:10",
+    "category": "Information",
+    "message": "INCIDENT INVOLVING MCLAREN NOTED - PIT LANE INFRINGEMENT",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_103",
+    "timestamp": "2024-09-15T12:49:25",
+    "category": "Information",
+    "message": "FIA STEWARDS: INCIDENT INVOLVING MCLAREN WILL BE INVESTIGATED AFTER THE RACE - PIT LANE INFRINGEMENT",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_104",
+    "timestamp": "2024-09-15T12:49:37",
+    "category": "Flag",
+    "flag": "DOUBLE YELLOW",
+    "message": "DOUBLE YELLOW IN TRACK SECTOR 20",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_105",
+    "timestamp": "2024-09-15T12:52:22",
+    "category": "Flag",
+    "flag": "YELLOW",
+    "message": "YELLOW IN TRACK SECTOR 18",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_106",
+    "timestamp": "2024-09-15T12:52:23",
+    "category": "Flag",
+    "flag": "DOUBLE YELLOW",
+    "message": "DOUBLE YELLOW IN TRACK SECTOR 18",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_107",
+    "timestamp": "2024-09-15T12:52:24",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 18",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_108",
+    "timestamp": "2024-09-15T12:54:35",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 20",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_109",
+    "timestamp": "2024-09-15T12:55:46",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 3",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_110",
+    "timestamp": "2024-09-15T12:56:45",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 4",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_111",
+    "timestamp": "2024-09-15T12:57:51",
+    "category": "VirtualSafetyCar",
+    "message": "INCIDENT INVOLVING CAR 31 (OCO) NOTED - VIRTUAL SAFETY CAR INFRINGEMENT",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_112",
+    "timestamp": "2024-09-15T12:57:58",
+    "category": "VirtualSafetyCar",
+    "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 31 (OCO) WILL BE INVESTIGATED AFTER THE RACE - VIRTUAL SAFETY CAR INFRINGEMENT",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_113",
+    "timestamp": "2024-09-15T12:59:57",
+    "category": "VirtualSafetyCar",
+    "message": "INCIDENT INVOLVING CAR 10 (GAS) NOTED - VIRTUAL SAFETY CAR INFRINGEMENT",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_114",
+    "timestamp": "2024-09-15T13:00:03",
+    "category": "VirtualSafetyCar",
+    "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 10 (GAS) WILL BE INVESTIGATED AFTER THE RACE - VIRTUAL SAFETY CAR INFRINGEMENT",
+    "driverNumber": null,
+    "lapNumber": 51
+  }
+]

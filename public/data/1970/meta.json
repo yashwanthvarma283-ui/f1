@@ -1,0 +1,281 @@
+{
+  "year": 1970,
+  "totalRaces": 13,
+  "extractedRaces": 13,
+  "lastUpdated": "2026-10-07T16:02:05.770124+00:00",
+  "races": [
+    {
+      "round": 1,
+      "slug": "midrand",
+      "raceName": "South African Grand Prix",
+      "circuitId": "midrand",
+      "circuitName": "Midrand Circuit",
+      "country": "South Africa",
+      "date": "1970-03-07",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "jack_brabham",
+        "name": "Jack Brabham",
+        "code": "BRA",
+        "constructorName": "Brabham"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 2,
+      "slug": "madrid",
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "madrid",
+      "circuitName": "Madrid Circuit",
+      "country": "Spain",
+      "date": "1970-04-19",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "stewart",
+        "name": "Jackie Stewart",
+        "code": "STE",
+        "constructorName": "March"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 3,
+      "slug": "monte_carlo",
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monte_carlo",
+      "circuitName": "Monte Carlo Circuit",
+      "country": "Monaco",
+      "date": "1970-05-10",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "rindt",
+        "name": "Jochen Rindt",
+        "code": "RIN",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 4,
+      "slug": "spa",
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "circuitName": "Spa Circuit",
+      "country": "Belgium",
+      "date": "1970-06-07",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "rodriguez",
+        "name": "Pedro Rodr\u00edguez",
+        "code": "ROD",
+        "constructorName": "BRM"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 5,
+      "slug": "zandvoort",
+      "raceName": "Dutch Grand Prix",
+      "circuitId": "zandvoort",
+      "circuitName": "Zandvoort Circuit",
+      "country": "Netherlands",
+      "date": "1970-06-21",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "rindt",
+        "name": "Jochen Rindt",
+        "code": "RIN",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 6,
+      "slug": "clermont_ferrand",
+      "raceName": "French Grand Prix",
+      "circuitId": "clermont_ferrand",
+      "circuitName": "Clermont-Ferrand Circuit",
+      "country": "France",
+      "date": "1970-07-05",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "rindt",
+        "name": "Jochen Rindt",
+        "code": "RIN",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 7,
+      "slug": "kent",
+      "raceName": "British Grand Prix",
+      "circuitId": "kent",
+      "circuitName": "Kent Circuit",
+      "country": "UK",
+      "date": "1970-07-18",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "rindt",
+        "name": "Jochen Rindt",
+        "code": "RIN",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 8,
+      "slug": "hockenheim",
+      "raceName": "German Grand Prix",
+      "circuitId": "hockenheim",
+      "circuitName": "Hockenheim Circuit",
+      "country": "Germany",
+      "date": "1970-08-02",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "rindt",
+        "name": "Jochen Rindt",
+        "code": "RIN",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 9,
+      "slug": "spielberg",
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "spielberg",
+      "circuitName": "Spielberg Circuit",
+      "country": "Austria",
+      "date": "1970-08-16",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "ickx",
+        "name": "Jacky Ickx",
+        "code": "ICK",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 10,
+      "slug": "monza",
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "circuitName": "Monza Circuit",
+      "country": "Italy",
+      "date": "1970-09-06",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "regazzoni",
+        "name": "Clay Regazzoni",
+        "code": "REG",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 11,
+      "slug": "quebec",
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "quebec",
+      "circuitName": "Quebec Circuit",
+      "country": "Canada",
+      "date": "1970-09-20",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "ickx",
+        "name": "Jacky Ickx",
+        "code": "ICK",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 12,
+      "slug": "new_york_state",
+      "raceName": "United States Grand Prix",
+      "circuitId": "new_york_state",
+      "circuitName": "New York State Circuit",
+      "country": "USA",
+      "date": "1970-10-04",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "emerson_fittipaldi",
+        "name": "Emerson Fittipaldi",
+        "code": "FIT",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 13,
+      "slug": "mexico_city",
+      "raceName": "Mexican Grand Prix",
+      "circuitId": "mexico_city",
+      "circuitName": "Mexico City Circuit",
+      "country": "Mexico",
+      "date": "1970-10-25",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "ickx",
+        "name": "Jacky Ickx",
+        "code": "ICK",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    }
+  ]
+}

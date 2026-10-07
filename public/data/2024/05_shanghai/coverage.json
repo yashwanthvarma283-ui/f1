@@ -1,0 +1,22 @@
+{
+  "raceName": "Chinese Grand Prix",
+  "year": 2024,
+  "round": 5,
+  "generatedAt": "2026-10-07T13:39:47.648Z",
+  "disagreements": [],
+  "sessions": {
+    "Race": {
+      "sessionKey": 9673,
+      "driversCount": 20,
+      "lapsCount": 1032,
+      "stintsAvailable": true,
+      "pitStopsCount": 41,
+      "radioClipsCount": 142,
+      "radioMappedPercentage": 77,
+      "raceControlMessagesCount": 56,
+      "raceControlMappedPercentage": 100,
+      "weatherCount": 165,
+      "overallCompletenessPercent": 98
+    }
+  }
+}

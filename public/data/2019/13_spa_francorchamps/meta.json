@@ -1,0 +1,25 @@
+{
+  "year": 2019,
+  "round": 13,
+  "slug": "spa_francorchamps",
+  "raceName": "Belgian Grand Prix",
+  "circuit": {
+    "id": "spa_francorchamps",
+    "name": "Spa-Francorchamps Circuit",
+    "locality": "Spa-Francorchamps",
+    "country": "Belgium",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2019-09-01T14:00:00Z",
+      "endIso": "2019-09-01T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

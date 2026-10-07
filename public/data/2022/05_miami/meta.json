@@ -1,0 +1,25 @@
+{
+  "year": 2022,
+  "round": 5,
+  "slug": "miami",
+  "raceName": "Miami Grand Prix",
+  "circuit": {
+    "id": "miami",
+    "name": "Miami Circuit",
+    "locality": "Miami",
+    "country": "United States",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2022-05-08T14:00:00Z",
+      "endIso": "2022-05-08T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

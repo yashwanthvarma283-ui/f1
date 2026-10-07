@@ -1,0 +1,7002 @@
+[
+  {
+    "lap": 1,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 1.67,
+        "interval": 1.67
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 2.286,
+        "interval": 0.616
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 2.915,
+        "interval": 0.629
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 3.95,
+        "interval": 1.035
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 4.439,
+        "interval": 0.489
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 5.086,
+        "interval": 0.647
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 5.626,
+        "interval": 0.54
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 6.087,
+        "interval": 0.461
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 6.434,
+        "interval": 0.347
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 7.097,
+        "interval": 0.663
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": 8.077,
+        "interval": 0.98
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 8.533,
+        "interval": 0.456
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 8.987,
+        "interval": 0.454
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 9.486,
+        "interval": 0.499
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 9.936,
+        "interval": 0.45
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 10.718,
+        "interval": 0.782
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 11.282,
+        "interval": 0.564
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 11.66,
+        "interval": 0.378
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 16.758,
+        "interval": 5.098
+      }
+    ]
+  },
+  {
+    "lap": 2,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 1.32,
+        "interval": 1.32
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 1.868,
+        "interval": 0.548
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 3.438,
+        "interval": 1.57
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 5.377,
+        "interval": 1.939
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 6.165,
+        "interval": 0.788
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 6.783,
+        "interval": 0.618
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 7.399,
+        "interval": 0.616
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 8.162,
+        "interval": 0.763
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 8.813,
+        "interval": 0.651
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 9.597,
+        "interval": 0.784
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 10.984,
+        "interval": 1.387
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 11.455,
+        "interval": 0.471
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 12.105,
+        "interval": 0.65
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 12.6,
+        "interval": 0.495
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 13.452,
+        "interval": 0.852
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 14.822,
+        "interval": 1.37
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 15.485,
+        "interval": 0.663
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 18.134,
+        "interval": 2.649
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 3,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 1.296,
+        "interval": 1.296
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 2.607,
+        "interval": 1.311
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 4.975,
+        "interval": 2.368
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 8.513,
+        "interval": 3.538
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 12.164,
+        "interval": 3.651
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 12.469,
+        "interval": 0.305
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 16.126,
+        "interval": 3.657
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 17.332,
+        "interval": 1.206
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 19.6,
+        "interval": 2.268
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 20.983,
+        "interval": 1.383
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 22.112,
+        "interval": 1.129
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 23.734,
+        "interval": 1.622
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 26.211,
+        "interval": 2.477
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 27.133,
+        "interval": 0.922
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 29.125,
+        "interval": 1.992
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 29.31,
+        "interval": 0.185
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 32.403,
+        "interval": 3.093
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 33.309,
+        "interval": 0.906
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 4,
+    "gaps": [
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 4.368,
+        "interval": 4.368
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 11.563,
+        "interval": 7.195
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 12.851,
+        "interval": 1.288
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 18.224,
+        "interval": 5.373
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      },
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": null,
+        "interval": 215.137
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": null,
+        "interval": 1.296
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": null,
+        "interval": 1.311
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": null,
+        "interval": 2.368
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": null,
+        "interval": 7.494
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": null,
+        "interval": 3.657
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": null,
+        "interval": 1.206
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": null,
+        "interval": 4.78
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": null,
+        "interval": 1.622
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": null,
+        "interval": 3.399
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": null,
+        "interval": 1.992
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": null,
+        "interval": 0.185
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": null,
+        "interval": 3.093
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": null,
+        "interval": 0.906
+      }
+    ]
+  },
+  {
+    "lap": 5,
+    "gaps": [
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 3.687,
+        "interval": 3.687
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 4.539,
+        "interval": 0.852
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 5.073,
+        "interval": 0.534
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 5.143,
+        "interval": 0.07
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 154.142,
+        "interval": 148.999
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      },
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": null,
+        "interval": 215.137
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": null,
+        "interval": 1.296
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": null,
+        "interval": 1.311
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": null,
+        "interval": 2.368
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": null,
+        "interval": 7.494
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": null,
+        "interval": 3.657
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": null,
+        "interval": 1.206
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": null,
+        "interval": 4.78
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": null,
+        "interval": 1.622
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": null,
+        "interval": 133.902
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": null,
+        "interval": 4.368
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": null,
+        "interval": 7.195
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": null,
+        "interval": 1.288
+      }
+    ]
+  },
+  {
+    "lap": 6,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 2.124,
+        "interval": 2.124
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 3.658,
+        "interval": 1.534
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 6.687,
+        "interval": 3.029
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 15.829,
+        "interval": 9.142
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 19.734,
+        "interval": 3.905
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 20.957,
+        "interval": 1.223
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 27.708,
+        "interval": 6.751
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 30.257,
+        "interval": 2.549
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 160.438,
+        "interval": 130.181
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 165.149,
+        "interval": 4.711
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 173.29,
+        "interval": 8.141
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 174.626,
+        "interval": 1.336
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 176.948,
+        "interval": 2.322
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 179.321,
+        "interval": 2.373
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 180.435,
+        "interval": 1.114
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 181.618,
+        "interval": 1.183
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 181.709,
+        "interval": 0.091
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 329.697,
+        "interval": 147.988
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 7,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 2.285,
+        "interval": 2.285
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 3.772,
+        "interval": 1.487
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 7.586,
+        "interval": 3.814
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 17.999,
+        "interval": 10.413
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 21.895,
+        "interval": 3.896
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 23.09,
+        "interval": 1.195
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 30.148,
+        "interval": 7.058
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 32.834,
+        "interval": 2.686
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 161.954,
+        "interval": 129.12
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 167.066,
+        "interval": 5.112
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 176.129,
+        "interval": 9.063
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 176.484,
+        "interval": 0.355
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 180.005,
+        "interval": 3.521
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 182.029,
+        "interval": 2.024
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 183.045,
+        "interval": 1.016
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 183.946,
+        "interval": 0.901
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 184.062,
+        "interval": 0.116
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 332.227,
+        "interval": 148.165
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 8,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 3.06,
+        "interval": 3.06
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 5.409,
+        "interval": 2.349
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 8.69,
+        "interval": 3.281
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 19.528,
+        "interval": 10.838
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 23.689,
+        "interval": 4.161
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 24.912,
+        "interval": 1.223
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 32.398,
+        "interval": 7.486
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 35.4,
+        "interval": 3.002
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 163.325,
+        "interval": 127.925
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 168.796,
+        "interval": 5.471
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 178.33,
+        "interval": 9.534
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 178.462,
+        "interval": 0.132
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 182.842,
+        "interval": 4.38
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 184.173,
+        "interval": 1.331
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 185.221,
+        "interval": 1.048
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 186.163,
+        "interval": 0.942
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 186.43,
+        "interval": 0.267
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 334.394,
+        "interval": 147.964
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 9,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 3.835,
+        "interval": 3.835
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 6.174,
+        "interval": 2.339
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 9.629,
+        "interval": 3.455
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 20.905,
+        "interval": 11.276
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 25.385,
+        "interval": 4.48
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 27.057,
+        "interval": 1.672
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 35.241,
+        "interval": 8.184
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 38.115,
+        "interval": 2.874
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 164.353,
+        "interval": 126.238
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 170.251,
+        "interval": 5.898
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 180.856,
+        "interval": 10.605
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 181.048,
+        "interval": 0.192
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 185.586,
+        "interval": 4.538
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 186.896,
+        "interval": 1.31
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 187.995,
+        "interval": 1.099
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 188.819,
+        "interval": 0.824
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 189.01,
+        "interval": 0.191
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 337.047,
+        "interval": 148.037
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 10,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 4.384,
+        "interval": 4.384
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 6.64,
+        "interval": 2.256
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 10.577,
+        "interval": 3.937
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 22.771,
+        "interval": 12.194
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 27.156,
+        "interval": 4.385
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 28.772,
+        "interval": 1.616
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 37.832,
+        "interval": 9.06
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 40.507,
+        "interval": 2.675
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 165.271,
+        "interval": 124.764
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 171.401,
+        "interval": 6.13
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 182.735,
+        "interval": 11.334
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 183.555,
+        "interval": 0.82
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 188.901,
+        "interval": 5.346
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 189.177,
+        "interval": 0.276
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 190.323,
+        "interval": 1.146
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 191.392,
+        "interval": 1.069
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 191.682,
+        "interval": 0.29
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 348.312,
+        "interval": 156.63
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 11,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 5.033,
+        "interval": 5.033
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 7.395,
+        "interval": 2.362
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 11.648,
+        "interval": 4.253
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 24.871,
+        "interval": 13.223
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 29.172,
+        "interval": 4.301
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 30.7,
+        "interval": 1.528
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 39.77,
+        "interval": 9.07
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 43.687,
+        "interval": 3.917
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 166.281,
+        "interval": 122.594
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 173.095,
+        "interval": 6.814
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 184.827,
+        "interval": 11.732
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 187.284,
+        "interval": 2.457
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 191.523,
+        "interval": 4.239
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 191.819,
+        "interval": 0.296
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 193.026,
+        "interval": 1.207
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 193.96,
+        "interval": 0.934
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 194.343,
+        "interval": 0.383
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 351.458,
+        "interval": 157.115
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 12,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 5.767,
+        "interval": 5.767
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 8.188,
+        "interval": 2.421
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 12.852,
+        "interval": 4.664
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 26.584,
+        "interval": 13.732
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 31.237,
+        "interval": 4.653
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 32.743,
+        "interval": 1.506
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 41.582,
+        "interval": 8.839
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 46.413,
+        "interval": 4.831
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 167.529,
+        "interval": 121.116
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 174.733,
+        "interval": 7.204
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 186.811,
+        "interval": 12.078
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 189.537,
+        "interval": 2.726
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 194.013,
+        "interval": 4.476
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 194.257,
+        "interval": 0.244
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 195.523,
+        "interval": 1.266
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 196.349,
+        "interval": 0.826
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 196.761,
+        "interval": 0.412
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 354.272,
+        "interval": 157.511
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 13,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 6.304,
+        "interval": 6.304
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 8.803,
+        "interval": 2.499
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 13.8,
+        "interval": 4.997
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 28.335,
+        "interval": 14.535
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 33.061,
+        "interval": 4.726
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 34.563,
+        "interval": 1.502
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 43.503,
+        "interval": 8.94
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 49.116,
+        "interval": 5.613
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 168.709,
+        "interval": 119.593
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 176.38,
+        "interval": 7.671
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 188.746,
+        "interval": 12.366
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 191.825,
+        "interval": 3.079
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 196.624,
+        "interval": 4.799
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 197.072,
+        "interval": 0.448
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 198.25,
+        "interval": 1.178
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 198.801,
+        "interval": 0.551
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 199.619,
+        "interval": 0.818
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 357.3,
+        "interval": 157.681
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 14,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 6.95,
+        "interval": 6.95
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 9.641,
+        "interval": 2.691
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 14.922,
+        "interval": 5.281
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 30.414,
+        "interval": 15.492
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 35.212,
+        "interval": 4.798
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 36.794,
+        "interval": 1.582
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 45.686,
+        "interval": 8.892
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 51.978,
+        "interval": 6.292
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 170.316,
+        "interval": 118.338
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 178.731,
+        "interval": 8.415
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 190.594,
+        "interval": 11.863
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 194.331,
+        "interval": 3.737
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 200.093,
+        "interval": 5.762
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 200.148,
+        "interval": 0.055
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 200.394,
+        "interval": 0.246
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 201.726,
+        "interval": 1.332
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 202.668,
+        "interval": 0.942
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 380.935,
+        "interval": 178.267
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 15,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 7.47,
+        "interval": 7.47
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 10.04,
+        "interval": 2.57
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 15.61,
+        "interval": 5.57
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 32.478,
+        "interval": 16.868
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 37.076,
+        "interval": 4.598
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 38.733,
+        "interval": 1.657
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 48.055,
+        "interval": 9.322
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 54.654,
+        "interval": 6.599
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 171.657,
+        "interval": 117.003
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 180.558,
+        "interval": 8.901
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 192.746,
+        "interval": 12.188
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 196.189,
+        "interval": 3.443
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 201.631,
+        "interval": 5.442
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 202.523,
+        "interval": 0.892
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 202.684,
+        "interval": 0.161
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 204.768,
+        "interval": 2.084
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 205.171,
+        "interval": 0.403
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 382.639,
+        "interval": 177.468
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 16,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 7.721,
+        "interval": 7.721
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 10.544,
+        "interval": 2.823
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 16.183,
+        "interval": 5.639
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 34.597,
+        "interval": 18.414
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 38.978,
+        "interval": 4.381
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 40.419,
+        "interval": 1.441
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 49.919,
+        "interval": 9.5
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 57.183,
+        "interval": 7.264
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 172.104,
+        "interval": 114.921
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 182.082,
+        "interval": 9.978
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 194.476,
+        "interval": 12.394
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 198.088,
+        "interval": 3.612
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 203.109,
+        "interval": 5.021
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 204.697,
+        "interval": 1.588
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 205.233,
+        "interval": 0.536
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 207.295,
+        "interval": 2.062
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 226.638,
+        "interval": 19.343
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 384.49,
+        "interval": 157.852
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 17,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 8.26,
+        "interval": 8.26
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 11.126,
+        "interval": 2.866
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 16.477,
+        "interval": 5.351
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 36.871,
+        "interval": 20.394
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 42.278,
+        "interval": 5.407
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 42.383,
+        "interval": 0.105
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 51.669,
+        "interval": 9.286
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 59.616,
+        "interval": 7.947
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 172.408,
+        "interval": 112.792
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 184.603,
+        "interval": 12.195
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 196.045,
+        "interval": 11.442
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 200.891,
+        "interval": 4.846
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 204.62,
+        "interval": 3.729
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 206.599,
+        "interval": 1.979
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 207.496,
+        "interval": 0.897
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 209.505,
+        "interval": 2.009
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 227.818,
+        "interval": 18.313
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 386.755,
+        "interval": 158.937
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 18,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 8.746,
+        "interval": 8.746
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 11.387,
+        "interval": 2.641
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 16.986,
+        "interval": 5.599
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 43.381,
+        "interval": 26.395
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 45.624,
+        "interval": 2.243
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 53.569,
+        "interval": 7.945
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 57.227,
+        "interval": 3.658
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 62.05,
+        "interval": 4.823
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 172.979,
+        "interval": 110.929
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 186.206,
+        "interval": 13.227
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 198.74,
+        "interval": 12.534
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 202.694,
+        "interval": 3.954
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 205.715,
+        "interval": 3.021
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 208.591,
+        "interval": 2.876
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 209.585,
+        "interval": 0.994
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 211.739,
+        "interval": 2.154
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 229.145,
+        "interval": 17.406
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 388.645,
+        "interval": 159.5
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 19,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 9.174,
+        "interval": 9.174
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 11.732,
+        "interval": 2.558
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 17.045,
+        "interval": 5.313
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 44.086,
+        "interval": 27.041
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 55.117,
+        "interval": 11.031
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 58.542,
+        "interval": 3.425
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 64.067,
+        "interval": 5.525
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 68.919,
+        "interval": 4.852
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 173.111,
+        "interval": 104.192
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 199.617,
+        "interval": 26.506
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 204.818,
+        "interval": 5.201
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 207.365,
+        "interval": 2.547
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 210.048,
+        "interval": 2.683
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 211.633,
+        "interval": 1.585
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 212.475,
+        "interval": 0.842
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 213.703,
+        "interval": 1.228
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 230.461,
+        "interval": 16.758
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 390.444,
+        "interval": 159.983
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 20,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 9.404,
+        "interval": 9.404
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 11.79,
+        "interval": 2.386
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 17.18,
+        "interval": 5.39
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 44.582,
+        "interval": 27.402
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 56.349,
+        "interval": 11.767
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 59.782,
+        "interval": 3.433
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 65.912,
+        "interval": 6.13
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 70.361,
+        "interval": 4.449
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 173.146,
+        "interval": 102.785
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 200.308,
+        "interval": 27.162
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 206.647,
+        "interval": 6.339
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 208.375,
+        "interval": 1.728
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 211.415,
+        "interval": 3.04
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 213.288,
+        "interval": 1.873
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 214.315,
+        "interval": 1.027
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 215.374,
+        "interval": 1.059
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 231.542,
+        "interval": 16.168
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 392.546,
+        "interval": 161.004
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 21,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 9.701,
+        "interval": 9.701
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 12.979,
+        "interval": 3.278
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 17.148,
+        "interval": 4.169
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 45.646,
+        "interval": 28.498
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 59.081,
+        "interval": 13.435
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 61.535,
+        "interval": 2.454
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 67.822,
+        "interval": 6.287
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 72.192,
+        "interval": 4.37
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 173.351,
+        "interval": 101.159
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 201.325,
+        "interval": 27.974
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 208.438,
+        "interval": 7.113
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 208.834,
+        "interval": 0.396
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 212.996,
+        "interval": 4.162
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 215.941,
+        "interval": 2.945
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 216.242,
+        "interval": 0.301
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 217.114,
+        "interval": 0.872
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 232.956,
+        "interval": 15.842
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 394.475,
+        "interval": 161.519
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 22,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 10.389,
+        "interval": 10.389
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 17.279,
+        "interval": 6.89
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 31.465,
+        "interval": 14.186
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 47.691,
+        "interval": 16.226
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 61.118,
+        "interval": 13.427
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 62.603,
+        "interval": 1.485
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 71.068,
+        "interval": 8.465
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 73.786,
+        "interval": 2.718
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 173.804,
+        "interval": 100.018
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 202.671,
+        "interval": 28.867
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 209.442,
+        "interval": 6.771
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 211.734,
+        "interval": 2.292
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 214.835,
+        "interval": 3.101
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 217.563,
+        "interval": 2.728
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 219,
+        "interval": 1.437
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 219.333,
+        "interval": 0.333
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 234.543,
+        "interval": 15.21
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 397.24,
+        "interval": 162.697
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 23,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 10.931,
+        "interval": 10.931
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 17.211,
+        "interval": 6.28
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 30.318,
+        "interval": 13.107
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 48.494,
+        "interval": 18.176
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 62.093,
+        "interval": 13.599
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 63.457,
+        "interval": 1.364
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 73.427,
+        "interval": 9.97
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 75.273,
+        "interval": 1.846
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 173.836,
+        "interval": 98.563
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 203.563,
+        "interval": 29.727
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 209.738,
+        "interval": 6.175
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 213.622,
+        "interval": 3.884
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 216.269,
+        "interval": 2.647
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 218.768,
+        "interval": 2.499
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 221.008,
+        "interval": 2.24
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 221.175,
+        "interval": 0.167
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 235.803,
+        "interval": 14.628
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 399.621,
+        "interval": 163.818
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 24,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 11.55,
+        "interval": 11.55
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 17.301,
+        "interval": 5.751
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 29.732,
+        "interval": 12.431
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 49.359,
+        "interval": 19.627
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 63.263,
+        "interval": 13.904
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 64.384,
+        "interval": 1.121
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 75.406,
+        "interval": 11.022
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 76.779,
+        "interval": 1.373
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 174.406,
+        "interval": 97.627
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 204.193,
+        "interval": 29.787
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 210.099,
+        "interval": 5.906
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 215.802,
+        "interval": 5.703
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 217.797,
+        "interval": 1.995
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 219.984,
+        "interval": 2.187
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 222.741,
+        "interval": 2.757
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 222.965,
+        "interval": 0.224
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 237.251,
+        "interval": 14.286
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 401.571,
+        "interval": 164.32
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 25,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 12.685,
+        "interval": 12.685
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 17.325,
+        "interval": 4.64
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 29.504,
+        "interval": 12.179
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 49.891,
+        "interval": 20.387
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 64.333,
+        "interval": 14.442
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 65.093,
+        "interval": 0.76
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 77.457,
+        "interval": 12.364
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 78.269,
+        "interval": 0.812
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 174.232,
+        "interval": 95.963
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 204.879,
+        "interval": 30.647
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 210.208,
+        "interval": 5.329
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 217.833,
+        "interval": 7.625
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 218.97,
+        "interval": 1.137
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 221.387,
+        "interval": 2.417
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 224.576,
+        "interval": 3.189
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 225.775,
+        "interval": 1.199
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 238.577,
+        "interval": 12.802
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 403.684,
+        "interval": 165.107
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 26,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 16.641,
+        "interval": 16.641
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 28.635,
+        "interval": 11.994
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 32.093,
+        "interval": 3.458
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 50.469,
+        "interval": 18.376
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 65.044,
+        "interval": 14.575
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 65.361,
+        "interval": 0.317
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 78.985,
+        "interval": 13.624
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 80.459,
+        "interval": 1.474
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 173.32,
+        "interval": 92.861
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 205.332,
+        "interval": 32.012
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 210.155,
+        "interval": 4.823
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 219.659,
+        "interval": 9.504
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 219.815,
+        "interval": 0.156
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 223.13,
+        "interval": 3.315
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 226.722,
+        "interval": 3.592
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 227.111,
+        "interval": 0.389
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 239.205,
+        "interval": 12.094
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 404.837,
+        "interval": 165.632
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 27,
+    "gaps": [
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 3.788,
+        "interval": 3.788
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 11.861,
+        "interval": 8.073
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 15.405,
+        "interval": 3.544
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 49.614,
+        "interval": 34.209
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 49.753,
+        "interval": 0.139
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 54.542,
+        "interval": 4.789
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 64.497,
+        "interval": 9.955
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 66.924,
+        "interval": 2.427
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 156.602,
+        "interval": 89.678
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 190.771,
+        "interval": 34.169
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 194.31,
+        "interval": 3.539
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 204.376,
+        "interval": 10.066
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 209.803,
+        "interval": 5.427
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 212.738,
+        "interval": 2.935
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 214.532,
+        "interval": 1.794
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 224.34,
+        "interval": 9.808
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 224.918,
+        "interval": 0.578
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 390.289,
+        "interval": 165.371
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 28,
+    "gaps": [
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 3.294,
+        "interval": 3.294
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 11.759,
+        "interval": 8.465
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 15.033,
+        "interval": 3.274
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 50.693,
+        "interval": 35.66
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 52.12,
+        "interval": 1.427
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 55.028,
+        "interval": 2.908
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 66.808,
+        "interval": 11.78
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 90.999,
+        "interval": 24.191
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 157.096,
+        "interval": 66.097
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 194.389,
+        "interval": 37.293
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 205.425,
+        "interval": 11.036
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 211.377,
+        "interval": 5.952
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 213.886,
+        "interval": 2.509
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 214.951,
+        "interval": 1.065
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 218.308,
+        "interval": 3.357
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 226.208,
+        "interval": 7.9
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 226.24,
+        "interval": 0.032
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 392.553,
+        "interval": 166.313
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 29,
+    "gaps": [
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 2.813,
+        "interval": 2.813
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 11.414,
+        "interval": 8.601
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 14.552,
+        "interval": 3.138
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 51.668,
+        "interval": 37.116
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 52.822,
+        "interval": 1.154
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 54.931,
+        "interval": 2.109
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 68.053,
+        "interval": 13.122
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 91.026,
+        "interval": 22.973
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 157.098,
+        "interval": 66.072
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 194.465,
+        "interval": 37.367
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 206.419,
+        "interval": 11.954
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 212.264,
+        "interval": 5.845
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 215.25,
+        "interval": 2.986
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 216.597,
+        "interval": 1.347
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 220.047,
+        "interval": 3.45
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 227.172,
+        "interval": 7.125
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 227.958,
+        "interval": 0.786
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 395.236,
+        "interval": 167.278
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 30,
+    "gaps": [
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 2.142,
+        "interval": 2.142
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 10.383,
+        "interval": 8.241
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 13.597,
+        "interval": 3.214
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 52.585,
+        "interval": 38.988
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 53.886,
+        "interval": 1.301
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 54.859,
+        "interval": 0.973
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 69.054,
+        "interval": 14.195
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 91.705,
+        "interval": 22.651
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 157.054,
+        "interval": 65.349
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 194.337,
+        "interval": 37.283
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 207.08,
+        "interval": 12.743
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 213.231,
+        "interval": 6.151
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 215.883,
+        "interval": 2.652
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 218.344,
+        "interval": 2.461
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 221.993,
+        "interval": 3.649
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 227.677,
+        "interval": 5.684
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 229.438,
+        "interval": 1.761
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 397.063,
+        "interval": 167.625
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 31,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 0.66,
+        "interval": 0.66
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 8.855,
+        "interval": 8.195
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 11.846,
+        "interval": 2.991
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 52.389,
+        "interval": 40.543
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 53.532,
+        "interval": 1.143
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 53.732,
+        "interval": 0.2
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 69.038,
+        "interval": 15.306
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 90.984,
+        "interval": 21.946
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 157.074,
+        "interval": 66.09
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 193.162,
+        "interval": 36.088
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 206.806,
+        "interval": 13.644
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 213.213,
+        "interval": 6.407
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 214.475,
+        "interval": 1.262
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 220.944,
+        "interval": 6.469
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 222.819,
+        "interval": 1.875
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 227.001,
+        "interval": 4.182
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 230.003,
+        "interval": 3.002
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 397.756,
+        "interval": 167.753
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 32,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 9.055,
+        "interval": 9.055
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 12.127,
+        "interval": 3.072
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 21.44,
+        "interval": 9.313
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 54.015,
+        "interval": 32.575
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 54.285,
+        "interval": 0.27
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 54.873,
+        "interval": 0.588
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 70.679,
+        "interval": 15.806
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 92.848,
+        "interval": 22.169
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 159.356,
+        "interval": 66.508
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 193.89,
+        "interval": 34.534
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 208.251,
+        "interval": 14.361
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 214.881,
+        "interval": 6.63
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 215.337,
+        "interval": 0.456
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 225.291,
+        "interval": 9.954
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 228.776,
+        "interval": 3.485
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 232.11,
+        "interval": 3.334
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 242.876,
+        "interval": 10.766
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 400.574,
+        "interval": 157.698
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 33,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 8.783,
+        "interval": 8.783
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 11.922,
+        "interval": 3.139
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 21.049,
+        "interval": 9.127
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 54.972,
+        "interval": 33.923
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 55.269,
+        "interval": 0.297
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 55.667,
+        "interval": 0.398
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 71.949,
+        "interval": 16.282
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 94.23,
+        "interval": 22.281
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 179.668,
+        "interval": 85.438
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 195.231,
+        "interval": 15.563
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 209.457,
+        "interval": 14.226
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 215.66,
+        "interval": 6.203
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 216.093,
+        "interval": 0.433
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 227.961,
+        "interval": 11.868
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 230.3,
+        "interval": 2.339
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 233.862,
+        "interval": 3.562
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 244.058,
+        "interval": 10.196
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 402.672,
+        "interval": 158.614
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 34,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 8.962,
+        "interval": 8.962
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 12.352,
+        "interval": 3.39
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 20.459,
+        "interval": 8.107
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 56.539,
+        "interval": 36.08
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 56.675,
+        "interval": 0.136
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 57.085,
+        "interval": 0.41
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 73.455,
+        "interval": 16.37
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 96.001,
+        "interval": 22.546
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 179.53,
+        "interval": 83.529
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 196.669,
+        "interval": 17.139
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 211.13,
+        "interval": 14.461
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 216.375,
+        "interval": 5.245
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 217.365,
+        "interval": 0.99
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 231.952,
+        "interval": 14.587
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 237.167,
+        "interval": 5.215
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 245.502,
+        "interval": 8.335
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 250.877,
+        "interval": 5.375
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 405.426,
+        "interval": 154.549
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 35,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 8.685,
+        "interval": 8.685
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 12.459,
+        "interval": 3.774
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 19.48,
+        "interval": 7.021
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 57.363,
+        "interval": 37.883
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 57.747,
+        "interval": 0.384
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 58.672,
+        "interval": 0.925
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 74.345,
+        "interval": 15.673
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 97.503,
+        "interval": 23.158
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 178.655,
+        "interval": 81.152
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 197.697,
+        "interval": 19.042
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 212.428,
+        "interval": 14.731
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 216.728,
+        "interval": 4.3
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 218.334,
+        "interval": 1.606
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 234.286,
+        "interval": 15.952
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 239.706,
+        "interval": 5.42
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 246.614,
+        "interval": 6.908
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 252.009,
+        "interval": 5.395
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 408.312,
+        "interval": 156.303
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 36,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 8.629,
+        "interval": 8.629
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 12.531,
+        "interval": 3.902
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 19.154,
+        "interval": 6.623
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 58.506,
+        "interval": 39.352
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 59.266,
+        "interval": 0.76
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 61.371,
+        "interval": 2.105
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 75.625,
+        "interval": 14.254
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 99.295,
+        "interval": 23.67
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 178.322,
+        "interval": 79.027
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 198.206,
+        "interval": 19.884
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 213.811,
+        "interval": 15.605
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 217.281,
+        "interval": 3.47
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 220.321,
+        "interval": 3.04
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 235.856,
+        "interval": 15.535
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 242.218,
+        "interval": 6.362
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 248.272,
+        "interval": 6.054
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 253.087,
+        "interval": 4.815
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 435.762,
+        "interval": 182.675
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 37,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 8.58,
+        "interval": 8.58
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 13.017,
+        "interval": 4.437
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 18.987,
+        "interval": 5.97
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 60.288,
+        "interval": 41.301
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 60.51,
+        "interval": 0.222
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 78.15,
+        "interval": 17.64
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 82.492,
+        "interval": 4.342
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 101.028,
+        "interval": 18.536
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 178.335,
+        "interval": 77.307
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 199.18,
+        "interval": 20.845
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 216.729,
+        "interval": 17.549
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 218.194,
+        "interval": 1.465
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 222.542,
+        "interval": 4.348
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 237.989,
+        "interval": 15.447
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 244.556,
+        "interval": 6.567
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 249.885,
+        "interval": 5.329
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 254.242,
+        "interval": 4.357
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 437.446,
+        "interval": 183.204
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 38,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 8.199,
+        "interval": 8.199
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 13.088,
+        "interval": 4.889
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 18.498,
+        "interval": 5.41
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 60.657,
+        "interval": 42.159
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 61.783,
+        "interval": 1.126
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 79.435,
+        "interval": 17.652
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 82.827,
+        "interval": 3.392
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 102.483,
+        "interval": 19.656
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 177.977,
+        "interval": 75.494
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 199.941,
+        "interval": 21.964
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 218.269,
+        "interval": 18.328
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 218.803,
+        "interval": 0.534
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 224.817,
+        "interval": 6.014
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 239.559,
+        "interval": 14.742
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 246.93,
+        "interval": 7.371
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 251.252,
+        "interval": 4.322
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 255.362,
+        "interval": 4.11
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 439.024,
+        "interval": 183.662
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 39,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 8.44,
+        "interval": 8.44
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 13.612,
+        "interval": 5.172
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 18.726,
+        "interval": 5.114
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 61.809,
+        "interval": 43.083
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 81.215,
+        "interval": 19.406
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 82.566,
+        "interval": 1.351
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 84.389,
+        "interval": 1.823
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 104.687,
+        "interval": 20.298
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 178.326,
+        "interval": 73.639
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 201.104,
+        "interval": 22.778
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 220.263,
+        "interval": 19.159
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 221.026,
+        "interval": 0.763
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 226.964,
+        "interval": 5.938
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 241.804,
+        "interval": 14.84
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 249.876,
+        "interval": 8.072
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 253.053,
+        "interval": 3.177
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 257.059,
+        "interval": 4.006
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 443.07,
+        "interval": 186.011
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 40,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 8.235,
+        "interval": 8.235
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 13.949,
+        "interval": 5.714
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 18.76,
+        "interval": 4.811
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 62.588,
+        "interval": 43.828
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 82.773,
+        "interval": 20.185
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 83.254,
+        "interval": 0.481
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 85.137,
+        "interval": 1.883
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 106.231,
+        "interval": 21.094
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 179.387,
+        "interval": 73.156
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 203.458,
+        "interval": 24.071
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 221.367,
+        "interval": 17.909
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 228.576,
+        "interval": 7.209
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 241.951,
+        "interval": 13.375
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 243.444,
+        "interval": 1.493
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 252.29,
+        "interval": 8.846
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 254.488,
+        "interval": 2.198
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 258.438,
+        "interval": 3.95
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 444.914,
+        "interval": 186.476
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 41,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 7.626,
+        "interval": 7.626
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 14.017,
+        "interval": 6.391
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 18.331,
+        "interval": 4.314
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 63.894,
+        "interval": 45.563
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 84.869,
+        "interval": 20.975
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 85.891,
+        "interval": 1.022
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 97.096,
+        "interval": 11.205
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 108.311,
+        "interval": 11.215
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 179.198,
+        "interval": 70.887
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 222.15,
+        "interval": 42.952
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 229.276,
+        "interval": 7.126
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 230.764,
+        "interval": 1.488
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 242.999,
+        "interval": 12.235
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 246.084,
+        "interval": 3.085
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 255.153,
+        "interval": 9.069
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 257.247,
+        "interval": 2.094
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 259.449,
+        "interval": 2.202
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 446.861,
+        "interval": 187.412
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 42,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 7.21,
+        "interval": 7.21
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 13.955,
+        "interval": 6.745
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 18.077,
+        "interval": 4.122
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 64.581,
+        "interval": 46.504
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 85.343,
+        "interval": 20.762
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 86.121,
+        "interval": 0.778
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 98.129,
+        "interval": 12.008
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 110.217,
+        "interval": 12.088
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 178.902,
+        "interval": 68.685
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 222.912,
+        "interval": 44.01
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 228.753,
+        "interval": 5.841
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 231.726,
+        "interval": 2.973
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 243.353,
+        "interval": 11.627
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 247.35,
+        "interval": 3.997
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 258.217,
+        "interval": 10.867
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 259.146,
+        "interval": 0.929
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 260.511,
+        "interval": 1.365
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 448.85,
+        "interval": 188.339
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 43,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 7.176,
+        "interval": 7.176
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 14.224,
+        "interval": 7.048
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 17.853,
+        "interval": 3.629
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 65.111,
+        "interval": 47.258
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 86.074,
+        "interval": 20.963
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 86.968,
+        "interval": 0.894
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 99.233,
+        "interval": 12.265
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 111.882,
+        "interval": 12.649
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 178.629,
+        "interval": 66.747
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 223.561,
+        "interval": 44.932
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 228.614,
+        "interval": 5.053
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 232.745,
+        "interval": 4.131
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 243.624,
+        "interval": 10.879
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 248.647,
+        "interval": 5.023
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 260.656,
+        "interval": 12.009
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 261.136,
+        "interval": 0.48
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 261.607,
+        "interval": 0.471
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 450.834,
+        "interval": 189.227
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 44,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 6.929,
+        "interval": 6.929
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 13.98,
+        "interval": 7.051
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 17.385,
+        "interval": 3.405
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 65.195,
+        "interval": 47.81
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 86.048,
+        "interval": 20.853
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 87.328,
+        "interval": 1.28
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 99.915,
+        "interval": 12.587
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 113.186,
+        "interval": 13.271
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 178.387,
+        "interval": 65.201
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 223.766,
+        "interval": 45.379
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 227.743,
+        "interval": 3.977
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 233.598,
+        "interval": 5.855
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 243.803,
+        "interval": 10.205
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 249.402,
+        "interval": 5.599
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 263.676,
+        "interval": 14.274
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 263.714,
+        "interval": 0.038
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 264.125,
+        "interval": 0.411
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 452.17,
+        "interval": 188.045
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 45,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 6.86,
+        "interval": 6.86
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 13.9,
+        "interval": 7.04
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 17.376,
+        "interval": 3.476
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 65.36,
+        "interval": 47.984
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 86.744,
+        "interval": 21.384
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 88.063,
+        "interval": 1.319
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 101.277,
+        "interval": 13.214
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 115.318,
+        "interval": 14.041
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 178.017,
+        "interval": 62.699
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 225.989,
+        "interval": 47.972
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 227.357,
+        "interval": 1.368
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 235.914,
+        "interval": 8.557
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 243.986,
+        "interval": 8.072
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 251.052,
+        "interval": 7.066
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 265.192,
+        "interval": 14.14
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 265.737,
+        "interval": 0.545
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 270.743,
+        "interval": 5.006
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 453.479,
+        "interval": 182.736
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 46,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 6.301,
+        "interval": 6.301
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 12.978,
+        "interval": 6.677
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 16.318,
+        "interval": 3.34
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 64.762,
+        "interval": 48.444
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 86.652,
+        "interval": 21.89
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 87.505,
+        "interval": 0.853
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 101.878,
+        "interval": 14.373
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 117.314,
+        "interval": 15.436
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 177.16,
+        "interval": 59.846
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 225.457,
+        "interval": 48.297
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 225.962,
+        "interval": 0.505
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 236.101,
+        "interval": 10.139
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 242.42,
+        "interval": 6.319
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 251.415,
+        "interval": 8.995
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 265.768,
+        "interval": 14.353
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 268.293,
+        "interval": 2.525
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 274.791,
+        "interval": 6.498
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 454.16,
+        "interval": 179.369
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 47,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 6.713,
+        "interval": 6.713
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 13.698,
+        "interval": 6.985
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 17.041,
+        "interval": 3.343
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 65.205,
+        "interval": 48.164
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 86.96,
+        "interval": 21.755
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 87.665,
+        "interval": 0.705
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 103.038,
+        "interval": 15.373
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 118.367,
+        "interval": 15.329
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 177.344,
+        "interval": 58.977
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 225.281,
+        "interval": 47.937
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 225.983,
+        "interval": 0.702
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 238.603,
+        "interval": 12.62
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 241.94,
+        "interval": 3.337
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 252.477,
+        "interval": 10.537
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 266.893,
+        "interval": 14.416
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 269.374,
+        "interval": 2.481
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 277.384,
+        "interval": 8.01
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 455.314,
+        "interval": 177.93
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 48,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 6.53,
+        "interval": 6.53
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 13.957,
+        "interval": 7.427
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 17.164,
+        "interval": 3.207
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 65.734,
+        "interval": 48.57
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 87.672,
+        "interval": 21.938
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 87.845,
+        "interval": 0.173
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 104.422,
+        "interval": 16.577
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 119.72,
+        "interval": 15.298
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 177.052,
+        "interval": 57.332
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 225.009,
+        "interval": 47.957
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 226.264,
+        "interval": 1.255
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 239.851,
+        "interval": 13.587
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 241.953,
+        "interval": 2.102
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 253.802,
+        "interval": 11.849
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 269.478,
+        "interval": 15.676
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 270.266,
+        "interval": 0.788
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 280.141,
+        "interval": 9.875
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 457.22,
+        "interval": 177.079
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 49,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 6.788,
+        "interval": 6.788
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 14.229,
+        "interval": 7.441
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 17.387,
+        "interval": 3.158
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 66.09,
+        "interval": 48.703
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 88.077,
+        "interval": 21.987
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 88.092,
+        "interval": 0.015
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 105.572,
+        "interval": 17.48
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 123.084,
+        "interval": 17.512
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 176.749,
+        "interval": 53.665
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 224.684,
+        "interval": 47.935
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 226.448,
+        "interval": 1.764
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 240.825,
+        "interval": 14.377
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 242.039,
+        "interval": 1.214
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 255.425,
+        "interval": 13.386
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 270.807,
+        "interval": 15.382
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 271.449,
+        "interval": 0.642
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 285.262,
+        "interval": 13.813
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 459.134,
+        "interval": 173.872
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 50,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 7.107,
+        "interval": 7.107
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 14.97,
+        "interval": 7.863
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 18.249,
+        "interval": 3.279
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 66.868,
+        "interval": 48.619
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 88.639,
+        "interval": 21.771
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 88.817,
+        "interval": 0.178
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 107.484,
+        "interval": 18.667
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 124.892,
+        "interval": 17.408
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 176.777,
+        "interval": 51.885
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 224.676,
+        "interval": 47.899
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 227.148,
+        "interval": 2.472
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 242.048,
+        "interval": 14.9
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 242.114,
+        "interval": 0.066
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 257.058,
+        "interval": 14.944
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 272.429,
+        "interval": 15.371
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 273.137,
+        "interval": 0.708
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 288.356,
+        "interval": 15.219
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 461.146,
+        "interval": 172.79
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 51,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 7.733,
+        "interval": 7.733
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 16.2,
+        "interval": 8.467
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 19.44,
+        "interval": 3.24
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 67.663,
+        "interval": 48.223
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 89.217,
+        "interval": 21.554
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 89.819,
+        "interval": 0.602
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 109.13,
+        "interval": 19.311
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 126.913,
+        "interval": 17.783
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 177.434,
+        "interval": 50.521
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 224.86,
+        "interval": 47.426
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 227.677,
+        "interval": 2.817
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 242.904,
+        "interval": 15.227
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 243.557,
+        "interval": 0.653
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 258.473,
+        "interval": 14.916
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 274.982,
+        "interval": 16.509
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 276.392,
+        "interval": 1.41
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 293.412,
+        "interval": 17.02
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 462.669,
+        "interval": 169.257
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 52,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 7.729,
+        "interval": 7.729
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 18.927,
+        "interval": 11.198
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 21.191,
+        "interval": 2.264
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 68.747,
+        "interval": 47.556
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 89.406,
+        "interval": 20.659
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 90.35,
+        "interval": 0.944
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 110.695,
+        "interval": 20.345
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 128.269,
+        "interval": 17.574
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 177.522,
+        "interval": 49.253
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 225.376,
+        "interval": 47.854
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 228.288,
+        "interval": 2.912
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 242.945,
+        "interval": 14.657
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 244.365,
+        "interval": 1.42
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 259.642,
+        "interval": 15.277
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 276.169,
+        "interval": 16.527
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 295.978,
+        "interval": 19.809
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 308.07,
+        "interval": 12.092
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 464.26,
+        "interval": 156.19
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 53,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 7.534,
+        "interval": 7.534
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 19.946,
+        "interval": 12.412
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 21.173,
+        "interval": 1.227
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 70.121,
+        "interval": 48.948
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 89.154,
+        "interval": 19.033
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 90.493,
+        "interval": 1.339
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 113.444,
+        "interval": 22.951
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 129.339,
+        "interval": 15.895
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 178.261,
+        "interval": 48.922
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 226.899,
+        "interval": 48.638
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 228.435,
+        "interval": 1.536
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 242.612,
+        "interval": 14.177
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 245.127,
+        "interval": 2.515
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 261.006,
+        "interval": 15.879
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 277.154,
+        "interval": 16.148
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 298.188,
+        "interval": 21.034
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 307.035,
+        "interval": 8.847
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 465.167,
+        "interval": 158.132
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 54,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 7.559,
+        "interval": 7.559
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 20.432,
+        "interval": 12.873
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 20.887,
+        "interval": 0.455
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 70.749,
+        "interval": 49.862
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 89.07,
+        "interval": 18.321
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 90.643,
+        "interval": 1.573
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 114.462,
+        "interval": 23.819
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 130.378,
+        "interval": 15.916
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 178.04,
+        "interval": 47.662
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 227.448,
+        "interval": 49.408
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 229.035,
+        "interval": 1.587
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 242.145,
+        "interval": 13.11
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 245.68,
+        "interval": 3.535
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 264.501,
+        "interval": 18.821
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 278.063,
+        "interval": 13.562
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 300.692,
+        "interval": 22.629
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 308.853,
+        "interval": 8.161
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 466.588,
+        "interval": 157.735
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 55,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 8.666,
+        "interval": 8.666
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 20.664,
+        "interval": 11.998
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 20.782,
+        "interval": 0.118
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 72.834,
+        "interval": 52.052
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 89.601,
+        "interval": 16.767
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 90.98,
+        "interval": 1.379
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": 115.939,
+        "interval": 24.959
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": 133.974,
+        "interval": 18.035
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 178.062,
+        "interval": 44.088
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 227.726,
+        "interval": 49.664
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 229.847,
+        "interval": 2.121
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 242.169,
+        "interval": 12.322
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 246.089,
+        "interval": 3.92
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": 266.695,
+        "interval": 20.606
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": 281.46,
+        "interval": 14.765
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": 303.498,
+        "interval": 22.038
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": 310.95,
+        "interval": 7.452
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": 468.747,
+        "interval": 157.797
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      }
+    ]
+  },
+  {
+    "lap": 56,
+    "gaps": [
+      {
+        "driverNumber": 16,
+        "driverCode": "LEC",
+        "gap": 0,
+        "interval": 0
+      },
+      {
+        "driverNumber": 55,
+        "driverCode": "SAI",
+        "gap": 10.231,
+        "interval": 10.231
+      },
+      {
+        "driverNumber": 4,
+        "driverCode": "NOR",
+        "gap": 18.904,
+        "interval": 8.673
+      },
+      {
+        "driverNumber": 1,
+        "driverCode": "VER",
+        "gap": 20.282,
+        "interval": 1.378
+      },
+      {
+        "driverNumber": 11,
+        "driverCode": "PER",
+        "gap": 72.886,
+        "interval": 52.604
+      },
+      {
+        "driverNumber": 30,
+        "driverCode": "LAW",
+        "gap": 89.356,
+        "interval": 16.47
+      },
+      {
+        "driverNumber": 20,
+        "driverCode": "MAG",
+        "gap": 89.672,
+        "interval": 0.316
+      },
+      {
+        "driverNumber": 81,
+        "driverCode": "PIA",
+        "gap": 177.656,
+        "interval": 87.984
+      },
+      {
+        "driverNumber": 63,
+        "driverCode": "RUS",
+        "gap": 226.163,
+        "interval": 48.507
+      },
+      {
+        "driverNumber": 27,
+        "driverCode": "HUL",
+        "gap": 229.329,
+        "interval": 3.166
+      },
+      {
+        "driverNumber": 43,
+        "driverCode": "COL",
+        "gap": 241.139,
+        "interval": 11.81
+      },
+      {
+        "driverNumber": 10,
+        "driverCode": "GAS",
+        "gap": 245.34,
+        "interval": 4.201
+      },
+      {
+        "driverNumber": 44,
+        "driverCode": "HAM",
+        "gap": null,
+        "interval": null
+      },
+      {
+        "driverNumber": 22,
+        "driverCode": "TSU",
+        "gap": null,
+        "interval": 5298.007
+      },
+      {
+        "driverNumber": 18,
+        "driverCode": "STR",
+        "gap": null,
+        "interval": 18.035
+      },
+      {
+        "driverNumber": 14,
+        "driverCode": "ALO",
+        "gap": null,
+        "interval": 132.721
+      },
+      {
+        "driverNumber": 23,
+        "driverCode": "ALB",
+        "gap": null,
+        "interval": 14.765
+      },
+      {
+        "driverNumber": 77,
+        "driverCode": "BOT",
+        "gap": null,
+        "interval": 22.038
+      },
+      {
+        "driverNumber": 31,
+        "driverCode": "OCO",
+        "gap": null,
+        "interval": 7.452
+      },
+      {
+        "driverNumber": 24,
+        "driverCode": "ZHO",
+        "gap": null,
+        "interval": 157.797
+      }
+    ]
+  }
+]

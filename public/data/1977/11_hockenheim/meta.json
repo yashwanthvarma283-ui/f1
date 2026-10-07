@@ -1,0 +1,25 @@
+{
+  "year": 1977,
+  "round": 11,
+  "slug": "hockenheim",
+  "raceName": "German Grand Prix",
+  "circuit": {
+    "id": "hockenheim",
+    "name": "Hockenheim Circuit",
+    "locality": "Hockenheim",
+    "country": "Germany",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "1977-07-31T14:00:00Z",
+      "endIso": "1977-07-31T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

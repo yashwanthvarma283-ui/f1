@@ -1,0 +1,1432 @@
+[
+  {
+    "timestamp": "2024-05-19T13:00:59.203000",
+    "airTemp": 24.2,
+    "trackTemp": 43.4,
+    "humidity": 51,
+    "pressure": 1007.2,
+    "windSpeed": 1.8,
+    "windDirection": 138,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:01:59.196000",
+    "airTemp": 24,
+    "trackTemp": 43.1,
+    "humidity": 52,
+    "pressure": 1007.2,
+    "windSpeed": 1.2,
+    "windDirection": 112,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:02:59.230000",
+    "airTemp": 24,
+    "trackTemp": 43.3,
+    "humidity": 53,
+    "pressure": 1007.2,
+    "windSpeed": 1.7,
+    "windDirection": 117,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:03:59.228000",
+    "airTemp": 24,
+    "trackTemp": 43.3,
+    "humidity": 53,
+    "pressure": 1007.2,
+    "windSpeed": 2.3,
+    "windDirection": 134,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:04:59.233000",
+    "airTemp": 24.2,
+    "trackTemp": 42.9,
+    "humidity": 53,
+    "pressure": 1007.3,
+    "windSpeed": 1.6,
+    "windDirection": 122,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:05:59.205000",
+    "airTemp": 24.4,
+    "trackTemp": 42.6,
+    "humidity": 53,
+    "pressure": 1007.2,
+    "windSpeed": 1.4,
+    "windDirection": 133,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:06:59.234000",
+    "airTemp": 24.4,
+    "trackTemp": 42.4,
+    "humidity": 54,
+    "pressure": 1007.2,
+    "windSpeed": 2,
+    "windDirection": 125,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:07:59.241000",
+    "airTemp": 24.3,
+    "trackTemp": 41.8,
+    "humidity": 55,
+    "pressure": 1007.1,
+    "windSpeed": 2.1,
+    "windDirection": 116,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:08:59.245000",
+    "airTemp": 24.2,
+    "trackTemp": 41.4,
+    "humidity": 55,
+    "pressure": 1007.2,
+    "windSpeed": 1.6,
+    "windDirection": 109,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:09:59.252000",
+    "airTemp": 24.1,
+    "trackTemp": 41.4,
+    "humidity": 55,
+    "pressure": 1007.2,
+    "windSpeed": 1.7,
+    "windDirection": 102,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:10:59.251000",
+    "airTemp": 24.2,
+    "trackTemp": 41.1,
+    "humidity": 55,
+    "pressure": 1007.2,
+    "windSpeed": 1.1,
+    "windDirection": 144,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:11:59.257000",
+    "airTemp": 24.3,
+    "trackTemp": 41.1,
+    "humidity": 54,
+    "pressure": 1007.2,
+    "windSpeed": 2,
+    "windDirection": 122,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:12:59.254000",
+    "airTemp": 24.2,
+    "trackTemp": 41.3,
+    "humidity": 54,
+    "pressure": 1007.1,
+    "windSpeed": 2.8,
+    "windDirection": 138,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:13:59.271000",
+    "airTemp": 24.2,
+    "trackTemp": 40.8,
+    "humidity": 54,
+    "pressure": 1007.2,
+    "windSpeed": 2.8,
+    "windDirection": 161,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:14:59.290000",
+    "airTemp": 24.3,
+    "trackTemp": 40.8,
+    "humidity": 55,
+    "pressure": 1007.2,
+    "windSpeed": 1.2,
+    "windDirection": 130,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:15:59.292000",
+    "airTemp": 24.3,
+    "trackTemp": 40.9,
+    "humidity": 54,
+    "pressure": 1007.1,
+    "windSpeed": 2.2,
+    "windDirection": 134,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:16:59.304000",
+    "airTemp": 24.3,
+    "trackTemp": 40.9,
+    "humidity": 54,
+    "pressure": 1007.1,
+    "windSpeed": 1.2,
+    "windDirection": 175,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:17:59.313000",
+    "airTemp": 24.4,
+    "trackTemp": 41.2,
+    "humidity": 55,
+    "pressure": 1007.2,
+    "windSpeed": 1,
+    "windDirection": 179,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:18:59.300000",
+    "airTemp": 24.3,
+    "trackTemp": 42,
+    "humidity": 54,
+    "pressure": 1007.1,
+    "windSpeed": 1.1,
+    "windDirection": 134,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:19:59.308000",
+    "airTemp": 24.4,
+    "trackTemp": 42.6,
+    "humidity": 53,
+    "pressure": 1007.1,
+    "windSpeed": 1.4,
+    "windDirection": 140,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:20:59.321000",
+    "airTemp": 24.3,
+    "trackTemp": 42.8,
+    "humidity": 52,
+    "pressure": 1007.1,
+    "windSpeed": 1.8,
+    "windDirection": 126,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:21:59.322000",
+    "airTemp": 24.3,
+    "trackTemp": 43.1,
+    "humidity": 51,
+    "pressure": 1007,
+    "windSpeed": 1.5,
+    "windDirection": 146,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:22:59.328000",
+    "airTemp": 24.4,
+    "trackTemp": 43.7,
+    "humidity": 51,
+    "pressure": 1007.1,
+    "windSpeed": 1.9,
+    "windDirection": 128,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:23:59.331000",
+    "airTemp": 24.4,
+    "trackTemp": 44,
+    "humidity": 50,
+    "pressure": 1007,
+    "windSpeed": 1.4,
+    "windDirection": 148,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:24:59.329000",
+    "airTemp": 24.5,
+    "trackTemp": 43.6,
+    "humidity": 50,
+    "pressure": 1007,
+    "windSpeed": 1.6,
+    "windDirection": 133,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:25:59.353000",
+    "airTemp": 24.5,
+    "trackTemp": 43.6,
+    "humidity": 50,
+    "pressure": 1007,
+    "windSpeed": 1.9,
+    "windDirection": 132,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:26:59.357000",
+    "airTemp": 24.5,
+    "trackTemp": 43.7,
+    "humidity": 50,
+    "pressure": 1006.9,
+    "windSpeed": 1.6,
+    "windDirection": 142,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:27:59.374000",
+    "airTemp": 24.4,
+    "trackTemp": 43.8,
+    "humidity": 51,
+    "pressure": 1007,
+    "windSpeed": 1.9,
+    "windDirection": 149,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:28:59.377000",
+    "airTemp": 24.5,
+    "trackTemp": 43.8,
+    "humidity": 51,
+    "pressure": 1007,
+    "windSpeed": 1.3,
+    "windDirection": 125,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:29:59.375000",
+    "airTemp": 24.5,
+    "trackTemp": 43.7,
+    "humidity": 51,
+    "pressure": 1007,
+    "windSpeed": 1.7,
+    "windDirection": 73,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:30:59.371000",
+    "airTemp": 24.6,
+    "trackTemp": 43.2,
+    "humidity": 50,
+    "pressure": 1007,
+    "windSpeed": 1.4,
+    "windDirection": 134,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:31:59.408000",
+    "airTemp": 24.8,
+    "trackTemp": 42.5,
+    "humidity": 51,
+    "pressure": 1007.1,
+    "windSpeed": 1.7,
+    "windDirection": 137,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:32:59.404000",
+    "airTemp": 24.7,
+    "trackTemp": 41.4,
+    "humidity": 51,
+    "pressure": 1007,
+    "windSpeed": 1.3,
+    "windDirection": 172,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:33:59.409000",
+    "airTemp": 24.6,
+    "trackTemp": 40.3,
+    "humidity": 52,
+    "pressure": 1006.9,
+    "windSpeed": 1.6,
+    "windDirection": 177,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:34:59.426000",
+    "airTemp": 24.6,
+    "trackTemp": 40.8,
+    "humidity": 53,
+    "pressure": 1007,
+    "windSpeed": 1.8,
+    "windDirection": 161,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:35:59.412000",
+    "airTemp": 24.6,
+    "trackTemp": 41.3,
+    "humidity": 52,
+    "pressure": 1007,
+    "windSpeed": 0.7,
+    "windDirection": 268,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:36:59.424000",
+    "airTemp": 24.6,
+    "trackTemp": 42.7,
+    "humidity": 50,
+    "pressure": 1007,
+    "windSpeed": 1.2,
+    "windDirection": 335,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:37:59.422000",
+    "airTemp": 24.5,
+    "trackTemp": 42.7,
+    "humidity": 50,
+    "pressure": 1006.9,
+    "windSpeed": 1.3,
+    "windDirection": 238,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:38:59.414000",
+    "airTemp": 24.6,
+    "trackTemp": 42.7,
+    "humidity": 51,
+    "pressure": 1006.9,
+    "windSpeed": 0.9,
+    "windDirection": 228,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:39:59.409000",
+    "airTemp": 24.7,
+    "trackTemp": 43.3,
+    "humidity": 50,
+    "pressure": 1007,
+    "windSpeed": 0.3,
+    "windDirection": 168,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:40:59.478000",
+    "airTemp": 24.9,
+    "trackTemp": 43.9,
+    "humidity": 49,
+    "pressure": 1006.8,
+    "windSpeed": 0.5,
+    "windDirection": 75,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:41:59.448000",
+    "airTemp": 25,
+    "trackTemp": 44.8,
+    "humidity": 49,
+    "pressure": 1006.9,
+    "windSpeed": 1,
+    "windDirection": 165,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:42:59.449000",
+    "airTemp": 25,
+    "trackTemp": 44.4,
+    "humidity": 49,
+    "pressure": 1006.8,
+    "windSpeed": 1.8,
+    "windDirection": 158,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:43:59.449000",
+    "airTemp": 25.1,
+    "trackTemp": 44,
+    "humidity": 48,
+    "pressure": 1006.8,
+    "windSpeed": 2.2,
+    "windDirection": 147,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:44:59.451000",
+    "airTemp": 25,
+    "trackTemp": 44,
+    "humidity": 50,
+    "pressure": 1006.8,
+    "windSpeed": 2.1,
+    "windDirection": 137,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:45:59.454000",
+    "airTemp": 24.9,
+    "trackTemp": 44.1,
+    "humidity": 50,
+    "pressure": 1006.8,
+    "windSpeed": 1.6,
+    "windDirection": 161,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:46:59.455000",
+    "airTemp": 24.8,
+    "trackTemp": 44.4,
+    "humidity": 51,
+    "pressure": 1006.8,
+    "windSpeed": 1.3,
+    "windDirection": 143,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:47:59.466000",
+    "airTemp": 25,
+    "trackTemp": 44.4,
+    "humidity": 51,
+    "pressure": 1006.8,
+    "windSpeed": 0.7,
+    "windDirection": 0,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:48:59.459000",
+    "airTemp": 25.2,
+    "trackTemp": 44.7,
+    "humidity": 50,
+    "pressure": 1006.8,
+    "windSpeed": 0.5,
+    "windDirection": 314,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:49:59.467000",
+    "airTemp": 25.3,
+    "trackTemp": 45.3,
+    "humidity": 49,
+    "pressure": 1006.8,
+    "windSpeed": 0.9,
+    "windDirection": 121,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:50:59.469000",
+    "airTemp": 25.5,
+    "trackTemp": 45.3,
+    "humidity": 48,
+    "pressure": 1006.8,
+    "windSpeed": 0.7,
+    "windDirection": 144,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:51:59.466000",
+    "airTemp": 25.4,
+    "trackTemp": 45.3,
+    "humidity": 50,
+    "pressure": 1006.8,
+    "windSpeed": 2.2,
+    "windDirection": 141,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:52:59.470000",
+    "airTemp": 25.5,
+    "trackTemp": 45.3,
+    "humidity": 51,
+    "pressure": 1006.8,
+    "windSpeed": 2.8,
+    "windDirection": 108,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:53:59.466000",
+    "airTemp": 25.4,
+    "trackTemp": 46,
+    "humidity": 50,
+    "pressure": 1006.8,
+    "windSpeed": 1.3,
+    "windDirection": 137,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:54:59.448000",
+    "airTemp": 25.2,
+    "trackTemp": 44.5,
+    "humidity": 50,
+    "pressure": 1006.9,
+    "windSpeed": 1.4,
+    "windDirection": 157,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:55:59.475000",
+    "airTemp": 25.1,
+    "trackTemp": 44.5,
+    "humidity": 50,
+    "pressure": 1006.9,
+    "windSpeed": 1.5,
+    "windDirection": 139,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:56:59.467000",
+    "airTemp": 25,
+    "trackTemp": 45.3,
+    "humidity": 51,
+    "pressure": 1006.8,
+    "windSpeed": 3,
+    "windDirection": 136,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:57:59.472000",
+    "airTemp": 25,
+    "trackTemp": 45.5,
+    "humidity": 50,
+    "pressure": 1006.8,
+    "windSpeed": 2.5,
+    "windDirection": 138,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:58:59.484000",
+    "airTemp": 25.1,
+    "trackTemp": 45.3,
+    "humidity": 50,
+    "pressure": 1006.9,
+    "windSpeed": 3.4,
+    "windDirection": 121,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T13:59:59.500000",
+    "airTemp": 25.1,
+    "trackTemp": 45.2,
+    "humidity": 50,
+    "pressure": 1006.9,
+    "windSpeed": 3.4,
+    "windDirection": 138,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:00:59.504000",
+    "airTemp": 25.1,
+    "trackTemp": 44.9,
+    "humidity": 50,
+    "pressure": 1006.9,
+    "windSpeed": 3.1,
+    "windDirection": 137,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:01:59.517000",
+    "airTemp": 25.3,
+    "trackTemp": 43.6,
+    "humidity": 51,
+    "pressure": 1006.8,
+    "windSpeed": 4.2,
+    "windDirection": 141,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:02:59.523000",
+    "airTemp": 25.4,
+    "trackTemp": 42.7,
+    "humidity": 50,
+    "pressure": 1006.8,
+    "windSpeed": 3.3,
+    "windDirection": 129,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:03:59.524000",
+    "airTemp": 25.3,
+    "trackTemp": 41.7,
+    "humidity": 51,
+    "pressure": 1006.8,
+    "windSpeed": 3.4,
+    "windDirection": 135,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:04:59.518000",
+    "airTemp": 25.1,
+    "trackTemp": 40.7,
+    "humidity": 52,
+    "pressure": 1006.9,
+    "windSpeed": 2.9,
+    "windDirection": 116,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:05:59.523000",
+    "airTemp": 25,
+    "trackTemp": 40.5,
+    "humidity": 51,
+    "pressure": 1006.8,
+    "windSpeed": 1.9,
+    "windDirection": 137,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:06:59.515000",
+    "airTemp": 25.1,
+    "trackTemp": 40.4,
+    "humidity": 51,
+    "pressure": 1006.8,
+    "windSpeed": 2.4,
+    "windDirection": 145,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:07:59.522000",
+    "airTemp": 24.9,
+    "trackTemp": 40.1,
+    "humidity": 51,
+    "pressure": 1006.8,
+    "windSpeed": 2.5,
+    "windDirection": 117,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:08:59.533000",
+    "airTemp": 24.9,
+    "trackTemp": 40.1,
+    "humidity": 51,
+    "pressure": 1006.8,
+    "windSpeed": 1.5,
+    "windDirection": 131,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:09:59.513000",
+    "airTemp": 24.8,
+    "trackTemp": 39.6,
+    "humidity": 50,
+    "pressure": 1006.8,
+    "windSpeed": 3.4,
+    "windDirection": 123,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:10:59.529000",
+    "airTemp": 24.7,
+    "trackTemp": 39.4,
+    "humidity": 50,
+    "pressure": 1006.8,
+    "windSpeed": 1.3,
+    "windDirection": 133,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:11:59.542000",
+    "airTemp": 24.8,
+    "trackTemp": 39.4,
+    "humidity": 49,
+    "pressure": 1006.8,
+    "windSpeed": 3.4,
+    "windDirection": 144,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:12:59.537000",
+    "airTemp": 25,
+    "trackTemp": 39.8,
+    "humidity": 49,
+    "pressure": 1006.8,
+    "windSpeed": 2.3,
+    "windDirection": 99,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:13:59.557000",
+    "airTemp": 25,
+    "trackTemp": 40.1,
+    "humidity": 50,
+    "pressure": 1006.6,
+    "windSpeed": 1.3,
+    "windDirection": 143,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:14:59.598000",
+    "airTemp": 25.1,
+    "trackTemp": 41,
+    "humidity": 49,
+    "pressure": 1006.7,
+    "windSpeed": 2.4,
+    "windDirection": 164,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:15:59.595000",
+    "airTemp": 25.2,
+    "trackTemp": 41.3,
+    "humidity": 49,
+    "pressure": 1006.6,
+    "windSpeed": 2.6,
+    "windDirection": 119,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:16:59.579000",
+    "airTemp": 25.1,
+    "trackTemp": 41.3,
+    "humidity": 49,
+    "pressure": 1006.7,
+    "windSpeed": 1.8,
+    "windDirection": 138,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:17:59.577000",
+    "airTemp": 25.1,
+    "trackTemp": 42,
+    "humidity": 49,
+    "pressure": 1006.6,
+    "windSpeed": 2.8,
+    "windDirection": 101,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:18:59.576000",
+    "airTemp": 25.1,
+    "trackTemp": 42,
+    "humidity": 47,
+    "pressure": 1006.7,
+    "windSpeed": 2.6,
+    "windDirection": 134,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:19:59.613000",
+    "airTemp": 25.3,
+    "trackTemp": 41.9,
+    "humidity": 48,
+    "pressure": 1006.5,
+    "windSpeed": 4.1,
+    "windDirection": 133,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:20:59.647000",
+    "airTemp": 25.3,
+    "trackTemp": 42.2,
+    "humidity": 48,
+    "pressure": 1006.6,
+    "windSpeed": 3.7,
+    "windDirection": 137,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:21:59.631000",
+    "airTemp": 25.4,
+    "trackTemp": 42.3,
+    "humidity": 48,
+    "pressure": 1006.7,
+    "windSpeed": 4.2,
+    "windDirection": 118,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:22:59.663000",
+    "airTemp": 25.5,
+    "trackTemp": 42.2,
+    "humidity": 47,
+    "pressure": 1006.7,
+    "windSpeed": 2.4,
+    "windDirection": 136,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:23:59.665000",
+    "airTemp": 25.5,
+    "trackTemp": 42,
+    "humidity": 47,
+    "pressure": 1006.5,
+    "windSpeed": 1.7,
+    "windDirection": 123,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:24:59.663000",
+    "airTemp": 25.5,
+    "trackTemp": 41.8,
+    "humidity": 48,
+    "pressure": 1006.5,
+    "windSpeed": 2.5,
+    "windDirection": 151,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:25:59.692000",
+    "airTemp": 25.5,
+    "trackTemp": 42.2,
+    "humidity": 48,
+    "pressure": 1006.4,
+    "windSpeed": 3,
+    "windDirection": 111,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:26:59.713000",
+    "airTemp": 25.5,
+    "trackTemp": 42.4,
+    "humidity": 47,
+    "pressure": 1006.5,
+    "windSpeed": 2.6,
+    "windDirection": 124,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:27:59.723000",
+    "airTemp": 25.5,
+    "trackTemp": 42.3,
+    "humidity": 46,
+    "pressure": 1006.6,
+    "windSpeed": 2.7,
+    "windDirection": 101,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:28:59.721000",
+    "airTemp": 25.5,
+    "trackTemp": 42.1,
+    "humidity": 46,
+    "pressure": 1006.5,
+    "windSpeed": 2.8,
+    "windDirection": 123,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:29:59.739000",
+    "airTemp": 25.4,
+    "trackTemp": 42.2,
+    "humidity": 47,
+    "pressure": 1006.5,
+    "windSpeed": 2,
+    "windDirection": 110,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:30:59.764000",
+    "airTemp": 25.3,
+    "trackTemp": 42.6,
+    "humidity": 45,
+    "pressure": 1006.4,
+    "windSpeed": 2.7,
+    "windDirection": 136,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:31:59.779000",
+    "airTemp": 25.3,
+    "trackTemp": 43,
+    "humidity": 45,
+    "pressure": 1006.5,
+    "windSpeed": 3,
+    "windDirection": 140,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:32:59.781000",
+    "airTemp": 25.3,
+    "trackTemp": 42,
+    "humidity": 46,
+    "pressure": 1006.4,
+    "windSpeed": 5,
+    "windDirection": 138,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:33:59.782000",
+    "airTemp": 25.4,
+    "trackTemp": 41.9,
+    "humidity": 46,
+    "pressure": 1006.4,
+    "windSpeed": 2.5,
+    "windDirection": 128,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:34:59.803000",
+    "airTemp": 25.4,
+    "trackTemp": 42.6,
+    "humidity": 46,
+    "pressure": 1006.4,
+    "windSpeed": 2.4,
+    "windDirection": 124,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:35:59.810000",
+    "airTemp": 25.5,
+    "trackTemp": 42.5,
+    "humidity": 46,
+    "pressure": 1006.5,
+    "windSpeed": 2,
+    "windDirection": 104,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:36:59.830000",
+    "airTemp": 25.5,
+    "trackTemp": 42.4,
+    "humidity": 46,
+    "pressure": 1006.3,
+    "windSpeed": 2.1,
+    "windDirection": 137,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:37:59.819000",
+    "airTemp": 25.6,
+    "trackTemp": 42.4,
+    "humidity": 47,
+    "pressure": 1006.5,
+    "windSpeed": 2.1,
+    "windDirection": 136,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:38:59.848000",
+    "airTemp": 25.6,
+    "trackTemp": 42.3,
+    "humidity": 46,
+    "pressure": 1006.4,
+    "windSpeed": 2.5,
+    "windDirection": 143,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:39:59.833000",
+    "airTemp": 25.7,
+    "trackTemp": 42.5,
+    "humidity": 46,
+    "pressure": 1006.3,
+    "windSpeed": 2.4,
+    "windDirection": 183,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:40:59.854000",
+    "airTemp": 25.7,
+    "trackTemp": 42.6,
+    "humidity": 45,
+    "pressure": 1006.3,
+    "windSpeed": 1,
+    "windDirection": 141,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:41:59.837000",
+    "airTemp": 25.6,
+    "trackTemp": 42.9,
+    "humidity": 45,
+    "pressure": 1006.2,
+    "windSpeed": 1.8,
+    "windDirection": 138,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:42:59.866000",
+    "airTemp": 25.6,
+    "trackTemp": 42.6,
+    "humidity": 44,
+    "pressure": 1006.2,
+    "windSpeed": 4.2,
+    "windDirection": 139,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:43:59.853000",
+    "airTemp": 25.7,
+    "trackTemp": 42.6,
+    "humidity": 45,
+    "pressure": 1006.2,
+    "windSpeed": 3.9,
+    "windDirection": 119,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:44:59.862000",
+    "airTemp": 25.7,
+    "trackTemp": 42.1,
+    "humidity": 45,
+    "pressure": 1006.2,
+    "windSpeed": 2.5,
+    "windDirection": 135,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:45:59.861000",
+    "airTemp": 25.8,
+    "trackTemp": 42.3,
+    "humidity": 45,
+    "pressure": 1006.2,
+    "windSpeed": 2.1,
+    "windDirection": 121,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:46:59.867000",
+    "airTemp": 25.7,
+    "trackTemp": 42.4,
+    "humidity": 46,
+    "pressure": 1006.2,
+    "windSpeed": 2.9,
+    "windDirection": 131,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:47:59.876000",
+    "airTemp": 25.6,
+    "trackTemp": 42.6,
+    "humidity": 45,
+    "pressure": 1006.1,
+    "windSpeed": 4.3,
+    "windDirection": 131,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:48:59.889000",
+    "airTemp": 25.7,
+    "trackTemp": 42.5,
+    "humidity": 44,
+    "pressure": 1006.1,
+    "windSpeed": 2.5,
+    "windDirection": 148,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:49:59.919000",
+    "airTemp": 25.8,
+    "trackTemp": 42,
+    "humidity": 44,
+    "pressure": 1006.3,
+    "windSpeed": 2.1,
+    "windDirection": 136,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:50:59.931000",
+    "airTemp": 25.8,
+    "trackTemp": 42,
+    "humidity": 45,
+    "pressure": 1006.1,
+    "windSpeed": 2.2,
+    "windDirection": 123,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:51:59.919000",
+    "airTemp": 25.6,
+    "trackTemp": 42,
+    "humidity": 45,
+    "pressure": 1006.2,
+    "windSpeed": 3.3,
+    "windDirection": 134,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:52:59.943000",
+    "airTemp": 25.7,
+    "trackTemp": 41.8,
+    "humidity": 44,
+    "pressure": 1006.2,
+    "windSpeed": 3.7,
+    "windDirection": 143,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:53:59.922000",
+    "airTemp": 25.7,
+    "trackTemp": 41.6,
+    "humidity": 44,
+    "pressure": 1006.1,
+    "windSpeed": 3,
+    "windDirection": 111,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:54:59.926000",
+    "airTemp": 25.7,
+    "trackTemp": 41.6,
+    "humidity": 44,
+    "pressure": 1006.1,
+    "windSpeed": 2.4,
+    "windDirection": 104,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:55:59.920000",
+    "airTemp": 25.8,
+    "trackTemp": 42.1,
+    "humidity": 44,
+    "pressure": 1006.2,
+    "windSpeed": 2.7,
+    "windDirection": 138,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:56:59.946000",
+    "airTemp": 25.8,
+    "trackTemp": 42.1,
+    "humidity": 44,
+    "pressure": 1006.2,
+    "windSpeed": 2.2,
+    "windDirection": 115,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:57:59.927000",
+    "airTemp": 25.8,
+    "trackTemp": 42,
+    "humidity": 44,
+    "pressure": 1006.2,
+    "windSpeed": 1.5,
+    "windDirection": 119,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:58:59.948000",
+    "airTemp": 25.8,
+    "trackTemp": 41.5,
+    "humidity": 44,
+    "pressure": 1006.2,
+    "windSpeed": 2.6,
+    "windDirection": 124,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T14:59:59.968000",
+    "airTemp": 25.9,
+    "trackTemp": 40.5,
+    "humidity": 45,
+    "pressure": 1006.2,
+    "windSpeed": 1.9,
+    "windDirection": 139,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T15:00:59.971000",
+    "airTemp": 25.8,
+    "trackTemp": 40.1,
+    "humidity": 45,
+    "pressure": 1006.1,
+    "windSpeed": 3.3,
+    "windDirection": 110,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T15:01:59.988000",
+    "airTemp": 25.6,
+    "trackTemp": 39.7,
+    "humidity": 45,
+    "pressure": 1006.1,
+    "windSpeed": 2.4,
+    "windDirection": 110,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T15:02:59.982000",
+    "airTemp": 25.6,
+    "trackTemp": 39.5,
+    "humidity": 45,
+    "pressure": 1006.1,
+    "windSpeed": 1.6,
+    "windDirection": 125,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T15:04:00.016000",
+    "airTemp": 25.6,
+    "trackTemp": 39.3,
+    "humidity": 45,
+    "pressure": 1006.1,
+    "windSpeed": 3.1,
+    "windDirection": 120,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T15:05:00.010000",
+    "airTemp": 25.6,
+    "trackTemp": 39.1,
+    "humidity": 44,
+    "pressure": 1006.1,
+    "windSpeed": 3.2,
+    "windDirection": 137,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T15:06:00.040000",
+    "airTemp": 25.6,
+    "trackTemp": 39.1,
+    "humidity": 44,
+    "pressure": 1006.1,
+    "windSpeed": 3.2,
+    "windDirection": 137,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T15:07:00.058000",
+    "airTemp": 25.5,
+    "trackTemp": 39.1,
+    "humidity": 44,
+    "pressure": 1006.2,
+    "windSpeed": 1.9,
+    "windDirection": 131,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T15:08:00.060000",
+    "airTemp": 25.5,
+    "trackTemp": 39,
+    "humidity": 45,
+    "pressure": 1006.1,
+    "windSpeed": 2.4,
+    "windDirection": 142,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T15:09:00.054000",
+    "airTemp": 25.5,
+    "trackTemp": 39.4,
+    "humidity": 45,
+    "pressure": 1006.2,
+    "windSpeed": 3.1,
+    "windDirection": 122,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T15:10:00.065000",
+    "airTemp": 25.5,
+    "trackTemp": 39.1,
+    "humidity": 45,
+    "pressure": 1006.1,
+    "windSpeed": 1.9,
+    "windDirection": 112,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T15:11:00.057000",
+    "airTemp": 25.4,
+    "trackTemp": 38.6,
+    "humidity": 45,
+    "pressure": 1006.2,
+    "windSpeed": 1.6,
+    "windDirection": 120,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T15:12:00.078000",
+    "airTemp": 25.3,
+    "trackTemp": 38.9,
+    "humidity": 45,
+    "pressure": 1006.1,
+    "windSpeed": 1.9,
+    "windDirection": 143,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T15:13:00.079000",
+    "airTemp": 25.4,
+    "trackTemp": 38.9,
+    "humidity": 45,
+    "pressure": 1006.1,
+    "windSpeed": 1.7,
+    "windDirection": 123,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T15:14:00.112000",
+    "airTemp": 25.4,
+    "trackTemp": 38.9,
+    "humidity": 44,
+    "pressure": 1006.1,
+    "windSpeed": 2.2,
+    "windDirection": 116,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T15:15:00.121000",
+    "airTemp": 25.5,
+    "trackTemp": 38.9,
+    "humidity": 44,
+    "pressure": 1006.1,
+    "windSpeed": 2,
+    "windDirection": 119,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T15:16:00.126000",
+    "airTemp": 25.4,
+    "trackTemp": 38.8,
+    "humidity": 44,
+    "pressure": 1006.1,
+    "windSpeed": 2.3,
+    "windDirection": 119,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T15:17:00.155000",
+    "airTemp": 25.4,
+    "trackTemp": 38.7,
+    "humidity": 44,
+    "pressure": 1006.1,
+    "windSpeed": 1.5,
+    "windDirection": 150,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T15:18:00.125000",
+    "airTemp": 25.5,
+    "trackTemp": 39.1,
+    "humidity": 45,
+    "pressure": 1006.1,
+    "windSpeed": 1.2,
+    "windDirection": 135,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T15:19:00.164000",
+    "airTemp": 25.6,
+    "trackTemp": 40.2,
+    "humidity": 44,
+    "pressure": 1006,
+    "windSpeed": 2.2,
+    "windDirection": 124,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T15:20:00.141000",
+    "airTemp": 25.8,
+    "trackTemp": 40.6,
+    "humidity": 43,
+    "pressure": 1006.1,
+    "windSpeed": 1.8,
+    "windDirection": 129,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T15:21:00.147000",
+    "airTemp": 25.9,
+    "trackTemp": 40.6,
+    "humidity": 43,
+    "pressure": 1006.1,
+    "windSpeed": 1.3,
+    "windDirection": 141,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T15:22:00.147000",
+    "airTemp": 26,
+    "trackTemp": 41.1,
+    "humidity": 42,
+    "pressure": 1006.1,
+    "windSpeed": 1.5,
+    "windDirection": 85,
+    "rainfall": false
+  },
+  {
+    "timestamp": "2024-05-19T15:23:00.163000",
+    "airTemp": 26.1,
+    "trackTemp": 41.3,
+    "humidity": 42,
+    "pressure": 1006.1,
+    "windSpeed": 0.8,
+    "windDirection": 119,
+    "rainfall": false
+  }
+]

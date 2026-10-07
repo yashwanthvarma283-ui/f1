@@ -1,0 +1,25 @@
+{
+  "year": 2018,
+  "round": 21,
+  "slug": "yas_marina",
+  "raceName": "Abu Dhabi Grand Prix",
+  "circuit": {
+    "id": "yas_marina",
+    "name": "Yas Marina Circuit",
+    "locality": "Yas Marina",
+    "country": "United Arab Emirates",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2018-11-25T14:00:00Z",
+      "endIso": "2018-11-25T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

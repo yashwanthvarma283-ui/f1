@@ -1,0 +1,344 @@
+{
+  "year": 1988,
+  "totalRaces": 16,
+  "extractedRaces": 16,
+  "lastUpdated": "2026-10-07T16:01:25.822288+00:00",
+  "races": [
+    {
+      "round": 1,
+      "slug": "rio_de_janeiro",
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "rio_de_janeiro",
+      "circuitName": "Rio de Janeiro Circuit",
+      "country": "Brazil",
+      "date": "1988-04-03",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "prost",
+        "name": "Alain Prost",
+        "code": "PRO",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 2,
+      "slug": "imola",
+      "raceName": "San Marino Grand Prix",
+      "circuitId": "imola",
+      "circuitName": "Imola Circuit",
+      "country": "Italy",
+      "date": "1988-05-01",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "senna",
+        "name": "Ayrton Senna",
+        "code": "SEN",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 3,
+      "slug": "monte_carlo",
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monte_carlo",
+      "circuitName": "Monte Carlo Circuit",
+      "country": "Monaco",
+      "date": "1988-05-15",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "prost",
+        "name": "Alain Prost",
+        "code": "PRO",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 4,
+      "slug": "mexico_city",
+      "raceName": "Mexican Grand Prix",
+      "circuitId": "mexico_city",
+      "circuitName": "Mexico City Circuit",
+      "country": "Mexico",
+      "date": "1988-05-29",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "prost",
+        "name": "Alain Prost",
+        "code": "PRO",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 5,
+      "slug": "montreal",
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "montreal",
+      "circuitName": "Montreal Circuit",
+      "country": "Canada",
+      "date": "1988-06-12",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "senna",
+        "name": "Ayrton Senna",
+        "code": "SEN",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 6,
+      "slug": "detroit",
+      "raceName": "Detroit Grand Prix",
+      "circuitId": "detroit",
+      "circuitName": "Detroit Circuit",
+      "country": "USA",
+      "date": "1988-06-19",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "senna",
+        "name": "Ayrton Senna",
+        "code": "SEN",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 7,
+      "slug": "le_castellet",
+      "raceName": "French Grand Prix",
+      "circuitId": "le_castellet",
+      "circuitName": "Le Castellet Circuit",
+      "country": "France",
+      "date": "1988-07-03",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "prost",
+        "name": "Alain Prost",
+        "code": "PRO",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 8,
+      "slug": "silverstone",
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "circuitName": "Silverstone Circuit",
+      "country": "UK",
+      "date": "1988-07-10",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "senna",
+        "name": "Ayrton Senna",
+        "code": "SEN",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 9,
+      "slug": "hockenheim",
+      "raceName": "German Grand Prix",
+      "circuitId": "hockenheim",
+      "circuitName": "Hockenheim Circuit",
+      "country": "Germany",
+      "date": "1988-07-24",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "senna",
+        "name": "Ayrton Senna",
+        "code": "SEN",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 10,
+      "slug": "budapest",
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "budapest",
+      "circuitName": "Budapest Circuit",
+      "country": "Hungary",
+      "date": "1988-08-07",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "senna",
+        "name": "Ayrton Senna",
+        "code": "SEN",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 11,
+      "slug": "spa",
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "circuitName": "Spa Circuit",
+      "country": "Belgium",
+      "date": "1988-08-28",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "senna",
+        "name": "Ayrton Senna",
+        "code": "SEN",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 12,
+      "slug": "monza",
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "circuitName": "Monza Circuit",
+      "country": "Italy",
+      "date": "1988-09-11",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "berger",
+        "name": "Gerhard Berger",
+        "code": "BER",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 13,
+      "slug": "estoril",
+      "raceName": "Portuguese Grand Prix",
+      "circuitId": "estoril",
+      "circuitName": "Estoril Circuit",
+      "country": "Portugal",
+      "date": "1988-09-25",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "prost",
+        "name": "Alain Prost",
+        "code": "PRO",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 14,
+      "slug": "jerez_de_la_frontera",
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "jerez_de_la_frontera",
+      "circuitName": "Jerez de la Frontera Circuit",
+      "country": "Spain",
+      "date": "1988-10-02",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "prost",
+        "name": "Alain Prost",
+        "code": "PRO",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 15,
+      "slug": "suzuka",
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "circuitName": "Suzuka Circuit",
+      "country": "Japan",
+      "date": "1988-10-30",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "senna",
+        "name": "Ayrton Senna",
+        "code": "SEN",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 16,
+      "slug": "adelaide",
+      "raceName": "Australian Grand Prix",
+      "circuitId": "adelaide",
+      "circuitName": "Adelaide Circuit",
+      "country": "Australia",
+      "date": "1988-11-13",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "prost",
+        "name": "Alain Prost",
+        "code": "PRO",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    }
+  ]
+}

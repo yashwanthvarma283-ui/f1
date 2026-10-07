@@ -1,0 +1,22 @@
+{
+  "raceName": "Spanish Grand Prix",
+  "year": 2024,
+  "round": 10,
+  "generatedAt": "2026-10-07T13:43:05.684Z",
+  "disagreements": [],
+  "sessions": {
+    "Race": {
+      "sessionKey": 9539,
+      "driversCount": 20,
+      "lapsCount": 1310,
+      "stintsAvailable": true,
+      "pitStopsCount": 42,
+      "radioClipsCount": 132,
+      "radioMappedPercentage": 75,
+      "raceControlMessagesCount": 105,
+      "raceControlMappedPercentage": 100,
+      "weatherCount": 154,
+      "overallCompletenessPercent": 98
+    }
+  }
+}

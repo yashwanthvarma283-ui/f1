@@ -1,0 +1,1521 @@
+[
+  {
+    "lap": 1,
+    "headline": "Lap 1: Grand Prix Race Start",
+    "summary": "Lights out and away we go! VER leads into the opening complex with clean starts across the grid.",
+    "leaderCode": "VER",
+    "gapToSecond": "+1.957s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "PINK HEAD PADDING MATERIAL MUST BE USED",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "GREEN LIGHT - PIT EXIT OPEN",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "PIT EXIT CLOSED",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "RISK OF RAIN FOR F1 RACE IS 0%",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "DRS DISABLED",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "GREEN LIGHT - PIT EXIT OPEN",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "SESSION STARTED",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "YELLOW IN TRACK SECTOR 4",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "YELLOW IN TRACK SECTOR 3",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "RED FLAG",
+        "importance": "high"
+      },
+      {
+        "type": "FLAG",
+        "description": "SESSION ABORTED",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 3",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 4",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CARS 3 (RIC) AND 23 (ALB) STOPPED AT TURN 2",
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (131.236s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 2,
+    "headline": "Lap 2: Safety Car Deployed",
+    "summary": "The Safety Car is out on track as the field neutralizes. TSU leads with the pack compressed.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1471.250s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "ORDER FOR RESTART: 1, 11, 4, 55, 14, 81, 44, 16, 63, 27, 77, 22, 31, 10, 18, 20, 2, 24",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "TURN 2 INCIDENT INVOLVING CARS 3 (RIC) AND 23 (ALB) NOTED - CAUSING A COLLISION",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "RACE WILL RESUME AT 14:32",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: TURN 2 INCIDENT INVOLVING CARS 3 (RIC) AND 23 (ALB) WILL BE INVESTIGATED AFTER THE RACE - CAUSING A COLLISION",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "TRACK CLEAR",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "RACE WILL RESUME AT 14:32 - STANDING START PROCEDURE",
+        "importance": "medium"
+      },
+      {
+        "type": "SAFETY_CAR",
+        "description": "ALL CARS MAY OVERTAKE THE SAFETY CAR",
+        "importance": "high"
+      },
+      {
+        "type": "FLAG",
+        "description": "SESSION STARTED",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "STANDING START PROCEDURE",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "TSU overtakes VER for P1",
+        "driverNumber": 22,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 3,
+    "headline": "Lap 3: VER overtakes TSU for P1",
+    "summary": "VER overtakes TSU for P1. VER controls the race with a +0.916s advantage.",
+    "leaderCode": "VER",
+    "gapToSecond": "+0.916s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes TSU for P1",
+        "driverNumber": 1,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes VER for P2",
+        "driverNumber": 11,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "NOR overtakes PER for P3",
+        "driverNumber": 4,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes NOR for P4",
+        "driverNumber": 55,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by ZHO (129.289s)",
+        "driverNumber": 24,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 4,
+    "headline": "Lap 4: TSU overtakes VER for P1",
+    "summary": "TSU overtakes VER for P1. TSU controls the race with a +1641.536s advantage.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1641.536s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "DRS ENABLED",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "TSU overtakes VER for P1",
+        "driverNumber": 22,
+        "importance": "high"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by TSU (99.108s)",
+        "driverNumber": 22,
+        "importance": "high"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (96.472s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 5,
+    "headline": "Lap 5: TSU leads by +1638.465s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1638.465s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1638.465s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "BOT overtakes OCO for P11",
+        "driverNumber": 77,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAR overtakes HUL for P17",
+        "driverNumber": 2,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (96.437s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 6,
+    "headline": "Lap 6: TSU leads by +1636.433s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1636.433s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1636.433s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "STR overtakes BOT for P11",
+        "driverNumber": 18,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 7,
+    "headline": "Lap 7: TSU leads by +1632.405s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1632.405s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1632.405s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 11 (PER) TIME 1:37.693 DELETED - TRACK LIMITS AT TURN 9 LAP 6 14:41:12",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "OCO overtakes BOT for P12",
+        "driverNumber": 31,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "GAS overtakes OCO for P13",
+        "driverNumber": 10,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "MAG overtakes GAS for P14",
+        "driverNumber": 20,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAR overtakes MAG for P15",
+        "driverNumber": 2,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 8,
+    "headline": "Lap 8: TSU leads by +1611.690s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1611.690s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1611.690s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "MAG overtakes GAS for P13",
+        "driverNumber": 20,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "BOT overtakes ZHO for P16",
+        "driverNumber": 77,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes BOT for P17",
+        "driverNumber": 27,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 9,
+    "headline": "Lap 9: TSU leads by +1611.698s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1611.698s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1611.698s",
+    "events": []
+  },
+  {
+    "lap": 10,
+    "headline": "Lap 10: TSU leads by +1611.792s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1611.792s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1611.792s",
+    "events": []
+  },
+  {
+    "lap": 11,
+    "headline": "Lap 11: TSU leads by +1611.671s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1611.671s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1611.671s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes NOR for P4",
+        "driverNumber": 55,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAR overtakes GAS for P14",
+        "driverNumber": 2,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 12,
+    "headline": "Lap 12: TSU leads by +1609.367s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1609.367s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1609.367s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 2 (SAR) TIME 1:39.348 DELETED - TRACK LIMITS AT TURN 14 LAP 11 14:50:21",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ALO overtakes NOR for P5",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LEC overtakes ALO for P6",
+        "driverNumber": 16,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HAM overtakes LEC for P8",
+        "driverNumber": 44,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RUS overtakes HAM for P9",
+        "driverNumber": 63,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 13,
+    "headline": "Lap 13: TSU leads by +1608.114s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1608.114s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1608.114s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "LEC overtakes ALO for P5",
+        "driverNumber": 16,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RUS overtakes PIA for P7",
+        "driverNumber": 63,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "NOR overtakes RUS for P9",
+        "driverNumber": 4,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "MAG overtakes NOR for P10",
+        "driverNumber": 20,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by NOR (95.761s)",
+        "driverNumber": 4,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 14,
+    "headline": "Lap 14: TSU leads by +1607.514s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1607.514s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1607.514s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "RUS overtakes ALO for P6",
+        "driverNumber": 63,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HAM overtakes RUS for P7",
+        "driverNumber": 44,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "NOR overtakes HAM for P8",
+        "driverNumber": 4,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PIA overtakes MAG for P10",
+        "driverNumber": 81,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 15,
+    "headline": "Lap 15: TSU leads by +1605.443s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1605.443s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1605.443s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "SAR overtakes OCO for P12",
+        "driverNumber": 2,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "STR overtakes HUL for P15",
+        "driverNumber": 18,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 16,
+    "headline": "Lap 16: LEC overtakes PER for P3",
+    "summary": "LEC overtakes PER for P3. TSU controls the race with a +1605.619s advantage.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1605.619s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "LEC overtakes PER for P3",
+        "driverNumber": 16,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RUS overtakes SAI for P4",
+        "driverNumber": 63,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HAM overtakes LEC for P5",
+        "driverNumber": 44,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "NOR overtakes RUS for P6",
+        "driverNumber": 4,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 17,
+    "headline": "Lap 17: LEC overtakes VER for P2",
+    "summary": "LEC overtakes VER for P2. TSU controls the race with a +1620.504s advantage.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1620.504s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "LEC overtakes VER for P2",
+        "driverNumber": 16,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "NOR overtakes HAM for P5",
+        "driverNumber": 4,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes NOR for P6",
+        "driverNumber": 11,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "STR overtakes OCO for P14",
+        "driverNumber": 18,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 18,
+    "headline": "Lap 18: TSU leads by +1618.994s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1618.994s lead over LEC.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1618.994s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "NOR overtakes RUS for P4",
+        "driverNumber": 4,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes NOR for P5",
+        "driverNumber": 11,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "BOT overtakes SAR for P12",
+        "driverNumber": 77,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes OCO for P15",
+        "driverNumber": 27,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 19,
+    "headline": "Lap 19: TSU leads by +1616.859s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1616.859s lead over LEC.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1616.859s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes HAM for P7",
+        "driverNumber": 55,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 20,
+    "headline": "Lap 20: TSU leads by +1615.239s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1615.239s lead over LEC.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1615.239s",
+    "events": []
+  },
+  {
+    "lap": 21,
+    "headline": "Lap 21: VER overtakes LEC for P2",
+    "summary": "VER overtakes LEC for P2. TSU controls the race with a +1611.656s advantage.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1611.656s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes LEC for P2",
+        "driverNumber": 1,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes RUS for P6",
+        "driverNumber": 55,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (95.617s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 22,
+    "headline": "Lap 22: TSU leads by +1606.124s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1606.124s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1606.124s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes NOR for P4",
+        "driverNumber": 11,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ALO overtakes RUS for P7",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes STR for P14",
+        "driverNumber": 27,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 23,
+    "headline": "Lap 23: TSU leads by +1585.078s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1585.078s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1585.078s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 4 (NOR) TIME 1:38.888 DELETED - TRACK LIMITS AT TURN 9 LAP 22 15:07:32",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PIA overtakes RUS for P8",
+        "driverNumber": 81,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes MAG for P11",
+        "driverNumber": 27,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "STR overtakes BOT for P12",
+        "driverNumber": 18,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "OCO overtakes SAR for P13",
+        "driverNumber": 31,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 24,
+    "headline": "Lap 24: TSU leads by +1584.973s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1584.973s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1584.973s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "INCIDENT INVOLVING CAR 18 (STR) NOTED - PIT LANE INFRINGEMENT",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RUS overtakes HAM for P9",
+        "driverNumber": 63,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "MAG overtakes OCO for P13",
+        "driverNumber": 20,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by RUS (95.149s)",
+        "driverNumber": 63,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 25,
+    "headline": "Lap 25: TSU leads by +1584.237s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1584.237s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1584.237s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "BOT overtakes OCO for P14",
+        "driverNumber": 77,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 26,
+    "headline": "Lap 26: PER overtakes LEC for P3",
+    "summary": "PER overtakes LEC for P3. TSU controls the race with a +1583.637s advantage.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1583.637s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes LEC for P3",
+        "driverNumber": 11,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes PER for P4",
+        "driverNumber": 55,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 27,
+    "headline": "Lap 27: TSU leads by +1583.107s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1583.107s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1583.107s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 16 (LEC) TIME 1:43.175 DELETED - TRACK LIMITS AT TURN 9 LAP 26 15:14:02",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ALO overtakes LEC for P5",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PIA overtakes NOR for P6",
+        "driverNumber": 81,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RUS overtakes PIA for P8",
+        "driverNumber": 63,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAR overtakes OCO for P15",
+        "driverNumber": 2,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 28,
+    "headline": "Lap 28: TSU leads by +1582.376s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1582.376s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1582.376s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "NOR overtakes RUS for P8",
+        "driverNumber": 4,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 29,
+    "headline": "Lap 29: TSU leads by +1581.712s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1581.712s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1581.712s",
+    "events": []
+  },
+  {
+    "lap": 30,
+    "headline": "Lap 30: TSU leads by +1580.944s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1580.944s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1580.944s",
+    "events": []
+  },
+  {
+    "lap": 31,
+    "headline": "Lap 31: TSU leads by +1580.029s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1580.029s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1580.029s",
+    "events": []
+  },
+  {
+    "lap": 32,
+    "headline": "Lap 32: TSU leads by +1578.325s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1578.325s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1578.325s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 81 (PIA) TIME 1:37.946 DELETED - TRACK LIMITS AT TURN 17 LAP 30 15:21:36",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LEC overtakes PIA for P6",
+        "driverNumber": 16,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 33,
+    "headline": "Lap 33: TSU leads by +1576.681s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1576.681s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1576.681s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: INCIDENT INVOLVING CAR 18 (STR) UNDER INVESTIGATION - PIT LANE INFRINGEMENT",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "NOR overtakes PIA for P7",
+        "driverNumber": 4,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RUS overtakes NOR for P8",
+        "driverNumber": 63,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HAM overtakes RUS for P9",
+        "driverNumber": 44,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "STR overtakes HUL for P11",
+        "driverNumber": 18,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 34,
+    "headline": "Lap 34: SAI overtakes PER for P3",
+    "summary": "SAI overtakes PER for P3. TSU controls the race with a +1578.114s advantage.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1578.114s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: INCIDENT INVOLVING CAR 18 (STR) NO FURTHER ACTION - PIT LANE INFRINGEMENT",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes PER for P3",
+        "driverNumber": 55,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LEC overtakes SAI for P4",
+        "driverNumber": 16,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "NOR overtakes ALO for P5",
+        "driverNumber": 4,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RUS overtakes NOR for P7",
+        "driverNumber": 63,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 35,
+    "headline": "Lap 35: SAI overtakes VER for P2",
+    "summary": "SAI overtakes VER for P2. TSU controls the race with a +1591.916s advantage.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1591.916s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 10 (GAS) TIMED AT 15:28:42",
+        "driverNumber": 10,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes VER for P2",
+        "driverNumber": 55,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes NOR for P5",
+        "driverNumber": 11,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "MAG overtakes STR for P11",
+        "driverNumber": 20,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "BOT overtakes MAG for P12",
+        "driverNumber": 77,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by PER (93.945s)",
+        "driverNumber": 11,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 36,
+    "headline": "Lap 36: VER overtakes SAI for P2",
+    "summary": "VER overtakes SAI for P2. TSU controls the race with a +1593.507s advantage.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1593.507s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 55 (SAI) TIME 1:36.948 DELETED - TRACK LIMITS AT TURN 17 LAP 35 15:29:29",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes SAI for P2",
+        "driverNumber": 1,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes LEC for P4",
+        "driverNumber": 11,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 37,
+    "headline": "Lap 37: PER overtakes SAI for P3",
+    "summary": "PER overtakes SAI for P3. TSU controls the race with a +1591.058s advantage.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1591.058s",
+    "events": [
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes SAI for P3",
+        "driverNumber": 11,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LEC overtakes PER for P4",
+        "driverNumber": 16,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "NOR overtakes LEC for P5",
+        "driverNumber": 4,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RUS overtakes NOR for P6",
+        "driverNumber": 63,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 38,
+    "headline": "Lap 38: TSU leads by +1588.602s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1588.602s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1588.602s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 10 (GAS) TIMED AT 15:33:07",
+        "driverNumber": 10,
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 31 (OCO) TIMED AT 15:33:36",
+        "driverNumber": 31,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes RUS for P6",
+        "driverNumber": 55,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ALO overtakes SAI for P8",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PIA overtakes ALO for P9",
+        "driverNumber": 81,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 39,
+    "headline": "Lap 39: TSU leads by +1585.501s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1585.501s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1585.501s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 10 (GAS) TIMED AT 15:35:58",
+        "driverNumber": 10,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 40,
+    "headline": "Lap 40: TSU leads by +1582.403s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1582.403s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1582.403s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 10 (GAS) TIMED AT 15:36:52",
+        "driverNumber": 10,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "ALO overtakes HAM for P7",
+        "driverNumber": 14,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PIA overtakes ALO for P8",
+        "driverNumber": 81,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "RUS overtakes PIA for P9",
+        "driverNumber": 63,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 41,
+    "headline": "Lap 41: TSU leads by +1579.379s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1579.379s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1579.379s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 10 (GAS) TIMED AT 15:38:24",
+        "driverNumber": 10,
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 31 (OCO) TIMED AT 15:38:52",
+        "driverNumber": 31,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "OCO overtakes SAR for P15",
+        "driverNumber": 31,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "GAS overtakes OCO for P16",
+        "driverNumber": 10,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 42,
+    "headline": "Lap 42: TSU leads by +1576.851s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1576.851s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1576.851s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "YELLOW IN TRACK SECTOR 10",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "DOUBLE YELLOW IN TRACK SECTOR 10",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "YELLOW IN TRACK SECTOR 9",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 9",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 10",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "TRACK SURFACE SLIPPERY IN TRACK SECTOR 10",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "TRACK SURFACE SLIPPERY IN TRACK SECTOR 9",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 43,
+    "headline": "Lap 43: TSU leads by +1573.656s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1573.656s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1573.656s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 2 (SAR) TIMED AT 15:40:52",
+        "driverNumber": 2,
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CAR 2 (SAR) TIME 2:23.782 DELETED - TRACK LIMITS AT TURN 9 LAP 41 15:40:11",
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 44,
+    "headline": "Lap 44: TSU leads by +1570.782s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1570.782s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1570.782s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 9",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CLEAR IN TRACK SECTOR 10",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 31 (OCO) TIMED AT 15:43:46",
+        "driverNumber": 31,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes NOR for P5",
+        "driverNumber": 55,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 45,
+    "headline": "Lap 45: TSU leads by +1568.138s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1568.138s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1568.138s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 31 (OCO) TIMED AT 15:44:17",
+        "driverNumber": 31,
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 31 (OCO) TIMED AT 15:44:35",
+        "driverNumber": 31,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "STR overtakes BOT for P12",
+        "driverNumber": 18,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 46,
+    "headline": "Lap 46: TSU leads by +1565.702s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1565.702s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1565.702s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 44 (HAM) TIME 1:34.791 DELETED - TRACK LIMITS AT TURN 14 LAP 45 15:45:46",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes LEC for P4",
+        "driverNumber": 55,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "STR overtakes MAG for P11",
+        "driverNumber": 18,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes BOT for P13",
+        "driverNumber": 27,
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by SAI (93.841s)",
+        "driverNumber": 55,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 47,
+    "headline": "Lap 47: TSU leads by +1563.709s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1563.709s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1563.709s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 15:47:31",
+        "driverNumber": 77,
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 27 (HUL) TIMED AT 15:48:11",
+        "driverNumber": 27,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 48,
+    "headline": "Lap 48: TSU leads by +1562.421s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1562.421s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1562.421s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 20 (MAG) TIMED AT 15:48:50",
+        "driverNumber": 20,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes MAG for P12",
+        "driverNumber": 27,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 49,
+    "headline": "Lap 49: TSU leads by +1560.749s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1560.749s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1560.749s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 18 (STR) TIMED AT 15:50:48",
+        "driverNumber": 18,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 50,
+    "headline": "Lap 50: TSU leads by +1558.067s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1558.067s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1558.067s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 10 (GAS) TIMED AT 15:53:04",
+        "driverNumber": 10,
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "TURN 17 INCIDENT INVOLVING CARS 81 (PIA) AND 63 (RUS) NOTED - FORCING ANOTHER DRIVER OFF THE TRACK",
+        "importance": "medium"
+      },
+      {
+        "type": "FASTEST_LAP",
+        "description": "Fastest lap of the race set by VER (93.706s)",
+        "driverNumber": 1,
+        "importance": "high"
+      }
+    ]
+  },
+  {
+    "lap": 51,
+    "headline": "Lap 51: TSU leads by +1556.493s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1556.493s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1556.493s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CAR 81 (PIA) TIME 1:36.179 DELETED - TRACK LIMITS AT TURN 17 LAP 49 15:52:21",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 10 (GAS) TIMED AT 15:54:27",
+        "driverNumber": 10,
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 15:54:49",
+        "driverNumber": 77,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 52,
+    "headline": "Lap 52: TSU leads by +1553.268s",
+    "summary": "TSU commanding the Grand Prix with a comfortable +1553.268s lead over VER.",
+    "leaderCode": "TSU",
+    "gapToSecond": "+1553.268s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 20 (MAG) TIMED AT 15:55:22",
+        "driverNumber": 20,
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "WAVED BLUE FLAG FOR CAR 22 (TSU) TIMED AT 15:56:27",
+        "driverNumber": 22,
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "HUL overtakes STR for P11",
+        "driverNumber": 27,
+        "importance": "medium"
+      }
+    ]
+  },
+  {
+    "lap": 53,
+    "headline": "Lap 53: VER overtakes TSU for P1",
+    "summary": "VER overtakes TSU for P1. VER controls the race with a +12.460s advantage.",
+    "leaderCode": "VER",
+    "gapToSecond": "+12.460s",
+    "events": [
+      {
+        "type": "FLAG",
+        "description": "CHEQUERED FLAG",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "SESSION FINISHED",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "CAR 2 (SAR) TIME 1:37.715 DELETED - TRACK LIMITS AT TURN 9 LAP 52 15:58:22",
+        "importance": "medium"
+      },
+      {
+        "type": "FLAG",
+        "description": "FIA STEWARDS: TURN 17 INCIDENT INVOLVING CARS 81 (PIA) AND 63 (RUS) WILL BE INVESTIGATED AFTER THE RACE - FORCING ANOTHER DRIVER OFF THE TRACK",
+        "importance": "medium"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "VER overtakes TSU for P1",
+        "driverNumber": 1,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "PER overtakes VER for P2",
+        "driverNumber": 11,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "SAI overtakes PER for P3",
+        "driverNumber": 55,
+        "importance": "high"
+      },
+      {
+        "type": "OVERTAKE",
+        "description": "LEC overtakes SAI for P4",
+        "driverNumber": 16,
+        "importance": "medium"
+      }
+    ]
+  }
+]

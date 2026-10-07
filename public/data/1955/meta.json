@@ -1,0 +1,120 @@
+{
+  "year": 1955,
+  "totalRaces": 7,
+  "extractedRaces": 7,
+  "lastUpdated": "2026-10-07T16:02:37.895157+00:00",
+  "races": [
+    {
+      "round": 1,
+      "slug": "buenos_aires",
+      "raceName": "Argentine Grand Prix",
+      "circuitId": "buenos_aires",
+      "circuitName": "Buenos Aires Circuit",
+      "country": "Argentina",
+      "date": "1955-01-16",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 2,
+      "slug": "monte_carlo",
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monte_carlo",
+      "circuitName": "Monte Carlo Circuit",
+      "country": "Monaco",
+      "date": "1955-05-22",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 3,
+      "slug": "indianapolis",
+      "raceName": "Indianapolis 500",
+      "circuitId": "indianapolis",
+      "circuitName": "Indianapolis Circuit",
+      "country": "USA",
+      "date": "1955-05-30",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 4,
+      "slug": "spa",
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "circuitName": "Spa Circuit",
+      "country": "Belgium",
+      "date": "1955-06-05",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 5,
+      "slug": "zandvoort",
+      "raceName": "Dutch Grand Prix",
+      "circuitId": "zandvoort",
+      "circuitName": "Zandvoort Circuit",
+      "country": "Netherlands",
+      "date": "1955-06-19",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 6,
+      "slug": "liverpool",
+      "raceName": "British Grand Prix",
+      "circuitId": "liverpool",
+      "circuitName": "Liverpool Circuit",
+      "country": "UK",
+      "date": "1955-07-16",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 7,
+      "slug": "monza",
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "circuitName": "Monza Circuit",
+      "country": "Italy",
+      "date": "1955-09-11",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    }
+  ]
+}

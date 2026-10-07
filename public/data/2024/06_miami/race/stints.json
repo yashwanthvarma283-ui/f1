@@ -1,0 +1,434 @@
+[
+  {
+    "driverNumber": 1,
+    "stintNumber": 1,
+    "compound": "MEDIUM",
+    "tyreAgeAtStart": 0,
+    "lapStart": 1,
+    "lapEnd": 23,
+    "totalLaps": 23
+  },
+  {
+    "driverNumber": 1,
+    "stintNumber": 2,
+    "compound": "HARD",
+    "tyreAgeAtStart": 0,
+    "lapStart": 24,
+    "lapEnd": 57,
+    "totalLaps": 34
+  },
+  {
+    "driverNumber": 2,
+    "stintNumber": 1,
+    "compound": "MEDIUM",
+    "tyreAgeAtStart": 0,
+    "lapStart": 1,
+    "lapEnd": 11,
+    "totalLaps": 11
+  },
+  {
+    "driverNumber": 2,
+    "stintNumber": 2,
+    "compound": "HARD",
+    "tyreAgeAtStart": 0,
+    "lapStart": 12,
+    "lapEnd": 28,
+    "totalLaps": 17
+  },
+  {
+    "driverNumber": 3,
+    "stintNumber": 1,
+    "compound": "HARD",
+    "tyreAgeAtStart": 0,
+    "lapStart": 1,
+    "lapEnd": 28,
+    "totalLaps": 28
+  },
+  {
+    "driverNumber": 3,
+    "stintNumber": 2,
+    "compound": "MEDIUM",
+    "tyreAgeAtStart": 5,
+    "lapStart": 29,
+    "lapEnd": 57,
+    "totalLaps": 29
+  },
+  {
+    "driverNumber": 4,
+    "stintNumber": 1,
+    "compound": "MEDIUM",
+    "tyreAgeAtStart": 0,
+    "lapStart": 1,
+    "lapEnd": 29,
+    "totalLaps": 29
+  },
+  {
+    "driverNumber": 4,
+    "stintNumber": 2,
+    "compound": "HARD",
+    "tyreAgeAtStart": 0,
+    "lapStart": 30,
+    "lapEnd": 57,
+    "totalLaps": 28
+  },
+  {
+    "driverNumber": 10,
+    "stintNumber": 1,
+    "compound": "MEDIUM",
+    "tyreAgeAtStart": 0,
+    "lapStart": 1,
+    "lapEnd": 12,
+    "totalLaps": 12
+  },
+  {
+    "driverNumber": 10,
+    "stintNumber": 2,
+    "compound": "HARD",
+    "tyreAgeAtStart": 0,
+    "lapStart": 13,
+    "lapEnd": 57,
+    "totalLaps": 45
+  },
+  {
+    "driverNumber": 11,
+    "stintNumber": 1,
+    "compound": "MEDIUM",
+    "tyreAgeAtStart": 0,
+    "lapStart": 1,
+    "lapEnd": 17,
+    "totalLaps": 17
+  },
+  {
+    "driverNumber": 11,
+    "stintNumber": 2,
+    "compound": "HARD",
+    "tyreAgeAtStart": 0,
+    "lapStart": 18,
+    "lapEnd": 28,
+    "totalLaps": 11
+  },
+  {
+    "driverNumber": 11,
+    "stintNumber": 3,
+    "compound": "MEDIUM",
+    "tyreAgeAtStart": 5,
+    "lapStart": 29,
+    "lapEnd": 57,
+    "totalLaps": 29
+  },
+  {
+    "driverNumber": 14,
+    "stintNumber": 1,
+    "compound": "HARD",
+    "tyreAgeAtStart": 1,
+    "lapStart": 1,
+    "lapEnd": 22,
+    "totalLaps": 22
+  },
+  {
+    "driverNumber": 14,
+    "stintNumber": 2,
+    "compound": "MEDIUM",
+    "tyreAgeAtStart": 1,
+    "lapStart": 23,
+    "lapEnd": 57,
+    "totalLaps": 35
+  },
+  {
+    "driverNumber": 16,
+    "stintNumber": 1,
+    "compound": "MEDIUM",
+    "tyreAgeAtStart": 0,
+    "lapStart": 1,
+    "lapEnd": 19,
+    "totalLaps": 19
+  },
+  {
+    "driverNumber": 16,
+    "stintNumber": 2,
+    "compound": "HARD",
+    "tyreAgeAtStart": 0,
+    "lapStart": 20,
+    "lapEnd": 57,
+    "totalLaps": 38
+  },
+  {
+    "driverNumber": 18,
+    "stintNumber": 1,
+    "compound": "MEDIUM",
+    "tyreAgeAtStart": 1,
+    "lapStart": 1,
+    "lapEnd": 11,
+    "totalLaps": 11
+  },
+  {
+    "driverNumber": 18,
+    "stintNumber": 2,
+    "compound": "HARD",
+    "tyreAgeAtStart": 1,
+    "lapStart": 12,
+    "lapEnd": 28,
+    "totalLaps": 17
+  },
+  {
+    "driverNumber": 18,
+    "stintNumber": 3,
+    "compound": "MEDIUM",
+    "tyreAgeAtStart": 0,
+    "lapStart": 29,
+    "lapEnd": 57,
+    "totalLaps": 29
+  },
+  {
+    "driverNumber": 20,
+    "stintNumber": 1,
+    "compound": "HARD",
+    "tyreAgeAtStart": 0,
+    "lapStart": 1,
+    "lapEnd": 22,
+    "totalLaps": 22
+  },
+  {
+    "driverNumber": 20,
+    "stintNumber": 2,
+    "compound": "MEDIUM",
+    "tyreAgeAtStart": 0,
+    "lapStart": 23,
+    "lapEnd": 28,
+    "totalLaps": 6
+  },
+  {
+    "driverNumber": 20,
+    "stintNumber": 3,
+    "compound": "MEDIUM",
+    "tyreAgeAtStart": 0,
+    "lapStart": 29,
+    "lapEnd": 31,
+    "totalLaps": 3
+  },
+  {
+    "driverNumber": 20,
+    "stintNumber": 4,
+    "compound": "MEDIUM",
+    "tyreAgeAtStart": 3,
+    "lapStart": 32,
+    "lapEnd": 57,
+    "totalLaps": 26
+  },
+  {
+    "driverNumber": 22,
+    "stintNumber": 1,
+    "compound": "MEDIUM",
+    "tyreAgeAtStart": 0,
+    "lapStart": 1,
+    "lapEnd": 28,
+    "totalLaps": 28
+  },
+  {
+    "driverNumber": 22,
+    "stintNumber": 2,
+    "compound": "HARD",
+    "tyreAgeAtStart": 0,
+    "lapStart": 29,
+    "lapEnd": 57,
+    "totalLaps": 29
+  },
+  {
+    "driverNumber": 23,
+    "stintNumber": 1,
+    "compound": "MEDIUM",
+    "tyreAgeAtStart": 0,
+    "lapStart": 1,
+    "lapEnd": 10,
+    "totalLaps": 10
+  },
+  {
+    "driverNumber": 23,
+    "stintNumber": 2,
+    "compound": "HARD",
+    "tyreAgeAtStart": 0,
+    "lapStart": 11,
+    "lapEnd": 53,
+    "totalLaps": 43
+  },
+  {
+    "driverNumber": 23,
+    "stintNumber": 3,
+    "compound": "SOFT",
+    "tyreAgeAtStart": 0,
+    "lapStart": 54,
+    "lapEnd": 57,
+    "totalLaps": 4
+  },
+  {
+    "driverNumber": 24,
+    "stintNumber": 1,
+    "compound": "MEDIUM",
+    "tyreAgeAtStart": 0,
+    "lapStart": 1,
+    "lapEnd": 28,
+    "totalLaps": 28
+  },
+  {
+    "driverNumber": 24,
+    "stintNumber": 2,
+    "compound": "SOFT",
+    "tyreAgeAtStart": 0,
+    "lapStart": 29,
+    "lapEnd": 57,
+    "totalLaps": 29
+  },
+  {
+    "driverNumber": 27,
+    "stintNumber": 1,
+    "compound": "MEDIUM",
+    "tyreAgeAtStart": 0,
+    "lapStart": 1,
+    "lapEnd": 12,
+    "totalLaps": 12
+  },
+  {
+    "driverNumber": 27,
+    "stintNumber": 2,
+    "compound": "HARD",
+    "tyreAgeAtStart": 0,
+    "lapStart": 13,
+    "lapEnd": 28,
+    "totalLaps": 16
+  },
+  {
+    "driverNumber": 27,
+    "stintNumber": 3,
+    "compound": "MEDIUM",
+    "tyreAgeAtStart": 0,
+    "lapStart": 29,
+    "lapEnd": 57,
+    "totalLaps": 29
+  },
+  {
+    "driverNumber": 31,
+    "stintNumber": 1,
+    "compound": "MEDIUM",
+    "tyreAgeAtStart": 0,
+    "lapStart": 1,
+    "lapEnd": 22,
+    "totalLaps": 22
+  },
+  {
+    "driverNumber": 31,
+    "stintNumber": 2,
+    "compound": "HARD",
+    "tyreAgeAtStart": 0,
+    "lapStart": 23,
+    "lapEnd": 57,
+    "totalLaps": 35
+  },
+  {
+    "driverNumber": 44,
+    "stintNumber": 1,
+    "compound": "HARD",
+    "tyreAgeAtStart": 0,
+    "lapStart": 1,
+    "lapEnd": 26,
+    "totalLaps": 26
+  },
+  {
+    "driverNumber": 44,
+    "stintNumber": 2,
+    "compound": "MEDIUM",
+    "tyreAgeAtStart": 3,
+    "lapStart": 27,
+    "lapEnd": 57,
+    "totalLaps": 31
+  },
+  {
+    "driverNumber": 55,
+    "stintNumber": 1,
+    "compound": "MEDIUM",
+    "tyreAgeAtStart": 0,
+    "lapStart": 1,
+    "lapEnd": 27,
+    "totalLaps": 27
+  },
+  {
+    "driverNumber": 55,
+    "stintNumber": 2,
+    "compound": "HARD",
+    "tyreAgeAtStart": 0,
+    "lapStart": 28,
+    "lapEnd": 57,
+    "totalLaps": 30
+  },
+  {
+    "driverNumber": 63,
+    "stintNumber": 1,
+    "compound": "MEDIUM",
+    "tyreAgeAtStart": 3,
+    "lapStart": 1,
+    "lapEnd": 24,
+    "totalLaps": 24
+  },
+  {
+    "driverNumber": 63,
+    "stintNumber": 2,
+    "compound": "HARD",
+    "tyreAgeAtStart": 0,
+    "lapStart": 25,
+    "lapEnd": 57,
+    "totalLaps": 33
+  },
+  {
+    "driverNumber": 77,
+    "stintNumber": 1,
+    "compound": "SOFT",
+    "tyreAgeAtStart": 0,
+    "lapStart": 1,
+    "lapEnd": 11,
+    "totalLaps": 11
+  },
+  {
+    "driverNumber": 77,
+    "stintNumber": 2,
+    "compound": "HARD",
+    "tyreAgeAtStart": 0,
+    "lapStart": 12,
+    "lapEnd": 29,
+    "totalLaps": 18
+  },
+  {
+    "driverNumber": 77,
+    "stintNumber": 3,
+    "compound": "MEDIUM",
+    "tyreAgeAtStart": 0,
+    "lapStart": 30,
+    "lapEnd": 57,
+    "totalLaps": 28
+  },
+  {
+    "driverNumber": 81,
+    "stintNumber": 1,
+    "compound": "MEDIUM",
+    "tyreAgeAtStart": 0,
+    "lapStart": 1,
+    "lapEnd": 27,
+    "totalLaps": 27
+  },
+  {
+    "driverNumber": 81,
+    "stintNumber": 2,
+    "compound": "HARD",
+    "tyreAgeAtStart": 0,
+    "lapStart": 28,
+    "lapEnd": 40,
+    "totalLaps": 13
+  },
+  {
+    "driverNumber": 81,
+    "stintNumber": 3,
+    "compound": "MEDIUM",
+    "tyreAgeAtStart": 6,
+    "lapStart": 41,
+    "lapEnd": 57,
+    "totalLaps": 17
+  }
+]

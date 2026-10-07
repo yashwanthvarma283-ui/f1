@@ -1,0 +1,25 @@
+{
+  "year": 1982,
+  "round": 11,
+  "slug": "le_castellet",
+  "raceName": "French Grand Prix",
+  "circuit": {
+    "id": "le_castellet",
+    "name": "Le Castellet Circuit",
+    "locality": "Le Castellet",
+    "country": "France",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "1982-07-25T14:00:00Z",
+      "endIso": "1982-07-25T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

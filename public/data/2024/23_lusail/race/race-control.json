@@ -1,0 +1,936 @@
+[
+  {
+    "id": "rc_0_0",
+    "timestamp": "2024-12-01T15:08:59",
+    "category": "Information",
+    "message": "PINK HEAD PADDING MATERIAL MUST BE USED",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_1",
+    "timestamp": "2024-12-01T15:20:01",
+    "category": "Flag",
+    "flag": "GREEN",
+    "message": "GREEN LIGHT - PIT EXIT OPEN",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_2",
+    "timestamp": "2024-12-01T15:25:34",
+    "category": "Information",
+    "message": "PIT ENTRY INCIDENT INVOLVING CAR 11 (PER) NOTED - DRIVING ERRATICALLY",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_3",
+    "timestamp": "2024-12-01T15:26:25",
+    "category": "Information",
+    "message": "UPDATE: PIT ENTRY INCIDENT INVOLVING CAR 81 (PIA) NOTED - DRIVING ERRATICALLY",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_4",
+    "timestamp": "2024-12-01T15:30:01",
+    "category": "Information",
+    "message": "PIT EXIT CLOSED",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_5",
+    "timestamp": "2024-12-01T15:33:06",
+    "category": "Information",
+    "message": "FIA STEWARDS: PIT ENTRY INCIDENT INVOLVING CAR 81 (PIA) WILL BE INVESTIGATED AFTER THE RACE",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_6",
+    "timestamp": "2024-12-01T15:45:03",
+    "category": "Information",
+    "message": "RISK OF RAIN FOR F1 RACE IS 0%",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_7",
+    "timestamp": "2024-12-01T15:57:03",
+    "category": "Information",
+    "message": "DRS DISABLED",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_8",
+    "timestamp": "2024-12-01T16:03:33",
+    "category": "Flag",
+    "flag": "GREEN",
+    "message": "GREEN LIGHT - PIT EXIT OPEN",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_9",
+    "timestamp": "2024-12-01T16:03:50",
+    "category": "Flag",
+    "flag": "DOUBLE YELLOW",
+    "message": "DOUBLE YELLOW IN TRACK SECTOR 3",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_10",
+    "timestamp": "2024-12-01T16:04:33",
+    "category": "SafetyCar",
+    "message": "SAFETY CAR DEPLOYED",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_11",
+    "timestamp": "2024-12-01T16:08:58",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 3",
+    "driverNumber": null,
+    "lapNumber": 3
+  },
+  {
+    "id": "rc_0_12",
+    "timestamp": "2024-12-01T16:09:46",
+    "category": "Information",
+    "message": "TURN 1 INCIDENT INVOLVING CARS 31 (OCO), 27 (HUL) AND 43 (COL) NOTED - CAUSING A COLLISION",
+    "driverNumber": null,
+    "lapNumber": 3
+  },
+  {
+    "id": "rc_0_13",
+    "timestamp": "2024-12-01T16:10:56",
+    "category": "SafetyCar",
+    "message": "SAFETY CAR IN THIS LAP",
+    "driverNumber": null,
+    "lapNumber": 4
+  },
+  {
+    "id": "rc_0_14",
+    "timestamp": "2024-12-01T16:11:34",
+    "category": "Information",
+    "message": "TURN 4 INCIDENT INVOLVING CARS 18 (STR) AND 23 (ALB) NOTED - CAUSING A COLLISION",
+    "driverNumber": null,
+    "lapNumber": 4
+  },
+  {
+    "id": "rc_0_15",
+    "timestamp": "2024-12-01T16:12:10",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "TRACK CLEAR",
+    "driverNumber": null,
+    "lapNumber": 4
+  },
+  {
+    "id": "rc_0_16",
+    "timestamp": "2024-12-01T16:12:56",
+    "category": "Flag",
+    "flag": "DOUBLE YELLOW",
+    "message": "DOUBLE YELLOW IN TRACK SECTOR 3",
+    "driverNumber": null,
+    "lapNumber": 5
+  },
+  {
+    "id": "rc_0_17",
+    "timestamp": "2024-12-01T16:13:03",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 3",
+    "driverNumber": null,
+    "lapNumber": 5
+  },
+  {
+    "id": "rc_0_18",
+    "timestamp": "2024-12-01T16:13:32",
+    "category": "Investigation",
+    "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CARS 31 (OCO), 27 (HUL) AND 43 (COL) REVIEWED NO FURTHER INVESTIGATION - CAUSING A COLLISION",
+    "driverNumber": null,
+    "lapNumber": 5
+  },
+  {
+    "id": "rc_0_19",
+    "timestamp": "2024-12-01T16:14:14",
+    "category": "Information",
+    "message": "DRS ENABLED",
+    "driverNumber": null,
+    "lapNumber": 6
+  },
+  {
+    "id": "rc_0_20",
+    "timestamp": "2024-12-01T16:14:20",
+    "category": "Investigation",
+    "message": "FIA STEWARDS: TURN 4 INCIDENT INVOLVING CARS 18 (STR) AND 23 (ALB) UNDER INVESTIGATION - CAUSING A COLLISION",
+    "driverNumber": null,
+    "lapNumber": 6
+  },
+  {
+    "id": "rc_0_21",
+    "timestamp": "2024-12-01T16:15:08",
+    "category": "Information",
+    "message": "TURN 1 INCIDENT INVOLVING CARS 77 (BOT) AND 30 (LAW) NOTED - CAUSING A COLLISION",
+    "driverNumber": null,
+    "lapNumber": 6
+  },
+  {
+    "id": "rc_0_22",
+    "timestamp": "2024-12-01T16:17:06",
+    "category": "Penalty",
+    "message": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 18 (STR) - CAUSING A COLLISION",
+    "driverNumber": null,
+    "lapNumber": 8
+  },
+  {
+    "id": "rc_0_23",
+    "timestamp": "2024-12-01T16:17:19",
+    "category": "Information",
+    "message": "CAR 14 (ALO) TIME 1:32.386 DELETED - TRACK LIMITS AT TURN 13 LAP 5 19:13:48",
+    "driverNumber": null,
+    "lapNumber": 8
+  },
+  {
+    "id": "rc_0_24",
+    "timestamp": "2024-12-01T16:18:30",
+    "category": "Information",
+    "message": "TURN 14 INCIDENT INVOLVING CAR 14 (ALO) NOTED - REJOINING UNSAFELY",
+    "driverNumber": null,
+    "lapNumber": 9
+  },
+  {
+    "id": "rc_0_25",
+    "timestamp": "2024-12-01T16:19:10",
+    "category": "Information",
+    "message": "INCIDENT INVOLVING CAR 44 (HAM) NOTED - FALSE START",
+    "driverNumber": null,
+    "lapNumber": 9
+  },
+  {
+    "id": "rc_0_26",
+    "timestamp": "2024-12-01T16:20:41",
+    "category": "Investigation",
+    "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CARS 77 (BOT) AND 30 (LAW) UNDER INVESTIGATION - CAUSING A COLLISION",
+    "driverNumber": null,
+    "lapNumber": 10
+  },
+  {
+    "id": "rc_0_27",
+    "timestamp": "2024-12-01T16:22:01",
+    "category": "Penalty",
+    "message": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 30 (LAW) - CAUSING A COLLISION",
+    "driverNumber": null,
+    "lapNumber": 11
+  },
+  {
+    "id": "rc_0_28",
+    "timestamp": "2024-12-01T16:24:09",
+    "category": "Information",
+    "message": "TURN 1 INCIDENT INVOLVING CARS 22 (TSU) AND 20 (MAG) NOTED",
+    "driverNumber": null,
+    "lapNumber": 13
+  },
+  {
+    "id": "rc_0_29",
+    "timestamp": "2024-12-01T16:24:44",
+    "category": "Information",
+    "message": "CAR 10 (GAS) TIME 1:28.181 DELETED - TRACK LIMITS AT TURN 7 LAP 11 19:22:19",
+    "driverNumber": null,
+    "lapNumber": 13
+  },
+  {
+    "id": "rc_0_30",
+    "timestamp": "2024-12-01T16:24:45",
+    "category": "Information",
+    "message": "CAR 20 (MAG) TIME 1:27.601 DELETED - TRACK LIMITS AT TURN 1 LAP 10 19:20:16",
+    "driverNumber": null,
+    "lapNumber": 13
+  },
+  {
+    "id": "rc_0_31",
+    "timestamp": "2024-12-01T16:24:56",
+    "category": "Investigation",
+    "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 44 (HAM) UNDER INVESTIGATION - FALSE START",
+    "driverNumber": null,
+    "lapNumber": 13
+  },
+  {
+    "id": "rc_0_32",
+    "timestamp": "2024-12-01T16:26:12",
+    "category": "Penalty",
+    "message": "FIA STEWARDS: 5 SECOND TIME PENALTY FOR CAR 44 (HAM) - FALSE START",
+    "driverNumber": null,
+    "lapNumber": 14
+  },
+  {
+    "id": "rc_0_33",
+    "timestamp": "2024-12-01T16:26:44",
+    "category": "Investigation",
+    "message": "FIA STEWARDS: TURN 14 INCIDENT INVOLVING CAR 14 (ALO) REVIEWED NO FURTHER INVESTIGATION - REJOINING UNSAFELY",
+    "driverNumber": null,
+    "lapNumber": 14
+  },
+  {
+    "id": "rc_0_34",
+    "timestamp": "2024-12-01T16:30:34",
+    "category": "Information",
+    "message": "CAR 81 (PIA) TIME 1:26.474 DELETED - TRACK LIMITS AT TURN 16 LAP 16 19:29:51",
+    "driverNumber": null,
+    "lapNumber": 17
+  },
+  {
+    "id": "rc_0_35",
+    "timestamp": "2024-12-01T16:31:14",
+    "category": "Investigation",
+    "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CARS 22 (TSU) AND 20 (MAG) REVIEWED NO FURTHER INVESTIGATION",
+    "driverNumber": null,
+    "lapNumber": 17
+  },
+  {
+    "id": "rc_0_36",
+    "timestamp": "2024-12-01T16:31:33",
+    "category": "Information",
+    "message": "CAR 81 (PIA) TIME 1:26.031 DELETED - TRACK LIMITS AT TURN 16 (NEXT LAP)",
+    "driverNumber": null,
+    "lapNumber": 18
+  },
+  {
+    "id": "rc_0_37",
+    "timestamp": "2024-12-01T16:47:19",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 19:47:19",
+    "driverNumber": null,
+    "lapNumber": 29
+  },
+  {
+    "id": "rc_0_38",
+    "timestamp": "2024-12-01T16:47:29",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 19:47:28",
+    "driverNumber": null,
+    "lapNumber": 29
+  },
+  {
+    "id": "rc_0_39",
+    "timestamp": "2024-12-01T16:47:57",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 19:47:56",
+    "driverNumber": null,
+    "lapNumber": 29
+  },
+  {
+    "id": "rc_0_40",
+    "timestamp": "2024-12-01T16:48:18",
+    "category": "Flag",
+    "flag": "DOUBLE YELLOW",
+    "message": "DOUBLE YELLOW IN TRACK SECTOR 2",
+    "driverNumber": null,
+    "lapNumber": 30
+  },
+  {
+    "id": "rc_0_41",
+    "timestamp": "2024-12-01T16:48:19",
+    "category": "Information",
+    "message": "DRS DISABLED IN ZONE 1",
+    "driverNumber": null,
+    "lapNumber": 30
+  },
+  {
+    "id": "rc_0_42",
+    "timestamp": "2024-12-01T16:48:24",
+    "category": "Information",
+    "message": "TRACK SURFACE SLIPPERY IN TRACK SECTOR 2",
+    "driverNumber": null,
+    "lapNumber": 30
+  },
+  {
+    "id": "rc_0_43",
+    "timestamp": "2024-12-01T16:48:25",
+    "category": "Information",
+    "message": "DRS ENABLED IN ZONE 1",
+    "driverNumber": null,
+    "lapNumber": 30
+  },
+  {
+    "id": "rc_0_44",
+    "timestamp": "2024-12-01T16:48:26",
+    "category": "Flag",
+    "flag": "DOUBLE YELLOW",
+    "message": "DOUBLE YELLOW IN TRACK SECTOR 2",
+    "driverNumber": null,
+    "lapNumber": 30
+  },
+  {
+    "id": "rc_0_45",
+    "timestamp": "2024-12-01T16:48:27",
+    "category": "Information",
+    "message": "DRS DISABLED IN ZONE 1",
+    "driverNumber": null,
+    "lapNumber": 30
+  },
+  {
+    "id": "rc_0_46",
+    "timestamp": "2024-12-01T16:48:28",
+    "category": "Information",
+    "message": "TRACK SURFACE SLIPPERY IN TRACK SECTOR 2",
+    "driverNumber": null,
+    "lapNumber": 30
+  },
+  {
+    "id": "rc_0_47",
+    "timestamp": "2024-12-01T16:48:28",
+    "category": "Information",
+    "message": "DRS ENABLED IN ZONE 1",
+    "driverNumber": null,
+    "lapNumber": 30
+  },
+  {
+    "id": "rc_0_48",
+    "timestamp": "2024-12-01T16:48:30",
+    "category": "Flag",
+    "flag": "DOUBLE YELLOW",
+    "message": "DOUBLE YELLOW IN TRACK SECTOR 2",
+    "driverNumber": null,
+    "lapNumber": 30
+  },
+  {
+    "id": "rc_0_49",
+    "timestamp": "2024-12-01T16:48:31",
+    "category": "Information",
+    "message": "DRS DISABLED IN ZONE 1",
+    "driverNumber": null,
+    "lapNumber": 30
+  },
+  {
+    "id": "rc_0_50",
+    "timestamp": "2024-12-01T16:48:32",
+    "category": "Information",
+    "message": "TRACK SURFACE SLIPPERY IN TRACK SECTOR 2",
+    "driverNumber": null,
+    "lapNumber": 30
+  },
+  {
+    "id": "rc_0_51",
+    "timestamp": "2024-12-01T16:48:32",
+    "category": "Information",
+    "message": "DRS ENABLED IN ZONE 1",
+    "driverNumber": null,
+    "lapNumber": 30
+  },
+  {
+    "id": "rc_0_52",
+    "timestamp": "2024-12-01T16:48:34",
+    "category": "Flag",
+    "flag": "DOUBLE YELLOW",
+    "message": "DOUBLE YELLOW IN TRACK SECTOR 2",
+    "driverNumber": null,
+    "lapNumber": 30
+  },
+  {
+    "id": "rc_0_53",
+    "timestamp": "2024-12-01T16:48:35",
+    "category": "Information",
+    "message": "DRS DISABLED IN ZONE 1",
+    "driverNumber": null,
+    "lapNumber": 30
+  },
+  {
+    "id": "rc_0_54",
+    "timestamp": "2024-12-01T16:48:36",
+    "category": "Information",
+    "message": "TRACK SURFACE SLIPPERY IN TRACK SECTOR 2",
+    "driverNumber": null,
+    "lapNumber": 30
+  },
+  {
+    "id": "rc_0_55",
+    "timestamp": "2024-12-01T16:48:36",
+    "category": "Information",
+    "message": "DRS ENABLED IN ZONE 1",
+    "driverNumber": null,
+    "lapNumber": 30
+  },
+  {
+    "id": "rc_0_56",
+    "timestamp": "2024-12-01T16:48:38",
+    "category": "Flag",
+    "flag": "DOUBLE YELLOW",
+    "message": "DOUBLE YELLOW IN TRACK SECTOR 2",
+    "driverNumber": null,
+    "lapNumber": 30
+  },
+  {
+    "id": "rc_0_57",
+    "timestamp": "2024-12-01T16:49:42",
+    "category": "Information",
+    "message": "TRACK SURFACE SLIPPERY IN TRACK SECTOR 2",
+    "driverNumber": null,
+    "lapNumber": 31
+  },
+  {
+    "id": "rc_0_58",
+    "timestamp": "2024-12-01T16:50:16",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 2",
+    "driverNumber": null,
+    "lapNumber": 31
+  },
+  {
+    "id": "rc_0_59",
+    "timestamp": "2024-12-01T16:50:17",
+    "category": "Information",
+    "message": "TRACK SURFACE SLIPPERY IN TRACK SECTOR 2",
+    "driverNumber": null,
+    "lapNumber": 31
+  },
+  {
+    "id": "rc_0_60",
+    "timestamp": "2024-12-01T16:51:44",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 2",
+    "driverNumber": null,
+    "lapNumber": 32
+  },
+  {
+    "id": "rc_0_61",
+    "timestamp": "2024-12-01T16:53:49",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 19:53:48",
+    "driverNumber": null,
+    "lapNumber": 33
+  },
+  {
+    "id": "rc_0_62",
+    "timestamp": "2024-12-01T16:53:57",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 19:53:56",
+    "driverNumber": null,
+    "lapNumber": 34
+  },
+  {
+    "id": "rc_0_63",
+    "timestamp": "2024-12-01T16:56:32",
+    "category": "SafetyCar",
+    "message": "SAFETY CAR DEPLOYED",
+    "driverNumber": null,
+    "lapNumber": 35
+  },
+  {
+    "id": "rc_0_64",
+    "timestamp": "2024-12-01T16:58:21",
+    "category": "Information",
+    "message": "CAR 44 (HAM) TIME 1:25.713 DELETED - TRACK LIMITS AT TURN 7 LAP 33 19:53:44",
+    "driverNumber": null,
+    "lapNumber": 36
+  },
+  {
+    "id": "rc_0_65",
+    "timestamp": "2024-12-01T16:59:01",
+    "category": "SafetyCar",
+    "message": "SAFETY CAR THROUGH THE PIT LANE",
+    "driverNumber": null,
+    "lapNumber": 36
+  },
+  {
+    "id": "rc_0_66",
+    "timestamp": "2024-12-01T17:03:25",
+    "category": "SafetyCar",
+    "message": "LAPPED CARS MAY NOW OVERTAKE THE SAFETY CAR: 44, 77",
+    "driverNumber": null,
+    "lapNumber": 38
+  },
+  {
+    "id": "rc_0_67",
+    "timestamp": "2024-12-01T17:03:37",
+    "category": "SafetyCar",
+    "message": "SAFETY CAR WILL USE START/FINISH STRAIGHT",
+    "driverNumber": null,
+    "lapNumber": 38
+  },
+  {
+    "id": "rc_0_68",
+    "timestamp": "2024-12-01T17:05:22",
+    "category": "SafetyCar",
+    "message": "SAFETY CAR IN THIS LAP",
+    "driverNumber": null,
+    "lapNumber": 39
+  },
+  {
+    "id": "rc_0_69",
+    "timestamp": "2024-12-01T17:07:08",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "TRACK CLEAR",
+    "driverNumber": null,
+    "lapNumber": 39
+  },
+  {
+    "id": "rc_0_70",
+    "timestamp": "2024-12-01T17:07:59",
+    "category": "Flag",
+    "flag": "YELLOW",
+    "message": "YELLOW IN TRACK SECTOR 18",
+    "driverNumber": null,
+    "lapNumber": 40
+  },
+  {
+    "id": "rc_0_71",
+    "timestamp": "2024-12-01T17:08:03",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 18",
+    "driverNumber": null,
+    "lapNumber": 40
+  },
+  {
+    "id": "rc_0_72",
+    "timestamp": "2024-12-01T17:08:10",
+    "category": "Flag",
+    "flag": "YELLOW",
+    "message": "YELLOW IN TRACK SECTOR 18",
+    "driverNumber": null,
+    "lapNumber": 40
+  },
+  {
+    "id": "rc_0_73",
+    "timestamp": "2024-12-01T17:08:23",
+    "category": "Flag",
+    "flag": "YELLOW",
+    "message": "YELLOW IN TRACK SECTOR 12",
+    "driverNumber": null,
+    "lapNumber": 40
+  },
+  {
+    "id": "rc_0_74",
+    "timestamp": "2024-12-01T17:08:24",
+    "category": "VirtualSafetyCar",
+    "message": "VIRTUAL SAFETY CAR DEPLOYED",
+    "driverNumber": null,
+    "lapNumber": 40
+  },
+  {
+    "id": "rc_0_75",
+    "timestamp": "2024-12-01T17:08:44",
+    "category": "SafetyCar",
+    "message": "SAFETY CAR DEPLOYED",
+    "driverNumber": null,
+    "lapNumber": 40
+  },
+  {
+    "id": "rc_0_76",
+    "timestamp": "2024-12-01T17:09:06",
+    "category": "Flag",
+    "flag": "DOUBLE YELLOW",
+    "message": "DOUBLE YELLOW IN TRACK SECTOR 18",
+    "driverNumber": null,
+    "lapNumber": 41
+  },
+  {
+    "id": "rc_0_77",
+    "timestamp": "2024-12-01T17:09:29",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 18",
+    "driverNumber": null,
+    "lapNumber": 41
+  },
+  {
+    "id": "rc_0_78",
+    "timestamp": "2024-12-01T17:10:16",
+    "category": "Information",
+    "message": "INCIDENT INVOLVING CAR 4 (NOR) NOTED - FAILING TO SLOW UNDER YELLOW FLAGS",
+    "driverNumber": null,
+    "lapNumber": 41
+  },
+  {
+    "id": "rc_0_79",
+    "timestamp": "2024-12-01T17:11:43",
+    "category": "Investigation",
+    "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 4 (NOR) UNDER INVESTIGATION - FAILING TO SLOW UNDER YELLOW FLAGS",
+    "driverNumber": null,
+    "lapNumber": 42
+  },
+  {
+    "id": "rc_0_80",
+    "timestamp": "2024-12-01T17:12:10",
+    "category": "SafetyCar",
+    "message": "SAFETY CAR IN THIS LAP",
+    "driverNumber": null,
+    "lapNumber": 42
+  },
+  {
+    "id": "rc_0_81",
+    "timestamp": "2024-12-01T17:12:14",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 12",
+    "driverNumber": null,
+    "lapNumber": 42
+  },
+  {
+    "id": "rc_0_82",
+    "timestamp": "2024-12-01T17:13:28",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "TRACK CLEAR",
+    "driverNumber": null,
+    "lapNumber": 42
+  },
+  {
+    "id": "rc_0_83",
+    "timestamp": "2024-12-01T17:13:42",
+    "category": "Information",
+    "message": "CAR 14 (ALO) TIME 1:51.269 DELETED - TRACK LIMITS AT TURN 6 LAP 40 20:08:05",
+    "driverNumber": null,
+    "lapNumber": 42
+  },
+  {
+    "id": "rc_0_84",
+    "timestamp": "2024-12-01T17:13:51",
+    "category": "Information",
+    "message": "CAR 10 (GAS) TIME 2:19.279 DELETED - TRACK LIMITS AT TURN 14 LAP 39 20:06:52",
+    "driverNumber": null,
+    "lapNumber": 43
+  },
+  {
+    "id": "rc_0_85",
+    "timestamp": "2024-12-01T17:15:23",
+    "category": "Information",
+    "message": "DRS ENABLED",
+    "driverNumber": null,
+    "lapNumber": 44
+  },
+  {
+    "id": "rc_0_86",
+    "timestamp": "2024-12-01T17:15:49",
+    "category": "Penalty",
+    "message": "FIA STEWARDS: 10 SECOND STOP/GO PENALTY FOR CAR 4 (NOR) - FAILING TO SLOW UNDER YELLOW FLAGS",
+    "driverNumber": null,
+    "lapNumber": 44
+  },
+  {
+    "id": "rc_0_87",
+    "timestamp": "2024-12-01T17:16:27",
+    "category": "Information",
+    "message": "CAR 30 (LAW) TIME 1:29.070 DELETED - TRACK LIMITS AT TURN 6 LAP 43 20:14:33",
+    "driverNumber": null,
+    "lapNumber": 44
+  },
+  {
+    "id": "rc_0_88",
+    "timestamp": "2024-12-01T17:16:55",
+    "category": "Information",
+    "message": "TURN 1 INCIDENT INVOLVING CARS 23 (ALB) AND 20 (MAG) NOTED - CAUSING A COLLISION",
+    "driverNumber": null,
+    "lapNumber": 45
+  },
+  {
+    "id": "rc_0_89",
+    "timestamp": "2024-12-01T17:17:38",
+    "category": "Information",
+    "message": "INCIDENT INVOLVING CAR 44 (HAM) NOTED - SPEEDING IN THE PIT LANE",
+    "driverNumber": null,
+    "lapNumber": 45
+  },
+  {
+    "id": "rc_0_90",
+    "timestamp": "2024-12-01T17:18:02",
+    "category": "Investigation",
+    "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 44 (HAM) UNDER INVESTIGATION - SPEEDING IN THE PIT LANE",
+    "driverNumber": null,
+    "lapNumber": 46
+  },
+  {
+    "id": "rc_0_91",
+    "timestamp": "2024-12-01T17:19:25",
+    "category": "Penalty",
+    "message": "FIA STEWARDS: DRIVE THROUGH PENALTY FOR CAR 44 (HAM) - SPEEDING IN THE PIT LANE",
+    "driverNumber": null,
+    "lapNumber": 47
+  },
+  {
+    "id": "rc_0_92",
+    "timestamp": "2024-12-01T17:20:32",
+    "category": "Information",
+    "message": "TURN 1 INCIDENT INVOLVING CARS 23 (ALB) AND 20 (MAG) NOTED - FORCING ANOTHER DRIVER OFF THE TRACK",
+    "driverNumber": null,
+    "lapNumber": 47
+  },
+  {
+    "id": "rc_0_93",
+    "timestamp": "2024-12-01T17:22:21",
+    "category": "Information",
+    "message": "TURN 14 INCIDENT INVOLVING CAR 11 (PER) NOTED - REJOINING UNSAFELY",
+    "driverNumber": null,
+    "lapNumber": 49
+  },
+  {
+    "id": "rc_0_94",
+    "timestamp": "2024-12-01T17:23:25",
+    "category": "Information",
+    "message": "CAR 10 (GAS) TIME 1:25.421 DELETED - TRACK LIMITS AT TURN 16 LAP 44 20:16:38",
+    "driverNumber": null,
+    "lapNumber": 49
+  },
+  {
+    "id": "rc_0_95",
+    "timestamp": "2024-12-01T17:23:53",
+    "category": "Investigation",
+    "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CARS 23 (ALB) AND 20 (MAG) UNDER INVESTIGATION - CAUSING A COLLISION",
+    "driverNumber": null,
+    "lapNumber": 50
+  },
+  {
+    "id": "rc_0_96",
+    "timestamp": "2024-12-01T17:23:55",
+    "category": "Information",
+    "message": "CAR 10 (GAS) TIME 1:24.508 DELETED - TRACK LIMITS AT TURN 16 (NEXT LAP)",
+    "driverNumber": null,
+    "lapNumber": 50
+  },
+  {
+    "id": "rc_0_97",
+    "timestamp": "2024-12-01T17:23:59",
+    "category": "Information",
+    "message": "CAR 81 (PIA) TIME 1:23.624 DELETED - TRACK LIMITS AT TURN 6 LAP 48 20:21:27",
+    "driverNumber": null,
+    "lapNumber": 50
+  },
+  {
+    "id": "rc_0_98",
+    "timestamp": "2024-12-01T17:26:51",
+    "category": "Information",
+    "message": "CAR 20 (MAG) TIME 1:25.823 DELETED - TRACK LIMITS AT TURN 1 LAP 46 20:18:26",
+    "driverNumber": null,
+    "lapNumber": 52
+  },
+  {
+    "id": "rc_0_99",
+    "timestamp": "2024-12-01T17:27:31",
+    "category": "Information",
+    "message": "CAR 30 (LAW) TIME 1:28.245 DELETED - TRACK LIMITS AT TURN 16 LAP 51 20:26:53",
+    "driverNumber": null,
+    "lapNumber": 52
+  },
+  {
+    "id": "rc_0_100",
+    "timestamp": "2024-12-01T17:28:33",
+    "category": "Information",
+    "message": "CAR 30 (LAW) TIME 1:27.612 DELETED - TRACK LIMITS AT TURN 16 (NEXT LAP)",
+    "driverNumber": null,
+    "lapNumber": 53
+  },
+  {
+    "id": "rc_0_101",
+    "timestamp": "2024-12-01T17:29:39",
+    "category": "Penalty",
+    "message": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 23 (ALB) - CAUSING A COLLISION",
+    "driverNumber": null,
+    "lapNumber": 54
+  },
+  {
+    "id": "rc_0_102",
+    "timestamp": "2024-12-01T17:31:28",
+    "category": "Information",
+    "message": "CAR 77 (BOT) TIME 1:26.927 DELETED - TRACK LIMITS AT TURN 1 LAP 52 20:27:03",
+    "driverNumber": null,
+    "lapNumber": 55
+  },
+  {
+    "id": "rc_0_103",
+    "timestamp": "2024-12-01T17:31:51",
+    "category": "Investigation",
+    "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CARS 23 (ALB) AND 20 (MAG) REVIEWED NO FURTHER INVESTIGATION - FORCING ANOTHER DRIVER OFF THE TRACK",
+    "driverNumber": null,
+    "lapNumber": 55
+  },
+  {
+    "id": "rc_0_104",
+    "timestamp": "2024-12-01T17:32:10",
+    "category": "SafetyCar",
+    "message": "INCIDENT INVOLVING CAR 63 (RUS) NOTED - SAFETY CAR INFRINGEMENT",
+    "driverNumber": null,
+    "lapNumber": 56
+  },
+  {
+    "id": "rc_0_105",
+    "timestamp": "2024-12-01T17:32:34",
+    "category": "Information",
+    "message": "CAR 4 (NOR) TIME 1:22.994 DELETED - TRACK LIMITS AT TURN 1 LAP 55 20:31:18",
+    "driverNumber": null,
+    "lapNumber": 56
+  },
+  {
+    "id": "rc_0_106",
+    "timestamp": "2024-12-01T17:33:27",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 23 (ALB) TIMED AT 20:33:26",
+    "driverNumber": null,
+    "lapNumber": 57
+  },
+  {
+    "id": "rc_0_107",
+    "timestamp": "2024-12-01T17:34:38",
+    "category": "Flag",
+    "flag": "CHEQUERED",
+    "message": "CHEQUERED FLAG",
+    "driverNumber": null,
+    "lapNumber": 57
+  },
+  {
+    "id": "rc_0_108",
+    "timestamp": "2024-12-01T17:36:07",
+    "category": "SafetyCar",
+    "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 63 (RUS) UNDER INVESTIGATION - SAFETY CAR INFRINGEMENT",
+    "driverNumber": null,
+    "lapNumber": 57
+  },
+  {
+    "id": "rc_0_109",
+    "timestamp": "2024-12-01T17:36:35",
+    "category": "Information",
+    "message": "CAR 4 (NOR) TIME 1:23.271 DELETED - TRACK LIMITS AT TURN 4 LAP 57 20:34:18",
+    "driverNumber": null,
+    "lapNumber": 57
+  },
+  {
+    "id": "rc_0_110",
+    "timestamp": "2024-12-01T17:37:04",
+    "category": "SafetyCar",
+    "message": "FIA STEWARDS: 5 SECOND TIME PENALTY FOR CAR 63 (RUS) - SAFETY CAR INFRINGEMENT",
+    "driverNumber": null,
+    "lapNumber": 57
+  },
+  {
+    "id": "rc_0_111",
+    "timestamp": "2024-12-01T17:42:33",
+    "category": "Information",
+    "message": "UPDATE: TURN 14 INCIDENT INVOLVING CAR 11 (PER) NOTED - DANGEROUS DRIVING",
+    "driverNumber": null,
+    "lapNumber": 57
+  },
+  {
+    "id": "rc_0_112",
+    "timestamp": "2024-12-01T17:43:31",
+    "category": "Information",
+    "message": "FIA STEWARDS: TURN 14 INCIDENT INVOLVING CAR 11 (PER) WILL BE INVESTIGATED AFTER THE RACE - DANGEROUS DRIVING",
+    "driverNumber": null,
+    "lapNumber": 57
+  }
+]

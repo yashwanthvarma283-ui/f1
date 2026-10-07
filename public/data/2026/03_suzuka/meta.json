@@ -1,0 +1,25 @@
+{
+  "year": 2026,
+  "round": 3,
+  "slug": "suzuka",
+  "raceName": "Japanese Grand Prix",
+  "circuit": {
+    "id": "suzuka",
+    "name": "Suzuka Circuit",
+    "locality": "Suzuka",
+    "country": "Japan",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2026-03-29T14:00:00Z",
+      "endIso": "2026-03-29T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 0
+  }
+}

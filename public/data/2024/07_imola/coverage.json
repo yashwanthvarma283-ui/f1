@@ -1,0 +1,22 @@
+{
+  "raceName": "Emilia Romagna Grand Prix",
+  "year": 2024,
+  "round": 7,
+  "generatedAt": "2026-10-07T13:41:29.072Z",
+  "disagreements": [],
+  "sessions": {
+    "Race": {
+      "sessionKey": 9515,
+      "driversCount": 20,
+      "lapsCount": 1238,
+      "stintsAvailable": true,
+      "pitStopsCount": 28,
+      "radioClipsCount": 79,
+      "radioMappedPercentage": 73,
+      "raceControlMessagesCount": 98,
+      "raceControlMappedPercentage": 100,
+      "weatherCount": 143,
+      "overallCompletenessPercent": 98
+    }
+  }
+}

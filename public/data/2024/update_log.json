@@ -1,0 +1,155 @@
+{
+  "year": 2024,
+  "checkedAt": "2026-10-07T15:49:06.635Z",
+  "totalRaces": 24,
+  "alreadyExtracted": 24,
+  "newlyExtracted": 0,
+  "processingRaces": 0,
+  "upcomingRaces": 0,
+  "details": [
+    {
+      "round": 1,
+      "raceName": "Bahrain Grand Prix",
+      "status": "COMPLETED_VERIFIED",
+      "note": "Complete 16 datasets verified on disk"
+    },
+    {
+      "round": 2,
+      "raceName": "Saudi Arabian Grand Prix",
+      "status": "COMPLETED_VERIFIED",
+      "note": "Complete 16 datasets verified on disk"
+    },
+    {
+      "round": 3,
+      "raceName": "Australian Grand Prix",
+      "status": "COMPLETED_VERIFIED",
+      "note": "Complete 16 datasets verified on disk"
+    },
+    {
+      "round": 4,
+      "raceName": "Japanese Grand Prix",
+      "status": "COMPLETED_VERIFIED",
+      "note": "Complete 16 datasets verified on disk"
+    },
+    {
+      "round": 5,
+      "raceName": "Chinese Grand Prix",
+      "status": "COMPLETED_VERIFIED",
+      "note": "Complete 16 datasets verified on disk"
+    },
+    {
+      "round": 6,
+      "raceName": "Miami Grand Prix",
+      "status": "COMPLETED_VERIFIED",
+      "note": "Complete 16 datasets verified on disk"
+    },
+    {
+      "round": 7,
+      "raceName": "Emilia Romagna Grand Prix",
+      "status": "COMPLETED_VERIFIED",
+      "note": "Complete 16 datasets verified on disk"
+    },
+    {
+      "round": 8,
+      "raceName": "Monaco Grand Prix",
+      "status": "COMPLETED_VERIFIED",
+      "note": "Complete 16 datasets verified on disk"
+    },
+    {
+      "round": 9,
+      "raceName": "Canadian Grand Prix",
+      "status": "COMPLETED_VERIFIED",
+      "note": "Complete 16 datasets verified on disk"
+    },
+    {
+      "round": 10,
+      "raceName": "Spanish Grand Prix",
+      "status": "COMPLETED_VERIFIED",
+      "note": "Complete 16 datasets verified on disk"
+    },
+    {
+      "round": 11,
+      "raceName": "Austrian Grand Prix",
+      "status": "COMPLETED_VERIFIED",
+      "note": "Complete 16 datasets verified on disk"
+    },
+    {
+      "round": 12,
+      "raceName": "British Grand Prix",
+      "status": "COMPLETED_VERIFIED",
+      "note": "Complete 16 datasets verified on disk"
+    },
+    {
+      "round": 13,
+      "raceName": "Hungarian Grand Prix",
+      "status": "COMPLETED_VERIFIED",
+      "note": "Complete 16 datasets verified on disk"
+    },
+    {
+      "round": 14,
+      "raceName": "Belgian Grand Prix",
+      "status": "COMPLETED_VERIFIED",
+      "note": "Complete 16 datasets verified on disk"
+    },
+    {
+      "round": 15,
+      "raceName": "Dutch Grand Prix",
+      "status": "COMPLETED_VERIFIED",
+      "note": "Complete 16 datasets verified on disk"
+    },
+    {
+      "round": 16,
+      "raceName": "Italian Grand Prix",
+      "status": "COMPLETED_VERIFIED",
+      "note": "Complete 16 datasets verified on disk"
+    },
+    {
+      "round": 17,
+      "raceName": "Azerbaijan Grand Prix",
+      "status": "COMPLETED_VERIFIED",
+      "note": "Complete 16 datasets verified on disk"
+    },
+    {
+      "round": 18,
+      "raceName": "Singapore Grand Prix",
+      "status": "COMPLETED_VERIFIED",
+      "note": "Complete 16 datasets verified on disk"
+    },
+    {
+      "round": 19,
+      "raceName": "United States Grand Prix",
+      "status": "COMPLETED_VERIFIED",
+      "note": "Complete 16 datasets verified on disk"
+    },
+    {
+      "round": 20,
+      "raceName": "Mexico City Grand Prix",
+      "status": "COMPLETED_VERIFIED",
+      "note": "Complete 16 datasets verified on disk"
+    },
+    {
+      "round": 21,
+      "raceName": "São Paulo Grand Prix",
+      "status": "COMPLETED_VERIFIED",
+      "note": "Complete 16 datasets verified on disk"
+    },
+    {
+      "round": 22,
+      "raceName": "Las Vegas Grand Prix",
+      "status": "COMPLETED_VERIFIED",
+      "note": "Complete 16 datasets verified on disk"
+    },
+    {
+      "round": 23,
+      "raceName": "Qatar Grand Prix",
+      "status": "COMPLETED_VERIFIED",
+      "note": "Complete 16 datasets verified on disk"
+    },
+    {
+      "round": 24,
+      "raceName": "Abu Dhabi Grand Prix",
+      "status": "COMPLETED_VERIFIED",
+      "note": "Complete 16 datasets verified on disk"
+    }
+  ]
+}

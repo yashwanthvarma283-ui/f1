@@ -1,0 +1,152 @@
+{
+  "year": 1959,
+  "totalRaces": 9,
+  "extractedRaces": 9,
+  "lastUpdated": "2026-10-07T16:02:30.816186+00:00",
+  "races": [
+    {
+      "round": 1,
+      "slug": "monte_carlo",
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monte_carlo",
+      "circuitName": "Monte Carlo Circuit",
+      "country": "Monaco",
+      "date": "1959-05-10",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 2,
+      "slug": "indianapolis",
+      "raceName": "Indianapolis 500",
+      "circuitId": "indianapolis",
+      "circuitName": "Indianapolis Circuit",
+      "country": "USA",
+      "date": "1959-05-30",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 3,
+      "slug": "zandvoort",
+      "raceName": "Dutch Grand Prix",
+      "circuitId": "zandvoort",
+      "circuitName": "Zandvoort Circuit",
+      "country": "Netherlands",
+      "date": "1959-05-31",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 4,
+      "slug": "reims",
+      "raceName": "French Grand Prix",
+      "circuitId": "reims",
+      "circuitName": "Reims Circuit",
+      "country": "France",
+      "date": "1959-07-05",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 5,
+      "slug": "liverpool",
+      "raceName": "British Grand Prix",
+      "circuitId": "liverpool",
+      "circuitName": "Liverpool Circuit",
+      "country": "UK",
+      "date": "1959-07-18",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 6,
+      "slug": "berlin",
+      "raceName": "German Grand Prix",
+      "circuitId": "berlin",
+      "circuitName": "Berlin Circuit",
+      "country": "Germany",
+      "date": "1959-08-02",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 7,
+      "slug": "lisbon",
+      "raceName": "Portuguese Grand Prix",
+      "circuitId": "lisbon",
+      "circuitName": "Lisbon Circuit",
+      "country": "Portugal",
+      "date": "1959-08-23",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 8,
+      "slug": "monza",
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "circuitName": "Monza Circuit",
+      "country": "Italy",
+      "date": "1959-09-13",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 9,
+      "slug": "florida",
+      "raceName": "United States Grand Prix",
+      "circuitId": "florida",
+      "circuitName": "Florida Circuit",
+      "country": "USA",
+      "date": "1959-12-12",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    }
+  ]
+}

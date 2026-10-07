@@ -1,0 +1,25 @@
+{
+  "year": 2014,
+  "round": 1,
+  "slug": "melbourne",
+  "raceName": "Australian Grand Prix",
+  "circuit": {
+    "id": "melbourne",
+    "name": "Melbourne Circuit",
+    "locality": "Melbourne",
+    "country": "Australia",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2014-03-16T14:00:00Z",
+      "endIso": "2014-03-16T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

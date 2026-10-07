@@ -1,0 +1,392 @@
+{
+  "year": 2025,
+  "totalRaces": 24,
+  "extractedRaces": 0,
+  "lastUpdated": "2026-10-07T15:59:41.743238+00:00",
+  "races": [
+    {
+      "round": 1,
+      "slug": "melbourne",
+      "raceName": "Australian Grand Prix",
+      "circuitId": "melbourne",
+      "circuitName": "Melbourne Circuit",
+      "country": "Australia",
+      "date": "2025-03-16",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 2,
+      "slug": "shanghai",
+      "raceName": "Chinese Grand Prix",
+      "circuitId": "shanghai",
+      "circuitName": "Shanghai Circuit",
+      "country": "China",
+      "date": "2025-03-23",
+      "hasSprint": true,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 3,
+      "slug": "suzuka",
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "circuitName": "Suzuka Circuit",
+      "country": "Japan",
+      "date": "2025-04-06",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 4,
+      "slug": "sakhir",
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "sakhir",
+      "circuitName": "Sakhir Circuit",
+      "country": "Bahrain",
+      "date": "2025-04-13",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 5,
+      "slug": "jeddah",
+      "raceName": "Saudi Arabian Grand Prix",
+      "circuitId": "jeddah",
+      "circuitName": "Jeddah Circuit",
+      "country": "Saudi Arabia",
+      "date": "2025-04-20",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 6,
+      "slug": "miami_gardens",
+      "raceName": "Miami Grand Prix",
+      "circuitId": "miami_gardens",
+      "circuitName": "Miami Gardens Circuit",
+      "country": "United States",
+      "date": "2025-05-04",
+      "hasSprint": true,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 7,
+      "slug": "imola",
+      "raceName": "Emilia Romagna Grand Prix",
+      "circuitId": "imola",
+      "circuitName": "Imola Circuit",
+      "country": "Italy",
+      "date": "2025-05-18",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 8,
+      "slug": "monaco",
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "circuitName": "Monaco Circuit",
+      "country": "Monaco",
+      "date": "2025-05-25",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 9,
+      "slug": "barcelona",
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "barcelona",
+      "circuitName": "Barcelona Circuit",
+      "country": "Spain",
+      "date": "2025-06-01",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 10,
+      "slug": "montr_al",
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "montr_al",
+      "circuitName": "Montr\u00e9al Circuit",
+      "country": "Canada",
+      "date": "2025-06-15",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 11,
+      "slug": "spielberg",
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "spielberg",
+      "circuitName": "Spielberg Circuit",
+      "country": "Austria",
+      "date": "2025-06-29",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 12,
+      "slug": "silverstone",
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "circuitName": "Silverstone Circuit",
+      "country": "United Kingdom",
+      "date": "2025-07-06",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 13,
+      "slug": "spa_francorchamps",
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa_francorchamps",
+      "circuitName": "Spa-Francorchamps Circuit",
+      "country": "Belgium",
+      "date": "2025-07-27",
+      "hasSprint": true,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 14,
+      "slug": "budapest",
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "budapest",
+      "circuitName": "Budapest Circuit",
+      "country": "Hungary",
+      "date": "2025-08-03",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 15,
+      "slug": "zandvoort",
+      "raceName": "Dutch Grand Prix",
+      "circuitId": "zandvoort",
+      "circuitName": "Zandvoort Circuit",
+      "country": "Netherlands",
+      "date": "2025-08-31",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 16,
+      "slug": "monza",
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "circuitName": "Monza Circuit",
+      "country": "Italy",
+      "date": "2025-09-07",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 17,
+      "slug": "baku",
+      "raceName": "Azerbaijan Grand Prix",
+      "circuitId": "baku",
+      "circuitName": "Baku Circuit",
+      "country": "Azerbaijan",
+      "date": "2025-09-21",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 18,
+      "slug": "marina_bay",
+      "raceName": "Singapore Grand Prix",
+      "circuitId": "marina_bay",
+      "circuitName": "Marina Bay Circuit",
+      "country": "Singapore",
+      "date": "2025-10-05",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 19,
+      "slug": "austin",
+      "raceName": "United States Grand Prix",
+      "circuitId": "austin",
+      "circuitName": "Austin Circuit",
+      "country": "United States",
+      "date": "2025-10-19",
+      "hasSprint": true,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 20,
+      "slug": "mexico_city",
+      "raceName": "Mexico City Grand Prix",
+      "circuitId": "mexico_city",
+      "circuitName": "Mexico City Circuit",
+      "country": "Mexico",
+      "date": "2025-10-26",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 21,
+      "slug": "s_o_paulo",
+      "raceName": "S\u00e3o Paulo Grand Prix",
+      "circuitId": "s_o_paulo",
+      "circuitName": "S\u00e3o Paulo Circuit",
+      "country": "Brazil",
+      "date": "2025-11-09",
+      "hasSprint": true,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 22,
+      "slug": "las_vegas",
+      "raceName": "Las Vegas Grand Prix",
+      "circuitId": "las_vegas",
+      "circuitName": "Las Vegas Circuit",
+      "country": "United States",
+      "date": "2025-11-22",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 23,
+      "slug": "lusail",
+      "raceName": "Qatar Grand Prix",
+      "circuitId": "lusail",
+      "circuitName": "Lusail Circuit",
+      "country": "Qatar",
+      "date": "2025-11-30",
+      "hasSprint": true,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 24,
+      "slug": "yas_island",
+      "raceName": "Abu Dhabi Grand Prix",
+      "circuitId": "yas_island",
+      "circuitName": "Yas Island Circuit",
+      "country": "United Arab Emirates",
+      "date": "2025-12-07",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    }
+  ]
+}

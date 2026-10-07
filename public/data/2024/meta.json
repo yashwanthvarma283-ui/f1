@@ -1,0 +1,512 @@
+{
+  "year": 2024,
+  "totalRaces": 24,
+  "extractedRaces": 24,
+  "lastUpdated": "2026-10-07T13:58:30.554Z",
+  "races": [
+    {
+      "round": 1,
+      "slug": "sakhir",
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "bahrain",
+      "circuitName": "Bahrain International Circuit",
+      "country": "Bahrain",
+      "date": "2024-03-02",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "ver",
+        "name": "VER",
+        "code": "VER",
+        "constructorName": "Red Bull Racing"
+      },
+      "coverageScore": 98,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 2,
+      "slug": "jeddah",
+      "raceName": "Saudi Arabian Grand Prix",
+      "circuitId": "jeddah",
+      "circuitName": "Jeddah Corniche Circuit",
+      "country": "Saudi Arabia",
+      "date": "2024-03-09",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "ver",
+        "name": "VER",
+        "code": "VER",
+        "constructorName": "Red Bull Racing"
+      },
+      "coverageScore": 98,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 3,
+      "slug": "melbourne",
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "circuitName": "Albert Park Grand Prix Circuit",
+      "country": "Australia",
+      "date": "2024-03-24",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "sai",
+        "name": "SAI",
+        "code": "SAI",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 98,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 4,
+      "slug": "suzuka",
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "circuitName": "Suzuka Circuit",
+      "country": "Japan",
+      "date": "2024-04-07",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "ver",
+        "name": "VER",
+        "code": "VER",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 98,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 5,
+      "slug": "shanghai",
+      "raceName": "Chinese Grand Prix",
+      "circuitId": "shanghai",
+      "circuitName": "Shanghai International Circuit",
+      "country": "China",
+      "date": "2024-04-21",
+      "hasSprint": true,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "ver",
+        "name": "VER",
+        "code": "VER",
+        "constructorName": "Red Bull Racing"
+      },
+      "coverageScore": 98,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 6,
+      "slug": "miami",
+      "raceName": "Miami Grand Prix",
+      "circuitId": "miami",
+      "circuitName": "Miami International Autodrome",
+      "country": "USA",
+      "date": "2024-05-05",
+      "hasSprint": true,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "nor",
+        "name": "NOR",
+        "code": "NOR",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 98,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 7,
+      "slug": "imola",
+      "raceName": "Emilia Romagna Grand Prix",
+      "circuitId": "imola",
+      "circuitName": "Autodromo Enzo e Dino Ferrari",
+      "country": "Italy",
+      "date": "2024-05-19",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "ver",
+        "name": "VER",
+        "code": "VER",
+        "constructorName": "Red Bull Racing"
+      },
+      "coverageScore": 98,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 8,
+      "slug": "monte_carlo",
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "circuitName": "Circuit de Monaco",
+      "country": "Monaco",
+      "date": "2024-05-26",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "lec",
+        "name": "LEC",
+        "code": "LEC",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 98,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 9,
+      "slug": "montreal",
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "villeneuve",
+      "circuitName": "Circuit Gilles Villeneuve",
+      "country": "Canada",
+      "date": "2024-06-09",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "ver",
+        "name": "VER",
+        "code": "VER",
+        "constructorName": "Red Bull Racing"
+      },
+      "coverageScore": 98,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 10,
+      "slug": "barcelona",
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "circuitName": "Circuit de Barcelona-Catalunya",
+      "country": "Spain",
+      "date": "2024-06-23",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "ver",
+        "name": "VER",
+        "code": "VER",
+        "constructorName": "Red Bull Racing"
+      },
+      "coverageScore": 98,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 11,
+      "slug": "spielberg",
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "red_bull_ring",
+      "circuitName": "Red Bull Ring",
+      "country": "Austria",
+      "date": "2024-06-30",
+      "hasSprint": true,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "rus",
+        "name": "RUS",
+        "code": "RUS",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 98,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 12,
+      "slug": "silverstone",
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "circuitName": "Silverstone Circuit",
+      "country": "UK",
+      "date": "2024-07-07",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "ham",
+        "name": "HAM",
+        "code": "HAM",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 98,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 13,
+      "slug": "budapest",
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "circuitName": "Hungaroring",
+      "country": "Hungary",
+      "date": "2024-07-21",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "pia",
+        "name": "PIA",
+        "code": "PIA",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 98,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 14,
+      "slug": "spa",
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "circuitName": "Circuit de Spa-Francorchamps",
+      "country": "Belgium",
+      "date": "2024-07-28",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "ham",
+        "name": "HAM",
+        "code": "HAM",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 98,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 15,
+      "slug": "zandvoort",
+      "raceName": "Dutch Grand Prix",
+      "circuitId": "zandvoort",
+      "circuitName": "Circuit Park Zandvoort",
+      "country": "Netherlands",
+      "date": "2024-08-25",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "nor",
+        "name": "NOR",
+        "code": "NOR",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 98,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 16,
+      "slug": "monza",
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "circuitName": "Autodromo Nazionale di Monza",
+      "country": "Italy",
+      "date": "2024-09-01",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "lec",
+        "name": "LEC",
+        "code": "LEC",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 98,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 17,
+      "slug": "baku",
+      "raceName": "Azerbaijan Grand Prix",
+      "circuitId": "baku",
+      "circuitName": "Baku City Circuit",
+      "country": "Azerbaijan",
+      "date": "2024-09-15",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "pia",
+        "name": "PIA",
+        "code": "PIA",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 98,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 18,
+      "slug": "marina_bay",
+      "raceName": "Singapore Grand Prix",
+      "circuitId": "marina_bay",
+      "circuitName": "Marina Bay Street Circuit",
+      "country": "Singapore",
+      "date": "2024-09-22",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "nor",
+        "name": "NOR",
+        "code": "NOR",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 98,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 19,
+      "slug": "austin",
+      "raceName": "United States Grand Prix",
+      "circuitId": "americas",
+      "circuitName": "Circuit of the Americas",
+      "country": "USA",
+      "date": "2024-10-20",
+      "hasSprint": true,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "lec",
+        "name": "LEC",
+        "code": "LEC",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 98,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 20,
+      "slug": "mexico_city",
+      "raceName": "Mexico City Grand Prix",
+      "circuitId": "rodriguez",
+      "circuitName": "Autódromo Hermanos Rodríguez",
+      "country": "Mexico",
+      "date": "2024-10-27",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "sai",
+        "name": "SAI",
+        "code": "SAI",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 98,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 21,
+      "slug": "sao_paulo",
+      "raceName": "São Paulo Grand Prix",
+      "circuitId": "interlagos",
+      "circuitName": "Autódromo José Carlos Pace",
+      "country": "Brazil",
+      "date": "2024-01-01",
+      "hasSprint": true,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "max_verstappen",
+        "name": "Max Verstappen",
+        "code": "VER",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 98,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 22,
+      "slug": "las_vegas",
+      "raceName": "Las Vegas Grand Prix",
+      "circuitId": "vegas",
+      "circuitName": "Las Vegas Strip Street Circuit",
+      "country": "USA",
+      "date": "2024-11-23",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "rus",
+        "name": "RUS",
+        "code": "RUS",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 98,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 23,
+      "slug": "lusail",
+      "raceName": "Qatar Grand Prix",
+      "circuitId": "losail",
+      "circuitName": "Lusail International Circuit",
+      "country": "Qatar",
+      "date": "2024-12-01",
+      "hasSprint": true,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "ver",
+        "name": "VER",
+        "code": "VER",
+        "constructorName": "Red Bull Racing"
+      },
+      "coverageScore": 98,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 24,
+      "slug": "abu_dhabi",
+      "raceName": "Abu Dhabi Grand Prix",
+      "circuitId": "yas_marina",
+      "circuitName": "Yas Marina Circuit",
+      "country": "UAE",
+      "date": "2024-12-08",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "nor",
+        "name": "NOR",
+        "code": "NOR",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 98,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "raceName": "Singapore Grand Prix",
+  "year": 2024,
+  "round": 18,
+  "generatedAt": "2026-10-07T13:48:33.302Z",
+  "disagreements": [],
+  "sessions": {
+    "Race": {
+      "sessionKey": 9606,
+      "driversCount": 20,
+      "lapsCount": 1177,
+      "stintsAvailable": true,
+      "pitStopsCount": 25,
+      "radioClipsCount": 76,
+      "radioMappedPercentage": 62,
+      "raceControlMessagesCount": 61,
+      "raceControlMappedPercentage": 100,
+      "weatherCount": 160,
+      "overallCompletenessPercent": 98
+    }
+  }
+}

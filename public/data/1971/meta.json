@@ -1,0 +1,239 @@
+{
+  "year": 1971,
+  "totalRaces": 11,
+  "extractedRaces": 11,
+  "lastUpdated": "2026-10-07T16:02:04.810436+00:00",
+  "races": [
+    {
+      "round": 1,
+      "slug": "midrand",
+      "raceName": "South African Grand Prix",
+      "circuitId": "midrand",
+      "circuitName": "Midrand Circuit",
+      "country": "South Africa",
+      "date": "1971-03-06",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "mario_andretti",
+        "name": "Mario Andretti",
+        "code": "AND",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 2,
+      "slug": "barcelona",
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "barcelona",
+      "circuitName": "Barcelona Circuit",
+      "country": "Spain",
+      "date": "1971-04-18",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "stewart",
+        "name": "Jackie Stewart",
+        "code": "STE",
+        "constructorName": "Tyrrell"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 3,
+      "slug": "monte_carlo",
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monte_carlo",
+      "circuitName": "Monte Carlo Circuit",
+      "country": "Monaco",
+      "date": "1971-05-23",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "stewart",
+        "name": "Jackie Stewart",
+        "code": "STE",
+        "constructorName": "Tyrrell"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 4,
+      "slug": "zandvoort",
+      "raceName": "Dutch Grand Prix",
+      "circuitId": "zandvoort",
+      "circuitName": "Zandvoort Circuit",
+      "country": "Netherlands",
+      "date": "1971-06-20",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "ickx",
+        "name": "Jacky Ickx",
+        "code": "ICK",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 5,
+      "slug": "le_castellet",
+      "raceName": "French Grand Prix",
+      "circuitId": "le_castellet",
+      "circuitName": "Le Castellet Circuit",
+      "country": "France",
+      "date": "1971-07-04",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "stewart",
+        "name": "Jackie Stewart",
+        "code": "STE",
+        "constructorName": "Tyrrell"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 6,
+      "slug": "silverstone",
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "circuitName": "Silverstone Circuit",
+      "country": "UK",
+      "date": "1971-07-17",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "stewart",
+        "name": "Jackie Stewart",
+        "code": "STE",
+        "constructorName": "Tyrrell"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 7,
+      "slug": "n_rburg",
+      "raceName": "German Grand Prix",
+      "circuitId": "n_rburg",
+      "circuitName": "N\u00fcrburg Circuit",
+      "country": "Germany",
+      "date": "1971-08-01",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "stewart",
+        "name": "Jackie Stewart",
+        "code": "STE",
+        "constructorName": "Tyrrell"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 8,
+      "slug": "spielberg",
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "spielberg",
+      "circuitName": "Spielberg Circuit",
+      "country": "Austria",
+      "date": "1971-08-15",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "siffert",
+        "name": "Jo Siffert",
+        "code": "SIF",
+        "constructorName": "BRM"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 9,
+      "slug": "monza",
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "circuitName": "Monza Circuit",
+      "country": "Italy",
+      "date": "1971-09-05",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "gethin",
+        "name": "Peter Gethin",
+        "code": "GET",
+        "constructorName": "BRM"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 10,
+      "slug": "ontario",
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "ontario",
+      "circuitName": "Ontario Circuit",
+      "country": "Canada",
+      "date": "1971-09-19",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "stewart",
+        "name": "Jackie Stewart",
+        "code": "STE",
+        "constructorName": "Tyrrell"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 11,
+      "slug": "new_york_state",
+      "raceName": "United States Grand Prix",
+      "circuitId": "new_york_state",
+      "circuitName": "New York State Circuit",
+      "country": "USA",
+      "date": "1971-10-03",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "cevert",
+        "name": "Fran\u00e7ois Cevert",
+        "code": "CEV",
+        "constructorName": "Tyrrell"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    }
+  ]
+}

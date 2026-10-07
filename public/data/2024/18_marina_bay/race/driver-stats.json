@@ -1,0 +1,403 @@
+[
+  {
+    "driverNumber": 4,
+    "driverCode": "NOR",
+    "grid": 1,
+    "finish": 1,
+    "positionsGained": 0,
+    "fastestLapTime": "1:34.925",
+    "fastestLapDuration": 94.925,
+    "averagePaceSeconds": 97.281,
+    "bestSector1": 28.238,
+    "bestSector2": 40.206,
+    "bestSector3": 26.481,
+    "pitStopCount": 1,
+    "lapsLed": 62,
+    "stintsCount": 2,
+    "compoundsUsed": [
+      "MEDIUM",
+      "HARD"
+    ]
+  },
+  {
+    "driverNumber": 1,
+    "driverCode": "VER",
+    "grid": 2,
+    "finish": 2,
+    "positionsGained": 0,
+    "fastestLapTime": "1:35.967",
+    "fastestLapDuration": 95.967,
+    "averagePaceSeconds": 97.615,
+    "bestSector1": 28.352,
+    "bestSector2": 40.694,
+    "bestSector3": 26.829,
+    "pitStopCount": 1,
+    "lapsLed": 0,
+    "stintsCount": 2,
+    "compoundsUsed": [
+      "MEDIUM",
+      "HARD"
+    ]
+  },
+  {
+    "driverNumber": 81,
+    "driverCode": "PIA",
+    "grid": 5,
+    "finish": 3,
+    "positionsGained": 2,
+    "fastestLapTime": "1:35.745",
+    "fastestLapDuration": 95.745,
+    "averagePaceSeconds": 97.981,
+    "bestSector1": 28.148,
+    "bestSector2": 40.478,
+    "bestSector3": 26.663,
+    "pitStopCount": 1,
+    "lapsLed": 0,
+    "stintsCount": 2,
+    "compoundsUsed": [
+      "MEDIUM",
+      "HARD"
+    ]
+  },
+  {
+    "driverNumber": 63,
+    "driverCode": "RUS",
+    "grid": 4,
+    "finish": 4,
+    "positionsGained": 0,
+    "fastestLapTime": "1:37.047",
+    "fastestLapDuration": 97.047,
+    "averagePaceSeconds": 98.304,
+    "bestSector1": 28.611,
+    "bestSector2": 41.034,
+    "bestSector3": 27.115,
+    "pitStopCount": 1,
+    "lapsLed": 0,
+    "stintsCount": 2,
+    "compoundsUsed": [
+      "MEDIUM",
+      "HARD"
+    ]
+  },
+  {
+    "driverNumber": 16,
+    "driverCode": "LEC",
+    "grid": 9,
+    "finish": 5,
+    "positionsGained": 4,
+    "fastestLapTime": "1:35.371",
+    "fastestLapDuration": 95.371,
+    "averagePaceSeconds": 98.325,
+    "bestSector1": 28.214,
+    "bestSector2": 40.369,
+    "bestSector3": 26.788,
+    "pitStopCount": 1,
+    "lapsLed": 0,
+    "stintsCount": 2,
+    "compoundsUsed": [
+      "MEDIUM",
+      "HARD"
+    ]
+  },
+  {
+    "driverNumber": 44,
+    "driverCode": "HAM",
+    "grid": 3,
+    "finish": 6,
+    "positionsGained": -3,
+    "fastestLapTime": "1:37.393",
+    "fastestLapDuration": 97.393,
+    "averagePaceSeconds": 98.674,
+    "bestSector1": 28.868,
+    "bestSector2": 41.257,
+    "bestSector3": 27.069,
+    "pitStopCount": 1,
+    "lapsLed": 0,
+    "stintsCount": 2,
+    "compoundsUsed": [
+      "SOFT",
+      "HARD"
+    ]
+  },
+  {
+    "driverNumber": 55,
+    "driverCode": "SAI",
+    "grid": 10,
+    "finish": 7,
+    "positionsGained": 3,
+    "fastestLapTime": "1:36.561",
+    "fastestLapDuration": 96.561,
+    "averagePaceSeconds": 98.879,
+    "bestSector1": 28.706,
+    "bestSector2": 40.542,
+    "bestSector3": 27.059,
+    "pitStopCount": 1,
+    "lapsLed": 0,
+    "stintsCount": 2,
+    "compoundsUsed": [
+      "MEDIUM",
+      "HARD"
+    ]
+  },
+  {
+    "driverNumber": 14,
+    "driverCode": "ALO",
+    "grid": 7,
+    "finish": 8,
+    "positionsGained": -1,
+    "fastestLapTime": "1:37.741",
+    "fastestLapDuration": 97.741,
+    "averagePaceSeconds": 98.913,
+    "bestSector1": 28.772,
+    "bestSector2": 41.646,
+    "bestSector3": 27.058,
+    "pitStopCount": 1,
+    "lapsLed": 0,
+    "stintsCount": 2,
+    "compoundsUsed": [
+      "MEDIUM",
+      "HARD"
+    ]
+  },
+  {
+    "driverNumber": 27,
+    "driverCode": "HUL",
+    "grid": 6,
+    "finish": 9,
+    "positionsGained": -3,
+    "fastestLapTime": "1:37.470",
+    "fastestLapDuration": 97.47,
+    "averagePaceSeconds": 98.901,
+    "bestSector1": 28.664,
+    "bestSector2": 41.341,
+    "bestSector3": 27.146,
+    "pitStopCount": 1,
+    "lapsLed": 0,
+    "stintsCount": 2,
+    "compoundsUsed": [
+      "MEDIUM",
+      "HARD"
+    ]
+  },
+  {
+    "driverNumber": 11,
+    "driverCode": "PER",
+    "grid": 13,
+    "finish": 10,
+    "positionsGained": 3,
+    "fastestLapTime": "1:37.477",
+    "fastestLapDuration": 97.477,
+    "averagePaceSeconds": 98.999,
+    "bestSector1": 28.59,
+    "bestSector2": 41.103,
+    "bestSector3": 27.157,
+    "pitStopCount": 1,
+    "lapsLed": 0,
+    "stintsCount": 2,
+    "compoundsUsed": [
+      "MEDIUM",
+      "HARD"
+    ]
+  },
+  {
+    "driverNumber": 43,
+    "driverCode": "COL",
+    "grid": 12,
+    "finish": 11,
+    "positionsGained": 1,
+    "fastestLapTime": "1:37.262",
+    "fastestLapDuration": 97.262,
+    "averagePaceSeconds": 98.955,
+    "bestSector1": 28.708,
+    "bestSector2": 41.128,
+    "bestSector3": 27.167,
+    "pitStopCount": 1,
+    "lapsLed": 0,
+    "stintsCount": 2,
+    "compoundsUsed": [
+      "MEDIUM",
+      "HARD"
+    ]
+  },
+  {
+    "driverNumber": 22,
+    "driverCode": "TSU",
+    "grid": 8,
+    "finish": 12,
+    "positionsGained": -4,
+    "fastestLapTime": "1:36.393",
+    "fastestLapDuration": 96.393,
+    "averagePaceSeconds": 99.004,
+    "bestSector1": 28.558,
+    "bestSector2": 40.85,
+    "bestSector3": 26.985,
+    "pitStopCount": 1,
+    "lapsLed": 0,
+    "stintsCount": 2,
+    "compoundsUsed": [
+      "MEDIUM",
+      "SOFT"
+    ]
+  },
+  {
+    "driverNumber": 31,
+    "driverCode": "OCO",
+    "grid": 15,
+    "finish": 13,
+    "positionsGained": 2,
+    "fastestLapTime": "1:37.964",
+    "fastestLapDuration": 97.964,
+    "averagePaceSeconds": 99.599,
+    "bestSector1": 28.758,
+    "bestSector2": 41.478,
+    "bestSector3": 27.419,
+    "pitStopCount": 1,
+    "lapsLed": 0,
+    "stintsCount": 2,
+    "compoundsUsed": [
+      "MEDIUM",
+      "HARD"
+    ]
+  },
+  {
+    "driverNumber": 18,
+    "driverCode": "STR",
+    "grid": 17,
+    "finish": 14,
+    "positionsGained": 3,
+    "fastestLapTime": "1:37.851",
+    "fastestLapDuration": 97.851,
+    "averagePaceSeconds": 99.662,
+    "bestSector1": 28.769,
+    "bestSector2": 41.446,
+    "bestSector3": 27.165,
+    "pitStopCount": 1,
+    "lapsLed": 0,
+    "stintsCount": 2,
+    "compoundsUsed": [
+      "HARD",
+      "MEDIUM"
+    ]
+  },
+  {
+    "driverNumber": 24,
+    "driverCode": "ZHO",
+    "grid": 20,
+    "finish": 15,
+    "positionsGained": 5,
+    "fastestLapTime": "1:37.461",
+    "fastestLapDuration": 97.461,
+    "averagePaceSeconds": 99.836,
+    "bestSector1": 28.648,
+    "bestSector2": 41.189,
+    "bestSector3": 27.325,
+    "pitStopCount": 1,
+    "lapsLed": 0,
+    "stintsCount": 2,
+    "compoundsUsed": [
+      "HARD",
+      "MEDIUM"
+    ]
+  },
+  {
+    "driverNumber": 77,
+    "driverCode": "BOT",
+    "grid": 19,
+    "finish": 16,
+    "positionsGained": 3,
+    "fastestLapTime": "1:37.524",
+    "fastestLapDuration": 97.524,
+    "averagePaceSeconds": 99.848,
+    "bestSector1": 28.631,
+    "bestSector2": 41.286,
+    "bestSector3": 27.187,
+    "pitStopCount": 1,
+    "lapsLed": 0,
+    "stintsCount": 2,
+    "compoundsUsed": [
+      "HARD",
+      "MEDIUM"
+    ]
+  },
+  {
+    "driverNumber": 10,
+    "driverCode": "GAS",
+    "grid": 18,
+    "finish": 17,
+    "positionsGained": 1,
+    "fastestLapTime": "1:36.927",
+    "fastestLapDuration": 96.927,
+    "averagePaceSeconds": 99.833,
+    "bestSector1": 28.673,
+    "bestSector2": 41.172,
+    "bestSector3": 26.981,
+    "pitStopCount": 1,
+    "lapsLed": 0,
+    "stintsCount": 2,
+    "compoundsUsed": [
+      "MEDIUM",
+      "SOFT"
+    ]
+  },
+  {
+    "driverNumber": 3,
+    "driverCode": "RIC",
+    "grid": 16,
+    "finish": 18,
+    "positionsGained": -2,
+    "fastestLapTime": "1:34.486",
+    "fastestLapDuration": 94.486,
+    "averagePaceSeconds": 99.716,
+    "bestSector1": 28.091,
+    "bestSector2": 39.948,
+    "bestSector3": 26.447,
+    "pitStopCount": 3,
+    "lapsLed": 0,
+    "stintsCount": 4,
+    "compoundsUsed": [
+      "SOFT",
+      "MEDIUM"
+    ]
+  },
+  {
+    "driverNumber": 20,
+    "driverCode": "MAG",
+    "grid": 14,
+    "finish": 19,
+    "positionsGained": -5,
+    "fastestLapTime": "1:34.754",
+    "fastestLapDuration": 94.754,
+    "averagePaceSeconds": 99.751,
+    "bestSector1": 28.237,
+    "bestSector2": 40.058,
+    "bestSector3": 26.459,
+    "pitStopCount": 3,
+    "lapsLed": 0,
+    "stintsCount": 3,
+    "compoundsUsed": [
+      "HARD",
+      "MEDIUM",
+      "SOFT"
+    ]
+  },
+  {
+    "driverNumber": 23,
+    "driverCode": "ALB",
+    "grid": 11,
+    "finish": 20,
+    "positionsGained": -9,
+    "fastestLapTime": "1:36.888",
+    "fastestLapDuration": 96.888,
+    "averagePaceSeconds": 103.048,
+    "bestSector1": 28.928,
+    "bestSector2": 40.666,
+    "bestSector3": 27.294,
+    "pitStopCount": 2,
+    "lapsLed": 0,
+    "stintsCount": 2,
+    "compoundsUsed": [
+      "MEDIUM",
+      "HARD"
+    ]
+  }
+]

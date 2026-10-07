@@ -1,0 +1,25 @@
+{
+  "year": 1978,
+  "round": 2,
+  "slug": "rio_de_janeiro",
+  "raceName": "Brazilian Grand Prix",
+  "circuit": {
+    "id": "rio_de_janeiro",
+    "name": "Rio de Janeiro Circuit",
+    "locality": "Rio de Janeiro",
+    "country": "Brazil",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "1978-01-29T14:00:00Z",
+      "endIso": "1978-01-29T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "raceName": "Austrian Grand Prix",
+  "year": 2024,
+  "round": 11,
+  "generatedAt": "2026-10-07T13:43:34.333Z",
+  "disagreements": [],
+  "sessions": {
+    "Race": {
+      "sessionKey": 9550,
+      "driversCount": 20,
+      "lapsCount": 1405,
+      "stintsAvailable": true,
+      "pitStopsCount": 46,
+      "radioClipsCount": 100,
+      "radioMappedPercentage": 80,
+      "raceControlMessagesCount": 124,
+      "raceControlMappedPercentage": 100,
+      "weatherCount": 143,
+      "overallCompletenessPercent": 98
+    }
+  }
+}

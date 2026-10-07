@@ -1,0 +1,344 @@
+{
+  "year": 1976,
+  "totalRaces": 16,
+  "extractedRaces": 16,
+  "lastUpdated": "2026-10-07T16:01:55.536305+00:00",
+  "races": [
+    {
+      "round": 1,
+      "slug": "s_o_paulo",
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "s_o_paulo",
+      "circuitName": "S\u00e3o Paulo Circuit",
+      "country": "Brazil",
+      "date": "1976-01-25",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "lauda",
+        "name": "Niki Lauda",
+        "code": "LAU",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 2,
+      "slug": "midrand",
+      "raceName": "South African Grand Prix",
+      "circuitId": "midrand",
+      "circuitName": "Midrand Circuit",
+      "country": "South Africa",
+      "date": "1976-03-06",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "lauda",
+        "name": "Niki Lauda",
+        "code": "LAU",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 3,
+      "slug": "california",
+      "raceName": "United States Grand Prix West",
+      "circuitId": "california",
+      "circuitName": "California Circuit",
+      "country": "USA",
+      "date": "1976-03-28",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "regazzoni",
+        "name": "Clay Regazzoni",
+        "code": "REG",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 4,
+      "slug": "madrid",
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "madrid",
+      "circuitName": "Madrid Circuit",
+      "country": "Spain",
+      "date": "1976-05-02",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hunt",
+        "name": "James Hunt",
+        "code": "HUN",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 5,
+      "slug": "heusden_zolder",
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "heusden_zolder",
+      "circuitName": "Heusden-Zolder Circuit",
+      "country": "Belgium",
+      "date": "1976-05-16",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "lauda",
+        "name": "Niki Lauda",
+        "code": "LAU",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 6,
+      "slug": "monte_carlo",
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monte_carlo",
+      "circuitName": "Monte Carlo Circuit",
+      "country": "Monaco",
+      "date": "1976-05-30",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "lauda",
+        "name": "Niki Lauda",
+        "code": "LAU",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 7,
+      "slug": "anderstorp",
+      "raceName": "Swedish Grand Prix",
+      "circuitId": "anderstorp",
+      "circuitName": "Anderstorp Circuit",
+      "country": "Sweden",
+      "date": "1976-06-13",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "scheckter",
+        "name": "Jody Scheckter",
+        "code": "SCH",
+        "constructorName": "Tyrrell"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 8,
+      "slug": "le_castellet",
+      "raceName": "French Grand Prix",
+      "circuitId": "le_castellet",
+      "circuitName": "Le Castellet Circuit",
+      "country": "France",
+      "date": "1976-07-04",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hunt",
+        "name": "James Hunt",
+        "code": "HUN",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 9,
+      "slug": "kent",
+      "raceName": "British Grand Prix",
+      "circuitId": "kent",
+      "circuitName": "Kent Circuit",
+      "country": "UK",
+      "date": "1976-07-18",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "lauda",
+        "name": "Niki Lauda",
+        "code": "LAU",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 10,
+      "slug": "n_rburg",
+      "raceName": "German Grand Prix",
+      "circuitId": "n_rburg",
+      "circuitName": "N\u00fcrburg Circuit",
+      "country": "Germany",
+      "date": "1976-08-01",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hunt",
+        "name": "James Hunt",
+        "code": "HUN",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 11,
+      "slug": "spielberg",
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "spielberg",
+      "circuitName": "Spielberg Circuit",
+      "country": "Austria",
+      "date": "1976-08-15",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "watson",
+        "name": "John Watson",
+        "code": "WAT",
+        "constructorName": "Penske"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 12,
+      "slug": "zandvoort",
+      "raceName": "Dutch Grand Prix",
+      "circuitId": "zandvoort",
+      "circuitName": "Zandvoort Circuit",
+      "country": "Netherlands",
+      "date": "1976-08-29",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hunt",
+        "name": "James Hunt",
+        "code": "HUN",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 13,
+      "slug": "monza",
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "circuitName": "Monza Circuit",
+      "country": "Italy",
+      "date": "1976-09-12",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "peterson",
+        "name": "Ronnie Peterson",
+        "code": "PET",
+        "constructorName": "March"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 14,
+      "slug": "ontario",
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "ontario",
+      "circuitName": "Ontario Circuit",
+      "country": "Canada",
+      "date": "1976-10-03",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hunt",
+        "name": "James Hunt",
+        "code": "HUN",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 15,
+      "slug": "new_york_state",
+      "raceName": "United States Grand Prix",
+      "circuitId": "new_york_state",
+      "circuitName": "New York State Circuit",
+      "country": "USA",
+      "date": "1976-10-10",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hunt",
+        "name": "James Hunt",
+        "code": "HUN",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 16,
+      "slug": "oyama",
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "oyama",
+      "circuitName": "Oyama Circuit",
+      "country": "Japan",
+      "date": "1976-10-24",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "mario_andretti",
+        "name": "Mario Andretti",
+        "code": "AND",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    }
+  ]
+}

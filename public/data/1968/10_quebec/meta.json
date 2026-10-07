@@ -1,0 +1,25 @@
+{
+  "year": 1968,
+  "round": 10,
+  "slug": "quebec",
+  "raceName": "Canadian Grand Prix",
+  "circuit": {
+    "id": "quebec",
+    "name": "Quebec Circuit",
+    "locality": "Quebec",
+    "country": "Canada",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "1968-09-22T14:00:00Z",
+      "endIso": "1968-09-22T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

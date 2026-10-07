@@ -1,0 +1,25 @@
+{
+  "year": 2016,
+  "round": 21,
+  "slug": "abu_dhabi",
+  "raceName": "Abu Dhabi Grand Prix",
+  "circuit": {
+    "id": "abu_dhabi",
+    "name": "Abu Dhabi Circuit",
+    "locality": "Abu Dhabi",
+    "country": "UAE",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2016-11-27T14:00:00Z",
+      "endIso": "2016-11-27T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

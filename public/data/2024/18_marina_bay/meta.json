@@ -1,0 +1,31 @@
+{
+  "year": 2024,
+  "round": 18,
+  "slug": "marina_bay",
+  "raceName": "Singapore Grand Prix",
+  "circuit": {
+    "id": "marina_bay",
+    "name": "Marina Bay Street Circuit",
+    "locality": "Marina Bay",
+    "country": "Singapore",
+    "lat": 1.2914,
+    "long": 103.864,
+    "turns": 15,
+    "lengthKm": 4.928,
+    "lapRecord": {
+      "time": "1:31.447",
+      "driver": "Pedro de la Rosa",
+      "year": "2005"
+    }
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2024-09-22T12:00:00Z",
+      "endIso": "2024-09-22T14:00:00.000Z",
+      "openF1SessionKey": 9606
+    }
+  },
+  "coverage": {
+    "Race": 98
+  }
+}

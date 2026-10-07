@@ -1,0 +1,260 @@
+{
+  "year": 1968,
+  "totalRaces": 12,
+  "extractedRaces": 12,
+  "lastUpdated": "2026-10-07T16:02:10.056152+00:00",
+  "races": [
+    {
+      "round": 1,
+      "slug": "midrand",
+      "raceName": "South African Grand Prix",
+      "circuitId": "midrand",
+      "circuitName": "Midrand Circuit",
+      "country": "South Africa",
+      "date": "1968-01-01",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "clark",
+        "name": "Jim Clark",
+        "code": "CLA",
+        "constructorName": "Lotus-Ford"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 2,
+      "slug": "madrid",
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "madrid",
+      "circuitName": "Madrid Circuit",
+      "country": "Spain",
+      "date": "1968-05-12",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hill",
+        "name": "Graham Hill",
+        "code": "HIL",
+        "constructorName": "Lotus-Ford"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 3,
+      "slug": "monte_carlo",
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monte_carlo",
+      "circuitName": "Monte Carlo Circuit",
+      "country": "Monaco",
+      "date": "1968-05-26",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hill",
+        "name": "Graham Hill",
+        "code": "HIL",
+        "constructorName": "Lotus-Ford"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 4,
+      "slug": "spa",
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "circuitName": "Spa Circuit",
+      "country": "Belgium",
+      "date": "1968-06-09",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "mclaren",
+        "name": "Bruce McLaren",
+        "code": "MCL",
+        "constructorName": "McLaren-Ford"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 5,
+      "slug": "zandvoort",
+      "raceName": "Dutch Grand Prix",
+      "circuitId": "zandvoort",
+      "circuitName": "Zandvoort Circuit",
+      "country": "Netherlands",
+      "date": "1968-06-23",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "stewart",
+        "name": "Jackie Stewart",
+        "code": "STE",
+        "constructorName": "Matra-Ford"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 6,
+      "slug": "rouen",
+      "raceName": "French Grand Prix",
+      "circuitId": "rouen",
+      "circuitName": "Rouen Circuit",
+      "country": "France",
+      "date": "1968-07-07",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "ickx",
+        "name": "Jacky Ickx",
+        "code": "ICK",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 7,
+      "slug": "kent",
+      "raceName": "British Grand Prix",
+      "circuitId": "kent",
+      "circuitName": "Kent Circuit",
+      "country": "UK",
+      "date": "1968-07-20",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "siffert",
+        "name": "Jo Siffert",
+        "code": "SIF",
+        "constructorName": "Lotus-Ford"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 8,
+      "slug": "n_rburg",
+      "raceName": "German Grand Prix",
+      "circuitId": "n_rburg",
+      "circuitName": "N\u00fcrburg Circuit",
+      "country": "Germany",
+      "date": "1968-08-04",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "stewart",
+        "name": "Jackie Stewart",
+        "code": "STE",
+        "constructorName": "Matra-Ford"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 9,
+      "slug": "monza",
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "circuitName": "Monza Circuit",
+      "country": "Italy",
+      "date": "1968-09-08",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hulme",
+        "name": "Denny Hulme",
+        "code": "HUL",
+        "constructorName": "McLaren-Ford"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 10,
+      "slug": "quebec",
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "quebec",
+      "circuitName": "Quebec Circuit",
+      "country": "Canada",
+      "date": "1968-09-22",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hulme",
+        "name": "Denny Hulme",
+        "code": "HUL",
+        "constructorName": "McLaren-Ford"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 11,
+      "slug": "new_york_state",
+      "raceName": "United States Grand Prix",
+      "circuitId": "new_york_state",
+      "circuitName": "New York State Circuit",
+      "country": "USA",
+      "date": "1968-10-06",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "stewart",
+        "name": "Jackie Stewart",
+        "code": "STE",
+        "constructorName": "Matra-Ford"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 12,
+      "slug": "mexico_city",
+      "raceName": "Mexican Grand Prix",
+      "circuitId": "mexico_city",
+      "circuitName": "Mexico City Circuit",
+      "country": "Mexico",
+      "date": "1968-11-03",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hill",
+        "name": "Graham Hill",
+        "code": "HIL",
+        "constructorName": "Lotus-Ford"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    }
+  ]
+}

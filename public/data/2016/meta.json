@@ -1,0 +1,449 @@
+{
+  "year": 2016,
+  "totalRaces": 21,
+  "extractedRaces": 21,
+  "lastUpdated": "2026-10-07T16:00:02.906793+00:00",
+  "races": [
+    {
+      "round": 1,
+      "slug": "melbourne",
+      "raceName": "Australian Grand Prix",
+      "circuitId": "melbourne",
+      "circuitName": "Melbourne Circuit",
+      "country": "Australia",
+      "date": "2016-03-20",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "rosberg",
+        "name": "Nico Rosberg",
+        "code": "ROS",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 2,
+      "slug": "sakhir",
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "sakhir",
+      "circuitName": "Sakhir Circuit",
+      "country": "Bahrain",
+      "date": "2016-04-03",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "rosberg",
+        "name": "Nico Rosberg",
+        "code": "ROS",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 3,
+      "slug": "shanghai",
+      "raceName": "Chinese Grand Prix",
+      "circuitId": "shanghai",
+      "circuitName": "Shanghai Circuit",
+      "country": "China",
+      "date": "2016-04-17",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "rosberg",
+        "name": "Nico Rosberg",
+        "code": "ROS",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 4,
+      "slug": "sochi",
+      "raceName": "Russian Grand Prix",
+      "circuitId": "sochi",
+      "circuitName": "Sochi Circuit",
+      "country": "Russia",
+      "date": "2016-05-01",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "rosberg",
+        "name": "Nico Rosberg",
+        "code": "ROS",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 5,
+      "slug": "barcelona",
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "barcelona",
+      "circuitName": "Barcelona Circuit",
+      "country": "Spain",
+      "date": "2016-05-15",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "max_verstappen",
+        "name": "Max Verstappen",
+        "code": "VER",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 6,
+      "slug": "monte_carlo",
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monte_carlo",
+      "circuitName": "Monte Carlo Circuit",
+      "country": "Monaco",
+      "date": "2016-05-29",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hamilton",
+        "name": "Lewis Hamilton",
+        "code": "HAM",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 7,
+      "slug": "montreal",
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "montreal",
+      "circuitName": "Montreal Circuit",
+      "country": "Canada",
+      "date": "2016-06-12",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hamilton",
+        "name": "Lewis Hamilton",
+        "code": "HAM",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 8,
+      "slug": "baku",
+      "raceName": "European Grand Prix",
+      "circuitId": "baku",
+      "circuitName": "Baku Circuit",
+      "country": "Azerbaijan",
+      "date": "2016-06-19",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "rosberg",
+        "name": "Nico Rosberg",
+        "code": "ROS",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 9,
+      "slug": "spielberg",
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "spielberg",
+      "circuitName": "Spielberg Circuit",
+      "country": "Austria",
+      "date": "2016-07-03",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hamilton",
+        "name": "Lewis Hamilton",
+        "code": "HAM",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 10,
+      "slug": "silverstone",
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "circuitName": "Silverstone Circuit",
+      "country": "UK",
+      "date": "2016-07-10",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hamilton",
+        "name": "Lewis Hamilton",
+        "code": "HAM",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 11,
+      "slug": "budapest",
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "budapest",
+      "circuitName": "Budapest Circuit",
+      "country": "Hungary",
+      "date": "2016-07-24",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hamilton",
+        "name": "Lewis Hamilton",
+        "code": "HAM",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 12,
+      "slug": "hockenheim",
+      "raceName": "German Grand Prix",
+      "circuitId": "hockenheim",
+      "circuitName": "Hockenheim Circuit",
+      "country": "Germany",
+      "date": "2016-07-31",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hamilton",
+        "name": "Lewis Hamilton",
+        "code": "HAM",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 13,
+      "slug": "spa",
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "circuitName": "Spa Circuit",
+      "country": "Belgium",
+      "date": "2016-08-28",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "rosberg",
+        "name": "Nico Rosberg",
+        "code": "ROS",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 14,
+      "slug": "monza",
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "circuitName": "Monza Circuit",
+      "country": "Italy",
+      "date": "2016-09-04",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "rosberg",
+        "name": "Nico Rosberg",
+        "code": "ROS",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 15,
+      "slug": "marina_bay",
+      "raceName": "Singapore Grand Prix",
+      "circuitId": "marina_bay",
+      "circuitName": "Marina Bay Circuit",
+      "country": "Singapore",
+      "date": "2016-09-18",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "rosberg",
+        "name": "Nico Rosberg",
+        "code": "ROS",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 16,
+      "slug": "kuala_lumpur",
+      "raceName": "Malaysian Grand Prix",
+      "circuitId": "kuala_lumpur",
+      "circuitName": "Kuala Lumpur Circuit",
+      "country": "Malaysia",
+      "date": "2016-10-02",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "ricciardo",
+        "name": "Daniel Ricciardo",
+        "code": "RIC",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 17,
+      "slug": "suzuka",
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "circuitName": "Suzuka Circuit",
+      "country": "Japan",
+      "date": "2016-10-09",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "rosberg",
+        "name": "Nico Rosberg",
+        "code": "ROS",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 18,
+      "slug": "austin",
+      "raceName": "United States Grand Prix",
+      "circuitId": "austin",
+      "circuitName": "Austin Circuit",
+      "country": "USA",
+      "date": "2016-10-23",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hamilton",
+        "name": "Lewis Hamilton",
+        "code": "HAM",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 19,
+      "slug": "mexico_city",
+      "raceName": "Mexican Grand Prix",
+      "circuitId": "mexico_city",
+      "circuitName": "Mexico City Circuit",
+      "country": "Mexico",
+      "date": "2016-10-30",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hamilton",
+        "name": "Lewis Hamilton",
+        "code": "HAM",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 20,
+      "slug": "s_o_paulo",
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "s_o_paulo",
+      "circuitName": "S\u00e3o Paulo Circuit",
+      "country": "Brazil",
+      "date": "2016-11-13",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hamilton",
+        "name": "Lewis Hamilton",
+        "code": "HAM",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 21,
+      "slug": "abu_dhabi",
+      "raceName": "Abu Dhabi Grand Prix",
+      "circuitId": "abu_dhabi",
+      "circuitName": "Abu Dhabi Circuit",
+      "country": "UAE",
+      "date": "2016-11-27",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hamilton",
+        "name": "Lewis Hamilton",
+        "code": "HAM",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    }
+  ]
+}

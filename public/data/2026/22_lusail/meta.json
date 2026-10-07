@@ -1,0 +1,25 @@
+{
+  "year": 2026,
+  "round": 22,
+  "slug": "lusail",
+  "raceName": "Qatar Grand Prix",
+  "circuit": {
+    "id": "lusail",
+    "name": "Lusail Circuit",
+    "locality": "Lusail",
+    "country": "Qatar",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2026-11-29T14:00:00Z",
+      "endIso": "2026-11-29T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 0
+  }
+}

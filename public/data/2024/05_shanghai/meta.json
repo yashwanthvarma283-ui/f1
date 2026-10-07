@@ -1,0 +1,31 @@
+{
+  "year": 2024,
+  "round": 5,
+  "slug": "shanghai",
+  "raceName": "Chinese Grand Prix",
+  "circuit": {
+    "id": "shanghai",
+    "name": "Shanghai International Circuit",
+    "locality": "Shanghai",
+    "country": "China",
+    "lat": 31.3389,
+    "long": 121.22,
+    "turns": 15,
+    "lengthKm": 5.451,
+    "lapRecord": {
+      "time": "1:31.447",
+      "driver": "Pedro de la Rosa",
+      "year": "2005"
+    }
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2024-04-21T07:00:00Z",
+      "endIso": "2024-04-21T09:00:00.000Z",
+      "openF1SessionKey": 9673
+    }
+  },
+  "coverage": {
+    "Race": 98
+  }
+}

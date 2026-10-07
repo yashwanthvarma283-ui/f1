@@ -1,0 +1,25 @@
+{
+  "year": 2020,
+  "round": 11,
+  "slug": "n_rburgring",
+  "raceName": "Eifel Grand Prix",
+  "circuit": {
+    "id": "n_rburgring",
+    "name": "N\u00fcrburgring Circuit",
+    "locality": "N\u00fcrburgring",
+    "country": "Germany",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2020-10-11T14:00:00Z",
+      "endIso": "2020-10-11T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

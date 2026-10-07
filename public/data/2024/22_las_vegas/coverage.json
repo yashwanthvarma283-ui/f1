@@ -1,0 +1,22 @@
+{
+  "raceName": "Las Vegas Grand Prix",
+  "year": 2024,
+  "round": 22,
+  "generatedAt": "2026-10-07T13:51:49.597Z",
+  "disagreements": [],
+  "sessions": {
+    "Race": {
+      "sessionKey": 9644,
+      "driversCount": 20,
+      "lapsCount": 938,
+      "stintsAvailable": true,
+      "pitStopsCount": 41,
+      "radioClipsCount": 136,
+      "radioMappedPercentage": 78,
+      "raceControlMessagesCount": 35,
+      "raceControlMappedPercentage": 100,
+      "weatherCount": 143,
+      "overallCompletenessPercent": 98
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "year": 2021,
+  "round": 7,
+  "slug": "le_castellet",
+  "raceName": "French Grand Prix",
+  "circuit": {
+    "id": "le_castellet",
+    "name": "Le Castellet Circuit",
+    "locality": "Le Castellet",
+    "country": "France",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2021-06-20T14:00:00Z",
+      "endIso": "2021-06-20T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

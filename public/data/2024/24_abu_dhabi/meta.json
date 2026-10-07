@@ -1,0 +1,30 @@
+{
+  "year": 2024,
+  "round": 24,
+  "slug": "abu_dhabi",
+  "raceName": "Abu Dhabi Grand Prix",
+  "circuit": {
+    "id": "yas_marina",
+    "name": "Yas Marina Circuit",
+    "locality": "Abu Dhabi",
+    "country": "UAE",
+    "lat": 24.4672,
+    "long": 54.6031,
+    "turns": 15,
+    "lengthKm": 5.4,
+    "lapRecord": {
+      "time": "1:31.447",
+      "driver": "Pedro de la Rosa",
+      "year": "2005"
+    }
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2024-12-08T13:00:00Z",
+      "endIso": "2024-12-08T15:00:00.000Z"
+    }
+  },
+  "coverage": {
+    "Race": 98
+  }
+}

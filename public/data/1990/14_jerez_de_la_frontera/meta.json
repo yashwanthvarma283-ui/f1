@@ -1,0 +1,25 @@
+{
+  "year": 1990,
+  "round": 14,
+  "slug": "jerez_de_la_frontera",
+  "raceName": "Spanish Grand Prix",
+  "circuit": {
+    "id": "jerez_de_la_frontera",
+    "name": "Jerez de la Frontera Circuit",
+    "locality": "Jerez de la Frontera",
+    "country": "Spain",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "1990-09-30T14:00:00Z",
+      "endIso": "1990-09-30T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "year": 2019,
+  "round": 7,
+  "slug": "montr_al",
+  "raceName": "Canadian Grand Prix",
+  "circuit": {
+    "id": "montr_al",
+    "name": "Montr\u00e9al Circuit",
+    "locality": "Montr\u00e9al",
+    "country": "Canada",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2019-06-09T14:00:00Z",
+      "endIso": "2019-06-09T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

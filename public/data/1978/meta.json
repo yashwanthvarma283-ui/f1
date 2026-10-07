@@ -1,0 +1,344 @@
+{
+  "year": 1978,
+  "totalRaces": 16,
+  "extractedRaces": 16,
+  "lastUpdated": "2026-10-07T16:01:53.438832+00:00",
+  "races": [
+    {
+      "round": 1,
+      "slug": "buenos_aires",
+      "raceName": "Argentine Grand Prix",
+      "circuitId": "buenos_aires",
+      "circuitName": "Buenos Aires Circuit",
+      "country": "Argentina",
+      "date": "1978-01-15",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "mario_andretti",
+        "name": "Mario Andretti",
+        "code": "AND",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 2,
+      "slug": "rio_de_janeiro",
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "rio_de_janeiro",
+      "circuitName": "Rio de Janeiro Circuit",
+      "country": "Brazil",
+      "date": "1978-01-29",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "reutemann",
+        "name": "Carlos Reutemann",
+        "code": "REU",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 3,
+      "slug": "midrand",
+      "raceName": "South African Grand Prix",
+      "circuitId": "midrand",
+      "circuitName": "Midrand Circuit",
+      "country": "South Africa",
+      "date": "1978-03-04",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "peterson",
+        "name": "Ronnie Peterson",
+        "code": "PET",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 4,
+      "slug": "california",
+      "raceName": "United States Grand Prix West",
+      "circuitId": "california",
+      "circuitName": "California Circuit",
+      "country": "USA",
+      "date": "1978-04-02",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "reutemann",
+        "name": "Carlos Reutemann",
+        "code": "REU",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 5,
+      "slug": "monte_carlo",
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monte_carlo",
+      "circuitName": "Monte Carlo Circuit",
+      "country": "Monaco",
+      "date": "1978-05-07",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "depailler",
+        "name": "Patrick Depailler",
+        "code": "DEP",
+        "constructorName": "Tyrrell"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 6,
+      "slug": "heusden_zolder",
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "heusden_zolder",
+      "circuitName": "Heusden-Zolder Circuit",
+      "country": "Belgium",
+      "date": "1978-05-21",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "mario_andretti",
+        "name": "Mario Andretti",
+        "code": "AND",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 7,
+      "slug": "madrid",
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "madrid",
+      "circuitName": "Madrid Circuit",
+      "country": "Spain",
+      "date": "1978-06-04",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "mario_andretti",
+        "name": "Mario Andretti",
+        "code": "AND",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 8,
+      "slug": "anderstorp",
+      "raceName": "Swedish Grand Prix",
+      "circuitId": "anderstorp",
+      "circuitName": "Anderstorp Circuit",
+      "country": "Sweden",
+      "date": "1978-06-17",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "lauda",
+        "name": "Niki Lauda",
+        "code": "LAU",
+        "constructorName": "Brabham"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 9,
+      "slug": "le_castellet",
+      "raceName": "French Grand Prix",
+      "circuitId": "le_castellet",
+      "circuitName": "Le Castellet Circuit",
+      "country": "France",
+      "date": "1978-07-02",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "mario_andretti",
+        "name": "Mario Andretti",
+        "code": "AND",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 10,
+      "slug": "kent",
+      "raceName": "British Grand Prix",
+      "circuitId": "kent",
+      "circuitName": "Kent Circuit",
+      "country": "UK",
+      "date": "1978-07-16",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "reutemann",
+        "name": "Carlos Reutemann",
+        "code": "REU",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 11,
+      "slug": "hockenheim",
+      "raceName": "German Grand Prix",
+      "circuitId": "hockenheim",
+      "circuitName": "Hockenheim Circuit",
+      "country": "Germany",
+      "date": "1978-07-30",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "mario_andretti",
+        "name": "Mario Andretti",
+        "code": "AND",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 12,
+      "slug": "spielberg",
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "spielberg",
+      "circuitName": "Spielberg Circuit",
+      "country": "Austria",
+      "date": "1978-08-13",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "peterson",
+        "name": "Ronnie Peterson",
+        "code": "PET",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 13,
+      "slug": "zandvoort",
+      "raceName": "Dutch Grand Prix",
+      "circuitId": "zandvoort",
+      "circuitName": "Zandvoort Circuit",
+      "country": "Netherlands",
+      "date": "1978-08-27",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "mario_andretti",
+        "name": "Mario Andretti",
+        "code": "AND",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 14,
+      "slug": "monza",
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "circuitName": "Monza Circuit",
+      "country": "Italy",
+      "date": "1978-09-10",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "lauda",
+        "name": "Niki Lauda",
+        "code": "LAU",
+        "constructorName": "Brabham"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 15,
+      "slug": "new_york_state",
+      "raceName": "United States Grand Prix",
+      "circuitId": "new_york_state",
+      "circuitName": "New York State Circuit",
+      "country": "USA",
+      "date": "1978-10-01",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "reutemann",
+        "name": "Carlos Reutemann",
+        "code": "REU",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 16,
+      "slug": "montreal",
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "montreal",
+      "circuitName": "Montreal Circuit",
+      "country": "Canada",
+      "date": "1978-10-08",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "gilles_villeneuve",
+        "name": "Gilles Villeneuve",
+        "code": "VIL",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    }
+  ]
+}

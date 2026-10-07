@@ -1,0 +1,344 @@
+{
+  "year": 1985,
+  "totalRaces": 16,
+  "extractedRaces": 16,
+  "lastUpdated": "2026-10-07T16:01:34.588156+00:00",
+  "races": [
+    {
+      "round": 1,
+      "slug": "rio_de_janeiro",
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "rio_de_janeiro",
+      "circuitName": "Rio de Janeiro Circuit",
+      "country": "Brazil",
+      "date": "1985-04-07",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "prost",
+        "name": "Alain Prost",
+        "code": "PRO",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 2,
+      "slug": "estoril",
+      "raceName": "Portuguese Grand Prix",
+      "circuitId": "estoril",
+      "circuitName": "Estoril Circuit",
+      "country": "Portugal",
+      "date": "1985-04-21",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "senna",
+        "name": "Ayrton Senna",
+        "code": "SEN",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 3,
+      "slug": "imola",
+      "raceName": "San Marino Grand Prix",
+      "circuitId": "imola",
+      "circuitName": "Imola Circuit",
+      "country": "Italy",
+      "date": "1985-05-05",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "angelis",
+        "name": "Elio de Angelis",
+        "code": "DE ",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 4,
+      "slug": "monte_carlo",
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monte_carlo",
+      "circuitName": "Monte Carlo Circuit",
+      "country": "Monaco",
+      "date": "1985-05-19",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "prost",
+        "name": "Alain Prost",
+        "code": "PRO",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 5,
+      "slug": "montreal",
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "montreal",
+      "circuitName": "Montreal Circuit",
+      "country": "Canada",
+      "date": "1985-06-16",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "alboreto",
+        "name": "Michele Alboreto",
+        "code": "ALB",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 6,
+      "slug": "detroit",
+      "raceName": "Detroit Grand Prix",
+      "circuitId": "detroit",
+      "circuitName": "Detroit Circuit",
+      "country": "USA",
+      "date": "1985-06-23",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "keke_rosberg",
+        "name": "Keke Rosberg",
+        "code": "ROS",
+        "constructorName": "Williams"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 7,
+      "slug": "le_castellet",
+      "raceName": "French Grand Prix",
+      "circuitId": "le_castellet",
+      "circuitName": "Le Castellet Circuit",
+      "country": "France",
+      "date": "1985-07-07",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "piquet",
+        "name": "Nelson Piquet",
+        "code": "PIQ",
+        "constructorName": "Brabham"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 8,
+      "slug": "silverstone",
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "circuitName": "Silverstone Circuit",
+      "country": "UK",
+      "date": "1985-07-21",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "prost",
+        "name": "Alain Prost",
+        "code": "PRO",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 9,
+      "slug": "n_rburg",
+      "raceName": "German Grand Prix",
+      "circuitId": "n_rburg",
+      "circuitName": "N\u00fcrburg Circuit",
+      "country": "Germany",
+      "date": "1985-08-04",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "alboreto",
+        "name": "Michele Alboreto",
+        "code": "ALB",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 10,
+      "slug": "spielberg",
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "spielberg",
+      "circuitName": "Spielberg Circuit",
+      "country": "Austria",
+      "date": "1985-08-18",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "prost",
+        "name": "Alain Prost",
+        "code": "PRO",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 11,
+      "slug": "zandvoort",
+      "raceName": "Dutch Grand Prix",
+      "circuitId": "zandvoort",
+      "circuitName": "Zandvoort Circuit",
+      "country": "Netherlands",
+      "date": "1985-08-25",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "lauda",
+        "name": "Niki Lauda",
+        "code": "LAU",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 12,
+      "slug": "monza",
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "circuitName": "Monza Circuit",
+      "country": "Italy",
+      "date": "1985-09-08",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "prost",
+        "name": "Alain Prost",
+        "code": "PRO",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 13,
+      "slug": "spa",
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "circuitName": "Spa Circuit",
+      "country": "Belgium",
+      "date": "1985-09-15",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "senna",
+        "name": "Ayrton Senna",
+        "code": "SEN",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 14,
+      "slug": "kent",
+      "raceName": "European Grand Prix",
+      "circuitId": "kent",
+      "circuitName": "Kent Circuit",
+      "country": "UK",
+      "date": "1985-10-06",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "mansell",
+        "name": "Nigel Mansell",
+        "code": "MAN",
+        "constructorName": "Williams"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 15,
+      "slug": "midrand",
+      "raceName": "South African Grand Prix",
+      "circuitId": "midrand",
+      "circuitName": "Midrand Circuit",
+      "country": "South Africa",
+      "date": "1985-10-19",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "mansell",
+        "name": "Nigel Mansell",
+        "code": "MAN",
+        "constructorName": "Williams"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 16,
+      "slug": "adelaide",
+      "raceName": "Australian Grand Prix",
+      "circuitId": "adelaide",
+      "circuitName": "Adelaide Circuit",
+      "country": "Australia",
+      "date": "1985-11-03",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "keke_rosberg",
+        "name": "Keke Rosberg",
+        "code": "ROS",
+        "constructorName": "Williams"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    }
+  ]
+}

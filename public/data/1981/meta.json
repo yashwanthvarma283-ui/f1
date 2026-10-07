@@ -1,0 +1,323 @@
+{
+  "year": 1981,
+  "totalRaces": 15,
+  "extractedRaces": 15,
+  "lastUpdated": "2026-10-07T16:01:45.611872+00:00",
+  "races": [
+    {
+      "round": 1,
+      "slug": "california",
+      "raceName": "United States Grand Prix West",
+      "circuitId": "california",
+      "circuitName": "California Circuit",
+      "country": "USA",
+      "date": "1981-03-15",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "jones",
+        "name": "Alan Jones",
+        "code": "JON",
+        "constructorName": "Williams"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 2,
+      "slug": "rio_de_janeiro",
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "rio_de_janeiro",
+      "circuitName": "Rio de Janeiro Circuit",
+      "country": "Brazil",
+      "date": "1981-03-29",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "reutemann",
+        "name": "Carlos Reutemann",
+        "code": "REU",
+        "constructorName": "Williams"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 3,
+      "slug": "buenos_aires",
+      "raceName": "Argentine Grand Prix",
+      "circuitId": "buenos_aires",
+      "circuitName": "Buenos Aires Circuit",
+      "country": "Argentina",
+      "date": "1981-04-12",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "piquet",
+        "name": "Nelson Piquet",
+        "code": "PIQ",
+        "constructorName": "Brabham"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 4,
+      "slug": "imola",
+      "raceName": "San Marino Grand Prix",
+      "circuitId": "imola",
+      "circuitName": "Imola Circuit",
+      "country": "Italy",
+      "date": "1981-05-03",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "piquet",
+        "name": "Nelson Piquet",
+        "code": "PIQ",
+        "constructorName": "Brabham"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 5,
+      "slug": "heusden_zolder",
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "heusden_zolder",
+      "circuitName": "Heusden-Zolder Circuit",
+      "country": "Belgium",
+      "date": "1981-05-17",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "reutemann",
+        "name": "Carlos Reutemann",
+        "code": "REU",
+        "constructorName": "Williams"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 6,
+      "slug": "monte_carlo",
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monte_carlo",
+      "circuitName": "Monte Carlo Circuit",
+      "country": "Monaco",
+      "date": "1981-05-31",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "gilles_villeneuve",
+        "name": "Gilles Villeneuve",
+        "code": "VIL",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 7,
+      "slug": "madrid",
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "madrid",
+      "circuitName": "Madrid Circuit",
+      "country": "Spain",
+      "date": "1981-06-21",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "gilles_villeneuve",
+        "name": "Gilles Villeneuve",
+        "code": "VIL",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 8,
+      "slug": "dijon",
+      "raceName": "French Grand Prix",
+      "circuitId": "dijon",
+      "circuitName": "Dijon Circuit",
+      "country": "France",
+      "date": "1981-07-05",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "prost",
+        "name": "Alain Prost",
+        "code": "PRO",
+        "constructorName": "Renault"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 9,
+      "slug": "silverstone",
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "circuitName": "Silverstone Circuit",
+      "country": "UK",
+      "date": "1981-07-18",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "watson",
+        "name": "John Watson",
+        "code": "WAT",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 10,
+      "slug": "hockenheim",
+      "raceName": "German Grand Prix",
+      "circuitId": "hockenheim",
+      "circuitName": "Hockenheim Circuit",
+      "country": "Germany",
+      "date": "1981-08-02",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "piquet",
+        "name": "Nelson Piquet",
+        "code": "PIQ",
+        "constructorName": "Brabham"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 11,
+      "slug": "spielberg",
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "spielberg",
+      "circuitName": "Spielberg Circuit",
+      "country": "Austria",
+      "date": "1981-08-16",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "laffite",
+        "name": "Jacques Laffite",
+        "code": "LAF",
+        "constructorName": "Ligier"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 12,
+      "slug": "zandvoort",
+      "raceName": "Dutch Grand Prix",
+      "circuitId": "zandvoort",
+      "circuitName": "Zandvoort Circuit",
+      "country": "Netherlands",
+      "date": "1981-08-30",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "prost",
+        "name": "Alain Prost",
+        "code": "PRO",
+        "constructorName": "Renault"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 13,
+      "slug": "monza",
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "circuitName": "Monza Circuit",
+      "country": "Italy",
+      "date": "1981-09-13",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "prost",
+        "name": "Alain Prost",
+        "code": "PRO",
+        "constructorName": "Renault"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 14,
+      "slug": "montreal",
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "montreal",
+      "circuitName": "Montreal Circuit",
+      "country": "Canada",
+      "date": "1981-09-27",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "laffite",
+        "name": "Jacques Laffite",
+        "code": "LAF",
+        "constructorName": "Ligier"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 15,
+      "slug": "nevada",
+      "raceName": "Caesars Palace Grand Prix",
+      "circuitId": "nevada",
+      "circuitName": "Nevada Circuit",
+      "country": "USA",
+      "date": "1981-10-17",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "jones",
+        "name": "Alan Jones",
+        "code": "JON",
+        "constructorName": "Williams"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    }
+  ]
+}

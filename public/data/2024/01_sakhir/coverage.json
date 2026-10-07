@@ -1,0 +1,22 @@
+{
+  "raceName": "Bahrain Grand Prix",
+  "year": 2024,
+  "round": 1,
+  "generatedAt": "2026-10-07T13:16:04.634Z",
+  "disagreements": [],
+  "sessions": {
+    "Race": {
+      "sessionKey": 9472,
+      "driversCount": 20,
+      "lapsCount": 1129,
+      "stintsAvailable": true,
+      "pitStopsCount": 43,
+      "radioClipsCount": 137,
+      "radioMappedPercentage": 79,
+      "raceControlMessagesCount": 69,
+      "raceControlMappedPercentage": 100,
+      "weatherCount": 157,
+      "overallCompletenessPercent": 98
+    }
+  }
+}

@@ -1,0 +1,503 @@
+[
+  {
+    "id": "rc_0_0",
+    "timestamp": "2024-09-01T12:08:03",
+    "category": "Information",
+    "message": "BLUE HEAD PADDING MATERIAL MUST BE USED",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_1",
+    "timestamp": "2024-09-01T12:20:01",
+    "category": "Flag",
+    "flag": "GREEN",
+    "message": "GREEN LIGHT - PIT EXIT OPEN",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_2",
+    "timestamp": "2024-09-01T12:30:01",
+    "category": "Information",
+    "message": "PIT EXIT CLOSED",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_3",
+    "timestamp": "2024-09-01T12:45:09",
+    "category": "Information",
+    "message": "RISK OF RAIN FOR F1 RACE IS 40 %",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_4",
+    "timestamp": "2024-09-01T12:57:04",
+    "category": "Information",
+    "message": "DRS DISABLED",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_5",
+    "timestamp": "2024-09-01T13:03:34",
+    "category": "Flag",
+    "flag": "GREEN",
+    "message": "GREEN LIGHT - PIT EXIT OPEN",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_6",
+    "timestamp": "2024-09-01T13:05:13",
+    "category": "Information",
+    "message": "DRS ENABLED",
+    "driverNumber": null,
+    "lapNumber": 2
+  },
+  {
+    "id": "rc_0_7",
+    "timestamp": "2024-09-01T13:07:52",
+    "category": "Information",
+    "message": "TURN 8 INCIDENT INVOLVING CARS 3 (RIC) AND 27 (HUL) NOTED - CAUSING A COLLISION",
+    "driverNumber": null,
+    "lapNumber": 3
+  },
+  {
+    "id": "rc_0_8",
+    "timestamp": "2024-09-01T13:11:21",
+    "category": "Information",
+    "message": "TURN 1 INCIDENT INVOLVING CARS 27 (HUL) AND 22 (TSU) NOTED - CAUSING A COLLISION",
+    "driverNumber": null,
+    "lapNumber": 6
+  },
+  {
+    "id": "rc_0_9",
+    "timestamp": "2024-09-01T13:12:02",
+    "category": "Information",
+    "message": "CAR 22 (TSU) TIME 1:32.241 DELETED - TRACK LIMITS AT TURN 2 LAP 5 15:09:44",
+    "driverNumber": null,
+    "lapNumber": 6
+  },
+  {
+    "id": "rc_0_10",
+    "timestamp": "2024-09-01T13:13:02",
+    "category": "Investigation",
+    "message": "FIA STEWARDS: TURN 8 INCIDENT INVOLVING CARS 3 (RIC) AND 27 (HUL) UNDER INVESTIGATION - CAUSING A COLLISION",
+    "driverNumber": null,
+    "lapNumber": 7
+  },
+  {
+    "id": "rc_0_11",
+    "timestamp": "2024-09-01T13:14:30",
+    "category": "Investigation",
+    "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CARS 27 (HUL) AND 22 (TSU) UNDER INVESTIGATION - CAUSING A COLLISION",
+    "driverNumber": null,
+    "lapNumber": 8
+  },
+  {
+    "id": "rc_0_12",
+    "timestamp": "2024-09-01T13:15:00",
+    "category": "Penalty",
+    "message": "FIA STEWARDS: 5 SECOND TIME PENALTY FOR CAR 3 (RIC) - FORCING ANOTHER CAR OFF THE TRACK",
+    "driverNumber": null,
+    "lapNumber": 9
+  },
+  {
+    "id": "rc_0_13",
+    "timestamp": "2024-09-01T13:15:12",
+    "category": "Information",
+    "message": "CAR 22 (TSU) LAP DELETED - TRACK LIMITS AT TURN 2 LAP 7 15:12:44 (PIT)",
+    "driverNumber": null,
+    "lapNumber": 9
+  },
+  {
+    "id": "rc_0_14",
+    "timestamp": "2024-09-01T13:15:36",
+    "category": "Penalty",
+    "message": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 27 (HUL) - CAUSING A COLLISION",
+    "driverNumber": null,
+    "lapNumber": 9
+  },
+  {
+    "id": "rc_0_15",
+    "timestamp": "2024-09-01T13:18:09",
+    "category": "Information",
+    "message": "CAR 3 (RIC) TIME 1:26.111 DELETED - TRACK LIMITS AT TURN 2 LAP 10 15:16:50",
+    "driverNumber": null,
+    "lapNumber": 11
+  },
+  {
+    "id": "rc_0_16",
+    "timestamp": "2024-09-01T13:22:08",
+    "category": "Information",
+    "message": "CAR 55 (SAI) TIME 1:25.423 DELETED - TRACK LIMITS AT TURN 2 LAP 13 15:20:51",
+    "driverNumber": null,
+    "lapNumber": 14
+  },
+  {
+    "id": "rc_0_17",
+    "timestamp": "2024-09-01T13:26:21",
+    "category": "Penalty",
+    "message": "PIT LANE INCIDENT INVOLVING CAR 3 (RIC) NOTED - FAILING TO SERVE TIME PENALTY CORRECTLY",
+    "driverNumber": null,
+    "lapNumber": 17
+  },
+  {
+    "id": "rc_0_18",
+    "timestamp": "2024-09-01T13:27:21",
+    "category": "Investigation",
+    "message": "FIA STEWARDS: PIT LANE INCIDENT INVOLVING CAR 3 (RIC) UNDER INVESTIGATION - FAILING TO SERVE TIME PENALTY CORRECTLY",
+    "driverNumber": null,
+    "lapNumber": 17
+  },
+  {
+    "id": "rc_0_19",
+    "timestamp": "2024-09-01T13:28:31",
+    "category": "Penalty",
+    "message": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 3 (RIC) - FAILING TO SERVE TIME PENALTY CORRECTLY",
+    "driverNumber": null,
+    "lapNumber": 18
+  },
+  {
+    "id": "rc_0_20",
+    "timestamp": "2024-09-01T13:30:30",
+    "category": "Information",
+    "message": "TURN 4 INCIDENT INVOLVING CARS 20 (MAG) AND 10 (GAS) NOTED - CAUSING A COLLISION",
+    "driverNumber": null,
+    "lapNumber": 19
+  },
+  {
+    "id": "rc_0_21",
+    "timestamp": "2024-09-01T13:31:45",
+    "category": "Information",
+    "message": "CAR 14 (ALO) TIME 1:24.882 DELETED - TRACK LIMITS AT TURN 4 LAP 18 15:28:55",
+    "driverNumber": null,
+    "lapNumber": 20
+  },
+  {
+    "id": "rc_0_22",
+    "timestamp": "2024-09-01T13:31:48",
+    "category": "Information",
+    "message": "CAR 20 (MAG) TIME 1:26.533 DELETED - TRACK LIMITS AT TURN 5 LAP 18 15:29:03",
+    "driverNumber": null,
+    "lapNumber": 20
+  },
+  {
+    "id": "rc_0_23",
+    "timestamp": "2024-09-01T13:31:52",
+    "category": "Information",
+    "message": "CAR 10 (GAS) TIME 1:26.182 DELETED - TRACK LIMITS AT TURN 5 LAP 18 15:29:03",
+    "driverNumber": null,
+    "lapNumber": 20
+  },
+  {
+    "id": "rc_0_24",
+    "timestamp": "2024-09-01T13:35:41",
+    "category": "Investigation",
+    "message": "FIA STEWARDS: TURN 4 INCIDENT INVOLVING CARS 20 (MAG) AND 10 (GAS) UNDER INVESTIGATION - CAUSING A COLLISION",
+    "driverNumber": null,
+    "lapNumber": 23
+  },
+  {
+    "id": "rc_0_25",
+    "timestamp": "2024-09-01T13:38:15",
+    "category": "Penalty",
+    "message": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 20 (MAG) - CAUSING A COLLISION",
+    "driverNumber": null,
+    "lapNumber": 25
+  },
+  {
+    "id": "rc_0_26",
+    "timestamp": "2024-09-01T13:42:50",
+    "category": "Information",
+    "message": "CAR 10 (GAS) TIME 1:27.191 DELETED - TRACK LIMITS AT TURN 4 LAP 27 15:41:52",
+    "driverNumber": null,
+    "lapNumber": 28
+  },
+  {
+    "id": "rc_0_27",
+    "timestamp": "2024-09-01T13:47:42",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 10 (GAS) TIMED AT 15:47:42",
+    "driverNumber": null,
+    "lapNumber": 32
+  },
+  {
+    "id": "rc_0_28",
+    "timestamp": "2024-09-01T13:47:56",
+    "category": "Information",
+    "message": "CAR 4 (NOR) TIME 1:24.940 DELETED - TRACK LIMITS AT TURN 4 LAP 31 15:46:43",
+    "driverNumber": null,
+    "lapNumber": 32
+  },
+  {
+    "id": "rc_0_29",
+    "timestamp": "2024-09-01T13:48:10",
+    "category": "Information",
+    "message": "CAR 63 (RUS) TIME 1:25.331 DELETED - TRACK LIMITS AT TURN 2 LAP 31 15:46:51",
+    "driverNumber": null,
+    "lapNumber": 32
+  },
+  {
+    "id": "rc_0_30",
+    "timestamp": "2024-09-01T13:53:21",
+    "category": "Information",
+    "message": "CAR 23 (ALB) TIME 1:26.282 DELETED - TRACK LIMITS AT TURN 2 LAP 33 15:49:58",
+    "driverNumber": null,
+    "lapNumber": 36
+  },
+  {
+    "id": "rc_0_31",
+    "timestamp": "2024-09-01T13:53:48",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 10 (GAS) TIMED AT 15:53:48",
+    "driverNumber": null,
+    "lapNumber": 36
+  },
+  {
+    "id": "rc_0_32",
+    "timestamp": "2024-09-01T13:54:03",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 24 (ZHO) TIMED AT 15:54:03",
+    "driverNumber": null,
+    "lapNumber": 36
+  },
+  {
+    "id": "rc_0_33",
+    "timestamp": "2024-09-01T13:56:30",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 27 (HUL) TIMED AT 15:56:29",
+    "driverNumber": null,
+    "lapNumber": 38
+  },
+  {
+    "id": "rc_0_34",
+    "timestamp": "2024-09-01T13:56:58",
+    "category": "Information",
+    "message": "CAR 23 (ALB) TIME 1:25.882 DELETED - TRACK LIMITS AT TURN 2 LAP 37 15:55:40",
+    "driverNumber": null,
+    "lapNumber": 38
+  },
+  {
+    "id": "rc_0_35",
+    "timestamp": "2024-09-01T13:57:56",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 24 (ZHO) TIMED AT 15:57:56",
+    "driverNumber": null,
+    "lapNumber": 39
+  },
+  {
+    "id": "rc_0_36",
+    "timestamp": "2024-09-01T13:58:23",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 15:58:23",
+    "driverNumber": null,
+    "lapNumber": 39
+  },
+  {
+    "id": "rc_0_37",
+    "timestamp": "2024-09-01T14:01:42",
+    "category": "Information",
+    "message": "CAR 18 (STR) TIME 1:25.777 DELETED - TRACK LIMITS AT TURN 2 LAP 40 16:00:24",
+    "driverNumber": null,
+    "lapNumber": 42
+  },
+  {
+    "id": "rc_0_38",
+    "timestamp": "2024-09-01T14:01:44",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 16:01:44",
+    "driverNumber": null,
+    "lapNumber": 42
+  },
+  {
+    "id": "rc_0_39",
+    "timestamp": "2024-09-01T14:03:50",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 24 (ZHO) TIMED AT 16:03:49",
+    "driverNumber": null,
+    "lapNumber": 43
+  },
+  {
+    "id": "rc_0_40",
+    "timestamp": "2024-09-01T14:03:50",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 16:03:49",
+    "driverNumber": null,
+    "lapNumber": 43
+  },
+  {
+    "id": "rc_0_41",
+    "timestamp": "2024-09-01T14:04:05",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 31 (OCO) TIMED AT 16:04:05",
+    "driverNumber": null,
+    "lapNumber": 43
+  },
+  {
+    "id": "rc_0_42",
+    "timestamp": "2024-09-01T14:04:26",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 24 (ZHO) TIMED AT 16:04:25",
+    "driverNumber": null,
+    "lapNumber": 44
+  },
+  {
+    "id": "rc_0_43",
+    "timestamp": "2024-09-01T14:04:58",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 10 (GAS) TIMED AT 16:04:57",
+    "driverNumber": null,
+    "lapNumber": 44
+  },
+  {
+    "id": "rc_0_44",
+    "timestamp": "2024-09-01T14:05:56",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 24 (ZHO) TIMED AT 16:05:56",
+    "driverNumber": null,
+    "lapNumber": 45
+  },
+  {
+    "id": "rc_0_45",
+    "timestamp": "2024-09-01T14:07:56",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 10 (GAS) TIMED AT 16:07:56",
+    "driverNumber": null,
+    "lapNumber": 46
+  },
+  {
+    "id": "rc_0_46",
+    "timestamp": "2024-09-01T14:11:08",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 27 (HUL) TIMED AT 16:11:08",
+    "driverNumber": null,
+    "lapNumber": 48
+  },
+  {
+    "id": "rc_0_47",
+    "timestamp": "2024-09-01T14:11:19",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 24 (ZHO) TIMED AT 16:11:18",
+    "driverNumber": null,
+    "lapNumber": 49
+  },
+  {
+    "id": "rc_0_48",
+    "timestamp": "2024-09-01T14:12:04",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 18 (STR) TIMED AT 16:12:03",
+    "driverNumber": null,
+    "lapNumber": 49
+  },
+  {
+    "id": "rc_0_49",
+    "timestamp": "2024-09-01T14:12:21",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 16:12:21",
+    "driverNumber": null,
+    "lapNumber": 49
+  },
+  {
+    "id": "rc_0_50",
+    "timestamp": "2024-09-01T14:13:07",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 31 (OCO) TIMED AT 16:13:07",
+    "driverNumber": null,
+    "lapNumber": 50
+  },
+  {
+    "id": "rc_0_51",
+    "timestamp": "2024-09-01T14:13:35",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 18 (STR) TIMED AT 16:13:34",
+    "driverNumber": null,
+    "lapNumber": 50
+  },
+  {
+    "id": "rc_0_52",
+    "timestamp": "2024-09-01T14:14:19",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 18 (STR) TIMED AT 16:14:19",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_53",
+    "timestamp": "2024-09-01T14:14:58",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 31 (OCO) TIMED AT 16:14:57",
+    "driverNumber": null,
+    "lapNumber": 51
+  },
+  {
+    "id": "rc_0_54",
+    "timestamp": "2024-09-01T14:16:14",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 18 (STR) TIMED AT 16:16:14",
+    "driverNumber": null,
+    "lapNumber": 52
+  },
+  {
+    "id": "rc_0_55",
+    "timestamp": "2024-09-01T14:16:40",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 18 (STR) TIMED AT 16:16:39",
+    "driverNumber": null,
+    "lapNumber": 52
+  },
+  {
+    "id": "rc_0_56",
+    "timestamp": "2024-09-01T14:17:53",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 24 (ZHO) TIMED AT 16:17:53",
+    "driverNumber": null,
+    "lapNumber": 53
+  },
+  {
+    "id": "rc_0_57",
+    "timestamp": "2024-09-01T14:18:15",
+    "category": "Flag",
+    "flag": "CHEQUERED",
+    "message": "CHEQUERED FLAG",
+    "driverNumber": null,
+    "lapNumber": 53
+  },
+  {
+    "id": "rc_0_58",
+    "timestamp": "2024-09-01T14:18:36",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 24 (ZHO) TIMED AT 16:18:35",
+    "driverNumber": null,
+    "lapNumber": 53
+  }
+]

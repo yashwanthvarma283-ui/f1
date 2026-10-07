@@ -1,0 +1,168 @@
+{
+  "year": 1960,
+  "totalRaces": 10,
+  "extractedRaces": 10,
+  "lastUpdated": "2026-10-07T16:02:27.779660+00:00",
+  "races": [
+    {
+      "round": 1,
+      "slug": "buenos_aires",
+      "raceName": "Argentine Grand Prix",
+      "circuitId": "buenos_aires",
+      "circuitName": "Buenos Aires Circuit",
+      "country": "Argentina",
+      "date": "1960-02-07",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 2,
+      "slug": "monte_carlo",
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monte_carlo",
+      "circuitName": "Monte Carlo Circuit",
+      "country": "Monaco",
+      "date": "1960-05-29",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 3,
+      "slug": "indianapolis",
+      "raceName": "Indianapolis 500",
+      "circuitId": "indianapolis",
+      "circuitName": "Indianapolis Circuit",
+      "country": "USA",
+      "date": "1960-05-30",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 4,
+      "slug": "zandvoort",
+      "raceName": "Dutch Grand Prix",
+      "circuitId": "zandvoort",
+      "circuitName": "Zandvoort Circuit",
+      "country": "Netherlands",
+      "date": "1960-06-06",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 5,
+      "slug": "spa",
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "circuitName": "Spa Circuit",
+      "country": "Belgium",
+      "date": "1960-06-19",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 6,
+      "slug": "reims",
+      "raceName": "French Grand Prix",
+      "circuitId": "reims",
+      "circuitName": "Reims Circuit",
+      "country": "France",
+      "date": "1960-07-03",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 7,
+      "slug": "silverstone",
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "circuitName": "Silverstone Circuit",
+      "country": "UK",
+      "date": "1960-07-16",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 8,
+      "slug": "oporto",
+      "raceName": "Portuguese Grand Prix",
+      "circuitId": "oporto",
+      "circuitName": "Oporto Circuit",
+      "country": "Portugal",
+      "date": "1960-08-14",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 9,
+      "slug": "monza",
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "circuitName": "Monza Circuit",
+      "country": "Italy",
+      "date": "1960-09-04",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 10,
+      "slug": "california",
+      "raceName": "United States Grand Prix",
+      "circuitId": "california",
+      "circuitName": "California Circuit",
+      "country": "USA",
+      "date": "1960-11-20",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": null,
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    }
+  ]
+}

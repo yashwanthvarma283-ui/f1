@@ -1,0 +1,25 @@
+{
+  "year": 2008,
+  "round": 12,
+  "slug": "valencia",
+  "raceName": "European Grand Prix",
+  "circuit": {
+    "id": "valencia",
+    "name": "Valencia Circuit",
+    "locality": "Valencia",
+    "country": "Spain",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2008-08-24T14:00:00Z",
+      "endIso": "2008-08-24T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

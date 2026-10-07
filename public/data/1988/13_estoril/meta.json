@@ -1,0 +1,25 @@
+{
+  "year": 1988,
+  "round": 13,
+  "slug": "estoril",
+  "raceName": "Portuguese Grand Prix",
+  "circuit": {
+    "id": "estoril",
+    "name": "Estoril Circuit",
+    "locality": "Estoril",
+    "country": "Portugal",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "1988-09-25T14:00:00Z",
+      "endIso": "1988-09-25T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

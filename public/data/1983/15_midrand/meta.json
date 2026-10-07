@@ -1,0 +1,25 @@
+{
+  "year": 1983,
+  "round": 15,
+  "slug": "midrand",
+  "raceName": "South African Grand Prix",
+  "circuit": {
+    "id": "midrand",
+    "name": "Midrand Circuit",
+    "locality": "Midrand",
+    "country": "South Africa",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "1983-10-15T14:00:00Z",
+      "endIso": "1983-10-15T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

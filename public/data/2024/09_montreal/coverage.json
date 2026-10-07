@@ -1,0 +1,22 @@
+{
+  "raceName": "Canadian Grand Prix",
+  "year": 2024,
+  "round": 9,
+  "generatedAt": "2026-10-07T13:42:36.656Z",
+  "disagreements": [],
+  "sessions": {
+    "Race": {
+      "sessionKey": 9531,
+      "driversCount": 20,
+      "lapsCount": 1272,
+      "stintsAvailable": true,
+      "pitStopsCount": 45,
+      "radioClipsCount": 154,
+      "radioMappedPercentage": 48,
+      "raceControlMessagesCount": 128,
+      "raceControlMappedPercentage": 100,
+      "weatherCount": 113,
+      "overallCompletenessPercent": 98
+    }
+  }
+}

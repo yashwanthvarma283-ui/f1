@@ -1,0 +1,31 @@
+{
+  "year": 2024,
+  "round": 3,
+  "slug": "melbourne",
+  "raceName": "Australian Grand Prix",
+  "circuit": {
+    "id": "albert_park",
+    "name": "Albert Park Grand Prix Circuit",
+    "locality": "Melbourne",
+    "country": "Australia",
+    "lat": -37.8497,
+    "long": 144.968,
+    "turns": 15,
+    "lengthKm": 5.278,
+    "lapRecord": {
+      "time": "1:31.447",
+      "driver": "Pedro de la Rosa",
+      "year": "2005"
+    }
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2024-03-24T04:00:00Z",
+      "endIso": "2024-03-24T06:00:00.000Z",
+      "openF1SessionKey": 9488
+    }
+  },
+  "coverage": {
+    "Race": 98
+  }
+}

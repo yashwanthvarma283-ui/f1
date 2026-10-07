@@ -1,0 +1,548 @@
+[
+  {
+    "id": "rc_0_0",
+    "timestamp": "2024-03-09T16:05:03",
+    "category": "Information",
+    "message": "PINK HEAD PADDING MATERIAL MUST BE USED",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_1",
+    "timestamp": "2024-03-09T16:09:22",
+    "category": "Information",
+    "message": "DRS ENABLED IN ZONE 1",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_2",
+    "timestamp": "2024-03-09T16:09:30",
+    "category": "Information",
+    "message": "DRS ENABLED IN ZONE 3",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_3",
+    "timestamp": "2024-03-09T16:09:50",
+    "category": "Information",
+    "message": "DRS ENABLED IN ZONE 2",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_4",
+    "timestamp": "2024-03-09T16:09:55",
+    "category": "Information",
+    "message": "DRS DISABLED IN ZONE 1",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_5",
+    "timestamp": "2024-03-09T16:13:01",
+    "category": "Information",
+    "message": "DRS ENABLED IN ZONE 1",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_6",
+    "timestamp": "2024-03-09T16:20:00",
+    "category": "Flag",
+    "flag": "GREEN",
+    "message": "GREEN LIGHT - PIT EXIT OPEN",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_7",
+    "timestamp": "2024-03-09T16:22:02",
+    "category": "Information",
+    "message": "PIT LANE INCIDENT INVOLVING CARS 22 (TSU) AND 4 (NOR) NOTED - UNSAFE RELEASE",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_8",
+    "timestamp": "2024-03-09T16:30:00",
+    "category": "Information",
+    "message": "PIT EXIT CLOSED",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_9",
+    "timestamp": "2024-03-09T16:45:15",
+    "category": "Information",
+    "message": "RISK OF RAIN FOR F1 RACE IS 0%",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_10",
+    "timestamp": "2024-03-09T16:57:06",
+    "category": "Information",
+    "message": "DRS DISABLED",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_11",
+    "timestamp": "2024-03-09T17:03:59",
+    "category": "Flag",
+    "flag": "GREEN",
+    "message": "GREEN LIGHT - PIT EXIT OPEN",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_12",
+    "timestamp": "2024-03-09T17:04:53",
+    "category": "Information",
+    "message": "FIA STEWARDS: PIT LANE INCIDENT INVOLVING CARS 22 (TSU) AND 4 (NOR) WILL BE INVESTIGATED AFTER THE RACE - UNSAFE RELEASE",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_13",
+    "timestamp": "2024-03-09T17:05:39",
+    "category": "Information",
+    "message": "DRS ENABLED",
+    "driverNumber": null,
+    "lapNumber": 2
+  },
+  {
+    "id": "rc_0_14",
+    "timestamp": "2024-03-09T17:10:44",
+    "category": "Information",
+    "message": "CAR 27 (HUL) TIME 1:37.836 DELETED - TRACK LIMITS AT TURN 2 LAP 2 20:05:53",
+    "driverNumber": null,
+    "lapNumber": 5
+  },
+  {
+    "id": "rc_0_15",
+    "timestamp": "2024-03-09T17:13:31",
+    "category": "Flag",
+    "flag": "YELLOW",
+    "message": "YELLOW IN TRACK SECTOR 15",
+    "driverNumber": null,
+    "lapNumber": 7
+  },
+  {
+    "id": "rc_0_16",
+    "timestamp": "2024-03-09T17:13:32",
+    "category": "Information",
+    "message": "DRS DISABLED IN ZONE 1",
+    "driverNumber": null,
+    "lapNumber": 7
+  },
+  {
+    "id": "rc_0_17",
+    "timestamp": "2024-03-09T17:13:48",
+    "category": "Flag",
+    "flag": "DOUBLE YELLOW",
+    "message": "DOUBLE YELLOW IN TRACK SECTOR 15",
+    "driverNumber": null,
+    "lapNumber": 7
+  },
+  {
+    "id": "rc_0_18",
+    "timestamp": "2024-03-09T17:13:50",
+    "category": "Flag",
+    "flag": "YELLOW",
+    "message": "YELLOW IN TRACK SECTOR 14",
+    "driverNumber": null,
+    "lapNumber": 7
+  },
+  {
+    "id": "rc_0_19",
+    "timestamp": "2024-03-09T17:13:54",
+    "category": "Information",
+    "message": "CAR 18 (STR) STOPPED AT TURN 23",
+    "driverNumber": null,
+    "lapNumber": 7
+  },
+  {
+    "id": "rc_0_20",
+    "timestamp": "2024-03-09T17:14:05",
+    "category": "SafetyCar",
+    "message": "SAFETY CAR DEPLOYED",
+    "driverNumber": null,
+    "lapNumber": 7
+  },
+  {
+    "id": "rc_0_21",
+    "timestamp": "2024-03-09T17:16:29",
+    "category": "Information",
+    "message": "RECOVERY VEHICLE ON TRACK AT TURN 22",
+    "driverNumber": null,
+    "lapNumber": 8
+  },
+  {
+    "id": "rc_0_22",
+    "timestamp": "2024-03-09T17:19:35",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 2",
+    "driverNumber": null,
+    "lapNumber": 9
+  },
+  {
+    "id": "rc_0_23",
+    "timestamp": "2024-03-09T17:19:38",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 14",
+    "driverNumber": null,
+    "lapNumber": 9
+  },
+  {
+    "id": "rc_0_24",
+    "timestamp": "2024-03-09T17:19:41",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 15",
+    "driverNumber": null,
+    "lapNumber": 9
+  },
+  {
+    "id": "rc_0_25",
+    "timestamp": "2024-03-09T17:20:12",
+    "category": "SafetyCar",
+    "message": "SAFETY CAR IN THIS LAP",
+    "driverNumber": null,
+    "lapNumber": 9
+  },
+  {
+    "id": "rc_0_26",
+    "timestamp": "2024-03-09T17:20:51",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "TRACK CLEAR",
+    "driverNumber": null,
+    "lapNumber": 9
+  },
+  {
+    "id": "rc_0_27",
+    "timestamp": "2024-03-09T17:23:03",
+    "category": "Information",
+    "message": "DRS ENABLED",
+    "driverNumber": null,
+    "lapNumber": 11
+  },
+  {
+    "id": "rc_0_28",
+    "timestamp": "2024-03-09T17:23:39",
+    "category": "Information",
+    "message": "PIT LANE INCIDENT INVOLVING CARS 11 (PER) AND 14 (ALO) NOTED - UNSAFE RELEASE",
+    "driverNumber": null,
+    "lapNumber": 11
+  },
+  {
+    "id": "rc_0_29",
+    "timestamp": "2024-03-09T17:24:06",
+    "category": "Information",
+    "message": "INCIDENT INVOLVING CAR 4 (NOR) NOTED - INCORRECT STARTING LOCATION",
+    "driverNumber": null,
+    "lapNumber": 11
+  },
+  {
+    "id": "rc_0_30",
+    "timestamp": "2024-03-09T17:24:22",
+    "category": "Investigation",
+    "message": "FIA STEWARDS: PIT LANE INCIDENT INVOLVING CARS 11 (PER) AND 14 (ALO) UNDER INVESTIGATION - UNSAFE RELEASE",
+    "driverNumber": null,
+    "lapNumber": 11
+  },
+  {
+    "id": "rc_0_31",
+    "timestamp": "2024-03-09T17:25:30",
+    "category": "Information",
+    "message": "CORRECTION: INCIDENT INVOLVING CAR 4 (NOR) NOTED - JUMP START",
+    "driverNumber": null,
+    "lapNumber": 12
+  },
+  {
+    "id": "rc_0_32",
+    "timestamp": "2024-03-09T17:26:05",
+    "category": "Information",
+    "message": "TURN 4 INCIDENT INVOLVING CARS 20 (MAG) AND 23 (ALB) NOTED - CAUSING A COLLISION",
+    "driverNumber": null,
+    "lapNumber": 13
+  },
+  {
+    "id": "rc_0_33",
+    "timestamp": "2024-03-09T17:26:32",
+    "category": "Information",
+    "message": "CAR 20 (MAG) TIME 1:39.463 DELETED - TRACK LIMITS AT TURN 4 LAP 10 20:21:41",
+    "driverNumber": null,
+    "lapNumber": 13
+  },
+  {
+    "id": "rc_0_34",
+    "timestamp": "2024-03-09T17:26:33",
+    "category": "Information",
+    "message": "CAR 23 (ALB) TIME 1:40.318 DELETED - TRACK LIMITS AT TURN 4 LAP 10 20:21:41",
+    "driverNumber": null,
+    "lapNumber": 13
+  },
+  {
+    "id": "rc_0_35",
+    "timestamp": "2024-03-09T17:27:17",
+    "category": "Investigation",
+    "message": "FIA STEWARDS: TURN 4 INCIDENT INVOLVING CARS 20 (MAG) AND 23 (ALB) UNDER INVESTIGATION - CAUSING A COLLISION",
+    "driverNumber": null,
+    "lapNumber": 13
+  },
+  {
+    "id": "rc_0_36",
+    "timestamp": "2024-03-09T17:28:08",
+    "category": "Investigation",
+    "message": "FIA STEWARDS: CORRECTION: INCIDENT INVOLVING CAR 4 (NOR) UNDER INVESTIGATION - JUMP START",
+    "driverNumber": null,
+    "lapNumber": 14
+  },
+  {
+    "id": "rc_0_37",
+    "timestamp": "2024-03-09T17:28:31",
+    "category": "Information",
+    "message": "FIA STEWARDS: CORRECTION: INCIDENT INVOLVING CAR 4 (NOR) NO FURTHER ACTION - JUMP START",
+    "driverNumber": null,
+    "lapNumber": 14
+  },
+  {
+    "id": "rc_0_38",
+    "timestamp": "2024-03-09T17:30:21",
+    "category": "Penalty",
+    "message": "FIA STEWARDS: 5 SECOND TIME PENALTY FOR CAR 11 (PER) - UNSAFE RELEASE",
+    "driverNumber": null,
+    "lapNumber": 15
+  },
+  {
+    "id": "rc_0_39",
+    "timestamp": "2024-03-09T17:31:11",
+    "category": "Penalty",
+    "message": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 20 (MAG) - CAUSING A COLLISION",
+    "driverNumber": null,
+    "lapNumber": 16
+  },
+  {
+    "id": "rc_0_40",
+    "timestamp": "2024-03-09T17:34:36",
+    "category": "Information",
+    "message": "CAR 81 (PIA) TIME 1:35.057 DELETED - TRACK LIMITS AT TURN 2 LAP 17 20:32:30",
+    "driverNumber": null,
+    "lapNumber": 18
+  },
+  {
+    "id": "rc_0_41",
+    "timestamp": "2024-03-09T17:35:39",
+    "category": "Information",
+    "message": "CAR 20 (MAG) TIME 1:36.100 DELETED - TRACK LIMITS AT TURN 23 LAP 16 20:32:17",
+    "driverNumber": null,
+    "lapNumber": 19
+  },
+  {
+    "id": "rc_0_42",
+    "timestamp": "2024-03-09T17:36:55",
+    "category": "Information",
+    "message": "TURN 4 INCIDENT INVOLVING CARS 20 (MAG) AND 22 (TSU) NOTED - LEAVING THE TRACK AND GAINING AN ADVANTAGE",
+    "driverNumber": null,
+    "lapNumber": 20
+  },
+  {
+    "id": "rc_0_43",
+    "timestamp": "2024-03-09T17:38:53",
+    "category": "Investigation",
+    "message": "FIA STEWARDS: TURN 4 INCIDENT INVOLVING CARS 20 (MAG) AND 22 (TSU) UNDER INVESTIGATION - LEAVING THE TRACK AND GAINING AN ADVANTAGE",
+    "driverNumber": null,
+    "lapNumber": 21
+  },
+  {
+    "id": "rc_0_44",
+    "timestamp": "2024-03-09T17:39:01",
+    "category": "Information",
+    "message": "CAR 20 (MAG) TIME 1:36.621 DELETED - TRACK LIMITS AT TURN 5 LAP 17 20:32:54",
+    "driverNumber": null,
+    "lapNumber": 21
+  },
+  {
+    "id": "rc_0_45",
+    "timestamp": "2024-03-09T17:39:14",
+    "category": "Information",
+    "message": "CAR 4 (NOR) TIME 1:35.607 DELETED - TRACK LIMITS AT TURN 23 LAP 18 20:35:09",
+    "driverNumber": null,
+    "lapNumber": 21
+  },
+  {
+    "id": "rc_0_46",
+    "timestamp": "2024-03-09T17:40:04",
+    "category": "Penalty",
+    "message": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 20 (MAG) - LEAVING THE TRACK AND GAINING AN ADVANTAGE",
+    "driverNumber": null,
+    "lapNumber": 22
+  },
+  {
+    "id": "rc_0_47",
+    "timestamp": "2024-03-09T17:42:11",
+    "category": "Information",
+    "message": "CAR 23 (ALB) TIME 1:36.016 DELETED - TRACK LIMITS AT TURN 2 LAP 22 20:40:41",
+    "driverNumber": null,
+    "lapNumber": 23
+  },
+  {
+    "id": "rc_0_48",
+    "timestamp": "2024-03-09T17:45:25",
+    "category": "Information",
+    "message": "CAR 77 (BOT) TIME 1:36.251 DELETED - TRACK LIMITS AT PIT ENTRY LAP 23 20:43:50",
+    "driverNumber": null,
+    "lapNumber": 25
+  },
+  {
+    "id": "rc_0_49",
+    "timestamp": "2024-03-09T17:54:04",
+    "category": "Information",
+    "message": "CAR 22 (TSU) TIME 1:36.731 DELETED - TRACK LIMITS AT TURN 2 LAP 29 20:51:55",
+    "driverNumber": null,
+    "lapNumber": 31
+  },
+  {
+    "id": "rc_0_50",
+    "timestamp": "2024-03-09T17:57:12",
+    "category": "Information",
+    "message": "CAR 1 (VER) TIME 1:32.752 DELETED - TRACK LIMITS AT TURN 23 LAP 29 20:52:04",
+    "driverNumber": null,
+    "lapNumber": 33
+  },
+  {
+    "id": "rc_0_51",
+    "timestamp": "2024-03-09T18:02:09",
+    "category": "Information",
+    "message": "CAR 81 (PIA) TIME 1:34.118 DELETED - TRACK LIMITS AT TURN 2 LAP 35 21:00:39",
+    "driverNumber": null,
+    "lapNumber": 36
+  },
+  {
+    "id": "rc_0_52",
+    "timestamp": "2024-03-09T18:02:56",
+    "category": "Information",
+    "message": "CAR 23 (ALB) TIME 1:35.050 DELETED - TRACK LIMITS AT TURN 2 LAP 35 21:01:27",
+    "driverNumber": null,
+    "lapNumber": 36
+  },
+  {
+    "id": "rc_0_53",
+    "timestamp": "2024-03-09T18:09:09",
+    "category": "Information",
+    "message": "INCIDENT INVOLVING CAR 4 (NOR) NOTED - WEAVING ON STRAIGHT",
+    "driverNumber": null,
+    "lapNumber": 40
+  },
+  {
+    "id": "rc_0_54",
+    "timestamp": "2024-03-09T18:10:32",
+    "category": "Flag",
+    "flag": "BLACK AND WHITE",
+    "message": "BLACK AND WHITE FLAG FOR CAR 4 (NOR) - WEAVING ON STRAIGHT",
+    "driverNumber": null,
+    "lapNumber": 41
+  },
+  {
+    "id": "rc_0_55",
+    "timestamp": "2024-03-09T18:12:25",
+    "category": "Information",
+    "message": "CAR 3 (RIC) TIME 1:34.574 DELETED - TRACK LIMITS AT TURN 4 LAP 41 21:11:04",
+    "driverNumber": null,
+    "lapNumber": 43
+  },
+  {
+    "id": "rc_0_56",
+    "timestamp": "2024-03-09T18:12:27",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 3 (RIC) TIMED AT 21:12:27",
+    "driverNumber": null,
+    "lapNumber": 43
+  },
+  {
+    "id": "rc_0_57",
+    "timestamp": "2024-03-09T18:15:57",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 2 (SAR) TIMED AT 21:15:57",
+    "driverNumber": null,
+    "lapNumber": 45
+  },
+  {
+    "id": "rc_0_58",
+    "timestamp": "2024-03-09T18:16:17",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 21:16:17",
+    "driverNumber": null,
+    "lapNumber": 45
+  },
+  {
+    "id": "rc_0_59",
+    "timestamp": "2024-03-09T18:18:03",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 22 (TSU) TIMED AT 21:18:03",
+    "driverNumber": null,
+    "lapNumber": 46
+  },
+  {
+    "id": "rc_0_60",
+    "timestamp": "2024-03-09T18:20:58",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 31 (OCO) TIMED AT 21:20:58",
+    "driverNumber": null,
+    "lapNumber": 48
+  },
+  {
+    "id": "rc_0_61",
+    "timestamp": "2024-03-09T18:21:54",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 3 (RIC) TIMED AT 21:21:53",
+    "driverNumber": null,
+    "lapNumber": 49
+  },
+  {
+    "id": "rc_0_62",
+    "timestamp": "2024-03-09T18:22:17",
+    "category": "Information",
+    "message": "CAR 63 (RUS) TIME 1:32.880 DELETED - TRACK LIMITS AT TURN 2 LAP 48 21:20:50",
+    "driverNumber": null,
+    "lapNumber": 49
+  },
+  {
+    "id": "rc_0_63",
+    "timestamp": "2024-03-09T18:23:03",
+    "category": "Information",
+    "message": "CAR 20 (MAG) TIME 1:33.474 DELETED - TRACK LIMITS AT TURN 4 LAP 48 21:21:45",
+    "driverNumber": null,
+    "lapNumber": 49
+  },
+  {
+    "id": "rc_0_64",
+    "timestamp": "2024-03-09T18:24:12",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 3 (RIC) TIMED AT 21:24:11",
+    "driverNumber": null,
+    "lapNumber": 50
+  },
+  {
+    "id": "rc_0_65",
+    "timestamp": "2024-03-09T18:24:41",
+    "category": "Flag",
+    "flag": "CHEQUERED",
+    "message": "CHEQUERED FLAG",
+    "driverNumber": null,
+    "lapNumber": 50
+  }
+]

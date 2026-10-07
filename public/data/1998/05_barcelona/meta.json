@@ -1,0 +1,25 @@
+{
+  "year": 1998,
+  "round": 5,
+  "slug": "barcelona",
+  "raceName": "Spanish Grand Prix",
+  "circuit": {
+    "id": "barcelona",
+    "name": "Barcelona Circuit",
+    "locality": "Barcelona",
+    "country": "Spain",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "1998-05-10T14:00:00Z",
+      "endIso": "1998-05-10T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

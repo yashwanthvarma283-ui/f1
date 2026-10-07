@@ -1,0 +1,22 @@
+{
+  "raceName": "Monaco Grand Prix",
+  "year": 2024,
+  "round": 8,
+  "generatedAt": "2026-10-07T13:42:09.092Z",
+  "disagreements": [],
+  "sessions": {
+    "Race": {
+      "sessionKey": 9523,
+      "driversCount": 20,
+      "lapsCount": 1237,
+      "stintsAvailable": true,
+      "pitStopsCount": 23,
+      "radioClipsCount": 48,
+      "radioMappedPercentage": 60,
+      "raceControlMessagesCount": 118,
+      "raceControlMappedPercentage": 100,
+      "weatherCount": 200,
+      "overallCompletenessPercent": 98
+    }
+  }
+}

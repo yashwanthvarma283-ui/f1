@@ -1,0 +1,25 @@
+{
+  "year": 1974,
+  "round": 5,
+  "slug": "brussels",
+  "raceName": "Belgian Grand Prix",
+  "circuit": {
+    "id": "brussels",
+    "name": "Brussels Circuit",
+    "locality": "Brussels",
+    "country": "Belgium",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "1974-05-12T14:00:00Z",
+      "endIso": "1974-05-12T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

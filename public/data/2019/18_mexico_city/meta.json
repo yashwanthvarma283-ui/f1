@@ -1,0 +1,25 @@
+{
+  "year": 2019,
+  "round": 18,
+  "slug": "mexico_city",
+  "raceName": "Mexican Grand Prix",
+  "circuit": {
+    "id": "mexico_city",
+    "name": "Mexico City Circuit",
+    "locality": "Mexico City",
+    "country": "Mexico",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2019-10-27T14:00:00Z",
+      "endIso": "2019-10-27T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

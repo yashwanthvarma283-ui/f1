@@ -1,0 +1,218 @@
+{
+  "year": 1965,
+  "totalRaces": 10,
+  "extractedRaces": 10,
+  "lastUpdated": "2026-10-07T16:02:16.827182+00:00",
+  "races": [
+    {
+      "round": 1,
+      "slug": "eastern_cape_province",
+      "raceName": "South African Grand Prix",
+      "circuitId": "eastern_cape_province",
+      "circuitName": "Eastern Cape Province Circuit",
+      "country": "South Africa",
+      "date": "1965-01-01",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "clark",
+        "name": "Jim Clark",
+        "code": "CLA",
+        "constructorName": "Lotus-Climax"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 2,
+      "slug": "monte_carlo",
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monte_carlo",
+      "circuitName": "Monte Carlo Circuit",
+      "country": "Monaco",
+      "date": "1965-05-30",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hill",
+        "name": "Graham Hill",
+        "code": "HIL",
+        "constructorName": "BRM"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 3,
+      "slug": "spa",
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "circuitName": "Spa Circuit",
+      "country": "Belgium",
+      "date": "1965-06-13",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "clark",
+        "name": "Jim Clark",
+        "code": "CLA",
+        "constructorName": "Lotus-Climax"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 4,
+      "slug": "clermont_ferrand",
+      "raceName": "French Grand Prix",
+      "circuitId": "clermont_ferrand",
+      "circuitName": "Clermont-Ferrand Circuit",
+      "country": "France",
+      "date": "1965-06-27",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "clark",
+        "name": "Jim Clark",
+        "code": "CLA",
+        "constructorName": "Lotus-Climax"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 5,
+      "slug": "silverstone",
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "circuitName": "Silverstone Circuit",
+      "country": "UK",
+      "date": "1965-07-10",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "clark",
+        "name": "Jim Clark",
+        "code": "CLA",
+        "constructorName": "Lotus-Climax"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 6,
+      "slug": "zandvoort",
+      "raceName": "Dutch Grand Prix",
+      "circuitId": "zandvoort",
+      "circuitName": "Zandvoort Circuit",
+      "country": "Netherlands",
+      "date": "1965-07-18",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "clark",
+        "name": "Jim Clark",
+        "code": "CLA",
+        "constructorName": "Lotus-Climax"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 7,
+      "slug": "n_rburg",
+      "raceName": "German Grand Prix",
+      "circuitId": "n_rburg",
+      "circuitName": "N\u00fcrburg Circuit",
+      "country": "Germany",
+      "date": "1965-08-01",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "clark",
+        "name": "Jim Clark",
+        "code": "CLA",
+        "constructorName": "Lotus-Climax"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 8,
+      "slug": "monza",
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "circuitName": "Monza Circuit",
+      "country": "Italy",
+      "date": "1965-09-12",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "stewart",
+        "name": "Jackie Stewart",
+        "code": "STE",
+        "constructorName": "BRM"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 9,
+      "slug": "new_york_state",
+      "raceName": "United States Grand Prix",
+      "circuitId": "new_york_state",
+      "circuitName": "New York State Circuit",
+      "country": "USA",
+      "date": "1965-10-03",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hill",
+        "name": "Graham Hill",
+        "code": "HIL",
+        "constructorName": "BRM"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 10,
+      "slug": "mexico_city",
+      "raceName": "Mexican Grand Prix",
+      "circuitId": "mexico_city",
+      "circuitName": "Mexico City Circuit",
+      "country": "Mexico",
+      "date": "1965-10-24",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "ginther",
+        "name": "Richie Ginther",
+        "code": "GIN",
+        "constructorName": "Honda"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    }
+  ]
+}

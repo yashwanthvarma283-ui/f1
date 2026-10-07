@@ -1,0 +1,282 @@
+[
+  {
+    "driverNumber": 16,
+    "lapNumber": 24,
+    "stopNumber": 1,
+    "pitDurationSeconds": 24.573,
+    "pitLaneDurationSeconds": 43.073,
+    "timestamp": "2024-11-03T16:24:31.874000+00:00"
+  },
+  {
+    "driverNumber": 27,
+    "lapNumber": 25,
+    "stopNumber": 2,
+    "pitDurationSeconds": 25.369,
+    "pitLaneDurationSeconds": 43.869,
+    "timestamp": "2024-11-03T16:26:10.648000+00:00"
+  },
+  {
+    "driverNumber": 43,
+    "lapNumber": 26,
+    "stopNumber": 3,
+    "pitDurationSeconds": 25.287,
+    "pitLaneDurationSeconds": 43.787,
+    "timestamp": "2024-11-03T16:27:50.033000+00:00"
+  },
+  {
+    "driverNumber": 81,
+    "lapNumber": 27,
+    "stopNumber": 4,
+    "pitDurationSeconds": 26.05,
+    "pitLaneDurationSeconds": 44.55,
+    "timestamp": "2024-11-03T16:29:04.454000+00:00"
+  },
+  {
+    "driverNumber": 14,
+    "lapNumber": 27,
+    "stopNumber": 5,
+    "pitDurationSeconds": 25.107,
+    "pitLaneDurationSeconds": 43.607,
+    "timestamp": "2024-11-03T16:29:07.063000+00:00"
+  },
+  {
+    "driverNumber": 44,
+    "lapNumber": 27,
+    "stopNumber": 6,
+    "pitDurationSeconds": 25.205,
+    "pitLaneDurationSeconds": 43.705,
+    "timestamp": "2024-11-03T16:29:21.294000+00:00"
+  },
+  {
+    "driverNumber": 55,
+    "lapNumber": 27,
+    "stopNumber": 7,
+    "pitDurationSeconds": 25.9,
+    "pitLaneDurationSeconds": 44.4,
+    "timestamp": "2024-11-03T16:29:28.104000+00:00"
+  },
+  {
+    "driverNumber": 50,
+    "lapNumber": 27,
+    "stopNumber": 8,
+    "pitDurationSeconds": 35.7,
+    "pitLaneDurationSeconds": 54.2,
+    "timestamp": "2024-11-03T16:29:29.277000+00:00"
+  },
+  {
+    "driverNumber": 11,
+    "lapNumber": 27,
+    "stopNumber": 9,
+    "pitDurationSeconds": 26.6,
+    "pitLaneDurationSeconds": 45.1,
+    "timestamp": "2024-11-03T16:29:31.909000+00:00"
+  },
+  {
+    "driverNumber": 24,
+    "lapNumber": 27,
+    "stopNumber": 10,
+    "pitDurationSeconds": 25.2,
+    "pitLaneDurationSeconds": 43.7,
+    "timestamp": "2024-11-03T16:29:58.131000+00:00"
+  },
+  {
+    "driverNumber": 63,
+    "lapNumber": 28,
+    "stopNumber": 11,
+    "pitDurationSeconds": 25.6,
+    "pitLaneDurationSeconds": 44.1,
+    "timestamp": "2024-11-03T16:30:26.235000+00:00"
+  },
+  {
+    "driverNumber": 4,
+    "lapNumber": 28,
+    "stopNumber": 12,
+    "pitDurationSeconds": 24.7,
+    "pitLaneDurationSeconds": 43.2,
+    "timestamp": "2024-11-03T16:30:26.835000+00:00"
+  },
+  {
+    "driverNumber": 22,
+    "lapNumber": 28,
+    "stopNumber": 13,
+    "pitDurationSeconds": 25.4,
+    "pitLaneDurationSeconds": 43.9,
+    "timestamp": "2024-11-03T16:30:42.947000+00:00"
+  },
+  {
+    "driverNumber": 30,
+    "lapNumber": 28,
+    "stopNumber": 14,
+    "pitDurationSeconds": 28.167,
+    "pitLaneDurationSeconds": 46.667,
+    "timestamp": "2024-11-03T16:31:04.523000+00:00"
+  },
+  {
+    "driverNumber": 24,
+    "lapNumber": 28,
+    "stopNumber": 15,
+    "pitDurationSeconds": 27.067,
+    "pitLaneDurationSeconds": 45.567,
+    "timestamp": "2024-11-03T16:32:06.153000+00:00"
+  },
+  {
+    "driverNumber": 27,
+    "lapNumber": 27,
+    "stopNumber": 16,
+    "pitDurationSeconds": 58.984,
+    "pitLaneDurationSeconds": 77.48400000000001,
+    "timestamp": "2024-11-03T16:32:21.233000+00:00"
+  },
+  {
+    "driverNumber": 43,
+    "lapNumber": 30,
+    "stopNumber": 17,
+    "pitDurationSeconds": 25.239,
+    "pitLaneDurationSeconds": 43.739000000000004,
+    "timestamp": "2024-11-03T16:35:28.710000+00:00"
+  },
+  {
+    "driverNumber": 27,
+    "lapNumber": 29,
+    "stopNumber": 18,
+    "pitDurationSeconds": 28.59,
+    "pitLaneDurationSeconds": 47.09,
+    "timestamp": "2024-11-03T16:36:47.096000+00:00"
+  },
+  {
+    "driverNumber": 24,
+    "lapNumber": 31,
+    "stopNumber": 19,
+    "pitDurationSeconds": 1283.1,
+    "pitLaneDurationSeconds": 1301.6,
+    "timestamp": "2024-11-03T17:00:06.199000+00:00"
+  },
+  {
+    "driverNumber": 31,
+    "lapNumber": 32,
+    "stopNumber": 20,
+    "pitDurationSeconds": 1408.6,
+    "pitLaneDurationSeconds": 1427.1,
+    "timestamp": "2024-11-03T17:02:07.040000+00:00"
+  },
+  {
+    "driverNumber": 1,
+    "lapNumber": 32,
+    "stopNumber": 21,
+    "pitDurationSeconds": 1409.3,
+    "pitLaneDurationSeconds": 1427.8,
+    "timestamp": "2024-11-03T17:02:09.788000+00:00"
+  },
+  {
+    "driverNumber": 10,
+    "lapNumber": 32,
+    "stopNumber": 22,
+    "pitDurationSeconds": 1407.5,
+    "pitLaneDurationSeconds": 1426,
+    "timestamp": "2024-11-03T17:02:13.315000+00:00"
+  },
+  {
+    "driverNumber": 4,
+    "lapNumber": 32,
+    "stopNumber": 23,
+    "pitDurationSeconds": 1415.3,
+    "pitLaneDurationSeconds": 1433.8,
+    "timestamp": "2024-11-03T17:02:22.123000+00:00"
+  },
+  {
+    "driverNumber": 63,
+    "lapNumber": 32,
+    "stopNumber": 24,
+    "pitDurationSeconds": 1415.8,
+    "pitLaneDurationSeconds": 1434.3,
+    "timestamp": "2024-11-03T17:02:27.963000+00:00"
+  },
+  {
+    "driverNumber": 22,
+    "lapNumber": 32,
+    "stopNumber": 25,
+    "pitDurationSeconds": 1419,
+    "pitLaneDurationSeconds": 1437.5,
+    "timestamp": "2024-11-03T17:02:32.857000+00:00"
+  },
+  {
+    "driverNumber": 16,
+    "lapNumber": 32,
+    "stopNumber": 26,
+    "pitDurationSeconds": 1420.2,
+    "pitLaneDurationSeconds": 1438.7,
+    "timestamp": "2024-11-03T17:02:36.466000+00:00"
+  },
+  {
+    "driverNumber": 81,
+    "lapNumber": 32,
+    "stopNumber": 27,
+    "pitDurationSeconds": 1420.2,
+    "pitLaneDurationSeconds": 1438.7,
+    "timestamp": "2024-11-03T17:02:39.343000+00:00"
+  },
+  {
+    "driverNumber": 14,
+    "lapNumber": 32,
+    "stopNumber": 28,
+    "pitDurationSeconds": 1422.8,
+    "pitLaneDurationSeconds": 1441.3,
+    "timestamp": "2024-11-03T17:02:44.066000+00:00"
+  },
+  {
+    "driverNumber": 30,
+    "lapNumber": 32,
+    "stopNumber": 29,
+    "pitDurationSeconds": 1422.7,
+    "pitLaneDurationSeconds": 1441.2,
+    "timestamp": "2024-11-03T17:02:46.841000+00:00"
+  },
+  {
+    "driverNumber": 44,
+    "lapNumber": 32,
+    "stopNumber": 30,
+    "pitDurationSeconds": 1425.7,
+    "pitLaneDurationSeconds": 1444.2,
+    "timestamp": "2024-11-03T17:02:51.473000+00:00"
+  },
+  {
+    "driverNumber": 77,
+    "lapNumber": 32,
+    "stopNumber": 31,
+    "pitDurationSeconds": 1422,
+    "pitLaneDurationSeconds": 1440.5,
+    "timestamp": "2024-11-03T17:02:53.242000+00:00"
+  },
+  {
+    "driverNumber": 55,
+    "lapNumber": 32,
+    "stopNumber": 32,
+    "pitDurationSeconds": 1424.6,
+    "pitLaneDurationSeconds": 1443.1,
+    "timestamp": "2024-11-03T17:02:57.164000+00:00"
+  },
+  {
+    "driverNumber": 11,
+    "lapNumber": 32,
+    "stopNumber": 33,
+    "pitDurationSeconds": 1425.2,
+    "pitLaneDurationSeconds": 1443.7,
+    "timestamp": "2024-11-03T17:02:59.628000+00:00"
+  },
+  {
+    "driverNumber": 50,
+    "lapNumber": 32,
+    "stopNumber": 34,
+    "pitDurationSeconds": 1424.7,
+    "pitLaneDurationSeconds": 1443.2,
+    "timestamp": "2024-11-03T17:03:01.408000+00:00"
+  },
+  {
+    "driverNumber": 24,
+    "lapNumber": 32,
+    "stopNumber": 35,
+    "pitDurationSeconds": 68.542,
+    "pitLaneDurationSeconds": 87.042,
+    "timestamp": "2024-11-03T17:03:04.904000+00:00"
+  }
+]

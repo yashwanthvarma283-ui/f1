@@ -1,0 +1,25 @@
+{
+  "year": 2020,
+  "round": 12,
+  "slug": "portim_o",
+  "raceName": "Portuguese Grand Prix",
+  "circuit": {
+    "id": "portim_o",
+    "name": "Portim\u00e3o Circuit",
+    "locality": "Portim\u00e3o",
+    "country": "Portugal",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2020-10-25T14:00:00Z",
+      "endIso": "2020-10-25T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

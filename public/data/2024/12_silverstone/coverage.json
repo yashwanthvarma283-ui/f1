@@ -1,0 +1,22 @@
+{
+  "raceName": "British Grand Prix",
+  "year": 2024,
+  "round": 12,
+  "generatedAt": "2026-10-07T13:44:08.552Z",
+  "disagreements": [],
+  "sessions": {
+    "Race": {
+      "sessionKey": 9558,
+      "driversCount": 20,
+      "lapsCount": 960,
+      "stintsAvailable": true,
+      "pitStopsCount": 46,
+      "radioClipsCount": 41,
+      "radioMappedPercentage": 63,
+      "raceControlMessagesCount": 108,
+      "raceControlMappedPercentage": 100,
+      "weatherCount": 147,
+      "overallCompletenessPercent": 98
+    }
+  }
+}

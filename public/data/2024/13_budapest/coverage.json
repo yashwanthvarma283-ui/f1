@@ -1,0 +1,22 @@
+{
+  "raceName": "Hungarian Grand Prix",
+  "year": 2024,
+  "round": 13,
+  "generatedAt": "2026-10-07T13:44:49.154Z",
+  "disagreements": [],
+  "sessions": {
+    "Race": {
+      "sessionKey": 9566,
+      "driversCount": 20,
+      "lapsCount": 1355,
+      "stintsAvailable": true,
+      "pitStopsCount": 41,
+      "radioClipsCount": 144,
+      "radioMappedPercentage": 77,
+      "raceControlMessagesCount": 75,
+      "raceControlMappedPercentage": 100,
+      "weatherCount": 155,
+      "overallCompletenessPercent": 98
+    }
+  }
+}

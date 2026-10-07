@@ -1,0 +1,25 @@
+{
+  "year": 1953,
+  "round": 2,
+  "slug": "indianapolis",
+  "raceName": "Indianapolis 500",
+  "circuit": {
+    "id": "indianapolis",
+    "name": "Indianapolis Circuit",
+    "locality": "Indianapolis",
+    "country": "USA",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "1953-05-30T14:00:00Z",
+      "endIso": "1953-05-30T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

@@ -1,0 +1,686 @@
+[
+  {
+    "id": "radio_9606_44_0",
+    "timestamp": "2024-09-22T11:20:10.750000+00:00",
+    "driverNumber": 44,
+    "driverCode": "HAM",
+    "teamName": "Mercedes",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/LEWHAM01_44_20240922_192005.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_43_1",
+    "timestamp": "2024-09-22T11:22:22.852000+00:00",
+    "driverNumber": 43,
+    "driverCode": "COL",
+    "teamName": "Williams",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/FRACOL01_43_20240922_192211.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_4_2",
+    "timestamp": "2024-09-22T11:22:56.195000+00:00",
+    "driverNumber": 4,
+    "driverCode": "NOR",
+    "teamName": "McLaren",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/LANNOR01_4_20240922_192248.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_77_3",
+    "timestamp": "2024-09-22T11:24:02.522000+00:00",
+    "driverNumber": 77,
+    "driverCode": "BOT",
+    "teamName": "Kick Sauber",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/VALBOT01_77_20240922_192329.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_63_4",
+    "timestamp": "2024-09-22T11:24:36.480000+00:00",
+    "driverNumber": 63,
+    "driverCode": "RUS",
+    "teamName": "Mercedes",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/GEORUS01_63_20240922_192418.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_16_5",
+    "timestamp": "2024-09-22T11:25:42.030000+00:00",
+    "driverNumber": 16,
+    "driverCode": "LEC",
+    "teamName": "Ferrari",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/CHALEC01_16_20240922_192529.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_44_6",
+    "timestamp": "2024-09-22T11:26:48.064000+00:00",
+    "driverNumber": 44,
+    "driverCode": "HAM",
+    "teamName": "Mercedes",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/LEWHAM01_44_20240922_192614.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_63_7",
+    "timestamp": "2024-09-22T11:27:21.950000+00:00",
+    "driverNumber": 63,
+    "driverCode": "RUS",
+    "teamName": "Mercedes",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/GEORUS01_63_20240922_192643.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_18_8",
+    "timestamp": "2024-09-22T11:29:02.200000+00:00",
+    "driverNumber": 18,
+    "driverCode": "STR",
+    "teamName": "Aston Martin",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/LANSTR01_18_20240922_192827.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_18_9",
+    "timestamp": "2024-09-22T11:29:34.177000+00:00",
+    "driverNumber": 18,
+    "driverCode": "STR",
+    "teamName": "Aston Martin",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/LANSTR01_18_20240922_192858.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_18_10",
+    "timestamp": "2024-09-22T11:30:07.575000+00:00",
+    "driverNumber": 18,
+    "driverCode": "STR",
+    "teamName": "Aston Martin",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/LANSTR01_18_20240922_192927.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_24_11",
+    "timestamp": "2024-09-22T11:56:01.865000+00:00",
+    "driverNumber": 24,
+    "driverCode": "ZHO",
+    "teamName": "Kick Sauber",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/GUAZHO01_24_20240922_195530.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_10_12",
+    "timestamp": "2024-09-22T11:56:01.865000+00:00",
+    "driverNumber": 10,
+    "driverCode": "GAS",
+    "teamName": "Alpine",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/PIEGAS01_10_20240922_195544.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_63_13",
+    "timestamp": "2024-09-22T12:09:14.327000+00:00",
+    "driverNumber": 63,
+    "driverCode": "RUS",
+    "teamName": "Mercedes",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/GEORUS01_63_20240922_200837.mp3",
+    "lapNumber": 6
+  },
+  {
+    "id": "radio_9606_23_14",
+    "timestamp": "2024-09-22T12:10:54.606000+00:00",
+    "driverNumber": 23,
+    "driverCode": "ALB",
+    "teamName": "Williams",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/ALEALB01_23_20240922_201037.mp3",
+    "lapNumber": 7
+  },
+  {
+    "id": "radio_9606_16_15",
+    "timestamp": "2024-09-22T12:15:17.339000+00:00",
+    "driverNumber": 16,
+    "driverCode": "LEC",
+    "teamName": "Ferrari",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/CHALEC01_16_20240922_201441.mp3",
+    "lapNumber": 10
+  },
+  {
+    "id": "radio_9606_27_16",
+    "timestamp": "2024-09-22T12:16:56.317000+00:00",
+    "driverNumber": 27,
+    "driverCode": "HUL",
+    "teamName": "Haas F1 Team",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/NICHUL01_27_20240922_201647.mp3",
+    "lapNumber": 11
+  },
+  {
+    "id": "radio_9606_4_17",
+    "timestamp": "2024-09-22T12:17:30.831000+00:00",
+    "driverNumber": 4,
+    "driverCode": "NOR",
+    "teamName": "McLaren",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/LANNOR01_4_20240922_201706.mp3",
+    "lapNumber": 11
+  },
+  {
+    "id": "radio_9606_11_18",
+    "timestamp": "2024-09-22T12:18:36.324000+00:00",
+    "driverNumber": 11,
+    "driverCode": "PER",
+    "teamName": "Red Bull Racing",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/SERPER01_11_20240922_201818.mp3",
+    "lapNumber": 12
+  },
+  {
+    "id": "radio_9606_81_19",
+    "timestamp": "2024-09-22T12:20:16.464000+00:00",
+    "driverNumber": 81,
+    "driverCode": "PIA",
+    "teamName": "McLaren",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/OSCPIA01_81_20240922_201936.mp3",
+    "lapNumber": 13
+  },
+  {
+    "id": "radio_9606_16_20",
+    "timestamp": "2024-09-22T12:20:48.602000+00:00",
+    "driverNumber": 16,
+    "driverCode": "LEC",
+    "teamName": "Ferrari",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/CHALEC01_16_20240922_202040.mp3",
+    "lapNumber": 13
+  },
+  {
+    "id": "radio_9606_22_21",
+    "timestamp": "2024-09-22T12:22:27.793000+00:00",
+    "driverNumber": 22,
+    "driverCode": "TSU",
+    "teamName": "RB",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/YUKTSU01_22_20240922_202148.mp3",
+    "lapNumber": 14
+  },
+  {
+    "id": "radio_9606_20_22",
+    "timestamp": "2024-09-22T12:24:07.212000+00:00",
+    "driverNumber": 20,
+    "driverCode": "MAG",
+    "teamName": "Haas F1 Team",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/KEVMAG01_20_20240922_202335.mp3",
+    "lapNumber": 15
+  },
+  {
+    "id": "radio_9606_4_23",
+    "timestamp": "2024-09-22T12:26:19.548000+00:00",
+    "driverNumber": 4,
+    "driverCode": "NOR",
+    "teamName": "McLaren",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/LANNOR01_4_20240922_202608.mp3",
+    "lapNumber": 17
+  },
+  {
+    "id": "radio_9606_11_24",
+    "timestamp": "2024-09-22T12:29:38.295000+00:00",
+    "driverNumber": 11,
+    "driverCode": "PER",
+    "teamName": "Red Bull Racing",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/SERPER01_11_20240922_202910.mp3",
+    "lapNumber": 18
+  },
+  {
+    "id": "radio_9606_16_25",
+    "timestamp": "2024-09-22T12:33:30.511000+00:00",
+    "driverNumber": 16,
+    "driverCode": "LEC",
+    "teamName": "Ferrari",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/CHALEC01_16_20240922_203306.mp3",
+    "lapNumber": 21
+  },
+  {
+    "id": "radio_9606_44_26",
+    "timestamp": "2024-09-22T12:37:22.230000+00:00",
+    "driverNumber": 44,
+    "driverCode": "HAM",
+    "teamName": "Mercedes",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/LEWHAM01_44_20240922_203645.mp3",
+    "lapNumber": 23
+  },
+  {
+    "id": "radio_9606_4_27",
+    "timestamp": "2024-09-22T12:37:55.495000+00:00",
+    "driverNumber": 4,
+    "driverCode": "NOR",
+    "teamName": "McLaren",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/LANNOR01_4_20240922_203732.mp3",
+    "lapNumber": 24
+  },
+  {
+    "id": "radio_9606_44_28",
+    "timestamp": "2024-09-22T12:40:08.084000+00:00",
+    "driverNumber": 44,
+    "driverCode": "HAM",
+    "teamName": "Mercedes",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/LEWHAM01_44_20240922_203942.mp3",
+    "lapNumber": 25
+  },
+  {
+    "id": "radio_9606_16_29",
+    "timestamp": "2024-09-22T12:41:47.626000+00:00",
+    "driverNumber": 16,
+    "driverCode": "LEC",
+    "teamName": "Ferrari",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/CHALEC01_16_20240922_204120.mp3",
+    "lapNumber": 26
+  },
+  {
+    "id": "radio_9606_44_30",
+    "timestamp": "2024-09-22T12:45:06.206000+00:00",
+    "driverNumber": 44,
+    "driverCode": "HAM",
+    "teamName": "Mercedes",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/LEWHAM01_44_20240922_204450.mp3",
+    "lapNumber": 28
+  },
+  {
+    "id": "radio_9606_44_31",
+    "timestamp": "2024-09-22T12:46:44.436000+00:00",
+    "driverNumber": 44,
+    "driverCode": "HAM",
+    "teamName": "Mercedes",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/LEWHAM01_44_20240922_204621.mp3",
+    "lapNumber": 29
+  },
+  {
+    "id": "radio_9606_1_32",
+    "timestamp": "2024-09-22T12:47:51.726000+00:00",
+    "driverNumber": 1,
+    "driverCode": "VER",
+    "teamName": "Red Bull Racing",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/MAXVER01_1_20240922_204715.mp3",
+    "lapNumber": 30
+  },
+  {
+    "id": "radio_9606_81_33",
+    "timestamp": "2024-09-22T12:49:29.633000+00:00",
+    "driverNumber": 81,
+    "driverCode": "PIA",
+    "teamName": "McLaren",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/OSCPIA01_81_20240922_204918.mp3",
+    "lapNumber": 31
+  },
+  {
+    "id": "radio_9606_4_34",
+    "timestamp": "2024-09-22T12:51:09.008000+00:00",
+    "driverNumber": 4,
+    "driverCode": "NOR",
+    "teamName": "McLaren",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/LANNOR01_4_20240922_205056.mp3",
+    "lapNumber": 32
+  },
+  {
+    "id": "radio_9606_1_35",
+    "timestamp": "2024-09-22T12:55:00.638000+00:00",
+    "driverNumber": 1,
+    "driverCode": "VER",
+    "teamName": "Red Bull Racing",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/MAXVER01_1_20240922_205420.mp3",
+    "lapNumber": 34
+  },
+  {
+    "id": "radio_9606_4_36",
+    "timestamp": "2024-09-22T12:55:33.742000+00:00",
+    "driverNumber": 4,
+    "driverCode": "NOR",
+    "teamName": "McLaren",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/LANNOR01_4_20240922_205504.mp3",
+    "lapNumber": 34
+  },
+  {
+    "id": "radio_9606_63_37",
+    "timestamp": "2024-09-22T12:57:13.511000+00:00",
+    "driverNumber": 63,
+    "driverCode": "RUS",
+    "teamName": "Mercedes",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/GEORUS01_63_20240922_205633.mp3",
+    "lapNumber": 35
+  },
+  {
+    "id": "radio_9606_16_38",
+    "timestamp": "2024-09-22T12:57:13.511000+00:00",
+    "driverNumber": 16,
+    "driverCode": "LEC",
+    "teamName": "Ferrari",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/CHALEC01_16_20240922_205658.mp3",
+    "lapNumber": 35
+  },
+  {
+    "id": "radio_9606_81_39",
+    "timestamp": "2024-09-22T12:58:53.768000+00:00",
+    "driverNumber": 81,
+    "driverCode": "PIA",
+    "teamName": "McLaren",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/OSCPIA01_81_20240922_205833.mp3",
+    "lapNumber": 36
+  },
+  {
+    "id": "radio_9606_81_40",
+    "timestamp": "2024-09-22T12:59:58.980000+00:00",
+    "driverNumber": 81,
+    "driverCode": "PIA",
+    "teamName": "McLaren",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/OSCPIA01_81_20240922_205943.mp3",
+    "lapNumber": 37
+  },
+  {
+    "id": "radio_9606_44_41",
+    "timestamp": "2024-09-22T13:00:34.110000+00:00",
+    "driverNumber": 44,
+    "driverCode": "HAM",
+    "teamName": "Mercedes",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/LEWHAM01_44_20240922_210026.mp3",
+    "lapNumber": 37
+  },
+  {
+    "id": "radio_9606_16_42",
+    "timestamp": "2024-09-22T13:03:51.074000+00:00",
+    "driverNumber": 16,
+    "driverCode": "LEC",
+    "teamName": "Ferrari",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/CHALEC01_16_20240922_210330.mp3",
+    "lapNumber": 39
+  },
+  {
+    "id": "radio_9606_81_43",
+    "timestamp": "2024-09-22T13:04:57.701000+00:00",
+    "driverNumber": 81,
+    "driverCode": "PIA",
+    "teamName": "McLaren",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/OSCPIA01_81_20240922_210421.mp3",
+    "lapNumber": 40
+  },
+  {
+    "id": "radio_9606_22_44",
+    "timestamp": "2024-09-22T13:09:55.826000+00:00",
+    "driverNumber": 22,
+    "driverCode": "TSU",
+    "teamName": "RB",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/YUKTSU01_22_20240922_210931.mp3",
+    "lapNumber": 42
+  },
+  {
+    "id": "radio_9606_22_45",
+    "timestamp": "2024-09-22T13:10:28.798000+00:00",
+    "driverNumber": 22,
+    "driverCode": "TSU",
+    "teamName": "RB",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/YUKTSU01_22_20240922_211013.mp3",
+    "lapNumber": 43
+  },
+  {
+    "id": "radio_9606_16_46",
+    "timestamp": "2024-09-22T13:14:53.255000+00:00",
+    "driverNumber": 16,
+    "driverCode": "LEC",
+    "teamName": "Ferrari",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/CHALEC01_16_20240922_211423.mp3",
+    "lapNumber": 46
+  },
+  {
+    "id": "radio_9606_63_47",
+    "timestamp": "2024-09-22T13:15:59.313000+00:00",
+    "driverNumber": 63,
+    "driverCode": "RUS",
+    "teamName": "Mercedes",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/GEORUS01_63_20240922_211546.mp3",
+    "lapNumber": 47
+  },
+  {
+    "id": "radio_9606_27_48",
+    "timestamp": "2024-09-22T13:19:50.422000+00:00",
+    "driverNumber": 27,
+    "driverCode": "HUL",
+    "teamName": "Haas F1 Team",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/NICHUL01_27_20240922_211930.mp3",
+    "lapNumber": 49
+  },
+  {
+    "id": "radio_9606_63_49",
+    "timestamp": "2024-09-22T13:20:23.772000+00:00",
+    "driverNumber": 63,
+    "driverCode": "RUS",
+    "teamName": "Mercedes",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/GEORUS01_63_20240922_212002.mp3",
+    "lapNumber": 49
+  },
+  {
+    "id": "radio_9606_11_50",
+    "timestamp": "2024-09-22T13:21:29.423000+00:00",
+    "driverNumber": 11,
+    "driverCode": "PER",
+    "teamName": "Red Bull Racing",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/SERPER01_11_20240922_212117.mp3",
+    "lapNumber": 50
+  },
+  {
+    "id": "radio_9606_4_51",
+    "timestamp": "2024-09-22T13:23:43.473000+00:00",
+    "driverNumber": 4,
+    "driverCode": "NOR",
+    "teamName": "McLaren",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/LANNOR01_4_20240922_212320.mp3",
+    "lapNumber": 52
+  },
+  {
+    "id": "radio_9606_16_52",
+    "timestamp": "2024-09-22T13:27:00.083000+00:00",
+    "driverNumber": 16,
+    "driverCode": "LEC",
+    "teamName": "Ferrari",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/CHALEC01_16_20240922_212643.mp3",
+    "lapNumber": 53
+  },
+  {
+    "id": "radio_9606_63_53",
+    "timestamp": "2024-09-22T13:28:06.471000+00:00",
+    "driverNumber": 63,
+    "driverCode": "RUS",
+    "teamName": "Mercedes",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/GEORUS01_63_20240922_212752.mp3",
+    "lapNumber": 54
+  },
+  {
+    "id": "radio_9606_63_54",
+    "timestamp": "2024-09-22T13:29:12.560000+00:00",
+    "driverNumber": 63,
+    "driverCode": "RUS",
+    "teamName": "Mercedes",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/GEORUS01_63_20240922_212900.mp3",
+    "lapNumber": 55
+  },
+  {
+    "id": "radio_9606_16_55",
+    "timestamp": "2024-09-22T13:30:52.594000+00:00",
+    "driverNumber": 16,
+    "driverCode": "LEC",
+    "teamName": "Ferrari",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/CHALEC01_16_20240922_213022.mp3",
+    "lapNumber": 56
+  },
+  {
+    "id": "radio_9606_4_56",
+    "timestamp": "2024-09-22T13:32:32.306000+00:00",
+    "driverNumber": 4,
+    "driverCode": "NOR",
+    "teamName": "McLaren",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/LANNOR01_4_20240922_213202.mp3",
+    "lapNumber": 57
+  },
+  {
+    "id": "radio_9606_4_57",
+    "timestamp": "2024-09-22T13:36:23.540000+00:00",
+    "driverNumber": 4,
+    "driverCode": "NOR",
+    "teamName": "McLaren",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/LANNOR01_4_20240922_213550.mp3",
+    "lapNumber": 60
+  },
+  {
+    "id": "radio_9606_11_58",
+    "timestamp": "2024-09-22T13:38:03.104000+00:00",
+    "driverNumber": 11,
+    "driverCode": "PER",
+    "teamName": "Red Bull Racing",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/SERPER01_11_20240922_213745.mp3",
+    "lapNumber": 60
+  },
+  {
+    "id": "radio_9606_16_59",
+    "timestamp": "2024-09-22T13:42:28.004000+00:00",
+    "driverNumber": 16,
+    "driverCode": "LEC",
+    "teamName": "Ferrari",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/CHALEC01_16_20240922_214221.mp3",
+    "lapNumber": 62
+  },
+  {
+    "id": "radio_9606_4_60",
+    "timestamp": "2024-09-22T13:46:52.761000+00:00",
+    "driverNumber": 4,
+    "driverCode": "NOR",
+    "teamName": "McLaren",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/LANNOR01_4_20240922_214610.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_1_61",
+    "timestamp": "2024-09-22T13:47:27.861000+00:00",
+    "driverNumber": 1,
+    "driverCode": "VER",
+    "teamName": "Red Bull Racing",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/MAXVER01_1_20240922_214702.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_81_62",
+    "timestamp": "2024-09-22T13:47:27.861000+00:00",
+    "driverNumber": 81,
+    "driverCode": "PIA",
+    "teamName": "McLaren",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/OSCPIA01_81_20240922_215754.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_11_63",
+    "timestamp": "2024-09-22T13:47:27.861000+00:00",
+    "driverNumber": 11,
+    "driverCode": "PER",
+    "teamName": "Red Bull Racing",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/SERPER01_11_20240922_214945.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_44_64",
+    "timestamp": "2024-09-22T13:47:27.861000+00:00",
+    "driverNumber": 44,
+    "driverCode": "HAM",
+    "teamName": "Mercedes",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/LEWHAM01_44_20240922_215043.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_27_65",
+    "timestamp": "2024-09-22T13:47:27.861000+00:00",
+    "driverNumber": 27,
+    "driverCode": "HUL",
+    "teamName": "Haas F1 Team",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/NICHUL01_27_20240922_215218.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_63_66",
+    "timestamp": "2024-09-22T13:47:27.861000+00:00",
+    "driverNumber": 63,
+    "driverCode": "RUS",
+    "teamName": "Mercedes",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/GEORUS01_63_20240922_215248.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_24_67",
+    "timestamp": "2024-09-22T13:47:27.861000+00:00",
+    "driverNumber": 24,
+    "driverCode": "ZHO",
+    "teamName": "Kick Sauber",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/GUAZHO01_24_20240922_215342.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_23_68",
+    "timestamp": "2024-09-22T13:47:27.861000+00:00",
+    "driverNumber": 23,
+    "driverCode": "ALB",
+    "teamName": "Williams",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/ALEALB01_23_20240922_215542.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_55_69",
+    "timestamp": "2024-09-22T13:47:27.861000+00:00",
+    "driverNumber": 55,
+    "driverCode": "SAI",
+    "teamName": "Ferrari",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/CARSAI01_55_20240922_215613.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_3_70",
+    "timestamp": "2024-09-22T13:47:27.861000+00:00",
+    "driverNumber": 3,
+    "driverCode": "RIC",
+    "teamName": "RB",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/DANRIC01_3_20240922_215645.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_22_71",
+    "timestamp": "2024-09-22T13:47:27.861000+00:00",
+    "driverNumber": 22,
+    "driverCode": "TSU",
+    "teamName": "RB",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/YUKTSU01_22_20240922_215746.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_18_72",
+    "timestamp": "2024-09-22T13:47:27.861000+00:00",
+    "driverNumber": 18,
+    "driverCode": "STR",
+    "teamName": "Aston Martin",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/LANSTR01_18_20240922_215949.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_14_73",
+    "timestamp": "2024-09-22T13:47:27.861000+00:00",
+    "driverNumber": 14,
+    "driverCode": "ALO",
+    "teamName": "Aston Martin",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/FERALO01_14_20240922_215957.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_31_74",
+    "timestamp": "2024-09-22T13:47:27.861000+00:00",
+    "driverNumber": 31,
+    "driverCode": "OCO",
+    "teamName": "Alpine",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/ESTOCO01_31_20240922_220040.mp3",
+    "lapNumber": null
+  },
+  {
+    "id": "radio_9606_10_75",
+    "timestamp": "2024-09-22T13:47:27.861000+00:00",
+    "driverNumber": 10,
+    "driverCode": "GAS",
+    "teamName": "Alpine",
+    "audioUrl": "https://livetiming.formula1.com/static/2024/2024-09-22_Singapore_Grand_Prix/2024-09-22_Race/TeamRadio/PIEGAS01_10_20240922_220139.mp3",
+    "lapNumber": null
+  }
+]

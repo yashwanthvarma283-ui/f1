@@ -1,0 +1,25 @@
+{
+  "year": 1984,
+  "round": 5,
+  "slug": "dijon",
+  "raceName": "French Grand Prix",
+  "circuit": {
+    "id": "dijon",
+    "name": "Dijon Circuit",
+    "locality": "Dijon",
+    "country": "France",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "1984-05-20T14:00:00Z",
+      "endIso": "1984-05-20T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

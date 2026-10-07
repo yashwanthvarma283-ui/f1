@@ -1,0 +1,25 @@
+{
+  "year": 2012,
+  "round": 7,
+  "slug": "montreal",
+  "raceName": "Canadian Grand Prix",
+  "circuit": {
+    "id": "montreal",
+    "name": "Montreal Circuit",
+    "locality": "Montreal",
+    "country": "Canada",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2012-06-10T14:00:00Z",
+      "endIso": "2012-06-10T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

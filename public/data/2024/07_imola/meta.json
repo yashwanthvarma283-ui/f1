@@ -1,0 +1,31 @@
+{
+  "year": 2024,
+  "round": 7,
+  "slug": "imola",
+  "raceName": "Emilia Romagna Grand Prix",
+  "circuit": {
+    "id": "imola",
+    "name": "Autodromo Enzo e Dino Ferrari",
+    "locality": "Imola",
+    "country": "Italy",
+    "lat": 44.3439,
+    "long": 11.7167,
+    "turns": 15,
+    "lengthKm": 4.909,
+    "lapRecord": {
+      "time": "1:31.447",
+      "driver": "Pedro de la Rosa",
+      "year": "2005"
+    }
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2024-05-19T13:00:00Z",
+      "endIso": "2024-05-19T15:00:00.000Z",
+      "openF1SessionKey": 9515
+    }
+  },
+  "coverage": {
+    "Race": 98
+  }
+}

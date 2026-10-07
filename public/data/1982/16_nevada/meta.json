@@ -1,0 +1,25 @@
+{
+  "year": 1982,
+  "round": 16,
+  "slug": "nevada",
+  "raceName": "Caesars Palace Grand Prix",
+  "circuit": {
+    "id": "nevada",
+    "name": "Nevada Circuit",
+    "locality": "Nevada",
+    "country": "USA",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "1982-09-25T14:00:00Z",
+      "endIso": "1982-09-25T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

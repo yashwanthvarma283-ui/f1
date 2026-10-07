@@ -1,0 +1,260 @@
+{
+  "year": 1972,
+  "totalRaces": 12,
+  "extractedRaces": 12,
+  "lastUpdated": "2026-10-07T16:02:03.093791+00:00",
+  "races": [
+    {
+      "round": 1,
+      "slug": "buenos_aires",
+      "raceName": "Argentine Grand Prix",
+      "circuitId": "buenos_aires",
+      "circuitName": "Buenos Aires Circuit",
+      "country": "Argentina",
+      "date": "1972-01-23",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "stewart",
+        "name": "Jackie Stewart",
+        "code": "STE",
+        "constructorName": "Tyrrell"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 2,
+      "slug": "midrand",
+      "raceName": "South African Grand Prix",
+      "circuitId": "midrand",
+      "circuitName": "Midrand Circuit",
+      "country": "South Africa",
+      "date": "1972-03-04",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hulme",
+        "name": "Denny Hulme",
+        "code": "HUL",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 3,
+      "slug": "madrid",
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "madrid",
+      "circuitName": "Madrid Circuit",
+      "country": "Spain",
+      "date": "1972-05-01",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "emerson_fittipaldi",
+        "name": "Emerson Fittipaldi",
+        "code": "FIT",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 4,
+      "slug": "monte_carlo",
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monte_carlo",
+      "circuitName": "Monte Carlo Circuit",
+      "country": "Monaco",
+      "date": "1972-05-14",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "beltoise",
+        "name": "Jean-Pierre Beltoise",
+        "code": "BEL",
+        "constructorName": "BRM"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 5,
+      "slug": "brussels",
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "brussels",
+      "circuitName": "Brussels Circuit",
+      "country": "Belgium",
+      "date": "1972-06-04",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "emerson_fittipaldi",
+        "name": "Emerson Fittipaldi",
+        "code": "FIT",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 6,
+      "slug": "clermont_ferrand",
+      "raceName": "French Grand Prix",
+      "circuitId": "clermont_ferrand",
+      "circuitName": "Clermont-Ferrand Circuit",
+      "country": "France",
+      "date": "1972-07-02",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "stewart",
+        "name": "Jackie Stewart",
+        "code": "STE",
+        "constructorName": "Tyrrell"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 7,
+      "slug": "kent",
+      "raceName": "British Grand Prix",
+      "circuitId": "kent",
+      "circuitName": "Kent Circuit",
+      "country": "UK",
+      "date": "1972-07-15",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "emerson_fittipaldi",
+        "name": "Emerson Fittipaldi",
+        "code": "FIT",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 8,
+      "slug": "n_rburg",
+      "raceName": "German Grand Prix",
+      "circuitId": "n_rburg",
+      "circuitName": "N\u00fcrburg Circuit",
+      "country": "Germany",
+      "date": "1972-07-30",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "ickx",
+        "name": "Jacky Ickx",
+        "code": "ICK",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 9,
+      "slug": "spielberg",
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "spielberg",
+      "circuitName": "Spielberg Circuit",
+      "country": "Austria",
+      "date": "1972-08-13",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "emerson_fittipaldi",
+        "name": "Emerson Fittipaldi",
+        "code": "FIT",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 10,
+      "slug": "monza",
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "circuitName": "Monza Circuit",
+      "country": "Italy",
+      "date": "1972-09-10",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "emerson_fittipaldi",
+        "name": "Emerson Fittipaldi",
+        "code": "FIT",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 11,
+      "slug": "ontario",
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "ontario",
+      "circuitName": "Ontario Circuit",
+      "country": "Canada",
+      "date": "1972-09-24",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "stewart",
+        "name": "Jackie Stewart",
+        "code": "STE",
+        "constructorName": "Tyrrell"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 12,
+      "slug": "new_york_state",
+      "raceName": "United States Grand Prix",
+      "circuitId": "new_york_state",
+      "circuitName": "New York State Circuit",
+      "country": "USA",
+      "date": "1972-10-08",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "stewart",
+        "name": "Jackie Stewart",
+        "code": "STE",
+        "constructorName": "Tyrrell"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    }
+  ]
+}

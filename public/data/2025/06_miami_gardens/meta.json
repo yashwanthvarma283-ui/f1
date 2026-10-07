@@ -1,0 +1,25 @@
+{
+  "year": 2025,
+  "round": 6,
+  "slug": "miami_gardens",
+  "raceName": "Miami Grand Prix",
+  "circuit": {
+    "id": "miami_gardens",
+    "name": "Miami Gardens Circuit",
+    "locality": "Miami Gardens",
+    "country": "United States",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2025-05-04T14:00:00Z",
+      "endIso": "2025-05-04T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 0
+  }
+}

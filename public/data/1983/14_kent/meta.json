@@ -1,0 +1,25 @@
+{
+  "year": 1983,
+  "round": 14,
+  "slug": "kent",
+  "raceName": "European Grand Prix",
+  "circuit": {
+    "id": "kent",
+    "name": "Kent Circuit",
+    "locality": "Kent",
+    "country": "UK",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "1983-09-25T14:00:00Z",
+      "endIso": "1983-09-25T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

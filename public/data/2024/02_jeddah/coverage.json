@@ -1,0 +1,22 @@
+{
+  "raceName": "Saudi Arabian Grand Prix",
+  "year": 2024,
+  "round": 2,
+  "generatedAt": "2026-10-07T13:19:01.903Z",
+  "disagreements": [],
+  "sessions": {
+    "Race": {
+      "sessionKey": 9480,
+      "driversCount": 20,
+      "lapsCount": 901,
+      "stintsAvailable": true,
+      "pitStopsCount": 20,
+      "radioClipsCount": 54,
+      "radioMappedPercentage": 54,
+      "raceControlMessagesCount": 66,
+      "raceControlMappedPercentage": 100,
+      "weatherCount": 146,
+      "overallCompletenessPercent": 98
+    }
+  }
+}

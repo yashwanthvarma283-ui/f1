@@ -1,0 +1,323 @@
+{
+  "year": 1983,
+  "totalRaces": 15,
+  "extractedRaces": 15,
+  "lastUpdated": "2026-10-07T16:01:40.185733+00:00",
+  "races": [
+    {
+      "round": 1,
+      "slug": "rio_de_janeiro",
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "rio_de_janeiro",
+      "circuitName": "Rio de Janeiro Circuit",
+      "country": "Brazil",
+      "date": "1983-03-13",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "piquet",
+        "name": "Nelson Piquet",
+        "code": "PIQ",
+        "constructorName": "Brabham"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 2,
+      "slug": "california",
+      "raceName": "United States Grand Prix West",
+      "circuitId": "california",
+      "circuitName": "California Circuit",
+      "country": "USA",
+      "date": "1983-03-27",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "watson",
+        "name": "John Watson",
+        "code": "WAT",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 3,
+      "slug": "le_castellet",
+      "raceName": "French Grand Prix",
+      "circuitId": "le_castellet",
+      "circuitName": "Le Castellet Circuit",
+      "country": "France",
+      "date": "1983-04-17",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "prost",
+        "name": "Alain Prost",
+        "code": "PRO",
+        "constructorName": "Renault"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 4,
+      "slug": "imola",
+      "raceName": "San Marino Grand Prix",
+      "circuitId": "imola",
+      "circuitName": "Imola Circuit",
+      "country": "Italy",
+      "date": "1983-05-01",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "tambay",
+        "name": "Patrick Tambay",
+        "code": "TAM",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 5,
+      "slug": "monte_carlo",
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monte_carlo",
+      "circuitName": "Monte Carlo Circuit",
+      "country": "Monaco",
+      "date": "1983-05-15",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "keke_rosberg",
+        "name": "Keke Rosberg",
+        "code": "ROS",
+        "constructorName": "Williams"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 6,
+      "slug": "spa",
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "circuitName": "Spa Circuit",
+      "country": "Belgium",
+      "date": "1983-05-22",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "prost",
+        "name": "Alain Prost",
+        "code": "PRO",
+        "constructorName": "Renault"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 7,
+      "slug": "detroit",
+      "raceName": "Detroit Grand Prix",
+      "circuitId": "detroit",
+      "circuitName": "Detroit Circuit",
+      "country": "USA",
+      "date": "1983-06-05",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "alboreto",
+        "name": "Michele Alboreto",
+        "code": "ALB",
+        "constructorName": "Tyrrell"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 8,
+      "slug": "montreal",
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "montreal",
+      "circuitName": "Montreal Circuit",
+      "country": "Canada",
+      "date": "1983-06-12",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "arnoux",
+        "name": "Ren\u00e9 Arnoux",
+        "code": "ARN",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 9,
+      "slug": "silverstone",
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "circuitName": "Silverstone Circuit",
+      "country": "UK",
+      "date": "1983-07-16",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "prost",
+        "name": "Alain Prost",
+        "code": "PRO",
+        "constructorName": "Renault"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 10,
+      "slug": "hockenheim",
+      "raceName": "German Grand Prix",
+      "circuitId": "hockenheim",
+      "circuitName": "Hockenheim Circuit",
+      "country": "Germany",
+      "date": "1983-08-07",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "arnoux",
+        "name": "Ren\u00e9 Arnoux",
+        "code": "ARN",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 11,
+      "slug": "spielberg",
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "spielberg",
+      "circuitName": "Spielberg Circuit",
+      "country": "Austria",
+      "date": "1983-08-14",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "prost",
+        "name": "Alain Prost",
+        "code": "PRO",
+        "constructorName": "Renault"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 12,
+      "slug": "zandvoort",
+      "raceName": "Dutch Grand Prix",
+      "circuitId": "zandvoort",
+      "circuitName": "Zandvoort Circuit",
+      "country": "Netherlands",
+      "date": "1983-08-28",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "arnoux",
+        "name": "Ren\u00e9 Arnoux",
+        "code": "ARN",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 13,
+      "slug": "monza",
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "circuitName": "Monza Circuit",
+      "country": "Italy",
+      "date": "1983-09-11",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "piquet",
+        "name": "Nelson Piquet",
+        "code": "PIQ",
+        "constructorName": "Brabham"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 14,
+      "slug": "kent",
+      "raceName": "European Grand Prix",
+      "circuitId": "kent",
+      "circuitName": "Kent Circuit",
+      "country": "UK",
+      "date": "1983-09-25",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "piquet",
+        "name": "Nelson Piquet",
+        "code": "PIQ",
+        "constructorName": "Brabham"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 15,
+      "slug": "midrand",
+      "raceName": "South African Grand Prix",
+      "circuitId": "midrand",
+      "circuitName": "Midrand Circuit",
+      "country": "South Africa",
+      "date": "1983-10-15",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "patrese",
+        "name": "Riccardo Patrese",
+        "code": "PAT",
+        "constructorName": "Brabham"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "year": 1994,
+  "totalRaces": 16,
+  "extractedRaces": 16,
+  "lastUpdated": "2026-10-07T16:01:10.942604+00:00",
+  "races": [
+    {
+      "round": 1,
+      "slug": "s_o_paulo",
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "s_o_paulo",
+      "circuitName": "S\u00e3o Paulo Circuit",
+      "country": "Brazil",
+      "date": "1994-03-27",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "michael_schumacher",
+        "name": "Michael Schumacher",
+        "code": "SCH",
+        "constructorName": "Benetton"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 2,
+      "slug": "okayama",
+      "raceName": "Pacific Grand Prix",
+      "circuitId": "okayama",
+      "circuitName": "Okayama Circuit",
+      "country": "Japan",
+      "date": "1994-04-17",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "michael_schumacher",
+        "name": "Michael Schumacher",
+        "code": "SCH",
+        "constructorName": "Benetton"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 3,
+      "slug": "imola",
+      "raceName": "San Marino Grand Prix",
+      "circuitId": "imola",
+      "circuitName": "Imola Circuit",
+      "country": "Italy",
+      "date": "1994-05-01",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "michael_schumacher",
+        "name": "Michael Schumacher",
+        "code": "SCH",
+        "constructorName": "Benetton"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 4,
+      "slug": "monte_carlo",
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monte_carlo",
+      "circuitName": "Monte Carlo Circuit",
+      "country": "Monaco",
+      "date": "1994-05-15",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "michael_schumacher",
+        "name": "Michael Schumacher",
+        "code": "SCH",
+        "constructorName": "Benetton"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 5,
+      "slug": "barcelona",
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "barcelona",
+      "circuitName": "Barcelona Circuit",
+      "country": "Spain",
+      "date": "1994-05-29",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "damon_hill",
+        "name": "Damon Hill",
+        "code": "HIL",
+        "constructorName": "Williams"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 6,
+      "slug": "montreal",
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "montreal",
+      "circuitName": "Montreal Circuit",
+      "country": "Canada",
+      "date": "1994-06-12",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "michael_schumacher",
+        "name": "Michael Schumacher",
+        "code": "SCH",
+        "constructorName": "Benetton"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 7,
+      "slug": "magny_cours",
+      "raceName": "French Grand Prix",
+      "circuitId": "magny_cours",
+      "circuitName": "Magny Cours Circuit",
+      "country": "France",
+      "date": "1994-07-03",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "michael_schumacher",
+        "name": "Michael Schumacher",
+        "code": "SCH",
+        "constructorName": "Benetton"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 8,
+      "slug": "silverstone",
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "circuitName": "Silverstone Circuit",
+      "country": "UK",
+      "date": "1994-07-10",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "damon_hill",
+        "name": "Damon Hill",
+        "code": "HIL",
+        "constructorName": "Williams"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 9,
+      "slug": "hockenheim",
+      "raceName": "German Grand Prix",
+      "circuitId": "hockenheim",
+      "circuitName": "Hockenheim Circuit",
+      "country": "Germany",
+      "date": "1994-07-31",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "berger",
+        "name": "Gerhard Berger",
+        "code": "BER",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 10,
+      "slug": "budapest",
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "budapest",
+      "circuitName": "Budapest Circuit",
+      "country": "Hungary",
+      "date": "1994-08-14",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "michael_schumacher",
+        "name": "Michael Schumacher",
+        "code": "SCH",
+        "constructorName": "Benetton"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 11,
+      "slug": "spa",
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "circuitName": "Spa Circuit",
+      "country": "Belgium",
+      "date": "1994-08-28",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "damon_hill",
+        "name": "Damon Hill",
+        "code": "HIL",
+        "constructorName": "Williams"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 12,
+      "slug": "monza",
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "circuitName": "Monza Circuit",
+      "country": "Italy",
+      "date": "1994-09-11",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "damon_hill",
+        "name": "Damon Hill",
+        "code": "HIL",
+        "constructorName": "Williams"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 13,
+      "slug": "estoril",
+      "raceName": "Portuguese Grand Prix",
+      "circuitId": "estoril",
+      "circuitName": "Estoril Circuit",
+      "country": "Portugal",
+      "date": "1994-09-25",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "damon_hill",
+        "name": "Damon Hill",
+        "code": "HIL",
+        "constructorName": "Williams"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 14,
+      "slug": "jerez_de_la_frontera",
+      "raceName": "European Grand Prix",
+      "circuitId": "jerez_de_la_frontera",
+      "circuitName": "Jerez de la Frontera Circuit",
+      "country": "Spain",
+      "date": "1994-10-16",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "michael_schumacher",
+        "name": "Michael Schumacher",
+        "code": "SCH",
+        "constructorName": "Benetton"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 15,
+      "slug": "suzuka",
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "circuitName": "Suzuka Circuit",
+      "country": "Japan",
+      "date": "1994-11-06",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "damon_hill",
+        "name": "Damon Hill",
+        "code": "HIL",
+        "constructorName": "Williams"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 16,
+      "slug": "adelaide",
+      "raceName": "Australian Grand Prix",
+      "circuitId": "adelaide",
+      "circuitName": "Adelaide Circuit",
+      "country": "Australia",
+      "date": "1994-11-13",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "mansell",
+        "name": "Nigel Mansell",
+        "code": "MAN",
+        "constructorName": "Williams"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "year": 2024,
+  "round": 10,
+  "slug": "barcelona",
+  "raceName": "Spanish Grand Prix",
+  "circuit": {
+    "id": "catalunya",
+    "name": "Circuit de Barcelona-Catalunya",
+    "locality": "Barcelona",
+    "country": "Spain",
+    "lat": 41.57,
+    "long": 2.26111,
+    "turns": 15,
+    "lengthKm": 4.655,
+    "lapRecord": {
+      "time": "1:31.447",
+      "driver": "Pedro de la Rosa",
+      "year": "2005"
+    }
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2024-06-23T13:00:00Z",
+      "endIso": "2024-06-23T15:00:00.000Z",
+      "openF1SessionKey": 9539
+    }
+  },
+  "coverage": {
+    "Race": 98
+  }
+}

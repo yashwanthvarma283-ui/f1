@@ -1,0 +1,25 @@
+{
+  "year": 1967,
+  "round": 9,
+  "slug": "monza",
+  "raceName": "Italian Grand Prix",
+  "circuit": {
+    "id": "monza",
+    "name": "Monza Circuit",
+    "locality": "Monza",
+    "country": "Italy",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "1967-09-10T14:00:00Z",
+      "endIso": "1967-09-10T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

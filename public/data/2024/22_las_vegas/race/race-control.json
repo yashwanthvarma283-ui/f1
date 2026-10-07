@@ -1,0 +1,292 @@
+[
+  {
+    "id": "rc_0_0",
+    "timestamp": "2024-11-24T05:10:02",
+    "category": "Information",
+    "message": "PINK HEAD PADDING MATERIAL MUST BE USED",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_1",
+    "timestamp": "2024-11-24T05:20:01",
+    "category": "Flag",
+    "flag": "GREEN",
+    "message": "GREEN LIGHT - PIT EXIT OPEN",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_2",
+    "timestamp": "2024-11-24T05:30:01",
+    "category": "Information",
+    "message": "PIT EXIT CLOSED",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_3",
+    "timestamp": "2024-11-24T05:45:04",
+    "category": "Information",
+    "message": "RISK OF RAIN FOR F1 RACE IS 0%",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_4",
+    "timestamp": "2024-11-24T05:57:03",
+    "category": "Information",
+    "message": "DRS DISABLED",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_5",
+    "timestamp": "2024-11-24T06:03:40",
+    "category": "Flag",
+    "flag": "GREEN",
+    "message": "GREEN LIGHT - PIT EXIT OPEN",
+    "driverNumber": null,
+    "lapNumber": 1
+  },
+  {
+    "id": "rc_0_6",
+    "timestamp": "2024-11-24T06:05:25",
+    "category": "Information",
+    "message": "DRS ENABLED",
+    "driverNumber": null,
+    "lapNumber": 2
+  },
+  {
+    "id": "rc_0_7",
+    "timestamp": "2024-11-24T06:07:21",
+    "category": "Information",
+    "message": "TURN 8 INCIDENT INVOLVING CARS 24 (ZHO) AND 30 (LAW) NOTED - LEAVING THE TRACK AND GAINING AN ADVANTAGE",
+    "driverNumber": null,
+    "lapNumber": 3
+  },
+  {
+    "id": "rc_0_8",
+    "timestamp": "2024-11-24T06:08:31",
+    "category": "Information",
+    "message": "TURN 14 INCIDENT INVOLVING CARS 30 (LAW) AND 20 (MAG) NOTED",
+    "driverNumber": null,
+    "lapNumber": 3
+  },
+  {
+    "id": "rc_0_9",
+    "timestamp": "2024-11-24T06:09:01",
+    "category": "Investigation",
+    "message": "FIA STEWARDS: TURN 8 INCIDENT INVOLVING CARS 24 (ZHO) AND 30 (LAW) REVIEWED NO FURTHER INVESTIGATION - LEAVING THE TRACK AND GAINING AN ADVANTAGE",
+    "driverNumber": null,
+    "lapNumber": 4
+  },
+  {
+    "id": "rc_0_10",
+    "timestamp": "2024-11-24T06:10:11",
+    "category": "Investigation",
+    "message": "FIA STEWARDS: TURN 14 INCIDENT INVOLVING CARS 30 (LAW) AND 20 (MAG) REVIEWED NO FURTHER INVESTIGATION",
+    "driverNumber": null,
+    "lapNumber": 4
+  },
+  {
+    "id": "rc_0_11",
+    "timestamp": "2024-11-24T06:11:03",
+    "category": "Information",
+    "message": "INCIDENT INVOLVING CAR 81 (PIA) NOTED - FALSE START",
+    "driverNumber": null,
+    "lapNumber": 5
+  },
+  {
+    "id": "rc_0_12",
+    "timestamp": "2024-11-24T06:14:10",
+    "category": "Investigation",
+    "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 81 (PIA) UNDER INVESTIGATION - FALSE START",
+    "driverNumber": null,
+    "lapNumber": 7
+  },
+  {
+    "id": "rc_0_13",
+    "timestamp": "2024-11-24T06:19:12",
+    "category": "Penalty",
+    "message": "FIA STEWARDS: 5 SECOND TIME PENALTY FOR CAR 81 (PIA) - FALSE START",
+    "driverNumber": null,
+    "lapNumber": 10
+  },
+  {
+    "id": "rc_0_14",
+    "timestamp": "2024-11-24T06:24:01",
+    "category": "Information",
+    "message": "CAR 18 (STR) TIME 2:09.226 DELETED - TRACK LIMITS AT TURN 8 LAP 10 22:20:07",
+    "driverNumber": null,
+    "lapNumber": 13
+  },
+  {
+    "id": "rc_0_15",
+    "timestamp": "2024-11-24T06:27:48",
+    "category": "Information",
+    "message": "CAR 81 (PIA) TIME 2:01.018 DELETED - TRACK LIMITS AT TURN 8 LAP 11 22:21:33",
+    "driverNumber": null,
+    "lapNumber": 15
+  },
+  {
+    "id": "rc_0_16",
+    "timestamp": "2024-11-24T06:31:17",
+    "category": "Information",
+    "message": "CAR 27 (HUL) TIME 1:55.523 DELETED - TRACK LIMITS AT TURN 8 LAP 15 22:28:12",
+    "driverNumber": null,
+    "lapNumber": 17
+  },
+  {
+    "id": "rc_0_17",
+    "timestamp": "2024-11-24T06:48:02",
+    "category": "Information",
+    "message": "CAR 1 (VER) TIME 1:38.362 DELETED - TRACK LIMITS AT TURN 8 LAP 26 22:45:49",
+    "driverNumber": null,
+    "lapNumber": 27
+  },
+  {
+    "id": "rc_0_18",
+    "timestamp": "2024-11-24T06:49:57",
+    "category": "Information",
+    "message": "CAR 55 (SAI) TIME 1:41.611 DELETED - TRACK LIMITS AT TURN 17 LAP 27 22:48:32",
+    "driverNumber": null,
+    "lapNumber": 29
+  },
+  {
+    "id": "rc_0_19",
+    "timestamp": "2024-11-24T06:50:23",
+    "category": "Information",
+    "message": "CAR 55 (SAI) LAP DELETED - TRACK LIMITS AT TURN 17 (NEXT LAP PIT)",
+    "driverNumber": null,
+    "lapNumber": 29
+  },
+  {
+    "id": "rc_0_20",
+    "timestamp": "2024-11-24T06:52:37",
+    "category": "Information",
+    "message": "TURN 3 INCIDENT INVOLVING CARS 30 (LAW) AND 31 (OCO) NOTED - CAUSING A COLLISION",
+    "driverNumber": null,
+    "lapNumber": 30
+  },
+  {
+    "id": "rc_0_21",
+    "timestamp": "2024-11-24T06:54:00",
+    "category": "Investigation",
+    "message": "FIA STEWARDS: TURN 3 INCIDENT INVOLVING CARS 30 (LAW) AND 31 (OCO) REVIEWED NO FURTHER INVESTIGATION - CAUSING A COLLISION",
+    "driverNumber": null,
+    "lapNumber": 31
+  },
+  {
+    "id": "rc_0_22",
+    "timestamp": "2024-11-24T07:09:20",
+    "category": "Information",
+    "message": "CAR 18 (STR) TIME 1:38.027 DELETED - TRACK LIMITS AT TURN 8 LAP 39 23:08:14",
+    "driverNumber": null,
+    "lapNumber": 40
+  },
+  {
+    "id": "rc_0_23",
+    "timestamp": "2024-11-24T07:09:31",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 23:09:30",
+    "driverNumber": null,
+    "lapNumber": 40
+  },
+  {
+    "id": "rc_0_24",
+    "timestamp": "2024-11-24T07:09:45",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 23:09:45",
+    "driverNumber": null,
+    "lapNumber": 41
+  },
+  {
+    "id": "rc_0_25",
+    "timestamp": "2024-11-24T07:13:23",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 23:13:22",
+    "driverNumber": null,
+    "lapNumber": 43
+  },
+  {
+    "id": "rc_0_26",
+    "timestamp": "2024-11-24T07:13:38",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 23:13:38",
+    "driverNumber": null,
+    "lapNumber": 43
+  },
+  {
+    "id": "rc_0_27",
+    "timestamp": "2024-11-24T07:21:02",
+    "category": "Information",
+    "message": "CAR 44 (HAM) TIME 1:37.086 DELETED - TRACK LIMITS AT TURN 8 LAP 47 23:19:59",
+    "driverNumber": null,
+    "lapNumber": 48
+  },
+  {
+    "id": "rc_0_28",
+    "timestamp": "2024-11-24T07:25:46",
+    "category": "Flag",
+    "flag": "CHEQUERED",
+    "message": "CHEQUERED FLAG",
+    "driverNumber": null,
+    "lapNumber": 50
+  },
+  {
+    "id": "rc_0_29",
+    "timestamp": "2024-11-24T07:25:48",
+    "category": "Flag",
+    "flag": "BLUE",
+    "message": "WAVED BLUE FLAG FOR CAR 77 (BOT) TIMED AT 23:25:47",
+    "driverNumber": null,
+    "lapNumber": 50
+  },
+  {
+    "id": "rc_0_30",
+    "timestamp": "2024-11-24T07:26:07",
+    "category": "Information",
+    "message": "CAR 16 (LEC) TIME 1:37.218 DELETED - TRACK LIMITS AT TURN 8 LAP 50 23:24:59",
+    "driverNumber": null,
+    "lapNumber": 50
+  },
+  {
+    "id": "rc_0_31",
+    "timestamp": "2024-11-24T07:29:25",
+    "category": "Flag",
+    "flag": "YELLOW",
+    "message": "YELLOW IN TRACK SECTOR 6",
+    "driverNumber": null,
+    "lapNumber": 50
+  },
+  {
+    "id": "rc_0_32",
+    "timestamp": "2024-11-24T07:29:26",
+    "category": "Information",
+    "message": "DRS DISABLED IN ZONE 1",
+    "driverNumber": null,
+    "lapNumber": 50
+  },
+  {
+    "id": "rc_0_33",
+    "timestamp": "2024-11-24T07:30:35",
+    "category": "Information",
+    "message": "DRS ENABLED IN ZONE 1",
+    "driverNumber": null,
+    "lapNumber": 50
+  },
+  {
+    "id": "rc_0_34",
+    "timestamp": "2024-11-24T07:30:35",
+    "category": "Flag",
+    "flag": "CLEAR",
+    "message": "CLEAR IN TRACK SECTOR 6",
+    "driverNumber": null,
+    "lapNumber": 50
+  }
+]

@@ -1,0 +1,344 @@
+{
+  "year": 1987,
+  "totalRaces": 16,
+  "extractedRaces": 16,
+  "lastUpdated": "2026-10-07T16:01:28.281489+00:00",
+  "races": [
+    {
+      "round": 1,
+      "slug": "rio_de_janeiro",
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "rio_de_janeiro",
+      "circuitName": "Rio de Janeiro Circuit",
+      "country": "Brazil",
+      "date": "1987-04-12",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "prost",
+        "name": "Alain Prost",
+        "code": "PRO",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 2,
+      "slug": "imola",
+      "raceName": "San Marino Grand Prix",
+      "circuitId": "imola",
+      "circuitName": "Imola Circuit",
+      "country": "Italy",
+      "date": "1987-05-03",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "mansell",
+        "name": "Nigel Mansell",
+        "code": "MAN",
+        "constructorName": "Williams"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 3,
+      "slug": "spa",
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "circuitName": "Spa Circuit",
+      "country": "Belgium",
+      "date": "1987-05-17",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "prost",
+        "name": "Alain Prost",
+        "code": "PRO",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 4,
+      "slug": "monte_carlo",
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monte_carlo",
+      "circuitName": "Monte Carlo Circuit",
+      "country": "Monaco",
+      "date": "1987-05-31",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "senna",
+        "name": "Ayrton Senna",
+        "code": "SEN",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 5,
+      "slug": "detroit",
+      "raceName": "Detroit Grand Prix",
+      "circuitId": "detroit",
+      "circuitName": "Detroit Circuit",
+      "country": "USA",
+      "date": "1987-06-21",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "senna",
+        "name": "Ayrton Senna",
+        "code": "SEN",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 6,
+      "slug": "le_castellet",
+      "raceName": "French Grand Prix",
+      "circuitId": "le_castellet",
+      "circuitName": "Le Castellet Circuit",
+      "country": "France",
+      "date": "1987-07-05",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "mansell",
+        "name": "Nigel Mansell",
+        "code": "MAN",
+        "constructorName": "Williams"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 7,
+      "slug": "silverstone",
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "circuitName": "Silverstone Circuit",
+      "country": "UK",
+      "date": "1987-07-12",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "mansell",
+        "name": "Nigel Mansell",
+        "code": "MAN",
+        "constructorName": "Williams"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 8,
+      "slug": "hockenheim",
+      "raceName": "German Grand Prix",
+      "circuitId": "hockenheim",
+      "circuitName": "Hockenheim Circuit",
+      "country": "Germany",
+      "date": "1987-07-26",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "piquet",
+        "name": "Nelson Piquet",
+        "code": "PIQ",
+        "constructorName": "Williams"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 9,
+      "slug": "budapest",
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "budapest",
+      "circuitName": "Budapest Circuit",
+      "country": "Hungary",
+      "date": "1987-08-09",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "piquet",
+        "name": "Nelson Piquet",
+        "code": "PIQ",
+        "constructorName": "Williams"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 10,
+      "slug": "spielberg",
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "spielberg",
+      "circuitName": "Spielberg Circuit",
+      "country": "Austria",
+      "date": "1987-08-16",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "mansell",
+        "name": "Nigel Mansell",
+        "code": "MAN",
+        "constructorName": "Williams"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 11,
+      "slug": "monza",
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "circuitName": "Monza Circuit",
+      "country": "Italy",
+      "date": "1987-09-06",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "piquet",
+        "name": "Nelson Piquet",
+        "code": "PIQ",
+        "constructorName": "Williams"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 12,
+      "slug": "estoril",
+      "raceName": "Portuguese Grand Prix",
+      "circuitId": "estoril",
+      "circuitName": "Estoril Circuit",
+      "country": "Portugal",
+      "date": "1987-09-20",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "prost",
+        "name": "Alain Prost",
+        "code": "PRO",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 13,
+      "slug": "jerez_de_la_frontera",
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "jerez_de_la_frontera",
+      "circuitName": "Jerez de la Frontera Circuit",
+      "country": "Spain",
+      "date": "1987-09-27",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "mansell",
+        "name": "Nigel Mansell",
+        "code": "MAN",
+        "constructorName": "Williams"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 14,
+      "slug": "mexico_city",
+      "raceName": "Mexican Grand Prix",
+      "circuitId": "mexico_city",
+      "circuitName": "Mexico City Circuit",
+      "country": "Mexico",
+      "date": "1987-10-18",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "mansell",
+        "name": "Nigel Mansell",
+        "code": "MAN",
+        "constructorName": "Williams"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 15,
+      "slug": "suzuka",
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "circuitName": "Suzuka Circuit",
+      "country": "Japan",
+      "date": "1987-11-01",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "berger",
+        "name": "Gerhard Berger",
+        "code": "BER",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 16,
+      "slug": "adelaide",
+      "raceName": "Australian Grand Prix",
+      "circuitId": "adelaide",
+      "circuitName": "Adelaide Circuit",
+      "country": "Australia",
+      "date": "1987-11-15",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "berger",
+        "name": "Gerhard Berger",
+        "code": "BER",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    }
+  ]
+}

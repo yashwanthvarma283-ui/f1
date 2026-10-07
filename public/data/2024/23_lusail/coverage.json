@@ -1,0 +1,22 @@
+{
+  "raceName": "Qatar Grand Prix",
+  "year": 2024,
+  "round": 23,
+  "generatedAt": "2026-10-07T13:52:52.887Z",
+  "disagreements": [],
+  "sessions": {
+    "Race": {
+      "sessionKey": 9655,
+      "driversCount": 20,
+      "lapsCount": 943,
+      "stintsAvailable": true,
+      "pitStopsCount": 61,
+      "radioClipsCount": 169,
+      "radioMappedPercentage": 82,
+      "raceControlMessagesCount": 113,
+      "raceControlMappedPercentage": 100,
+      "weatherCount": 151,
+      "overallCompletenessPercent": 98
+    }
+  }
+}

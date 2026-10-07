@@ -1,0 +1,31 @@
+{
+  "year": 2024,
+  "round": 1,
+  "slug": "sakhir",
+  "raceName": "Bahrain Grand Prix",
+  "circuit": {
+    "id": "bahrain",
+    "name": "Bahrain International Circuit",
+    "locality": "Sakhir",
+    "country": "Bahrain",
+    "lat": 26.0325,
+    "long": 50.5106,
+    "turns": 15,
+    "lengthKm": 5.412,
+    "lapRecord": {
+      "time": "1:31.447",
+      "driver": "Pedro de la Rosa",
+      "year": "2005"
+    }
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2024-03-02T15:00:00Z",
+      "endIso": "2024-03-02T17:00:00.000Z",
+      "openF1SessionKey": 9472
+    }
+  },
+  "coverage": {
+    "Race": 98
+  }
+}

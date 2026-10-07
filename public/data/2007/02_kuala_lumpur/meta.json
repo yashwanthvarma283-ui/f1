@@ -1,0 +1,25 @@
+{
+  "year": 2007,
+  "round": 2,
+  "slug": "kuala_lumpur",
+  "raceName": "Malaysian Grand Prix",
+  "circuit": {
+    "id": "kuala_lumpur",
+    "name": "Kuala Lumpur Circuit",
+    "locality": "Kuala Lumpur",
+    "country": "Malaysia",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "2007-04-08T14:00:00Z",
+      "endIso": "2007-04-08T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

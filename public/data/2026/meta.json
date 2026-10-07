@@ -1,0 +1,376 @@
+{
+  "year": 2026,
+  "totalRaces": 23,
+  "extractedRaces": 0,
+  "lastUpdated": "2026-10-07T15:59:41.638118+00:00",
+  "races": [
+    {
+      "round": 1,
+      "slug": "melbourne",
+      "raceName": "Australian Grand Prix",
+      "circuitId": "melbourne",
+      "circuitName": "Melbourne Circuit",
+      "country": "Australia",
+      "date": "2026-03-08",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 2,
+      "slug": "shanghai",
+      "raceName": "Chinese Grand Prix",
+      "circuitId": "shanghai",
+      "circuitName": "Shanghai Circuit",
+      "country": "China",
+      "date": "2026-03-15",
+      "hasSprint": true,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 3,
+      "slug": "suzuka",
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "circuitName": "Suzuka Circuit",
+      "country": "Japan",
+      "date": "2026-03-29",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 4,
+      "slug": "miami_gardens",
+      "raceName": "Miami Grand Prix",
+      "circuitId": "miami_gardens",
+      "circuitName": "Miami Gardens Circuit",
+      "country": "United States",
+      "date": "2026-05-03",
+      "hasSprint": true,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 5,
+      "slug": "montr_al",
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "montr_al",
+      "circuitName": "Montr\u00e9al Circuit",
+      "country": "Canada",
+      "date": "2026-05-24",
+      "hasSprint": true,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 6,
+      "slug": "monte_carlo",
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monte_carlo",
+      "circuitName": "Monte Carlo Circuit",
+      "country": "Monaco",
+      "date": "2026-06-07",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 7,
+      "slug": "barcelona",
+      "raceName": "Barcelona Grand Prix",
+      "circuitId": "barcelona",
+      "circuitName": "Barcelona Circuit",
+      "country": "Spain",
+      "date": "2026-06-14",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 8,
+      "slug": "spielberg",
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "spielberg",
+      "circuitName": "Spielberg Circuit",
+      "country": "Austria",
+      "date": "2026-06-28",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 9,
+      "slug": "silverstone",
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "circuitName": "Silverstone Circuit",
+      "country": "United Kingdom",
+      "date": "2026-07-05",
+      "hasSprint": true,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 10,
+      "slug": "spa_francorchamps",
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa_francorchamps",
+      "circuitName": "Spa-Francorchamps Circuit",
+      "country": "Belgium",
+      "date": "2026-07-19",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 11,
+      "slug": "budapest",
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "budapest",
+      "circuitName": "Budapest Circuit",
+      "country": "Hungary",
+      "date": "2026-07-26",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 12,
+      "slug": "zandvoort",
+      "raceName": "Dutch Grand Prix",
+      "circuitId": "zandvoort",
+      "circuitName": "Zandvoort Circuit",
+      "country": "Netherlands",
+      "date": "2026-08-23",
+      "hasSprint": true,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 13,
+      "slug": "monza",
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "circuitName": "Monza Circuit",
+      "country": "Italy",
+      "date": "2026-09-06",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 14,
+      "slug": "madrid",
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "madrid",
+      "circuitName": "Madrid Circuit",
+      "country": "Spain",
+      "date": "2026-09-13",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 15,
+      "slug": "baku",
+      "raceName": "Azerbaijan Grand Prix",
+      "circuitId": "baku",
+      "circuitName": "Baku Circuit",
+      "country": "Azerbaijan",
+      "date": "2026-09-26",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 16,
+      "slug": "kuala_lumpur",
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "kuala_lumpur",
+      "circuitName": "Kuala Lumpur Circuit",
+      "country": "Bahrain",
+      "date": "2026-10-04",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 17,
+      "slug": "marina_bay",
+      "raceName": "Singapore Grand Prix",
+      "circuitId": "marina_bay",
+      "circuitName": "Marina Bay Circuit",
+      "country": "Singapore",
+      "date": "2026-10-11",
+      "hasSprint": true,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 18,
+      "slug": "austin",
+      "raceName": "United States Grand Prix",
+      "circuitId": "austin",
+      "circuitName": "Austin Circuit",
+      "country": "United States",
+      "date": "2026-10-25",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 19,
+      "slug": "mexico_city",
+      "raceName": "Mexico City Grand Prix",
+      "circuitId": "mexico_city",
+      "circuitName": "Mexico City Circuit",
+      "country": "Mexico",
+      "date": "2026-11-01",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 20,
+      "slug": "s_o_paulo",
+      "raceName": "S\u00e3o Paulo Grand Prix",
+      "circuitId": "s_o_paulo",
+      "circuitName": "S\u00e3o Paulo Circuit",
+      "country": "Brazil",
+      "date": "2026-11-08",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 21,
+      "slug": "las_vegas",
+      "raceName": "Las Vegas Grand Prix",
+      "circuitId": "las_vegas",
+      "circuitName": "Las Vegas Circuit",
+      "country": "United States",
+      "date": "2026-11-21",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 22,
+      "slug": "lusail",
+      "raceName": "Qatar Grand Prix",
+      "circuitId": "lusail",
+      "circuitName": "Lusail Circuit",
+      "country": "Qatar",
+      "date": "2026-11-29",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 23,
+      "slug": "yas_marina",
+      "raceName": "Abu Dhabi Grand Prix",
+      "circuitId": "yas_marina",
+      "circuitName": "Yas Marina Circuit",
+      "country": "United Arab Emirates",
+      "date": "2026-12-06",
+      "hasSprint": false,
+      "isCompleted": false,
+      "winner": null,
+      "coverageScore": 0,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    }
+  ]
+}

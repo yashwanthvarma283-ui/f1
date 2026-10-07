@@ -1,0 +1,73 @@
+{
+  "raceName": "São Paulo Grand Prix",
+  "year": 2024,
+  "round": 21,
+  "generatedAt": "2026-10-07T13:04:40.972Z",
+  "sessions": {
+    "Race": {
+      "sessionKey": 9636,
+      "driversCount": 20,
+      "lapsCount": 1137,
+      "stintsAvailable": true,
+      "pitStopsCount": 35,
+      "radioClipsCount": 61,
+      "radioMappedPercentage": 77,
+      "raceControlMessagesCount": 111,
+      "raceControlMappedPercentage": 100,
+      "weatherCount": 201,
+      "overallCompletenessPercent": 98
+    },
+    "Qualifying": {
+      "sessionKey": 9627,
+      "driversCount": 20,
+      "lapsCount": 425,
+      "stintsAvailable": false,
+      "pitStopsCount": 0,
+      "radioClipsCount": 0,
+      "radioMappedPercentage": 100,
+      "raceControlMessagesCount": 0,
+      "raceControlMappedPercentage": 100,
+      "weatherCount": 0,
+      "overallCompletenessPercent": 90
+    },
+    "Sprint": {
+      "sessionKey": 9635,
+      "driversCount": 20,
+      "lapsCount": 479,
+      "stintsAvailable": false,
+      "pitStopsCount": 0,
+      "radioClipsCount": 0,
+      "radioMappedPercentage": 100,
+      "raceControlMessagesCount": 0,
+      "raceControlMappedPercentage": 100,
+      "weatherCount": 0,
+      "overallCompletenessPercent": 90
+    },
+    "Sprint Qualifying": {
+      "sessionKey": 9631,
+      "driversCount": 20,
+      "lapsCount": 221,
+      "stintsAvailable": false,
+      "pitStopsCount": 0,
+      "radioClipsCount": 0,
+      "radioMappedPercentage": 100,
+      "raceControlMessagesCount": 0,
+      "raceControlMappedPercentage": 100,
+      "weatherCount": 0,
+      "overallCompletenessPercent": 90
+    },
+    "FP1": {
+      "sessionKey": 9626,
+      "driversCount": 20,
+      "lapsCount": 559,
+      "stintsAvailable": false,
+      "pitStopsCount": 0,
+      "radioClipsCount": 0,
+      "radioMappedPercentage": 100,
+      "raceControlMessagesCount": 0,
+      "raceControlMappedPercentage": 100,
+      "weatherCount": 0,
+      "overallCompletenessPercent": 90
+    }
+  }
+}

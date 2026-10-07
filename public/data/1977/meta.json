@@ -1,0 +1,365 @@
+{
+  "year": 1977,
+  "totalRaces": 17,
+  "extractedRaces": 17,
+  "lastUpdated": "2026-10-07T16:01:55.452878+00:00",
+  "races": [
+    {
+      "round": 1,
+      "slug": "buenos_aires",
+      "raceName": "Argentine Grand Prix",
+      "circuitId": "buenos_aires",
+      "circuitName": "Buenos Aires Circuit",
+      "country": "Argentina",
+      "date": "1977-01-09",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "scheckter",
+        "name": "Jody Scheckter",
+        "code": "SCH",
+        "constructorName": "Wolf"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 2,
+      "slug": "s_o_paulo",
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "s_o_paulo",
+      "circuitName": "S\u00e3o Paulo Circuit",
+      "country": "Brazil",
+      "date": "1977-01-23",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "reutemann",
+        "name": "Carlos Reutemann",
+        "code": "REU",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 3,
+      "slug": "midrand",
+      "raceName": "South African Grand Prix",
+      "circuitId": "midrand",
+      "circuitName": "Midrand Circuit",
+      "country": "South Africa",
+      "date": "1977-03-05",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "lauda",
+        "name": "Niki Lauda",
+        "code": "LAU",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 4,
+      "slug": "california",
+      "raceName": "United States Grand Prix West",
+      "circuitId": "california",
+      "circuitName": "California Circuit",
+      "country": "USA",
+      "date": "1977-04-03",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "mario_andretti",
+        "name": "Mario Andretti",
+        "code": "AND",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 5,
+      "slug": "madrid",
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "madrid",
+      "circuitName": "Madrid Circuit",
+      "country": "Spain",
+      "date": "1977-05-08",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "mario_andretti",
+        "name": "Mario Andretti",
+        "code": "AND",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 6,
+      "slug": "monte_carlo",
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monte_carlo",
+      "circuitName": "Monte Carlo Circuit",
+      "country": "Monaco",
+      "date": "1977-05-22",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "scheckter",
+        "name": "Jody Scheckter",
+        "code": "SCH",
+        "constructorName": "Wolf"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 7,
+      "slug": "heusden_zolder",
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "heusden_zolder",
+      "circuitName": "Heusden-Zolder Circuit",
+      "country": "Belgium",
+      "date": "1977-06-05",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "nilsson",
+        "name": "Gunnar Nilsson",
+        "code": "NIL",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 8,
+      "slug": "anderstorp",
+      "raceName": "Swedish Grand Prix",
+      "circuitId": "anderstorp",
+      "circuitName": "Anderstorp Circuit",
+      "country": "Sweden",
+      "date": "1977-06-19",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "laffite",
+        "name": "Jacques Laffite",
+        "code": "LAF",
+        "constructorName": "Ligier"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 9,
+      "slug": "dijon",
+      "raceName": "French Grand Prix",
+      "circuitId": "dijon",
+      "circuitName": "Dijon Circuit",
+      "country": "France",
+      "date": "1977-07-03",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "mario_andretti",
+        "name": "Mario Andretti",
+        "code": "AND",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 10,
+      "slug": "silverstone",
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "circuitName": "Silverstone Circuit",
+      "country": "UK",
+      "date": "1977-07-16",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hunt",
+        "name": "James Hunt",
+        "code": "HUN",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 11,
+      "slug": "hockenheim",
+      "raceName": "German Grand Prix",
+      "circuitId": "hockenheim",
+      "circuitName": "Hockenheim Circuit",
+      "country": "Germany",
+      "date": "1977-07-31",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "lauda",
+        "name": "Niki Lauda",
+        "code": "LAU",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 12,
+      "slug": "spielberg",
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "spielberg",
+      "circuitName": "Spielberg Circuit",
+      "country": "Austria",
+      "date": "1977-08-14",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "jones",
+        "name": "Alan Jones",
+        "code": "JON",
+        "constructorName": "Shadow"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 13,
+      "slug": "zandvoort",
+      "raceName": "Dutch Grand Prix",
+      "circuitId": "zandvoort",
+      "circuitName": "Zandvoort Circuit",
+      "country": "Netherlands",
+      "date": "1977-08-28",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "lauda",
+        "name": "Niki Lauda",
+        "code": "LAU",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 14,
+      "slug": "monza",
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "circuitName": "Monza Circuit",
+      "country": "Italy",
+      "date": "1977-09-11",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "mario_andretti",
+        "name": "Mario Andretti",
+        "code": "AND",
+        "constructorName": "Team Lotus"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 15,
+      "slug": "new_york_state",
+      "raceName": "United States Grand Prix",
+      "circuitId": "new_york_state",
+      "circuitName": "New York State Circuit",
+      "country": "USA",
+      "date": "1977-10-02",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hunt",
+        "name": "James Hunt",
+        "code": "HUN",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 16,
+      "slug": "ontario",
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "ontario",
+      "circuitName": "Ontario Circuit",
+      "country": "Canada",
+      "date": "1977-10-09",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "scheckter",
+        "name": "Jody Scheckter",
+        "code": "SCH",
+        "constructorName": "Wolf"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    },
+    {
+      "round": 17,
+      "slug": "oyama",
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "oyama",
+      "circuitName": "Oyama Circuit",
+      "country": "Japan",
+      "date": "1977-10-23",
+      "hasSprint": false,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hunt",
+        "name": "James Hunt",
+        "code": "HUN",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
+      "sessionsAvailable": [
+        "Race"
+      ]
+    }
+  ]
+}

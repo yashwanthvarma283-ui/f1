@@ -1,0 +1,191 @@
+import {
+  SeasonMeta,
+  RaceDetailMeta,
+  RaceCoverageReport,
+  LapData,
+  StintData,
+  PitStopData,
+  WeatherSnapshot,
+  TeamRadioClip,
+  RaceControlMessage,
+  LapFeedEntry,
+  LapPositionSnapshot,
+  OvertakeEvent,
+  DriverTyreLapState,
+  DriverRaceSummaryStats,
+  DriverSessionInfo,
+} from '@/types/data'
+import { jolpicaClient } from './jolpicaClient'
+
+class StaticDataClient {
+  private cache = new Map<string, any>()
+
+  private async fetchJson<T>(url: string): Promise<T | null> {
+    if (this.cache.has(url)) {
+      return this.cache.get(url) as T
+    }
+
+    try {
+      const res = await fetch(url)
+      if (!res.ok) {
+        if (res.status === 404) return null
+        throw new Error(`HTTP ${res.status} fetching ${url}`)
+      }
+      const data = (await res.json()) as T
+      this.cache.set(url, data)
+      return data
+    } catch {
+      return null
+    }
+  }
+
+  /**
+   * Get Season Meta (all races with winner, date, status, score)
+   */
+  async getSeasonMeta(year: number): Promise<SeasonMeta | null> {
+    const staticData = await this.fetchJson<SeasonMeta>(`/data/${year}/meta.json`)
+    if (staticData) return staticData
+
+    // Fallback to Jolpica if static file not yet extracted
+    try {
+      const schedule = await jolpicaClient.getSchedule(String(year))
+      const raceList = schedule?.races || []
+      if (raceList.length === 0) return null
+
+      return {
+        year,
+        totalRaces: raceList.length,
+        extractedRaces: 0,
+        lastUpdated: new Date().toISOString(),
+        races: raceList.map((r: any) => ({
+          round: parseInt(r.round, 10),
+          slug: (r.Circuit.Location.locality || r.raceName).toLowerCase().replace(/[^a-z0-9]/g, '_'),
+          raceName: r.raceName,
+          circuitId: r.Circuit.circuitId,
+          circuitName: r.Circuit.circuitName,
+          country: r.Circuit.Location.country,
+          date: r.date,
+          hasSprint: !!r.Sprint,
+          isCompleted: new Date(r.date).getTime() < Date.now(),
+          coverageScore: 0,
+          sessionsAvailable: [],
+        })),
+      }
+    } catch {
+      return null
+    }
+  }
+
+  /**
+   * Resolve any round number, slug or composite ID into the exact folder name
+   */
+  async resolveRoundFolder(year: number, roundOrSlug: string | number): Promise<string> {
+    const raw = String(roundOrSlug).trim()
+    // Strip year prefix if present like 2024-01-sakhir or 2024_1
+    const stripped = raw.replace(/^(\d{4})[-_]/, '')
+    const normalized = stripped.toLowerCase().replace(/-/g, '_')
+
+    if (/^\d{2}_[a-z0-9_]+$/.test(normalized)) {
+      return normalized
+    }
+
+    const seasonMeta = await this.getSeasonMeta(year)
+    if (seasonMeta) {
+      const match = seasonMeta.races.find(r => 
+        String(r.round) === raw ||
+        String(r.round) === stripped ||
+        r.slug.toLowerCase() === normalized ||
+        `${String(r.round).padStart(2, '0')}_${r.slug}` === normalized ||
+        `${r.round}_${r.slug}` === normalized ||
+        r.circuitId.toLowerCase() === normalized
+      )
+      if (match) {
+        return `${String(match.round).padStart(2, '0')}_${match.slug}`
+      }
+    }
+
+    const roundNum = parseInt(raw.replace(/\D/g, ''), 10)
+    if (!isNaN(roundNum) && roundNum > 0) {
+      return `${String(roundNum).padStart(2, '0')}_${normalized}`
+    }
+    return normalized
+  }
+
+  /**
+   * Get Race Detail Meta (circuit facts, schedule, lat/long)
+   */
+  async getRaceMeta(year: number, roundSlug: string | number): Promise<RaceDetailMeta | null> {
+    const folder = await this.resolveRoundFolder(year, roundSlug)
+    return this.fetchJson<RaceDetailMeta>(`/data/${year}/${folder}/meta.json`)
+  }
+
+  /**
+   * Get Coverage Validation Report
+   */
+  async getRaceCoverage(year: number, roundSlug: string | number): Promise<RaceCoverageReport | null> {
+    const folder = await this.resolveRoundFolder(year, roundSlug)
+    return this.fetchJson<RaceCoverageReport>(`/data/${year}/${folder}/coverage.json`)
+  }
+
+  /**
+   * Get full session dataset bundle
+   */
+  async getSessionDataset(year: number, roundSlug: string | number, session = 'race') {
+    const folder = await this.resolveRoundFolder(year, roundSlug)
+    const basePath = `/data/${year}/${folder}/${session}`
+
+    const [
+      results,
+      drivers,
+      laps,
+      positionsByLap,
+      gapsByLap,
+      overtakes,
+      stints,
+      pitstops,
+      tyreDegradation,
+      driverStats,
+      radio,
+      raceControl,
+      weather,
+      lapFeed,
+    ] = await Promise.all([
+      this.fetchJson<any[]>(`${basePath}/results.json`),
+      this.fetchJson<DriverSessionInfo[]>(`${basePath}/drivers.json`),
+      this.fetchJson<LapData[]>(`${basePath}/laps.json`),
+      this.fetchJson<LapPositionSnapshot[]>(`${basePath}/positions-by-lap.json`),
+      this.fetchJson<any[]>(`${basePath}/gaps-by-lap.json`),
+      this.fetchJson<OvertakeEvent[]>(`${basePath}/overtakes.json`),
+      this.fetchJson<StintData[]>(`${basePath}/stints.json`),
+      this.fetchJson<PitStopData[]>(`${basePath}/pitstops.json`),
+      this.fetchJson<DriverTyreLapState[]>(`${basePath}/tyre-degradation.json`),
+      this.fetchJson<DriverRaceSummaryStats[]>(`${basePath}/driver-stats.json`),
+      this.fetchJson<TeamRadioClip[]>(`${basePath}/radio.json`),
+      this.fetchJson<RaceControlMessage[]>(`${basePath}/race-control.json`),
+      this.fetchJson<WeatherSnapshot[]>(`${basePath}/weather.json`),
+      this.fetchJson<LapFeedEntry[]>(`${basePath}/lap-feed.json`),
+    ])
+
+    const isAvailable = Boolean(laps && laps.length > 0)
+
+    return {
+      isAvailable,
+      results: results || [],
+      drivers: drivers || [],
+      laps: laps || [],
+      positionsByLap: positionsByLap || [],
+      gapsByLap: gapsByLap || [],
+      overtakes: overtakes || [],
+      stints: stints || [],
+      pitstops: pitstops || [],
+      tyreDegradation: tyreDegradation || [],
+      driverStats: driverStats || [],
+      radio: radio || [],
+      raceControl: raceControl || [],
+      weather: weather || [],
+      lapFeed: lapFeed || [],
+    }
+  }
+}
+
+export const staticDataClient = new StaticDataClient()

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230B0B0F'/%3E%3Cpath d='M6 8h11a5 5 0 0 1 0 10H11v6H6V8zm5 4v2h6a1 1 0 0 0 0-2h-6z' fill='%23E10600'/%3E%3Ccircle cx='23' cy='22' r='2' fill='%23E10600'/%3E%3C/svg%3E" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="PitWall - Personal F1 fan command center with live session countdown, telemetry standings, and season calendar." />
+    <meta name="view-transition" content="same-origin" />
+    <title>PitWall | F1 Fan Hub & Live Telemetry</title>
+    
+    <!-- Pre-paint Flash Prevention: detect & apply theme before first paint -->
+    <script>
+      (function() {
+        try {
+          var key = 'pitwall_theme_mode';
+          var stored = localStorage.getItem(key);
+          var theme = null;
+          if (stored) {
+            try { theme = JSON.parse(stored); } catch(e) { theme = stored; }
+          }
+          if (theme !== 'dark' && theme !== 'light') {
+            theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark';
+          }
+          if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch(e) {}
+      })();
+    </script>
+
+    <!-- F1 Typography: Barlow Condensed, Barlow, Titillium Web, JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;0,900;1,700&family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600;700;800&family=Titillium+Web:wght@600;700;900&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[var(--bg)] text-[var(--text)] antialiased selection:bg-[var(--accent)] selection:text-white min-h-[100dvh]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

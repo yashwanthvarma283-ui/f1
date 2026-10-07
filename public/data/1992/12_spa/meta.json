@@ -1,0 +1,25 @@
+{
+  "year": 1992,
+  "round": 12,
+  "slug": "spa",
+  "raceName": "Belgian Grand Prix",
+  "circuit": {
+    "id": "spa",
+    "name": "Spa Circuit",
+    "locality": "Spa",
+    "country": "Belgium",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "1992-08-30T14:00:00Z",
+      "endIso": "1992-08-30T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}

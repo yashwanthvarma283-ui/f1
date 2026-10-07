@@ -1,0 +1,25 @@
+{
+  "year": 1984,
+  "round": 15,
+  "slug": "n_rburg",
+  "raceName": "European Grand Prix",
+  "circuit": {
+    "id": "n_rburg",
+    "name": "N\u00fcrburg Circuit",
+    "locality": "N\u00fcrburg",
+    "country": "Germany",
+    "lat": 0.0,
+    "long": 0.0,
+    "turns": 16,
+    "lengthKm": 5.2
+  },
+  "schedule": {
+    "Race": {
+      "startIso": "1984-10-07T14:00:00Z",
+      "endIso": "1984-10-07T16:00:00Z"
+    }
+  },
+  "coverage": {
+    "Race": 100
+  }
+}
