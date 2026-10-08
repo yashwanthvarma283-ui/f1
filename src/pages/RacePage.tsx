@@ -13,6 +13,7 @@ import { PacePositionsTab } from '@/features/race/PacePositionsTab'
 import { TeamRadioTab } from '@/features/race/TeamRadioTab'
 import { CommentaryTab } from '@/features/race/CommentaryTab'
 import { UpcomingRaceView } from '@/features/race/UpcomingRaceView'
+import { F1InsightsView } from '@/features/race/F1InsightsView'
 import { Skeleton } from '@/components/ui/Skeleton'
 
 export const RacePage: React.FC = () => {
@@ -125,7 +126,10 @@ export const RacePage: React.FC = () => {
                   overtakes={dataset.overtakes}
                   driverStats={dataset.driverStats}
                   isHistoricalArchive={dataset.isHistoricalArchive}
+                  circuitId={metaQuery.data?.circuit?.id}
+                  circuitName={metaQuery.data?.circuit?.name}
                   onOpenReplay={() => setActiveTab('replay')}
+                  onOpenInsights={() => setActiveTab('insights')}
                 />
               )}
 
@@ -143,6 +147,30 @@ export const RacePage: React.FC = () => {
                   raceControl={dataset.raceControl}
                   stints={dataset.stints}
                   driverStats={dataset.driverStats}
+                  pitstops={dataset.pitstops}
+                  tyreDegradation={dataset.tyreDegradation}
+                />
+              )}
+
+              {activeTab === 'insights' && (
+                <F1InsightsView
+                  currentLap={dataset.laps?.length ? Math.min(25, Math.max(...dataset.laps.map((l) => l.lapNumber))) : 25}
+                  totalLaps={dataset.results?.length ? Math.max(...dataset.results.map((r) => r.laps || 57)) : 57}
+                  selectedDriver={dataset.results[0]?.driverCode || dataset.drivers[0]?.nameAcronym || 'VER'}
+                  drivers={dataset.drivers}
+                  results={dataset.results}
+                  laps={dataset.laps}
+                  positionsByLap={dataset.positionsByLap}
+                  gapsByLap={dataset.gapsByLap}
+                  stints={dataset.stints}
+                  pitstops={dataset.pitstops}
+                  tyreDegradation={dataset.tyreDegradation}
+                  driverStats={dataset.driverStats}
+                  raceControl={dataset.raceControl}
+                  weather={dataset.weather}
+                  circuitId={metaQuery.data?.circuit?.id}
+                  circuitName={metaQuery.data?.circuit?.name}
+                  isEmbedded={true}
                 />
               )}
 

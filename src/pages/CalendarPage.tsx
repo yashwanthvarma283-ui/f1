@@ -22,6 +22,7 @@ import { staticDataClient } from '@/api/staticDataClient'
 import { useTimezone } from '@/context/TimezoneContext'
 import { CountryFlag } from '@/lib/flags'
 import { getTeamMeta } from '@/lib/teams'
+import { getCircuitInfo } from '@/lib/circuits'
 import { TimezoneSelector } from '@/components/timezone/TimezoneSelector'
 import { Badge } from '@/components/ui/Badge'
 import { Button } from '@/components/ui/Button'
@@ -474,6 +475,33 @@ export const CalendarPage: React.FC = () => {
                         </div>
                       </div>
                     </div>
+
+                    {/* Circuit Track SVG Silhouette */}
+                    {(() => {
+                      const cInfo = getCircuitInfo(race.circuitId, race.circuitName)
+                      return (
+                        <div className="mt-3 py-1 px-3 flex items-center justify-between h-14 bg-[var(--surface-2)]/60 rounded-xl border border-[var(--border)]/40 overflow-hidden relative group-hover:border-[var(--accent)]/30 transition-colors">
+                          <svg
+                            viewBox={cInfo.viewBox || '0 0 500 350'}
+                            className="h-full w-24 text-[var(--accent)]/70 group-hover:text-[var(--accent)] transition-colors py-0.5"
+                            preserveAspectRatio="xMidYMid meet"
+                          >
+                            <path
+                              d={cInfo.path}
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth="11"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            />
+                          </svg>
+                          <div className="flex flex-col items-end text-right font-mono text-[10px] text-[var(--text-muted)]">
+                            <span className="font-bold text-[var(--text)]">{cInfo.turns} TURNS</span>
+                            <span className="text-[9px]">{cInfo.lengthKm}</span>
+                          </div>
+                        </div>
+                      )
+                    })()}
                   </div>
 
                   {/* Weekend Date & Timezone */}

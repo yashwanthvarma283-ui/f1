@@ -38,6 +38,8 @@ import {
   RaceControlMessage,
   StintData,
   DriverRaceSummaryStats,
+  PitStopData,
+  DriverTyreLapState,
 } from '@/types/data'
 import { getRealCircuitGeometry, RealCircuitGeometry } from '@/lib/circuits'
 import { ChampionshipOverlays } from './ChampionshipOverlays'
@@ -58,6 +60,8 @@ interface RaceReplayViewProps {
   raceControl?: RaceControlMessage[]
   stints?: StintData[]
   driverStats?: DriverRaceSummaryStats[]
+  pitstops?: PitStopData[]
+  tyreDegradation?: DriverTyreLapState[]
 }
 
 // Exactly matching reference Python application PLAYBACK_SPEEDS
@@ -70,12 +74,14 @@ export const RaceReplayView: React.FC<RaceReplayViewProps> = ({
   sessionType = 'Race',
   results,
   drivers,
-  laps: _laps,
+  laps = [],
   positionsByLap,
   weather,
   raceControl = [],
   stints = [],
-  driverStats: _driverStats = [],
+  driverStats = [],
+  pitstops = [],
+  tyreDegradation = [],
 }) => {
   // Extract real FastF1 GPS geometry
   const realGeometry: RealCircuitGeometry = useMemo(() => {
@@ -1779,11 +1785,16 @@ export const RaceReplayView: React.FC<RaceReplayViewProps> = ({
         onSelectDriver={(code) => setSelectedDriver(code)}
         drivers={drivers}
         results={results}
+        laps={laps}
+        positionsByLap={positionsByLap}
+        stints={stints}
+        pitstops={pitstops}
+        tyreDegradation={tyreDegradation}
+        driverStats={driverStats}
+        raceControl={raceControl}
+        weather={weather}
         circuitId={circuitId}
         circuitName={circuitName}
-        stints={stints}
-        raceControl={raceControl}
-        carTelemetry={selectedDriverTelemetry}
       />
 
       {/* Settings Modal (Toggleable with 'S' or Settings button) */}

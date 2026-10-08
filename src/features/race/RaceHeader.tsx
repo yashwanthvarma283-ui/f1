@@ -14,6 +14,7 @@ import {
   Users,
   MessageSquare,
   BarChart3,
+  Zap,
 } from 'lucide-react'
 import { CountryFlag } from '@/lib/flags'
 import { Badge } from '@/components/ui/Badge'
@@ -24,6 +25,7 @@ import { RaceDetailMeta, RaceCoverageReport } from '@/types/data'
 export type RaceTabId =
   | 'overview'
   | 'replay'
+  | 'insights'
   | 'lap-explorer'
   | 'tyres-strategy'
   | 'pace-positions'
@@ -48,6 +50,7 @@ interface RaceHeaderProps {
 export const RACE_TABS: { id: RaceTabId; label: string; icon: React.ReactNode }[] = [
   { id: 'overview', label: 'Overview', icon: <Activity className="w-4 h-4" /> },
   { id: 'replay', label: 'Race Replay', icon: <Play className="w-4 h-4 text-emerald-400" /> },
+  { id: 'insights', label: 'F1 Insights', icon: <Zap className="w-4 h-4 text-amber-400" /> },
   { id: 'lap-explorer', label: 'Lap Explorer', icon: <Sliders className="w-4 h-4" /> },
   { id: 'tyres-strategy', label: 'Tyres & Strategy', icon: <Layers className="w-4 h-4" /> },
   { id: 'pace-positions', label: 'Pace & Positions', icon: <BarChart3 className="w-4 h-4" /> },
