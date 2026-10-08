@@ -1,10 +1,11 @@
 import React, { useState, useMemo } from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams, useSearchParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { motion, AnimatePresence, useReducedMotion } from 'motion/react'
 import { staticDataClient } from '@/api/staticDataClient'
 import { RaceHeader, RaceTabId } from '@/features/race/RaceHeader'
 import { OverviewTab } from '@/features/race/OverviewTab'
+import { RaceReplayView } from '@/features/race/RaceReplayView'
 import { DriversTab } from '@/features/race/DriversTab'
 import { LapExplorer } from '@/features/race/LapExplorer'
 import { TyresStrategyTab } from '@/features/race/TyresStrategyTab'
@@ -16,10 +17,14 @@ import { Skeleton } from '@/components/ui/Skeleton'
 
 export const RacePage: React.FC = () => {
   const { id } = useParams<{ id: string }>()
+  const [searchParams] = useSearchParams()
   const shouldReduceMotion = useReducedMotion()
 
-  const [activeSession, setActiveSession] = useState<string>('Race')
-  const [activeTab, setActiveTab] = useState<RaceTabId>('overview')
+  const initialSession = searchParams.get('session') || 'Race'
+  const initialTab = (searchParams.get('tab') as RaceTabId) || 'overview'
+
+  const [activeSession, setActiveSession] = useState<string>(initialSession)
+  const [activeTab, setActiveTab] = useState<RaceTabId>(initialTab)
 
   // Parse year and round/slug from id param e.g. "2024-01-sakhir", "2024-1", "01_sakhir"
   const { year, roundOrSlug } = useMemo(() => {
@@ -120,6 +125,24 @@ export const RacePage: React.FC = () => {
                   overtakes={dataset.overtakes}
                   driverStats={dataset.driverStats}
                   isHistoricalArchive={dataset.isHistoricalArchive}
+                  onOpenReplay={() => setActiveTab('replay')}
+                />
+              )}
+
+              {activeTab === 'replay' && (
+                <RaceReplayView
+                  year={year}
+                  circuitId={metaQuery.data?.circuit?.id}
+                  circuitName={metaQuery.data?.circuit?.name}
+                  sessionType={activeSession}
+                  results={dataset.results}
+                  drivers={dataset.drivers}
+                  laps={dataset.laps}
+                  positionsByLap={dataset.positionsByLap}
+                  weather={dataset.weather}
+                  raceControl={dataset.raceControl}
+                  stints={dataset.stints}
+                  driverStats={dataset.driverStats}
                 />
               )}
 

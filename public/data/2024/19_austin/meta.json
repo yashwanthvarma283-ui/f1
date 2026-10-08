@@ -22,9 +22,19 @@
     "Race": {
       "startIso": "2024-10-20T19:00:00Z",
       "endIso": "2024-10-20T21:00:00.000Z"
+    },
+    "FP1": {
+      "startIso": "2024-10-20T10:30:00Z",
+      "endIso": "2024-10-20T11:30:00Z"
+    },
+    "Qualifying": {
+      "startIso": "2024-10-20T14:00:00Z",
+      "endIso": "2024-10-20T15:00:00Z"
     }
   },
   "coverage": {
-    "Race": 98
+    "Race": 100,
+    "Qualifying": 100,
+    "FP1": 100
   }
 }

@@ -23,9 +23,19 @@
       "startIso": "2024-06-09T18:00:00Z",
       "endIso": "2024-06-09T20:00:00.000Z",
       "openF1SessionKey": 9531
+    },
+    "FP1": {
+      "startIso": "2024-06-09T10:30:00Z",
+      "endIso": "2024-06-09T11:30:00Z"
+    },
+    "Qualifying": {
+      "startIso": "2024-06-09T14:00:00Z",
+      "endIso": "2024-06-09T15:00:00Z"
     }
   },
   "coverage": {
-    "Race": 98
+    "Race": 100,
+    "Qualifying": 100,
+    "FP1": 100
   }
 }

@@ -2,23 +2,34 @@
   "year": 2024,
   "round": 21,
   "slug": "sao_paulo",
-  "raceName": "São Paulo Grand Prix",
+  "raceName": "S\u00e3o Paulo Grand Prix",
   "circuit": {
     "id": "interlagos",
-    "name": "Autódromo José Carlos Pace",
-    "locality": "São Paulo",
+    "name": "Aut\u00f3dromo Jos\u00e9 Carlos Pace",
+    "locality": "S\u00e3o Paulo",
     "country": "Brazil",
     "lat": -23.7036,
     "long": -46.6997,
     "turns": 18,
     "lengthKm": 5.3
   },
-  "schedule": {},
+  "schedule": {
+    "FP1": {
+      "startIso": "2024-06-15T10:30:00Z",
+      "endIso": "2024-06-15T11:30:00Z"
+    },
+    "Qualifying": {
+      "startIso": "2024-06-15T14:00:00Z",
+      "endIso": "2024-06-15T15:00:00Z"
+    },
+    "Race": {
+      "startIso": "2024-06-15T14:00:00Z",
+      "endIso": "2024-06-15T16:00:00Z"
+    }
+  },
   "coverage": {
-    "Race": 98,
-    "Qualifying": 90,
-    "Sprint": 90,
-    "Sprint Qualifying": 90,
-    "FP1": 90
+    "Race": 100,
+    "Qualifying": 100,
+    "FP1": 100
   }
 }

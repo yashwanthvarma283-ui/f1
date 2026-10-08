@@ -16,6 +16,7 @@ import {
   ChevronDown,
   ChevronUp,
   Sparkles,
+  Play,
 } from 'lucide-react'
 import { staticDataClient } from '@/api/staticDataClient'
 import { useTimezone } from '@/context/TimezoneContext'
@@ -462,9 +463,11 @@ export const CalendarPage: React.FC = () => {
                       </div>
 
                       <div className="min-w-0 flex-1">
-                        <h3 className="font-display font-black text-lg text-[var(--text)] uppercase tracking-tight leading-snug group-hover:text-[var(--accent)] transition-colors truncate">
-                          {race.raceName}
-                        </h3>
+                        <Link to={`${raceHref}?session=Race`} className="block group/title">
+                          <h3 className="font-display font-black text-lg text-[var(--text)] uppercase tracking-tight leading-snug group-hover/title:text-[var(--accent)] transition-colors truncate">
+                            {race.raceName}
+                          </h3>
+                        </Link>
                         <div className="flex items-center gap-1.5 text-xs text-[var(--text-muted)] mt-0.5 truncate">
                           <MapPin className="w-3.5 h-3.5 shrink-0 text-[var(--accent)]" />
                           <span className="truncate">{race.circuitName}</span>
@@ -538,22 +541,63 @@ export const CalendarPage: React.FC = () => {
                           className="overflow-hidden mt-2 pt-2 border-t border-[var(--border)]/60 space-y-1.5"
                         >
                           {expandedRaceMeta?.schedule ? (
-                            Object.entries(expandedRaceMeta.schedule).map(([sessionName, sessionData]) => (
-                              <div
-                                key={sessionName}
-                                className="flex items-center justify-between text-[11px] font-mono py-1 px-1.5 rounded bg-[var(--surface-2)]/40"
-                              >
-                                <span className="font-semibold text-[var(--text)]">{sessionName}</span>
-                                <span className="text-[var(--text-muted)]">
-                                  {formatDate(sessionData.startIso)} • {formatTime(sessionData.startIso)}
-                                </span>
-                              </div>
-                            ))
+                            Object.entries(expandedRaceMeta.schedule).map(([sessionName, sessionData]) => {
+                              const isRaceSession = sessionName.toLowerCase() === 'race'
+                              return (
+                                <Link
+                                  key={sessionName}
+                                  to={`${raceHref}?session=${encodeURIComponent(sessionName)}`}
+                                  className={`flex items-center justify-between text-[11px] font-mono py-1.5 px-2 rounded-lg transition-all group/sess ${
+                                    isRaceSession
+                                      ? 'bg-[var(--accent)]/15 border border-[var(--accent)]/50 text-[var(--accent)] hover:bg-[var(--accent)] hover:text-white font-bold shadow-xs'
+                                      : 'bg-[var(--surface-2)]/40 hover:bg-[var(--surface-2)] text-[var(--text)]'
+                                  }`}
+                                >
+                                  <div className="flex items-center gap-1.5">
+                                    {isRaceSession && <Play className="w-3 h-3 fill-current shrink-0 animate-pulse" />}
+                                    <span className="font-semibold">{sessionName}</span>
+                                    {isRaceSession && (
+                                      <span className="text-[9px] px-1 py-0.2 rounded bg-[var(--accent)]/20 text-[var(--accent)] group-hover/sess:bg-white/20 group-hover/sess:text-white uppercase font-mono">
+                                        Replay &amp; Data
+                                      </span>
+                                    )}
+                                  </div>
+                                  <span className="text-[10px] text-[var(--text-muted)] group-hover/sess:text-[var(--text)] transition-colors flex items-center gap-1">
+                                    <span>
+                                      {formatDate(sessionData.startIso)} • {formatTime(sessionData.startIso)}
+                                    </span>
+                                    <ChevronRight className="w-3 h-3 transition-transform group-hover/sess:translate-x-0.5" />
+                                  </span>
+                                </Link>
+                              )
+                            })
                           ) : (
-                            <div className="text-[11px] font-mono text-[var(--text-muted)] py-1 text-center">
-                              {race.hasSprint
-                                ? 'Sprint Format: FP1, Sprint Quali, Sprint, Quali, Race'
-                                : 'Standard Format: FP1, FP2, FP3, Quali, Race'}
+                            <div className="space-y-1">
+                              {['FP1', 'FP2', 'FP3', 'Qualifying', 'Race'].map((sess) => {
+                                const isRace = sess === 'Race'
+                                return (
+                                  <Link
+                                    key={sess}
+                                    to={`${raceHref}?session=${sess}`}
+                                    className={`flex items-center justify-between text-[11px] font-mono py-1.5 px-2 rounded-lg transition-all ${
+                                      isRace
+                                        ? 'bg-[var(--accent)]/15 border border-[var(--accent)]/50 text-[var(--accent)] hover:bg-[var(--accent)] hover:text-white font-bold'
+                                        : 'bg-[var(--surface-2)]/40 hover:bg-[var(--surface-2)] text-[var(--text)]'
+                                    }`}
+                                  >
+                                    <div className="flex items-center gap-1.5">
+                                      {isRace && <Play className="w-3 h-3 fill-current" />}
+                                      <span>{sess}</span>
+                                      {isRace && (
+                                        <span className="text-[9px] px-1 py-0.2 rounded bg-[var(--accent)]/20 uppercase">
+                                          Replay &amp; Telemetry
+                                        </span>
+                                      )}
+                                    </div>
+                                    <ChevronRight className="w-3 h-3" />
+                                  </Link>
+                                )
+                              })}
                             </div>
                           )}
                         </motion.div>
@@ -564,10 +608,13 @@ export const CalendarPage: React.FC = () => {
 
                 {/* Bottom Action Footer */}
                 <Link
-                  to={raceHref}
+                  to={`${raceHref}?session=Race`}
                   className="px-5 py-3 border-t border-[var(--border)] bg-[var(--surface-2)]/40 hover:bg-[var(--accent)] hover:text-white text-xs font-mono font-bold flex items-center justify-between transition-colors group-hover:bg-[var(--accent)] group-hover:text-white"
                 >
-                  <span>{race.isCompleted ? 'VIEW RACE TELEMETRY' : 'RACE WEEKEND HUB'}</span>
+                  <div className="flex items-center gap-2">
+                    <Play className="w-3.5 h-3.5 fill-current" />
+                    <span>VIEW RACE TELEMETRY &amp; REPLAY</span>
+                  </div>
                   <ChevronRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5" />
                 </Link>
               </motion.div>

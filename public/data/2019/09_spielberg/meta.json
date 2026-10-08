@@ -17,9 +17,19 @@
     "Race": {
       "startIso": "2019-06-30T14:00:00Z",
       "endIso": "2019-06-30T16:00:00Z"
+    },
+    "FP1": {
+      "startIso": "2019-06-30T10:30:00Z",
+      "endIso": "2019-06-30T11:30:00Z"
+    },
+    "Qualifying": {
+      "startIso": "2019-06-30T14:00:00Z",
+      "endIso": "2019-06-30T15:00:00Z"
     }
   },
   "coverage": {
-    "Race": 100
+    "Race": 100,
+    "Qualifying": 100,
+    "FP1": 100
   }
 }

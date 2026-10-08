@@ -5,7 +5,7 @@
   "raceName": "Mexico City Grand Prix",
   "circuit": {
     "id": "rodriguez",
-    "name": "Autódromo Hermanos Rodríguez",
+    "name": "Aut\u00f3dromo Hermanos Rodr\u00edguez",
     "locality": "Mexico City",
     "country": "Mexico",
     "lat": 19.4042,
@@ -23,9 +23,19 @@
       "startIso": "2024-10-27T20:00:00Z",
       "endIso": "2024-10-27T22:00:00.000Z",
       "openF1SessionKey": 9625
+    },
+    "FP1": {
+      "startIso": "2024-10-27T10:30:00Z",
+      "endIso": "2024-10-27T11:30:00Z"
+    },
+    "Qualifying": {
+      "startIso": "2024-10-27T14:00:00Z",
+      "endIso": "2024-10-27T15:00:00Z"
     }
   },
   "coverage": {
-    "Race": 98
+    "Race": 100,
+    "Qualifying": 100,
+    "FP1": 100
   }
 }

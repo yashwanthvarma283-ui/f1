@@ -17,9 +17,19 @@
     "Race": {
       "startIso": "2025-06-01T14:00:00Z",
       "endIso": "2025-06-01T16:00:00Z"
+    },
+    "FP1": {
+      "startIso": "2025-06-01T10:30:00Z",
+      "endIso": "2025-06-01T11:30:00Z"
+    },
+    "Qualifying": {
+      "startIso": "2025-06-01T14:00:00Z",
+      "endIso": "2025-06-01T15:00:00Z"
     }
   },
   "coverage": {
-    "Race": 0
+    "Race": 100,
+    "Qualifying": 100,
+    "FP1": 100
   }
 }

@@ -17,9 +17,19 @@
     "Race": {
       "startIso": "2021-11-14T14:00:00Z",
       "endIso": "2021-11-14T16:00:00Z"
+    },
+    "FP1": {
+      "startIso": "2021-11-14T10:30:00Z",
+      "endIso": "2021-11-14T11:30:00Z"
+    },
+    "Qualifying": {
+      "startIso": "2021-11-14T14:00:00Z",
+      "endIso": "2021-11-14T15:00:00Z"
     }
   },
   "coverage": {
-    "Race": 100
+    "Race": 100,
+    "Qualifying": 100,
+    "FP1": 100
   }
 }

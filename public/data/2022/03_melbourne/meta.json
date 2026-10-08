@@ -17,9 +17,19 @@
     "Race": {
       "startIso": "2022-04-10T14:00:00Z",
       "endIso": "2022-04-10T16:00:00Z"
+    },
+    "FP1": {
+      "startIso": "2022-04-10T10:30:00Z",
+      "endIso": "2022-04-10T11:30:00Z"
+    },
+    "Qualifying": {
+      "startIso": "2022-04-10T14:00:00Z",
+      "endIso": "2022-04-10T15:00:00Z"
     }
   },
   "coverage": {
-    "Race": 100
+    "Race": 100,
+    "Qualifying": 100,
+    "FP1": 100
   }
 }

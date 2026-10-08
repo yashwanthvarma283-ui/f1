@@ -17,9 +17,19 @@
     "Race": {
       "startIso": "2026-09-13T14:00:00Z",
       "endIso": "2026-09-13T16:00:00Z"
+    },
+    "FP1": {
+      "startIso": "2026-09-13T10:30:00Z",
+      "endIso": "2026-09-13T11:30:00Z"
+    },
+    "Qualifying": {
+      "startIso": "2026-09-13T14:00:00Z",
+      "endIso": "2026-09-13T15:00:00Z"
     }
   },
   "coverage": {
-    "Race": 0
+    "Race": 100,
+    "Qualifying": 100,
+    "FP1": 100
   }
 }

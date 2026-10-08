@@ -5,7 +5,7 @@ import {
   DriverStandingItem,
   ConstructorStandingItem,
 } from './types'
-import { sanitizeRaceName } from '@/lib/circuits'
+import { sanitizeRaceName } from '../lib/circuits'
 
 const BASE_URL = 'https://api.jolpi.ca/ergast/f1'
 

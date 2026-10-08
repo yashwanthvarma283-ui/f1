@@ -32,3 +32,8 @@ scripts/cache
 __pycache__/
 *.py[cod]
 *$py.class
+*.fastf1-cache
+.fastf1-cache/
+
+# Local Reference repositories
+F1-Reference/

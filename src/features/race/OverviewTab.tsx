@@ -12,6 +12,7 @@ import {
   Thermometer,
   Flag,
   AlertTriangle,
+  Play,
 } from 'lucide-react'
 import { getTeamMeta } from '@/lib/teams'
 import {
@@ -33,6 +34,7 @@ interface OverviewTabProps {
   overtakes: OvertakeEvent[]
   driverStats: DriverRaceSummaryStats[]
   isHistoricalArchive?: boolean
+  onOpenReplay?: () => void
 }
 
 function formatRaceTime(time: string | undefined | null, status: string | undefined, isWinner: boolean): string {
@@ -72,6 +74,7 @@ export const OverviewTab: React.FC<OverviewTabProps> = ({
   overtakes,
   driverStats,
   isHistoricalArchive = false,
+  onOpenReplay,
 }) => {
   const shouldReduceMotion = useReducedMotion()
 
@@ -175,6 +178,33 @@ export const OverviewTab: React.FC<OverviewTabProps> = ({
 
   return (
     <div className="space-y-8">
+      {/* 2D Race Replay Banner */}
+      <div className="relative overflow-hidden rounded-2xl border border-emerald-500/30 bg-gradient-to-r from-emerald-950/40 via-[var(--surface-1)] to-[var(--surface-2)] p-5 sm:p-6 shadow-xl flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div className="space-y-1 z-10">
+          <div className="flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
+            <span className="text-[10px] font-mono uppercase tracking-widest text-emerald-400 font-bold">
+              INTERACTIVE 2D REPLAY ENGINE
+            </span>
+          </div>
+          <h2 className="text-xl sm:text-2xl font-display font-black uppercase text-[var(--text)] tracking-tight">
+            Watch Full Race 2D Telemetry &amp; Replay
+          </h2>
+          <p className="text-xs font-mono text-[var(--text-muted)] max-w-xl">
+            Experience the entire Grand Prix with 20 animated cars, live sector timing, leaderboards, track status, weather metrics, and driver throttle/brake pedal telemetry.
+          </p>
+        </div>
+        {onOpenReplay && (
+          <button
+            onClick={onOpenReplay}
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-[var(--accent)] hover:opacity-90 text-white font-mono font-bold text-xs uppercase shadow-lg shadow-[var(--accent)]/20 transition-all shrink-0 z-10 cursor-pointer"
+          >
+            <Play className="w-4 h-4 fill-white" />
+            <span>Launch 2D Replay 🏁</span>
+          </button>
+        )}
+      </div>
+
       {/* 1. Podium Section */}
       {podium.length === 3 && (
         <div className="f1-card-accent p-6 sm:p-8 rounded-2xl border border-[var(--border)] bg-[var(--surface-1)]">

@@ -5,6 +5,7 @@
  * - Turn markers with coordinates, names, and sectors
  * - Sector 1 (Purple), Sector 2 (Green), Sector 3 (Yellow)
  */
+import circuitsGeometryRaw from '@/data/circuits_geometry.json'
 
 export interface TurnMarker {
   number: number
@@ -261,6 +262,467 @@ export const CIRCUITS: Record<string, CircuitInfo> = {
       { number: 15, x: 80, y: 220, name: 'Turn 15 - Final Hairpin', sector: 3 },
     ],
   },
+  melbourne: {
+    id: 'melbourne',
+    name: 'Albert Park Circuit',
+    location: 'Melbourne',
+    country: 'Australia',
+    turns: 14,
+    lengthKm: '5.278 km',
+    lapRecord: '1:19.813 (Charles Leclerc, 2024)',
+    viewBox: '0 0 500 350',
+    path: 'M 140 270 L 330 270 L 380 230 L 410 160 L 390 110 L 320 100 L 260 130 L 200 110 L 150 140 L 110 190 L 110 240 Z',
+    startFinishPoint: { x: 235, y: 270 },
+    turnsData: [
+      { number: 1, x: 330, y: 270, name: 'Turn 1 - Jones', sector: 1 },
+      { number: 3, x: 380, y: 230, name: 'Turn 3 - Sports Center', sector: 1 },
+      { number: 6, x: 390, y: 110, name: 'Turn 6', sector: 2 },
+      { number: 9, x: 260, y: 130, name: 'Turn 9/10 High Speed Chicane', sector: 2 },
+      { number: 11, x: 150, y: 140, name: 'Turn 11 - Waite', sector: 3 },
+      { number: 14, x: 110, y: 240, name: 'Turn 14 - Prost', sector: 3 },
+    ],
+  },
+  albert_park: {
+    id: 'albert_park',
+    name: 'Albert Park Circuit',
+    location: 'Melbourne',
+    country: 'Australia',
+    turns: 14,
+    lengthKm: '5.278 km',
+    lapRecord: '1:19.813 (Charles Leclerc, 2024)',
+    viewBox: '0 0 500 350',
+    path: 'M 140 270 L 330 270 L 380 230 L 410 160 L 390 110 L 320 100 L 260 130 L 200 110 L 150 140 L 110 190 L 110 240 Z',
+    startFinishPoint: { x: 235, y: 270 },
+    turnsData: [
+      { number: 1, x: 330, y: 270, name: 'Turn 1 - Jones', sector: 1 },
+      { number: 3, x: 380, y: 230, name: 'Turn 3', sector: 1 },
+      { number: 6, x: 390, y: 110, name: 'Turn 6', sector: 2 },
+      { number: 9, x: 260, y: 130, name: 'Turn 9/10 Chicane', sector: 2 },
+      { number: 11, x: 150, y: 140, name: 'Turn 11', sector: 3 },
+      { number: 14, x: 110, y: 240, name: 'Turn 14', sector: 3 },
+    ],
+  },
+  sakhir: {
+    id: 'sakhir',
+    name: 'Bahrain International Circuit',
+    location: 'Sakhir',
+    country: 'Bahrain',
+    turns: 15,
+    lengthKm: '5.412 km',
+    lapRecord: '1:31.447 (Pedro de la Rosa, 2005)',
+    viewBox: '0 0 500 350',
+    path: 'M 100 270 L 370 270 L 420 220 L 380 180 L 330 190 L 300 140 L 250 120 L 210 160 L 160 120 L 110 160 L 80 220 Z',
+    startFinishPoint: { x: 235, y: 270 },
+    turnsData: [
+      { number: 1, x: 370, y: 270, name: 'Turn 1 - Michael Schumacher', sector: 1 },
+      { number: 4, x: 420, y: 220, name: 'Turn 4', sector: 1 },
+      { number: 8, x: 330, y: 190, name: 'Turn 8 - Hairpin', sector: 2 },
+      { number: 10, x: 250, y: 120, name: 'Turn 10 - Tricky Braking', sector: 2 },
+      { number: 13, x: 160, y: 120, name: 'Turn 13', sector: 3 },
+      { number: 15, x: 80, y: 220, name: 'Turn 15', sector: 3 },
+    ],
+  },
+  bahrain: {
+    id: 'bahrain',
+    name: 'Bahrain International Circuit',
+    location: 'Sakhir',
+    country: 'Bahrain',
+    turns: 15,
+    lengthKm: '5.412 km',
+    lapRecord: '1:31.447 (Pedro de la Rosa, 2005)',
+    viewBox: '0 0 500 350',
+    path: 'M 100 270 L 370 270 L 420 220 L 380 180 L 330 190 L 300 140 L 250 120 L 210 160 L 160 120 L 110 160 L 80 220 Z',
+    startFinishPoint: { x: 235, y: 270 },
+    turnsData: [
+      { number: 1, x: 370, y: 270, name: 'Turn 1', sector: 1 },
+      { number: 4, x: 420, y: 220, name: 'Turn 4', sector: 1 },
+      { number: 8, x: 330, y: 190, name: 'Turn 8', sector: 2 },
+      { number: 10, x: 250, y: 120, name: 'Turn 10', sector: 2 },
+      { number: 13, x: 160, y: 120, name: 'Turn 13', sector: 3 },
+      { number: 15, x: 80, y: 220, name: 'Turn 15', sector: 3 },
+    ],
+  },
+  shanghai: {
+    id: 'shanghai',
+    name: 'Shanghai International Circuit',
+    location: 'Shanghai',
+    country: 'China',
+    turns: 16,
+    lengthKm: '5.451 km',
+    lapRecord: '1:32.238 (Michael Schumacher, 2004)',
+    viewBox: '0 0 500 350',
+    path: 'M 120 280 L 360 280 L 420 230 L 400 160 L 340 180 L 310 130 L 250 140 L 210 100 L 150 120 L 110 190 L 80 230 Z',
+    startFinishPoint: { x: 240, y: 280 },
+    turnsData: [
+      { number: 1, x: 360, y: 280, name: 'Turn 1 - Snail Curve', sector: 1 },
+      { number: 6, x: 400, y: 160, name: 'Turn 6 - Hairpin', sector: 1 },
+      { number: 9, x: 310, y: 130, name: 'Turn 9', sector: 2 },
+      { number: 13, x: 210, y: 100, name: 'Turn 13 - Banked Entry', sector: 2 },
+      { number: 14, x: 110, y: 190, name: 'Turn 14 - End of 1.2km Straight', sector: 3 },
+      { number: 16, x: 80, y: 230, name: 'Turn 16', sector: 3 },
+    ],
+  },
+  baku: {
+    id: 'baku',
+    name: 'Baku City Circuit',
+    location: 'Baku',
+    country: 'Azerbaijan',
+    turns: 20,
+    lengthKm: '6.003 km',
+    lapRecord: '1:43.009 (Charles Leclerc, 2019)',
+    viewBox: '0 0 500 350',
+    path: 'M 90 270 L 430 270 L 440 210 L 400 150 L 370 180 L 340 130 L 280 120 L 220 140 L 160 110 L 120 170 L 80 210 Z',
+    startFinishPoint: { x: 260, y: 270 },
+    turnsData: [
+      { number: 1, x: 430, y: 270, name: 'Turn 1 - 90 Degree Left', sector: 1 },
+      { number: 3, x: 440, y: 210, name: 'Turn 3', sector: 1 },
+      { number: 8, x: 340, y: 130, name: 'Turn 8 - Old City / Castle Section', sector: 2 },
+      { number: 12, x: 280, y: 120, name: 'Turn 12', sector: 2 },
+      { number: 16, x: 160, y: 110, name: 'Turn 16 - Promenade Entry', sector: 3 },
+      { number: 20, x: 80, y: 210, name: 'Turn 20 - 2.2km Flat Out Straight', sector: 3 },
+    ],
+  },
+  monaco: {
+    id: 'monaco',
+    name: 'Circuit de Monaco',
+    location: 'Monte Carlo',
+    country: 'Monaco',
+    turns: 19,
+    lengthKm: '3.337 km',
+    lapRecord: '1:12.909 (Lewis Hamilton, 2021)',
+    viewBox: '0 0 500 350',
+    path: 'M 130 260 L 300 270 L 360 230 L 410 170 L 380 120 L 320 110 L 270 140 L 230 110 L 170 130 L 120 170 L 90 210 Z',
+    startFinishPoint: { x: 215, y: 265 },
+    turnsData: [
+      { number: 1, x: 300, y: 270, name: 'Turn 1 - Sainte Dévote', sector: 1 },
+      { number: 3, x: 410, y: 170, name: 'Turn 3 - Massenet & Casino', sector: 1 },
+      { number: 6, x: 320, y: 110, name: 'Turn 6 - Fairmont Hairpin', sector: 2 },
+      { number: 8, x: 270, y: 140, name: 'Turn 8 - Portier', sector: 2 },
+      { number: 10, x: 230, y: 110, name: 'Turn 10 - Nouvelle Chicane', sector: 2 },
+      { number: 12, x: 170, y: 130, name: 'Turn 12 - Tabac', sector: 3 },
+      { number: 15, x: 120, y: 170, name: 'Turn 15 - Swimming Pool', sector: 3 },
+      { number: 18, x: 90, y: 210, name: 'Turn 18 - La Rascasse', sector: 3 },
+    ],
+  },
+  monte_carlo: {
+    id: 'monte_carlo',
+    name: 'Circuit de Monaco',
+    location: 'Monte Carlo',
+    country: 'Monaco',
+    turns: 19,
+    lengthKm: '3.337 km',
+    lapRecord: '1:12.909 (Lewis Hamilton, 2021)',
+    viewBox: '0 0 500 350',
+    path: 'M 130 260 L 300 270 L 360 230 L 410 170 L 380 120 L 320 110 L 270 140 L 230 110 L 170 130 L 120 170 L 90 210 Z',
+    startFinishPoint: { x: 215, y: 265 },
+    turnsData: [
+      { number: 1, x: 300, y: 270, name: 'Turn 1 - Sainte Dévote', sector: 1 },
+      { number: 6, x: 320, y: 110, name: 'Turn 6 - Fairmont Hairpin', sector: 2 },
+      { number: 15, x: 120, y: 170, name: 'Turn 15 - Swimming Pool', sector: 3 },
+    ],
+  },
+  barcelona: {
+    id: 'barcelona',
+    name: 'Circuit de Barcelona-Catalunya',
+    location: 'Montmeló',
+    country: 'Spain',
+    turns: 14,
+    lengthKm: '4.657 km',
+    lapRecord: '1:16.330 (Max Verstappen, 2023)',
+    viewBox: '0 0 500 350',
+    path: 'M 110 270 L 370 270 L 420 220 L 400 150 L 350 140 L 300 170 L 240 120 L 180 130 L 130 170 L 90 220 Z',
+    startFinishPoint: { x: 240, y: 270 },
+    turnsData: [
+      { number: 1, x: 370, y: 270, name: 'Turn 1 - Elf', sector: 1 },
+      { number: 3, x: 420, y: 220, name: 'Turn 3 - Renault Long Curve', sector: 1 },
+      { number: 5, x: 400, y: 150, name: 'Turn 5 - Seat Hairpin', sector: 2 },
+      { number: 9, x: 300, y: 170, name: 'Turn 9 - Campsa Crest', sector: 2 },
+      { number: 10, x: 240, y: 120, name: 'Turn 10 - Caixa Hairpin', sector: 3 },
+      { number: 14, x: 90, y: 220, name: 'Turn 14 - Fast Final Turn', sector: 3 },
+    ],
+  },
+  catalunya: {
+    id: 'catalunya',
+    name: 'Circuit de Barcelona-Catalunya',
+    location: 'Montmeló',
+    country: 'Spain',
+    turns: 14,
+    lengthKm: '4.657 km',
+    lapRecord: '1:16.330 (Max Verstappen, 2023)',
+    viewBox: '0 0 500 350',
+    path: 'M 110 270 L 370 270 L 420 220 L 400 150 L 350 140 L 300 170 L 240 120 L 180 130 L 130 170 L 90 220 Z',
+    startFinishPoint: { x: 240, y: 270 },
+    turnsData: [
+      { number: 1, x: 370, y: 270, name: 'Turn 1', sector: 1 },
+      { number: 5, x: 400, y: 150, name: 'Turn 5', sector: 2 },
+      { number: 14, x: 90, y: 220, name: 'Turn 14', sector: 3 },
+    ],
+  },
+  montreal: {
+    id: 'montreal',
+    name: 'Circuit Gilles-Villeneuve',
+    location: 'Montreal',
+    country: 'Canada',
+    turns: 14,
+    lengthKm: '4.361 km',
+    lapRecord: '1:13.078 (Valtteri Bottas, 2019)',
+    viewBox: '0 0 500 350',
+    path: 'M 90 260 L 410 260 L 430 200 L 380 160 L 340 190 L 290 140 L 220 160 L 160 110 L 110 150 L 80 200 Z',
+    startFinishPoint: { x: 250, y: 260 },
+    turnsData: [
+      { number: 1, x: 410, y: 260, name: 'Turn 1/2 - Senna S', sector: 1 },
+      { number: 6, x: 340, y: 190, name: 'Turn 6/7 Chicane', sector: 2 },
+      { number: 10, x: 220, y: 160, name: 'Turn 10 - Epingle Hairpin', sector: 2 },
+      { number: 13, x: 110, y: 150, name: 'Turn 13/14 - Wall of Champions', sector: 3 },
+    ],
+  },
+  villeneuve: {
+    id: 'villeneuve',
+    name: 'Circuit Gilles-Villeneuve',
+    location: 'Montreal',
+    country: 'Canada',
+    turns: 14,
+    lengthKm: '4.361 km',
+    lapRecord: '1:13.078 (Valtteri Bottas, 2019)',
+    viewBox: '0 0 500 350',
+    path: 'M 90 260 L 410 260 L 430 200 L 380 160 L 340 190 L 290 140 L 220 160 L 160 110 L 110 150 L 80 200 Z',
+    startFinishPoint: { x: 250, y: 260 },
+    turnsData: [
+      { number: 1, x: 410, y: 260, name: 'Turn 1/2', sector: 1 },
+      { number: 10, x: 220, y: 160, name: 'Turn 10 Hairpin', sector: 2 },
+      { number: 14, x: 80, y: 200, name: 'Wall of Champions', sector: 3 },
+    ],
+  },
+  spielberg: {
+    id: 'spielberg',
+    name: 'Red Bull Ring',
+    location: 'Spielberg',
+    country: 'Austria',
+    turns: 10,
+    lengthKm: '4.318 km',
+    lapRecord: '1:05.619 (Carlos Sainz, 2020)',
+    viewBox: '0 0 500 350',
+    path: 'M 130 270 L 390 270 L 430 210 L 380 120 L 300 130 L 240 160 L 180 150 L 110 200 Z',
+    startFinishPoint: { x: 260, y: 270 },
+    turnsData: [
+      { number: 1, x: 390, y: 270, name: 'Turn 1 - Niki Lauda Kurve', sector: 1 },
+      { number: 3, x: 430, y: 210, name: 'Turn 3 - Remus Hairpin', sector: 1 },
+      { number: 4, x: 380, y: 120, name: 'Turn 4 - Rauch', sector: 2 },
+      { number: 7, x: 240, y: 160, name: 'Turn 7 - Wurth', sector: 2 },
+      { number: 9, x: 180, y: 150, name: 'Turn 9 - Rindt Kurve', sector: 3 },
+      { number: 10, x: 110, y: 200, name: 'Turn 10 - Red Bull Mobile', sector: 3 },
+    ],
+  },
+  red_bull_ring: {
+    id: 'red_bull_ring',
+    name: 'Red Bull Ring',
+    location: 'Spielberg',
+    country: 'Austria',
+    turns: 10,
+    lengthKm: '4.318 km',
+    lapRecord: '1:05.619 (Carlos Sainz, 2020)',
+    viewBox: '0 0 500 350',
+    path: 'M 130 270 L 390 270 L 430 210 L 380 120 L 300 130 L 240 160 L 180 150 L 110 200 Z',
+    startFinishPoint: { x: 260, y: 270 },
+    turnsData: [
+      { number: 1, x: 390, y: 270, name: 'Turn 1', sector: 1 },
+      { number: 3, x: 430, y: 210, name: 'Turn 3', sector: 1 },
+      { number: 4, x: 380, y: 120, name: 'Turn 4', sector: 2 },
+      { number: 10, x: 110, y: 200, name: 'Turn 10', sector: 3 },
+    ],
+  },
+  spa: {
+    id: 'spa',
+    name: 'Circuit de Spa-Francorchamps',
+    location: 'Stavelot',
+    country: 'Belgium',
+    turns: 19,
+    lengthKm: '7.004 km',
+    lapRecord: '1:46.286 (Valtteri Bottas, 2018)',
+    viewBox: '0 0 500 350',
+    path: 'M 140 280 L 320 280 L 370 240 L 430 190 L 420 120 L 370 100 L 300 130 L 250 90 L 190 110 L 140 170 L 90 220 Z',
+    startFinishPoint: { x: 230, y: 280 },
+    turnsData: [
+      { number: 1, x: 320, y: 280, name: 'Turn 1 - La Source Hairpin', sector: 1 },
+      { number: 3, x: 370, y: 240, name: 'Turn 3/4 - Eau Rouge & Raidillon', sector: 1 },
+      { number: 5, x: 430, y: 190, name: 'Turn 5 - Kemmel Straight / Les Combes', sector: 1 },
+      { number: 8, x: 370, y: 100, name: 'Turn 8 - Bruxelles Hairpin', sector: 2 },
+      { number: 10, x: 300, y: 130, name: 'Turn 10/11 - Double Gauche Pouhon', sector: 2 },
+      { number: 14, x: 250, y: 90, name: 'Turn 14/15 - Campus & Stavelot', sector: 2 },
+      { number: 17, x: 190, y: 110, name: 'Turn 17 - Blanchimont Full Throttle', sector: 3 },
+      { number: 19, x: 90, y: 220, name: 'Turn 19 - Bus Stop Chicane', sector: 3 },
+    ],
+  },
+  spa_francorchamps: {
+    id: 'spa_francorchamps',
+    name: 'Circuit de Spa-Francorchamps',
+    location: 'Stavelot',
+    country: 'Belgium',
+    turns: 19,
+    lengthKm: '7.004 km',
+    lapRecord: '1:46.286 (Valtteri Bottas, 2018)',
+    viewBox: '0 0 500 350',
+    path: 'M 140 280 L 320 280 L 370 240 L 430 190 L 420 120 L 370 100 L 300 130 L 250 90 L 190 110 L 140 170 L 90 220 Z',
+    startFinishPoint: { x: 230, y: 280 },
+    turnsData: [
+      { number: 1, x: 320, y: 280, name: 'Turn 1 - La Source', sector: 1 },
+      { number: 4, x: 370, y: 240, name: 'Eau Rouge', sector: 1 },
+      { number: 10, x: 300, y: 130, name: 'Pouhon', sector: 2 },
+      { number: 19, x: 90, y: 220, name: 'Bus Stop Chicane', sector: 3 },
+    ],
+  },
+  budapest: {
+    id: 'budapest',
+    name: 'Hungaroring',
+    location: 'Budapest',
+    country: 'Hungary',
+    turns: 14,
+    lengthKm: '4.381 km',
+    lapRecord: '1:16.627 (Lewis Hamilton, 2020)',
+    viewBox: '0 0 500 350',
+    path: 'M 110 270 L 360 270 L 410 230 L 390 160 L 340 170 L 300 120 L 240 130 L 190 100 L 140 140 L 90 210 Z',
+    startFinishPoint: { x: 235, y: 270 },
+    turnsData: [
+      { number: 1, x: 360, y: 270, name: 'Turn 1 - Downhill Braking', sector: 1 },
+      { number: 4, x: 390, y: 160, name: 'Turn 4 - Blind Crest Sweep', sector: 1 },
+      { number: 6, x: 300, y: 120, name: 'Turn 6/7 Chicane', sector: 2 },
+      { number: 11, x: 190, y: 100, name: 'Turn 11 - Fast Right', sector: 2 },
+      { number: 14, x: 90, y: 210, name: 'Turn 14 - Pit Straight Entry', sector: 3 },
+    ],
+  },
+  hungaroring: {
+    id: 'hungaroring',
+    name: 'Hungaroring',
+    location: 'Budapest',
+    country: 'Hungary',
+    turns: 14,
+    lengthKm: '4.381 km',
+    lapRecord: '1:16.627 (Lewis Hamilton, 2020)',
+    viewBox: '0 0 500 350',
+    path: 'M 110 270 L 360 270 L 410 230 L 390 160 L 340 170 L 300 120 L 240 130 L 190 100 L 140 140 L 90 210 Z',
+    startFinishPoint: { x: 235, y: 270 },
+    turnsData: [
+      { number: 1, x: 360, y: 270, name: 'Turn 1', sector: 1 },
+      { number: 6, x: 300, y: 120, name: 'Turn 6', sector: 2 },
+      { number: 14, x: 90, y: 210, name: 'Turn 14', sector: 3 },
+    ],
+  },
+  zandvoort: {
+    id: 'zandvoort',
+    name: 'Circuit Zandvoort',
+    location: 'Zandvoort',
+    country: 'Netherlands',
+    turns: 14,
+    lengthKm: '4.259 km',
+    lapRecord: '1:11.097 (Lewis Hamilton, 2021)',
+    viewBox: '0 0 500 350',
+    path: 'M 100 270 L 370 270 L 420 220 L 400 160 L 350 140 L 310 180 L 260 130 L 200 120 L 150 160 L 90 210 Z',
+    startFinishPoint: { x: 235, y: 270 },
+    turnsData: [
+      { number: 1, x: 370, y: 270, name: 'Turn 1 - Tarzan Bocht', sector: 1 },
+      { number: 3, x: 420, y: 220, name: 'Turn 3 - Hugenholtz Banking', sector: 1 },
+      { number: 7, x: 350, y: 140, name: 'Turn 7 - Scheivlak Crest', sector: 2 },
+      { number: 10, x: 260, y: 130, name: 'Turn 10 - Hans Ernst Chicane', sector: 2 },
+      { number: 14, x: 90, y: 210, name: 'Turn 14 - Arie Luyendyk Banked Curve', sector: 3 },
+    ],
+  },
+  suzuka: {
+    id: 'suzuka',
+    name: 'Suzuka International Racing Course',
+    location: 'Suzuka',
+    country: 'Japan',
+    turns: 18,
+    lengthKm: '5.807 km',
+    lapRecord: '1:30.983 (Lewis Hamilton, 2019)',
+    viewBox: '0 0 500 350',
+    path: 'M 120 280 L 350 280 L 400 230 L 430 160 L 380 120 L 310 140 L 260 110 L 200 130 L 150 100 L 100 150 L 80 220 Z',
+    startFinishPoint: { x: 235, y: 280 },
+    turnsData: [
+      { number: 1, x: 350, y: 280, name: 'Turn 1/2 First Curve', sector: 1 },
+      { number: 3, x: 400, y: 230, name: 'Turn 3-6 Esses Complex', sector: 1 },
+      { number: 7, x: 430, y: 160, name: 'Turn 7 - Dunlop Curve', sector: 1 },
+      { number: 8, x: 380, y: 120, name: 'Turn 8/9 Degner Curves', sector: 2 },
+      { number: 11, x: 310, y: 140, name: 'Turn 11 - Hairpin', sector: 2 },
+      { number: 13, x: 260, y: 110, name: 'Turn 13/14 Spoon Curve', sector: 2 },
+      { number: 15, x: 150, y: 100, name: 'Turn 15 - 130R Iconic Sweeper', sector: 3 },
+      { number: 16, x: 80, y: 220, name: 'Turn 16-18 Casio Triangle', sector: 3 },
+    ],
+  },
+  jeddah: {
+    id: 'jeddah',
+    name: 'Jeddah Corniche Circuit',
+    location: 'Jeddah',
+    country: 'Saudi Arabia',
+    turns: 27,
+    lengthKm: '6.174 km',
+    lapRecord: '1:30.734 (Lewis Hamilton, 2021)',
+    viewBox: '0 0 500 350',
+    path: 'M 100 270 L 420 270 L 450 210 L 420 140 L 380 160 L 330 110 L 270 130 L 210 100 L 160 130 L 110 170 L 70 210 Z',
+    startFinishPoint: { x: 260, y: 270 },
+    turnsData: [
+      { number: 1, x: 420, y: 270, name: 'Turn 1/2 Chicane', sector: 1 },
+      { number: 13, x: 380, y: 160, name: 'Turn 13 - Banked Hairpin', sector: 2 },
+      { number: 22, x: 210, y: 100, name: 'Turn 22 High-Speed Chicane', sector: 3 },
+      { number: 27, x: 70, y: 210, name: 'Turn 27 - Final Corner', sector: 3 },
+    ],
+  },
+  miami: {
+    id: 'miami',
+    name: 'Miami International Autodrome',
+    location: 'Miami',
+    country: 'USA',
+    turns: 19,
+    lengthKm: '5.412 km',
+    lapRecord: '1:29.708 (Max Verstappen, 2023)',
+    viewBox: '0 0 500 350',
+    path: 'M 110 270 L 380 270 L 430 220 L 400 150 L 350 170 L 300 120 L 240 140 L 180 110 L 130 160 L 90 220 Z',
+    startFinishPoint: { x: 245, y: 270 },
+    turnsData: [
+      { number: 1, x: 380, y: 270, name: 'Turn 1', sector: 1 },
+      { number: 7, x: 400, y: 150, name: 'Turn 7/8 Marina Section', sector: 1 },
+      { number: 11, x: 300, y: 120, name: 'Turn 11-16 Overpass Chicane', sector: 2 },
+      { number: 17, x: 180, y: 110, name: 'Turn 17 - Hairpin', sector: 3 },
+      { number: 19, x: 90, y: 220, name: 'Turn 19', sector: 3 },
+    ],
+  },
+  miami_gardens: {
+    id: 'miami_gardens',
+    name: 'Miami International Autodrome',
+    location: 'Miami',
+    country: 'USA',
+    turns: 19,
+    lengthKm: '5.412 km',
+    lapRecord: '1:29.708 (Max Verstappen, 2023)',
+    viewBox: '0 0 500 350',
+    path: 'M 110 270 L 380 270 L 430 220 L 400 150 L 350 170 L 300 120 L 240 140 L 180 110 L 130 160 L 90 220 Z',
+    startFinishPoint: { x: 245, y: 270 },
+    turnsData: [
+      { number: 1, x: 380, y: 270, name: 'Turn 1', sector: 1 },
+      { number: 11, x: 300, y: 120, name: 'Turn 11-16 Chicane', sector: 2 },
+      { number: 17, x: 180, y: 110, name: 'Turn 17 Hairpin', sector: 3 },
+    ],
+  },
+  imola: {
+    id: 'imola',
+    name: 'Autodromo Internazionale Enzo e Dino Ferrari',
+    location: 'Imola',
+    country: 'Italy',
+    turns: 19,
+    lengthKm: '4.909 km',
+    lapRecord: '1:15.484 (Lewis Hamilton, 2020)',
+    viewBox: '0 0 500 350',
+    path: 'M 100 270 L 360 270 L 410 220 L 390 150 L 330 160 L 290 110 L 230 130 L 180 100 L 130 150 L 80 210 Z',
+    startFinishPoint: { x: 230, y: 270 },
+    turnsData: [
+      { number: 2, x: 360, y: 270, name: 'Turn 2/3 - Variante Tamburello', sector: 1 },
+      { number: 5, x: 410, y: 220, name: 'Turn 5/6 - Variante Villeneuve', sector: 1 },
+      { number: 7, x: 390, y: 150, name: 'Turn 7 - Tosa Hairpin', sector: 2 },
+      { number: 9, x: 330, y: 160, name: 'Turn 9 - Piratella Downhill', sector: 2 },
+      { number: 11, x: 290, y: 110, name: 'Turn 11/12 - Acque Minerali', sector: 2 },
+      { number: 14, x: 180, y: 100, name: 'Turn 14/15 - Variante Alta', sector: 3 },
+      { number: 17, x: 80, y: 210, name: 'Turn 17/18 - Rivazza', sector: 3 },
+    ],
+  },
 }
 
 /**
@@ -340,3 +802,221 @@ export function getCircuitInfo(circuitId?: string, circuitName?: string): Circui
     ],
   }
 }
+
+export interface RealCircuitGeometry {
+  id: string
+  event_name: string
+  circuit_name: string
+  rotation: number
+  viewBox: string
+  inner_boundary: [number, number][]
+  outer_boundary: [number, number][]
+  racing_line: [number, number][]
+  drs_zones: [number, number][][]
+  corners: {
+    number: number
+    x: number
+    y: number
+    angle?: number
+    name?: string
+  }[]
+  start_finish: {
+    inner: [number, number]
+    outer: [number, number]
+  }
+  lapRecordSeconds: number
+}
+
+export const LAP_RECORD_SECONDS: Record<string, number> = {
+  sakhir: 91.4,
+  jeddah: 89.0,
+  melbourne: 80.0,
+  suzuka: 89.0,
+  shanghai: 92.0,
+  miami: 89.5,
+  imola: 75.0,
+  monaco: 73.0,
+  montreal: 72.5,
+  barcelona: 72.0,
+  spielberg: 65.5,
+  silverstone: 87.0,
+  budapest: 76.5,
+  spa: 104.0,
+  zandvoort: 71.0,
+  monza: 81.0,
+  baku: 102.0,
+  marina_bay: 92.5,
+  austin: 96.0,
+  mexico_city: 78.0,
+  interlagos: 71.0,
+  las_vegas: 93.0,
+  lusail: 82.5,
+  yas_marina: 84.0,
+  portimao: 78.5,
+  sochi: 95.0,
+  mugello: 75.0,
+  nurburgring: 88.0,
+  istanbul: 85.0,
+  paul_ricard: 92.0,
+}
+
+const ALIAS_TO_CIRCUIT_ID: Record<string, string> = {
+  bahrain: 'sakhir',
+  sakhir: 'sakhir',
+  jeddah: 'jeddah',
+  saudi_arabia: 'jeddah',
+  albert_park: 'melbourne',
+  melbourne: 'melbourne',
+  australia: 'melbourne',
+  suzuka: 'suzuka',
+  japan: 'suzuka',
+  shanghai: 'shanghai',
+  china: 'shanghai',
+  miami: 'miami',
+  imola: 'imola',
+  emilia_romagna: 'imola',
+  monaco: 'monaco',
+  monte_carlo: 'monaco',
+  villeneuve: 'montreal',
+  montreal: 'montreal',
+  canada: 'montreal',
+  catalunya: 'barcelona',
+  barcelona: 'barcelona',
+  spain: 'barcelona',
+  red_bull_ring: 'spielberg',
+  spielberg: 'spielberg',
+  austria: 'spielberg',
+  styria: 'spielberg',
+  silverstone: 'silverstone',
+  great_britain: 'silverstone',
+  britain: 'silverstone',
+  hungaroring: 'budapest',
+  budapest: 'budapest',
+  hungary: 'budapest',
+  spa: 'spa',
+  spa_francorchamps: 'spa',
+  belgium: 'spa',
+  zandvoort: 'zandvoort',
+  netherlands: 'zandvoort',
+  dutch: 'zandvoort',
+  monza: 'monza',
+  italy: 'monza',
+  baku: 'baku',
+  azerbaijan: 'baku',
+  marina_bay: 'marina_bay',
+  singapore: 'marina_bay',
+  americas: 'austin',
+  austin: 'austin',
+  cota: 'austin',
+  usa: 'austin',
+  united_states: 'austin',
+  rodriguez: 'mexico_city',
+  mexico: 'mexico_city',
+  mexico_city: 'mexico_city',
+  hermanos_rodriguez: 'mexico_city',
+  interlagos: 'interlagos',
+  brazil: 'interlagos',
+  sao_paulo: 'interlagos',
+  jose_carlos_pace: 'interlagos',
+  las_vegas: 'las_vegas',
+  vegas: 'las_vegas',
+  losail: 'lusail',
+  lusail: 'lusail',
+  qatar: 'lusail',
+  yas_marina: 'yas_marina',
+  abu_dhabi: 'yas_marina',
+  portimao: 'portimao',
+  portugal: 'portimao',
+  sochi: 'sochi',
+  russia: 'sochi',
+  mugello: 'mugello',
+  tuscany: 'mugello',
+  nurburgring: 'nurburgring',
+  eifel: 'nurburgring',
+  istanbul: 'istanbul',
+  turkey: 'istanbul',
+  paul_ricard: 'paul_ricard',
+  france: 'paul_ricard',
+  le_castellet: 'paul_ricard',
+}
+
+/**
+ * Returns authentic GPS circuit geometry with inner/outer boundaries,
+ * DRS zones, corner turns, and checkered start/finish line.
+ */
+export function getRealCircuitGeometry(
+  circuitId?: string,
+  circuitName?: string
+): RealCircuitGeometry {
+  const geomMap = circuitsGeometryRaw as Record<string, any>
+  let targetKey: string | null = null
+
+  if (circuitId) {
+    const cleanId = circuitId.toLowerCase().trim()
+    if (geomMap[cleanId]) {
+      targetKey = cleanId
+    } else if (ALIAS_TO_CIRCUIT_ID[cleanId] && geomMap[ALIAS_TO_CIRCUIT_ID[cleanId]]) {
+      targetKey = ALIAS_TO_CIRCUIT_ID[cleanId]
+    }
+  }
+
+  if (!targetKey && circuitName) {
+    const cleanName = circuitName.toLowerCase()
+    for (const [alias, realId] of Object.entries(ALIAS_TO_CIRCUIT_ID)) {
+      if (cleanName.includes(alias) && geomMap[realId]) {
+        targetKey = realId
+        break
+      }
+    }
+  }
+
+  if (targetKey && geomMap[targetKey]) {
+    const item = geomMap[targetKey]
+    return {
+      id: item.id,
+      event_name: item.event_name,
+      circuit_name: item.circuit_name,
+      rotation: item.rotation || 0,
+      viewBox: item.viewBox || '0 0 1000 700',
+      inner_boundary: item.inner_boundary || [],
+      outer_boundary: item.outer_boundary || [],
+      racing_line: item.racing_line || [],
+      drs_zones: item.drs_zones || [],
+      corners: item.corners || [],
+      start_finish: item.start_finish || {
+        inner: item.inner_boundary[0] || [500, 350],
+        outer: item.outer_boundary[0] || [500, 360],
+      },
+      lapRecordSeconds: LAP_RECORD_SECONDS[targetKey] || 88.0,
+    }
+  }
+
+  // Graceful fallback: construct dual boundary geometry from fallback circuit info
+  const info = getCircuitInfo(circuitId, circuitName)
+  const fallbackKey = circuitId?.toLowerCase() || 'default'
+  const recordSec = LAP_RECORD_SECONDS[fallbackKey] || 88.0
+
+  return {
+    id: info.id,
+    event_name: info.name,
+    circuit_name: info.location,
+    rotation: 0,
+    viewBox: info.viewBox || '0 0 500 350',
+    inner_boundary: [],
+    outer_boundary: [],
+    racing_line: [],
+    drs_zones: [],
+    corners: info.turnsData.map((t) => ({
+      number: t.number,
+      x: t.x,
+      y: t.y,
+      name: t.name,
+    })),
+    start_finish: {
+      inner: [info.startFinishPoint.x - 5, info.startFinishPoint.y],
+      outer: [info.startFinishPoint.x + 5, info.startFinishPoint.y],
+    },
+    lapRecordSeconds: recordSec,
+  }
+}
+

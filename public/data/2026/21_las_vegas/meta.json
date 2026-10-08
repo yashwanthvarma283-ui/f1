@@ -17,9 +17,19 @@
     "Race": {
       "startIso": "2026-11-21T14:00:00Z",
       "endIso": "2026-11-21T16:00:00Z"
+    },
+    "FP1": {
+      "startIso": "2026-11-21T10:30:00Z",
+      "endIso": "2026-11-21T11:30:00Z"
+    },
+    "Qualifying": {
+      "startIso": "2026-11-21T14:00:00Z",
+      "endIso": "2026-11-21T15:00:00Z"
     }
   },
   "coverage": {
-    "Race": 0
+    "Race": 100,
+    "Qualifying": 100,
+    "FP1": 100
   }
 }

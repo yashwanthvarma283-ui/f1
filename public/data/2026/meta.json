@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "totalRaces": 23,
-  "extractedRaces": 0,
+  "extractedRaces": 23,
   "lastUpdated": "2026-10-07T15:59:41.638118+00:00",
   "races": [
     {
@@ -13,10 +13,19 @@
       "country": "Australia",
       "date": "2026-03-08",
       "hasSprint": false,
-      "isCompleted": false,
-      "winner": null,
-      "coverageScore": 0,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "leclerc",
+        "name": "Charles Leclerc",
+        "code": "LEC",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
       "sessionsAvailable": [
+        "FP1",
+        "FP2",
+        "FP3",
+        "Qualifying",
         "Race"
       ]
     },
@@ -29,10 +38,19 @@
       "country": "China",
       "date": "2026-03-15",
       "hasSprint": true,
-      "isCompleted": false,
-      "winner": null,
-      "coverageScore": 0,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "piastri",
+        "name": "Oscar Piastri",
+        "code": "PIA",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
       "sessionsAvailable": [
+        "FP1",
+        "Sprint Qualifying",
+        "Sprint",
+        "Qualifying",
         "Race"
       ]
     },
@@ -45,10 +63,19 @@
       "country": "Japan",
       "date": "2026-03-29",
       "hasSprint": false,
-      "isCompleted": false,
-      "winner": null,
-      "coverageScore": 0,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hamilton",
+        "name": "Lewis Hamilton",
+        "code": "HAM",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
       "sessionsAvailable": [
+        "FP1",
+        "FP2",
+        "FP3",
+        "Qualifying",
         "Race"
       ]
     },
@@ -61,10 +88,19 @@
       "country": "United States",
       "date": "2026-05-03",
       "hasSprint": true,
-      "isCompleted": false,
-      "winner": null,
-      "coverageScore": 0,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "russell",
+        "name": "George Russell",
+        "code": "RUS",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
       "sessionsAvailable": [
+        "FP1",
+        "Sprint Qualifying",
+        "Sprint",
+        "Qualifying",
         "Race"
       ]
     },
@@ -77,10 +113,19 @@
       "country": "Canada",
       "date": "2026-05-24",
       "hasSprint": true,
-      "isCompleted": false,
-      "winner": null,
-      "coverageScore": 0,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "norris",
+        "name": "Lando Norris",
+        "code": "NOR",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
       "sessionsAvailable": [
+        "FP1",
+        "Sprint Qualifying",
+        "Sprint",
+        "Qualifying",
         "Race"
       ]
     },
@@ -93,10 +138,19 @@
       "country": "Monaco",
       "date": "2026-06-07",
       "hasSprint": false,
-      "isCompleted": false,
-      "winner": null,
-      "coverageScore": 0,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "verstappen",
+        "name": "Max Verstappen",
+        "code": "VER",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 100,
       "sessionsAvailable": [
+        "FP1",
+        "FP2",
+        "FP3",
+        "Qualifying",
         "Race"
       ]
     },
@@ -109,10 +163,19 @@
       "country": "Spain",
       "date": "2026-06-14",
       "hasSprint": false,
-      "isCompleted": false,
-      "winner": null,
-      "coverageScore": 0,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "leclerc",
+        "name": "Charles Leclerc",
+        "code": "LEC",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
       "sessionsAvailable": [
+        "FP1",
+        "FP2",
+        "FP3",
+        "Qualifying",
         "Race"
       ]
     },
@@ -125,10 +188,19 @@
       "country": "Austria",
       "date": "2026-06-28",
       "hasSprint": false,
-      "isCompleted": false,
-      "winner": null,
-      "coverageScore": 0,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "piastri",
+        "name": "Oscar Piastri",
+        "code": "PIA",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
       "sessionsAvailable": [
+        "FP1",
+        "FP2",
+        "FP3",
+        "Qualifying",
         "Race"
       ]
     },
@@ -141,10 +213,19 @@
       "country": "United Kingdom",
       "date": "2026-07-05",
       "hasSprint": true,
-      "isCompleted": false,
-      "winner": null,
-      "coverageScore": 0,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hamilton",
+        "name": "Lewis Hamilton",
+        "code": "HAM",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
       "sessionsAvailable": [
+        "FP1",
+        "Sprint Qualifying",
+        "Sprint",
+        "Qualifying",
         "Race"
       ]
     },
@@ -157,10 +238,19 @@
       "country": "Belgium",
       "date": "2026-07-19",
       "hasSprint": false,
-      "isCompleted": false,
-      "winner": null,
-      "coverageScore": 0,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "russell",
+        "name": "George Russell",
+        "code": "RUS",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
       "sessionsAvailable": [
+        "FP1",
+        "FP2",
+        "FP3",
+        "Qualifying",
         "Race"
       ]
     },
@@ -173,10 +263,19 @@
       "country": "Hungary",
       "date": "2026-07-26",
       "hasSprint": false,
-      "isCompleted": false,
-      "winner": null,
-      "coverageScore": 0,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "norris",
+        "name": "Lando Norris",
+        "code": "NOR",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
       "sessionsAvailable": [
+        "FP1",
+        "FP2",
+        "FP3",
+        "Qualifying",
         "Race"
       ]
     },
@@ -189,10 +288,19 @@
       "country": "Netherlands",
       "date": "2026-08-23",
       "hasSprint": true,
-      "isCompleted": false,
-      "winner": null,
-      "coverageScore": 0,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "verstappen",
+        "name": "Max Verstappen",
+        "code": "VER",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 100,
       "sessionsAvailable": [
+        "FP1",
+        "Sprint Qualifying",
+        "Sprint",
+        "Qualifying",
         "Race"
       ]
     },
@@ -205,10 +313,19 @@
       "country": "Italy",
       "date": "2026-09-06",
       "hasSprint": false,
-      "isCompleted": false,
-      "winner": null,
-      "coverageScore": 0,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "leclerc",
+        "name": "Charles Leclerc",
+        "code": "LEC",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
       "sessionsAvailable": [
+        "FP1",
+        "FP2",
+        "FP3",
+        "Qualifying",
         "Race"
       ]
     },
@@ -221,10 +338,19 @@
       "country": "Spain",
       "date": "2026-09-13",
       "hasSprint": false,
-      "isCompleted": false,
-      "winner": null,
-      "coverageScore": 0,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "piastri",
+        "name": "Oscar Piastri",
+        "code": "PIA",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
       "sessionsAvailable": [
+        "FP1",
+        "FP2",
+        "FP3",
+        "Qualifying",
         "Race"
       ]
     },
@@ -237,10 +363,19 @@
       "country": "Azerbaijan",
       "date": "2026-09-26",
       "hasSprint": false,
-      "isCompleted": false,
-      "winner": null,
-      "coverageScore": 0,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hamilton",
+        "name": "Lewis Hamilton",
+        "code": "HAM",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
       "sessionsAvailable": [
+        "FP1",
+        "FP2",
+        "FP3",
+        "Qualifying",
         "Race"
       ]
     },
@@ -253,10 +388,19 @@
       "country": "Bahrain",
       "date": "2026-10-04",
       "hasSprint": false,
-      "isCompleted": false,
-      "winner": null,
-      "coverageScore": 0,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "russell",
+        "name": "George Russell",
+        "code": "RUS",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
       "sessionsAvailable": [
+        "FP1",
+        "FP2",
+        "FP3",
+        "Qualifying",
         "Race"
       ]
     },
@@ -269,10 +413,19 @@
       "country": "Singapore",
       "date": "2026-10-11",
       "hasSprint": true,
-      "isCompleted": false,
-      "winner": null,
-      "coverageScore": 0,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "norris",
+        "name": "Lando Norris",
+        "code": "NOR",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
       "sessionsAvailable": [
+        "FP1",
+        "Sprint Qualifying",
+        "Sprint",
+        "Qualifying",
         "Race"
       ]
     },
@@ -285,10 +438,19 @@
       "country": "United States",
       "date": "2026-10-25",
       "hasSprint": false,
-      "isCompleted": false,
-      "winner": null,
-      "coverageScore": 0,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "verstappen",
+        "name": "Max Verstappen",
+        "code": "VER",
+        "constructorName": "Red Bull"
+      },
+      "coverageScore": 100,
       "sessionsAvailable": [
+        "FP1",
+        "FP2",
+        "FP3",
+        "Qualifying",
         "Race"
       ]
     },
@@ -301,10 +463,19 @@
       "country": "Mexico",
       "date": "2026-11-01",
       "hasSprint": false,
-      "isCompleted": false,
-      "winner": null,
-      "coverageScore": 0,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "leclerc",
+        "name": "Charles Leclerc",
+        "code": "LEC",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
       "sessionsAvailable": [
+        "FP1",
+        "FP2",
+        "FP3",
+        "Qualifying",
         "Race"
       ]
     },
@@ -317,10 +488,19 @@
       "country": "Brazil",
       "date": "2026-11-08",
       "hasSprint": false,
-      "isCompleted": false,
-      "winner": null,
-      "coverageScore": 0,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "piastri",
+        "name": "Oscar Piastri",
+        "code": "PIA",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
       "sessionsAvailable": [
+        "FP1",
+        "FP2",
+        "FP3",
+        "Qualifying",
         "Race"
       ]
     },
@@ -333,10 +513,19 @@
       "country": "United States",
       "date": "2026-11-21",
       "hasSprint": false,
-      "isCompleted": false,
-      "winner": null,
-      "coverageScore": 0,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "hamilton",
+        "name": "Lewis Hamilton",
+        "code": "HAM",
+        "constructorName": "Ferrari"
+      },
+      "coverageScore": 100,
       "sessionsAvailable": [
+        "FP1",
+        "FP2",
+        "FP3",
+        "Qualifying",
         "Race"
       ]
     },
@@ -349,10 +538,19 @@
       "country": "Qatar",
       "date": "2026-11-29",
       "hasSprint": false,
-      "isCompleted": false,
-      "winner": null,
-      "coverageScore": 0,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "russell",
+        "name": "George Russell",
+        "code": "RUS",
+        "constructorName": "Mercedes"
+      },
+      "coverageScore": 100,
       "sessionsAvailable": [
+        "FP1",
+        "FP2",
+        "FP3",
+        "Qualifying",
         "Race"
       ]
     },
@@ -365,10 +563,19 @@
       "country": "United Arab Emirates",
       "date": "2026-12-06",
       "hasSprint": false,
-      "isCompleted": false,
-      "winner": null,
-      "coverageScore": 0,
+      "isCompleted": true,
+      "winner": {
+        "driverId": "norris",
+        "name": "Lando Norris",
+        "code": "NOR",
+        "constructorName": "McLaren"
+      },
+      "coverageScore": 100,
       "sessionsAvailable": [
+        "FP1",
+        "FP2",
+        "FP3",
+        "Qualifying",
         "Race"
       ]
     }
