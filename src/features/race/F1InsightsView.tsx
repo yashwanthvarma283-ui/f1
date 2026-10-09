@@ -269,117 +269,13 @@ export const F1InsightsView: React.FC<F1InsightsViewProps> = ({
 
   // ── High-Precision Live Telemetry Traces for Driver ──
   // Ported from driver_telemetry_window.py (Speed 0..380, Gear 1..8, Throttle/Brake %)
-  const telemetryTraces = useMemo(() => {
-    const numPoints = telemetryXMode === 'rolling' ? 30 : 60 // 30 seconds or 60 track sectors
-    const seed = selectedDriver.charCodeAt(0) * 17 + (selectedDriver.charCodeAt(1) || 5)
-    const speedPoints: number[] = []
-    const gearPoints: number[] = []
-    const throttlePoints: number[] = []
-    const brakePoints: number[] = []
-    const timeOrDistLabels: string[] = []
-
-    const circuitLen = circuitLengthKm * 1000
-
-    for (let i = 0; i < numPoints; i++) {
-      const progress = i / (numPoints - 1)
-      const phase = (progress * Math.PI * 5 + seed) % (Math.PI * 2)
-
-      // Throttle vs Braking profile
-      const isBrakingZone = Math.sin(phase) < -0.4
-      const throttleVal = isBrakingZone ? 0 : Math.round(75 + Math.sin(phase * 1.5) * 25)
-      const brakeVal = isBrakingZone ? Math.round(Math.abs(Math.sin(phase)) * 100) : 0
-
-      // Speed profile
-      const baseSpeed = isBrakingZone ? 110 + Math.abs(Math.cos(phase)) * 60 : 260 + Math.sin(phase) * 75
-      const speedVal = Math.round(Math.max(80, Math.min(352, baseSpeed)))
-
-      // Gear profile
-      let gearVal = 8
-      if (speedVal < 115) gearVal = 2
-      else if (speedVal < 155) gearVal = 3
-      else if (speedVal < 205) gearVal = 4
-      else if (speedVal < 250) gearVal = 5
-      else if (speedVal < 290) gearVal = 6
-      else if (speedVal < 320) gearVal = 7
-
-      speedPoints.push(speedVal)
-      gearPoints.push(gearVal)
-      throttlePoints.push(throttleVal)
-      brakePoints.push(brakeVal)
-
-      if (telemetryXMode === 'rolling') {
-        const secAgo = numPoints - 1 - i
-        timeOrDistLabels.push(secAgo === 0 ? 'Now' : `-${secAgo}s`)
-      } else {
-        const distMeters = Math.round(progress * circuitLen)
-        timeOrDistLabels.push(`${distMeters}m`)
-      }
-    }
-
-    return {
-      speed: speedPoints,
-      gear: gearPoints,
-      throttle: throttlePoints,
-      brake: brakePoints,
-      labels: timeOrDistLabels,
-      currentSpeed: speedPoints[speedPoints.length - 1],
-      currentGear: gearPoints[gearPoints.length - 1],
-      currentThrottle: throttlePoints[throttlePoints.length - 1],
-      currentBrake: brakePoints[brakePoints.length - 1],
-      topSpeed: Math.max(...speedPoints),
-      avgSpeed: Math.round(speedPoints.reduce((a, b) => a + b, 0) / speedPoints.length),
-      throttleFullPct: Math.round((throttlePoints.filter((t) => t > 90).length / throttlePoints.length) * 100),
-      drsActive: speedPoints[speedPoints.length - 1] > 295,
-    }
+  const telemetryTraces: any = useMemo(() => {
+    return null
   }, [selectedDriver, telemetryXMode, circuitLengthKm])
 
   // ── Compare Driver Telemetry Traces ──
-  const compareTelemetryTraces = useMemo(() => {
-    if (!compareDriver) return null
-    const numPoints = telemetryXMode === 'rolling' ? 30 : 60
-    const seed = compareDriver.charCodeAt(0) * 17 + (compareDriver.charCodeAt(1) || 5)
-    const speedPoints: number[] = []
-    const gearPoints: number[] = []
-    const throttlePoints: number[] = []
-    const brakePoints: number[] = []
-
-    for (let i = 0; i < numPoints; i++) {
-      const progress = i / (numPoints - 1)
-      const phase = (progress * Math.PI * 5 + seed + 0.3) % (Math.PI * 2)
-
-      const isBrakingZone = Math.sin(phase) < -0.42
-      const throttleVal = isBrakingZone ? 0 : Math.round(70 + Math.sin(phase * 1.5) * 30)
-      const brakeVal = isBrakingZone ? Math.round(Math.abs(Math.sin(phase)) * 100) : 0
-
-      const baseSpeed = isBrakingZone ? 105 + Math.abs(Math.cos(phase)) * 65 : 255 + Math.sin(phase) * 78
-      const speedVal = Math.round(Math.max(80, Math.min(350, baseSpeed)))
-
-      let gearVal = 8
-      if (speedVal < 115) gearVal = 2
-      else if (speedVal < 155) gearVal = 3
-      else if (speedVal < 205) gearVal = 4
-      else if (speedVal < 250) gearVal = 5
-      else if (speedVal < 290) gearVal = 6
-      else if (speedVal < 320) gearVal = 7
-
-      speedPoints.push(speedVal)
-      gearPoints.push(gearVal)
-      throttlePoints.push(throttleVal)
-      brakePoints.push(brakeVal)
-    }
-
-    return {
-      speed: speedPoints,
-      gear: gearPoints,
-      throttle: throttlePoints,
-      brake: brakePoints,
-      currentSpeed: speedPoints[speedPoints.length - 1],
-      currentGear: gearPoints[gearPoints.length - 1],
-      currentThrottle: throttlePoints[throttlePoints.length - 1],
-      currentBrake: brakePoints[brakePoints.length - 1],
-      topSpeed: Math.max(...speedPoints),
-      avgSpeed: Math.round(speedPoints.reduce((a, b) => a + b, 0) / speedPoints.length),
-    }
+  const compareTelemetryTraces: any = useMemo(() => {
+    return null
   }, [compareDriver, telemetryXMode])
 
   // ── Sector Times Engine (Matching sector_times_window.py) ──
@@ -557,7 +453,9 @@ export const F1InsightsView: React.FC<F1InsightsViewProps> = ({
 
       const points = lapNumbers.map((lapNum) => {
         const lapItem = dLaps.find((l) => l.lapNumber === lapNum)
-        const rawTime = lapItem?.lapDuration || 90.0 + ((code.charCodeAt(0) * 3 + lapNum * 0.1) % 3.5)
+        if (!lapItem || !lapItem.lapDuration) return null
+
+        const rawTime = lapItem.lapDuration
 
         // Find leader time on this lap for gap calculation
         const leaderLap = laps.find((l) => l.lapNumber === lapNum && (l.position === 1 || (l as any).driverCode === results[0]?.driverCode))
@@ -571,7 +469,7 @@ export const F1InsightsView: React.FC<F1InsightsViewProps> = ({
           compound: lapItem?.compound || 'MEDIUM',
           isPit: lapItem?.isPitOutLap || false,
         }
-      })
+      }).filter((pt): pt is { lap: number; value: number; compound: string; isPit: boolean } => pt !== null)
 
       return {
         code,
@@ -614,12 +512,12 @@ export const F1InsightsView: React.FC<F1InsightsViewProps> = ({
         frame: streamPackets % 5000,
         lap: currentLap,
         driver: selectedDriver,
-        spd: telemetryTraces.currentSpeed,
-        rpm: 11400 + Math.round(Math.random() * 800),
-        gear: telemetryTraces.currentGear,
-        thr: telemetryTraces.currentThrottle,
-        brk: telemetryTraces.currentBrake,
-        drs: telemetryTraces.drsActive ? 1 : 0,
+        spd: telemetryTraces?.currentSpeed || 0,
+        rpm: 0,
+        gear: telemetryTraces?.currentGear || 0,
+        thr: telemetryTraces?.currentThrottle || 0,
+        brk: telemetryTraces?.currentBrake || 0,
+        drs: telemetryTraces?.drsActive ? 1 : 0,
         deg: bayesianTyreHealth.effectiveDegradationRate,
       }
       setRawLogs((prev) => {
@@ -761,6 +659,14 @@ export const F1InsightsView: React.FC<F1InsightsViewProps> = ({
             ========================================================================= */}
         {activeTab === 'driver_telemetry' && (
           <div className="space-y-6 animate-in fade-in duration-200">
+            {!telemetryTraces ? (
+              <div className="flex flex-col items-center justify-center p-12 rounded-2xl bg-[var(--surface-2)] border border-[var(--border)] text-center min-h-[400px]">
+                <Radio className="w-10 h-10 text-[var(--text-muted)] mb-4" />
+                <h3 className="text-lg font-display font-black text-[var(--text)] uppercase tracking-tight">Telemetry Not Available</h3>
+                <p className="text-sm font-mono text-[var(--text-muted)] mt-2">Telemetry data not available for this session</p>
+              </div>
+            ) : (
+              <>
             {/* Control Bar: Driver details + Compare selector + X-axis mode */}
             <div className="flex flex-wrap items-center justify-between gap-4 p-4 rounded-2xl bg-[var(--surface-2)] border border-[var(--border)]">
               <div className="flex items-center gap-3">
@@ -938,7 +844,7 @@ export const F1InsightsView: React.FC<F1InsightsViewProps> = ({
                     {/* Driver A Speed Curve */}
                     <path
                       d={telemetryTraces.speed
-                        .map((spd, idx) => {
+                        .map((spd: any, idx: number) => {
                           const x = (idx / (telemetryTraces.speed.length - 1)) * 600
                           const y = 120 - (spd / 380) * 115
                           return `${idx === 0 ? 'M' : 'L'} ${x} ${y}`
@@ -953,7 +859,7 @@ export const F1InsightsView: React.FC<F1InsightsViewProps> = ({
                     {compareTelemetryTraces && (
                       <path
                         d={compareTelemetryTraces.speed
-                          .map((spd, idx) => {
+                          .map((spd: any, idx: number) => {
                             const x = (idx / (compareTelemetryTraces.speed.length - 1)) * 600
                             const y = 120 - (spd / 380) * 115
                             return `${idx === 0 ? 'M' : 'L'} ${x} ${y}`
@@ -987,7 +893,7 @@ export const F1InsightsView: React.FC<F1InsightsViewProps> = ({
                     {/* Stepped Gear Path */}
                     <path
                       d={telemetryTraces.gear
-                        .map((g, idx) => {
+                        .map((g: any, idx: number) => {
                           const x = (idx / (telemetryTraces.gear.length - 1)) * 600
                           const y = 60 - (g / 8) * 55
                           if (idx === 0) return `M ${x} ${y}`
@@ -1020,7 +926,7 @@ export const F1InsightsView: React.FC<F1InsightsViewProps> = ({
                     {/* Throttle trace */}
                     <path
                       d={telemetryTraces.throttle
-                        .map((thr, idx) => {
+                        .map((thr: any, idx: number) => {
                           const x = (idx / (telemetryTraces.throttle.length - 1)) * 600
                           const y = 70 - (thr / 100) * 65
                           return `${idx === 0 ? 'M' : 'L'} ${x} ${y}`
@@ -1034,7 +940,7 @@ export const F1InsightsView: React.FC<F1InsightsViewProps> = ({
                     {/* Brake trace */}
                     <path
                       d={telemetryTraces.brake
-                        .map((brk, idx) => {
+                        .map((brk: any, idx: number) => {
                           const x = (idx / (telemetryTraces.brake.length - 1)) * 600
                           const y = 70 - (brk / 100) * 65
                           return `${idx === 0 ? 'M' : 'L'} ${x} ${y}`
@@ -1051,10 +957,11 @@ export const F1InsightsView: React.FC<F1InsightsViewProps> = ({
                 <div className="flex justify-between text-[10px] text-[var(--text-muted)] font-mono mt-1 px-1">
                   <span>{telemetryTraces.labels[0]}</span>
                   <span>{telemetryTraces.labels[Math.round(telemetryTraces.labels.length / 2)]}</span>
-                  <span>{telemetryTraces.labels[telemetryTraces.labels.length - 1]}</span>
                 </div>
               </div>
             </div>
+            </>
+            )}
           </div>
         )}
 
@@ -2187,8 +2094,8 @@ export const F1InsightsView: React.FC<F1InsightsViewProps> = ({
                         </thead>
                         <tbody className="divide-y divide-[var(--border)]">
                           {results.map((r, i) => {
-                            const spd = Math.round(260 + ((r.driverCode.charCodeAt(0) * 7 + i * 3) % 65))
-                            const gr = spd > 280 ? 8 : spd > 240 ? 7 : 6
+                            const spd = null
+                            const gr = null
                             const isSel = r.driverCode === selectedDriver
 
                             return (
@@ -2201,12 +2108,12 @@ export const F1InsightsView: React.FC<F1InsightsViewProps> = ({
                               >
                                 <td className="py-2 px-2 text-[var(--text-muted)]">{r.position || i + 1}</td>
                                 <td className="py-2 px-2 font-bold text-[var(--text)]">{r.driverCode}</td>
-                                <td className="py-2 px-2 text-emerald-500">{spd} km/h</td>
-                                <td className="py-2 px-2 text-amber-500">{gr}</td>
-                                <td className="py-2 px-2 text-[var(--text)]">98%</td>
+                                <td className="py-2 px-2 text-emerald-500">{spd ? `${spd} km/h` : 'N/A'}</td>
+                                <td className="py-2 px-2 text-amber-500">{gr || 'N/A'}</td>
+                                <td className="py-2 px-2 text-[var(--text)]">N/A</td>
                                 <td className="py-2 px-2">
-                                  <span className={`px-1 rounded text-[9px] ${i % 3 === 0 ? 'bg-emerald-500/20 text-emerald-400' : 'text-[var(--text-muted)]'}`}>
-                                    {i % 3 === 0 ? 'DRS' : 'OFF'}
+                                  <span className={`px-1 rounded text-[9px] text-[var(--text-muted)]`}>
+                                    N/A
                                   </span>
                                 </td>
                                 <td className="py-2 px-2 text-[var(--text-muted)]">

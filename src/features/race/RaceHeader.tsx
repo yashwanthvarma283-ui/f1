@@ -77,7 +77,7 @@ export const RaceHeader: React.FC<RaceHeaderProps> = ({
   const overallCoverage =
     coverageReport?.sessions?.[activeSession]?.overallCompletenessPercent ||
     coverageReport?.sessions?.['Race']?.overallCompletenessPercent ||
-    98
+    'N/A'
 
   const isSprintWeekend = Boolean(
     raceMeta?.schedule?.Sprint ||
@@ -157,7 +157,7 @@ export const RaceHeader: React.FC<RaceHeaderProps> = ({
             <div className="flex items-start gap-4">
               <div className="w-10 h-7 rounded-sm overflow-hidden shadow-xs border border-white/10 shrink-0 mt-1">
                 <CountryFlag
-                  country={raceMeta?.circuit.country || 'Bahrain'}
+                  country={raceMeta?.circuit.country || ''}
                   className="w-full h-full object-cover"
                 />
               </div>

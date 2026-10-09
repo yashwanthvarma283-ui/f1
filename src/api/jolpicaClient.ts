@@ -175,9 +175,13 @@ class JolpicaClient {
       const data = await this.request<any>('/seasons.json?limit=100&offset=50')
       const table = data?.MRData?.SeasonTable?.Seasons || []
       const years = table.map((s: any) => s.season).reverse()
-      return years.length > 0 ? years : ['2026', '2025', '2024', '2023', '2022', '2021', '2020']
+      if (years.length > 0) return years
+      // Derive fallback from current year
+      const currentYear = new Date().getFullYear()
+      return Array.from({ length: 7 }, (_, i) => String(currentYear - i))
     } catch {
-      return ['2026', '2025', '2024', '2023', '2022', '2021', '2020']
+      const currentYear = new Date().getFullYear()
+      return Array.from({ length: 7 }, (_, i) => String(currentYear - i))
     }
   }
 }

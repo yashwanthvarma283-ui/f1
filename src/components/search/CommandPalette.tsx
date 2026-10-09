@@ -16,7 +16,7 @@ export interface DriverSearchItem {
   nationality: string
 }
 
-// 2026 Grid roster for instant command-palette autocomplete
+// Current season grid roster for instant offline search — update each season
 export const F1_GRID_DRIVERS: DriverSearchItem[] = [
   { id: 'norris', name: 'Lando Norris', code: 'NOR', number: '1', constructorId: 'mclaren', constructorName: 'McLaren', nationality: 'British' },
   { id: 'piastri', name: 'Oscar Piastri', code: 'PIA', number: '81', constructorId: 'mclaren', constructorName: 'McLaren', nationality: 'Australian' },

@@ -93,37 +93,26 @@ export const WeekendIntel: React.FC<WeekendIntelProps> = ({
 
       {/* 3-Column Intel Row (Weather, Championship Top 3, Last GP Podium) */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 flex-1 items-stretch">
-        {/* Card 1: Track Conditions / Weather */}
+        {/* Card 1: Track Conditions — No hardcoded data */}
         <div className="p-3.5 rounded-xl bg-[var(--surface-1)] border border-[var(--border)] shadow-[var(--card-shadow)] hover:border-[var(--text-muted)] transition-all flex flex-col justify-between flex-1 min-h-[148px] h-full">
           <div>
             <div className="flex items-center justify-between text-xs font-mono text-[var(--text-muted)] mb-1.5">
-              <span className="font-bold uppercase tracking-[0.01em] text-xs">WEATHER</span>
+              <span className="font-bold uppercase tracking-[0.01em] text-xs">TRACK CONDITIONS</span>
               <CloudMoon className="w-3.5 h-3.5 text-[var(--timing-yellow)]" />
             </div>
-            <div className="flex items-baseline gap-2">
-              <span className="font-mono font-black text-xl text-[var(--text)]">29&deg;C</span>
-              <span className="text-xs font-mono text-[var(--text-muted)] font-medium">AIR</span>
-              <span className="text-[var(--border)]">&bull;</span>
-              <span className="font-mono font-bold text-sm text-[var(--timing-purple-text)]">34&deg;C</span>
-              <span className="text-xs font-mono text-[var(--text-muted)]">TRACK</span>
+            <div className="flex items-center gap-2 mt-2">
+              <span className="font-mono font-bold text-sm text-[var(--text)]">{locality}</span>
             </div>
-            <div className="mt-2 text-xs font-sans text-[var(--text-muted)] flex items-center gap-3">
-              <span className="flex items-center gap-1 font-mono text-xs">
-                <Droplets className="w-3 h-3 text-[var(--timing-green)]" />
-                78% Hum.
-              </span>
-              <span className="flex items-center gap-1 font-mono text-xs">
-                <Wind className="w-3 h-3 text-[var(--text-muted)]" />
-                12 km/h
-              </span>
+            <div className="mt-2 text-xs font-sans text-[var(--text-muted)] leading-relaxed">
+              Weather conditions will be available closer to the race weekend.
             </div>
           </div>
           <div className="pt-2 border-t border-[var(--border)] flex items-center justify-between text-xs font-mono font-semibold">
-            <span className="text-[var(--timing-green)] flex items-center gap-1">
-              <span className="w-1.5 h-1.5 rounded-full bg-[var(--timing-green)]" />
-              DRY NIGHT RACE
+            <span className="text-[var(--text-muted)] flex items-center gap-1">
+              <span className="w-1.5 h-1.5 rounded-full bg-[var(--text-muted)]" />
+              PENDING
             </span>
-            <span className="text-[var(--text-muted)] text-xs">15% RAIN</span>
+            <span className="text-[var(--text-muted)] text-xs">CHECK BACK SOON</span>
           </div>
         </div>
 
@@ -177,7 +166,7 @@ export const WeekendIntel: React.FC<WeekendIntelProps> = ({
             >
               Full Standings &rarr;
             </Link>
-            <span className="text-[var(--text-muted)] text-xs font-semibold">2026 SEASON</span>
+            <span className="text-[var(--text-muted)] text-xs font-semibold">{new Date().getFullYear()} SEASON</span>
           </div>
         </div>
 

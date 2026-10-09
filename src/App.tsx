@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { motion, AnimatePresence, useReducedMotion } from 'motion/react'
 import { QueryClient } from '@tanstack/react-query'
@@ -11,6 +11,8 @@ import { HomePage } from '@/pages/HomePage'
 import { CalendarPage } from '@/pages/CalendarPage'
 import { RacePage } from '@/pages/RacePage'
 import { DriversPage, TeamsPage } from '@/pages/Placeholders'
+import { TestDashboard } from '@/pages/TestDashboard'
+import { ErrorBoundary } from '@/components/ErrorBoundary'
 
 // Configure TanStack Query with 24h cache persistence in localStorage
 const queryClient = new QueryClient({
@@ -53,6 +55,7 @@ const AnimatedRoutes: React.FC = () => {
           <Route path="/drivers" element={<DriversPage />} />
           <Route path="/teams" element={<TeamsPage />} />
           <Route path="/race/:id" element={<RacePage />} />
+          <Route path="/test/dashboard" element={<TestDashboard />} />
           {/* Fallback to Home */}
           <Route path="*" element={<HomePage />} />
         </Routes>
@@ -71,7 +74,15 @@ export const App: React.FC = () => {
         <TimezoneProvider>
           <BrowserRouter>
             <Layout>
-              <AnimatedRoutes />
+              <ErrorBoundary>
+                <Suspense fallback={
+                  <div className="flex h-full w-full items-center justify-center min-h-[50vh]">
+                    <div className="w-8 h-8 rounded-full border-2 border-[var(--surface-3)] border-t-[var(--accent)] animate-spin" />
+                  </div>
+                }>
+                  <AnimatedRoutes />
+                </Suspense>
+              </ErrorBoundary>
             </Layout>
           </BrowserRouter>
         </TimezoneProvider>

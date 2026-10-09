@@ -86,6 +86,11 @@ export const TimezoneSelector: React.FC = () => {
 
           {/* Zone list */}
           <div className="max-h-64 overflow-y-auto space-y-1 pr-1 custom-scrollbar">
+            {filteredZones.length === 0 && search.trim() && (
+              <div className="py-6 text-center text-xs font-mono text-[var(--text-muted)]">
+                No timezones matching "{search}"
+              </div>
+            )}
             {filteredZones.map((z: TimezoneOption) => {
               const isSelected = z.value === timezone
               const localTime = formatTimeInZone(now, z.value, is24h)

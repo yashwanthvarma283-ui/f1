@@ -174,25 +174,7 @@ export const RaceReplayView: React.FC<RaceReplayViewProps> = ({
     if (realGeometry.racing_line && realGeometry.racing_line.length > 20) {
       return realGeometry.racing_line.map((p) => ({ x: p[0], y: p[1] }))
     }
-    // Fallback sampled points
-    if (typeof document === 'undefined') return []
-    try {
-      const pathElem = document.createElementNS('http://www.w3.org/2000/svg', 'path')
-      pathElem.setAttribute(
-        'd',
-        'M 100 260 C 200 260, 350 280, 420 220 C 460 180, 430 120, 360 110 C 290 100, 240 140, 180 120 C 120 100, 80 180, 100 260 Z'
-      )
-      const len = pathElem.getTotalLength ? pathElem.getTotalLength() : 1000
-      const points: { x: number; y: number }[] = []
-      const SAMPLES = 300
-      for (let i = 0; i <= SAMPLES; i++) {
-        const pt = pathElem.getPointAtLength((i / SAMPLES) * len)
-        points.push({ x: pt.x, y: pt.y })
-      }
-      return points
-    } catch {
-      return []
-    }
+    return []
   }, [realGeometry])
 
   // Animation frame loop with real-time race speed sync
@@ -419,8 +401,8 @@ export const RaceReplayView: React.FC<RaceReplayViewProps> = ({
       position: r.position || i + 1,
       driverNumber: r.driverNumber,
       driverCode: r.driverCode,
-      intervalToAheadSeconds: i === 0 ? null : 1.2,
-      gapToLeaderSeconds: i === 0 ? 0 : i * 2.1,
+      intervalToAheadSeconds: null,
+      gapToLeaderSeconds: null,
       compound: 'MEDIUM',
       tyreAge: 12,
       pitStopThisLap: false,
@@ -481,33 +463,22 @@ export const RaceReplayView: React.FC<RaceReplayViewProps> = ({
     const entry = leaderboardEntries.find((e) => e.driverCode === selectedDriver)
     const driverInfo = drivers.find((d) => d.nameAcronym === selectedDriver)
 
-    const isHighSpeedSector = (lapProgress > 0.1 && lapProgress < 0.35) || (lapProgress > 0.65 && lapProgress < 0.85)
-    const baseSpeed = isHighSpeedSector ? 315 : 180
-    const varSpeed = Math.sin(lapProgress * Math.PI * 8) * 45
-    const currentSpeed = Math.round(baseSpeed + varSpeed)
-    const gear = currentSpeed > 290 ? 8 : currentSpeed > 240 ? 7 : currentSpeed > 190 ? 6 : currentSpeed > 140 ? 5 : 4
-    const rpm = Math.round(10500 + (currentSpeed / 340) * 3800)
-    const isAccelerating = varSpeed >= 0
-    const throttle = isAccelerating ? Math.min(100, Math.round(70 + varSpeed)) : 10
-    const brake = isAccelerating ? 0 : Math.min(100, Math.round(-varSpeed * 1.5))
-    const drsActive = showDrsZones && (currentLap % 2 === 0) && isHighSpeedSector
-
     return {
       driverCode: selectedDriver,
       fullName: entry?.fullName || driverInfo?.fullName || selectedDriver,
       teamColor: entry?.teamColor || driverInfo?.teamColour || '#E10600',
       teamName: entry?.teamName || driverInfo?.teamName || 'Formula 1',
       position: entry?.position || 1,
-      speed: currentSpeed,
-      rpm,
-      gear,
-      throttle,
-      brake,
-      drs: drsActive,
+      speed: null,
+      rpm: null,
+      gear: null,
+      throttle: null,
+      brake: null,
+      drs: false,
       tyreHealth: Math.max(15, Math.round(100 - (entry?.tyreAge || currentLap) * 2.2)),
       compound: entry?.compound || 'MEDIUM',
       tyreAge: entry?.tyreAge || currentLap,
-      topSpeed: 338,
+      topSpeed: null,
     }
   }, [selectedDriver, leaderboardEntries, drivers, lapProgress, currentLap, showDrsZones])
 
@@ -1608,9 +1579,11 @@ export const RaceReplayView: React.FC<RaceReplayViewProps> = ({
           <div className="px-3.5 py-1.5 rounded-xl bg-white/[0.03] border border-white/10 text-center min-w-[76px]">
             <span className="text-[10px] text-white/40 block">SPEED</span>
             <span className="text-base font-black text-white tracking-tight">
-              {replaySettings.speedUnit === 'mph'
-                ? Math.round(selectedDriverTelemetry.speed * 0.621371)
-                : selectedDriverTelemetry.speed}
+              {selectedDriverTelemetry.speed !== null
+                ? (replaySettings.speedUnit === 'mph'
+                    ? Math.round(selectedDriverTelemetry.speed * 0.621371)
+                    : selectedDriverTelemetry.speed)
+                : '--'}
             </span>
             <span className="text-[9px] text-white/40 block uppercase">
               {replaySettings.speedUnit === 'mph' ? 'MPH' : 'KM/H'}
@@ -1621,7 +1594,7 @@ export const RaceReplayView: React.FC<RaceReplayViewProps> = ({
           <div className="px-3.5 py-1.5 rounded-xl bg-white/[0.03] border border-white/10 text-center min-w-[60px]">
             <span className="text-[10px] text-white/40 block">GEAR</span>
             <span className="text-base font-black text-amber-400">
-              {selectedDriverTelemetry.gear}
+              {selectedDriverTelemetry.gear ?? '--'}
             </span>
             <span className="text-[9px] text-white/40 block">8-SPD</span>
           </div>
@@ -1630,7 +1603,7 @@ export const RaceReplayView: React.FC<RaceReplayViewProps> = ({
           <div className="px-3.5 py-1.5 rounded-xl bg-white/[0.03] border border-white/10 text-center min-w-[76px]">
             <span className="text-[10px] text-white/40 block">RPM</span>
             <span className="text-base font-black text-cyan-400">
-              {selectedDriverTelemetry.rpm}
+              {selectedDriverTelemetry.rpm ?? '--'}
             </span>
             <span className="text-[9px] text-white/40 block">REV</span>
           </div>
@@ -1654,11 +1627,11 @@ export const RaceReplayView: React.FC<RaceReplayViewProps> = ({
             <div className="flex-1 h-2 rounded-full bg-black/60 overflow-hidden border border-white/5">
               <div
                 className="h-full bg-emerald-500 transition-all duration-75 shadow-sm shadow-emerald-500/50"
-                style={{ width: `${selectedDriverTelemetry.throttle}%` }}
+                style={{ width: `${selectedDriverTelemetry.throttle ?? 0}%` }}
               />
             </div>
             <span className="w-8 text-right text-white/70 font-mono">
-              {selectedDriverTelemetry.throttle}%
+              {selectedDriverTelemetry.throttle !== null ? `${selectedDriverTelemetry.throttle}%` : '--'}
             </span>
           </div>
           <div className="flex items-center gap-2">
@@ -1666,11 +1639,11 @@ export const RaceReplayView: React.FC<RaceReplayViewProps> = ({
             <div className="flex-1 h-2 rounded-full bg-black/60 overflow-hidden border border-white/5">
               <div
                 className="h-full bg-red-600 transition-all duration-75 shadow-sm shadow-red-500/50"
-                style={{ width: `${selectedDriverTelemetry.brake}%` }}
+                style={{ width: `${selectedDriverTelemetry.brake ?? 0}%` }}
               />
             </div>
             <span className="w-8 text-right text-white/70 font-mono">
-              {selectedDriverTelemetry.brake}%
+              {selectedDriverTelemetry.brake !== null ? `${selectedDriverTelemetry.brake}%` : '--'}
             </span>
           </div>
         </div>

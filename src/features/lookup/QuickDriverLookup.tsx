@@ -16,7 +16,7 @@ export const QuickDriverLookup: React.FC<QuickDriverLookupProps> = ({ leaderDriv
 
   // Featured drivers list: championship leader first, then top contenders
   const featuredDrivers = useMemo(() => {
-    const leaderId = leaderDriverId || 'norris'
+    const leaderId = leaderDriverId || F1_GRID_DRIVERS[0]?.id
     const leader = F1_GRID_DRIVERS.find((d) => d.id === leaderId) || F1_GRID_DRIVERS[0]
     const others = F1_GRID_DRIVERS.filter((d) => d.id !== leader.id).slice(0, 5)
     return [leader, ...others]

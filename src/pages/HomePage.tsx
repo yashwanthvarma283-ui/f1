@@ -40,7 +40,7 @@ export const HomePage: React.FC = () => {
   // Championship leader driver ID
   const leaderDriverId = useMemo(() => {
     const top = driverStandingsQuery.data?.[0]
-    return top?.driver.driverId || 'norris'
+    return top?.driver.driverId
   }, [driverStandingsQuery.data])
 
   // Page load: staggered reveal (60ms stagger, 12px translateY + fade)
@@ -110,8 +110,8 @@ export const HomePage: React.FC = () => {
       <motion.div variants={sectionVariants}>
         <SeasonStrip
           races={scheduleQuery.data?.races || []}
-          currentSeason={selectedSeason === 'current' ? (scheduleQuery.data?.season || '2026') : selectedSeason}
-          availableSeasons={seasonsQuery.data || ['2026', '2025', '2024', '2023', '2022', '2021', '2020']}
+          currentSeason={selectedSeason === 'current' ? (scheduleQuery.data?.season || String(new Date().getFullYear())) : selectedSeason}
+          availableSeasons={seasonsQuery.data || Array.from({ length: 7 }, (_, i) => String(new Date().getFullYear() - i))}
           onSeasonChange={(year) => setSelectedSeason(year)}
           nextRoundNumber={nextRace?.round}
           isLoading={scheduleQuery.isLoading}

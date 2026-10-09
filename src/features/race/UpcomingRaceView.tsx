@@ -112,21 +112,10 @@ export const UpcomingRaceView: React.FC<UpcomingRaceViewProps> = ({
   })
 
   // Past winners record at this circuit
-  const pastWinners = [
-    { year: 2024, driver: 'Max Verstappen', team: 'Red Bull Racing' },
-    { year: 2023, driver: 'Max Verstappen', team: 'Red Bull Racing' },
-    { year: 2022, driver: 'Charles Leclerc', team: 'Ferrari' },
-    { year: 2021, driver: 'Lewis Hamilton', team: 'Mercedes' },
-  ]
+  const pastWinners: any[] = []
 
   // Form guide (Statistics only, never fabricated predictions)
-  const formGuide = [
-    { driver: 'Max Verstappen', team: 'Red Bull Racing', points: 437, wins: 9, podiums: 14 },
-    { driver: 'Lando Norris', team: 'McLaren', points: 374, wins: 3, podiums: 12 },
-    { driver: 'Charles Leclerc', team: 'Ferrari', points: 356, wins: 3, podiums: 11 },
-    { driver: 'Oscar Piastri', team: 'McLaren', points: 292, wins: 2, podiums: 8 },
-    { driver: 'Carlos Sainz', team: 'Ferrari', points: 290, wins: 2, podiums: 7 },
-  ]
+  const formGuide: any[] = []
 
   return (
     <div className="space-y-8">
@@ -215,29 +204,36 @@ export const UpcomingRaceView: React.FC<UpcomingRaceViewProps> = ({
               <span className="text-[10px] font-mono text-[var(--text-muted)]">JOLPICA HISTORICAL ARCHIVE</span>
             </div>
 
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-              {pastWinners.map((w) => {
-                const team = getTeamMeta(w.team)
-                return (
-                  <div
-                    key={w.year}
-                    className="p-3 rounded-xl bg-[var(--surface-2)] border border-[var(--border)] space-y-1"
-                  >
-                    <div className="font-display font-black text-sm text-[var(--accent)]">
-                      {w.year}
+            {pastWinners.length > 0 ? (
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                {pastWinners.map((w) => {
+                  const team = getTeamMeta(w.team)
+                  return (
+                    <div
+                      key={w.year}
+                      className="p-3 rounded-xl bg-[var(--surface-2)] border border-[var(--border)] space-y-1"
+                    >
+                      <div className="font-display font-black text-sm text-[var(--accent)]">
+                        {w.year}
+                      </div>
+                      <div className="font-bold text-xs text-[var(--text)] truncate">{w.driver}</div>
+                      <div className="text-[10px] font-mono text-[var(--text-muted)] flex items-center gap-1 truncate">
+                        <span
+                          className="w-1.5 h-1.5 rounded-full"
+                          style={{ backgroundColor: team.color }}
+                        />
+                        <span className="truncate">{w.team}</span>
+                      </div>
                     </div>
-                    <div className="font-bold text-xs text-[var(--text)] truncate">{w.driver}</div>
-                    <div className="text-[10px] font-mono text-[var(--text-muted)] flex items-center gap-1 truncate">
-                      <span
-                        className="w-1.5 h-1.5 rounded-full"
-                        style={{ backgroundColor: team.color }}
-                      />
-                      <span className="truncate">{w.team}</span>
-                    </div>
-                  </div>
-                )
-              })}
-            </div>
+                  )
+                })}
+              </div>
+            ) : (
+              <div className="p-6 rounded-xl bg-[var(--surface-2)] border border-[var(--border)] flex flex-col items-center justify-center text-center space-y-2">
+                <Trophy className="w-5 h-5 text-[var(--text-muted)]" />
+                <span className="text-sm font-mono text-[var(--text-muted)]">Past winners data not available</span>
+              </div>
+            )}
           </div>
         </div>
 
@@ -288,32 +284,35 @@ export const UpcomingRaceView: React.FC<UpcomingRaceViewProps> = ({
               <span className="text-[10px] font-mono text-emerald-400">OPEN-METEO LIVE</span>
             </div>
 
-            <div className="grid grid-cols-3 gap-2">
-              {(forecastData || [
-                { dayName: 'Fri', maxTemp: 28, minTemp: 19, rainProb: 0, windSpeed: 12 },
-                { dayName: 'Sat', maxTemp: 29, minTemp: 20, rainProb: 0, windSpeed: 14 },
-                { dayName: 'Sun', maxTemp: 28, minTemp: 19, rainProb: 5, windSpeed: 11 },
-              ]).map((f, i) => (
-                <div
-                  key={i}
-                  className="p-3 rounded-xl bg-[var(--surface-2)] border border-[var(--border)] text-center space-y-1.5"
-                >
-                  <div className="text-[11px] font-mono font-bold text-[var(--text)] uppercase">
-                    {f.dayName}
+            {forecastData && forecastData.length > 0 ? (
+              <div className="grid grid-cols-3 gap-2">
+                {forecastData.map((f, i) => (
+                  <div
+                    key={i}
+                    className="p-3 rounded-xl bg-[var(--surface-2)] border border-[var(--border)] text-center space-y-1.5"
+                  >
+                    <div className="text-[11px] font-mono font-bold text-[var(--text)] uppercase">
+                      {f.dayName}
+                    </div>
+                    <div className="text-lg font-mono font-bold text-[var(--text)]">
+                      {f.maxTemp}°C
+                    </div>
+                    <div className="text-[10px] font-mono text-[var(--text-muted)]">
+                      Low: {f.minTemp}°C
+                    </div>
+                    <div className="pt-1 text-[10px] font-mono text-sky-400 flex items-center justify-center gap-1">
+                      <Droplets className="w-2.5 h-2.5" />
+                      <span>{f.rainProb}% rain</span>
+                    </div>
                   </div>
-                  <div className="text-lg font-mono font-bold text-[var(--text)]">
-                    {f.maxTemp}°C
-                  </div>
-                  <div className="text-[10px] font-mono text-[var(--text-muted)]">
-                    Low: {f.minTemp}°C
-                  </div>
-                  <div className="pt-1 text-[10px] font-mono text-sky-400 flex items-center justify-center gap-1">
-                    <Droplets className="w-2.5 h-2.5" />
-                    <span>{f.rainProb}% rain</span>
-                  </div>
-                </div>
-              ))}
-            </div>
+                ))}
+              </div>
+            ) : (
+              <div className="p-6 rounded-xl bg-[var(--surface-2)] border border-[var(--border)] flex flex-col items-center justify-center text-center space-y-2">
+                <CloudSun className="w-5 h-5 text-[var(--text-muted)]" />
+                <span className="text-sm font-mono text-[var(--text-muted)]">Weather forecast will be available closer to the event</span>
+              </div>
+            )}
           </div>
 
           {/* Form Guide (Statistics only) */}
@@ -328,35 +327,42 @@ export const UpcomingRaceView: React.FC<UpcomingRaceViewProps> = ({
               <span className="text-[10px] font-mono text-[var(--text-muted)]">STATISTICS ONLY</span>
             </div>
 
-            <div className="space-y-2">
-              {formGuide.map((d, i) => {
-                const team = getTeamMeta(d.team)
-                return (
-                  <div
-                    key={d.driver}
-                    className="flex items-center justify-between p-2 rounded-xl bg-[var(--surface-2)] text-xs font-mono"
-                  >
-                    <div className="flex items-center gap-2">
-                      <span className="w-4 text-center font-bold text-[var(--text-muted)]">
-                        {i + 1}
-                      </span>
-                      <span
-                        className="w-1.5 h-4 rounded-full"
-                        style={{ backgroundColor: team.color }}
-                      />
-                      <span className="font-bold text-[var(--text)]">{d.driver}</span>
-                    </div>
+            {formGuide.length > 0 ? (
+              <div className="space-y-2">
+                {formGuide.map((d, i) => {
+                  const team = getTeamMeta(d.team)
+                  return (
+                    <div
+                      key={d.driver}
+                      className="flex items-center justify-between p-2 rounded-xl bg-[var(--surface-2)] text-xs font-mono"
+                    >
+                      <div className="flex items-center gap-2">
+                        <span className="w-4 text-center font-bold text-[var(--text-muted)]">
+                          {i + 1}
+                        </span>
+                        <span
+                          className="w-1.5 h-4 rounded-full"
+                          style={{ backgroundColor: team.color }}
+                        />
+                        <span className="font-bold text-[var(--text)]">{d.driver}</span>
+                      </div>
 
-                    <div className="text-right">
-                      <span className="font-bold text-amber-400">{d.points} PTS</span>
-                      <span className="text-[10px] text-[var(--text-muted)] ml-2">
-                        {d.wins}W / {d.podiums}P
-                      </span>
+                      <div className="text-right">
+                        <span className="font-bold text-amber-400">{d.points} PTS</span>
+                        <span className="text-[10px] text-[var(--text-muted)] ml-2">
+                          {d.wins}W / {d.podiums}P
+                        </span>
+                      </div>
                     </div>
-                  </div>
-                )
-              })}
-            </div>
+                  )
+                })}
+              </div>
+            ) : (
+              <div className="p-6 rounded-xl bg-[var(--surface-2)] border border-[var(--border)] flex flex-col items-center justify-center text-center space-y-2">
+                <TrendingUp className="w-5 h-5 text-[var(--text-muted)]" />
+                <span className="text-sm font-mono text-[var(--text-muted)]">Form guide pending</span>
+              </div>
+            )}
           </div>
         </div>
       </div>

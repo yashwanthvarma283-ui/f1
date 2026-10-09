@@ -155,8 +155,8 @@ export const RacePage: React.FC = () => {
               {activeTab === 'insights' && (
                 <F1InsightsView
                   currentLap={dataset.laps?.length ? Math.min(25, Math.max(...dataset.laps.map((l) => l.lapNumber))) : 25}
-                  totalLaps={dataset.results?.length ? Math.max(...dataset.results.map((r) => r.laps || 57)) : 57}
-                  selectedDriver={dataset.results[0]?.driverCode || dataset.drivers[0]?.nameAcronym || 'VER'}
+                  totalLaps={dataset.results?.length ? Math.max(...dataset.results.map((r) => r.laps || dataset.laps?.length || 0)) : (dataset.laps?.length || 0)}
+                  selectedDriver={dataset.results[0]?.driverCode || dataset.drivers[0]?.nameAcronym}
                   drivers={dataset.drivers}
                   results={dataset.results}
                   laps={dataset.laps}

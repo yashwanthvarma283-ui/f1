@@ -37,9 +37,9 @@ const BasePlaceholder: React.FC<PlaceholderPageProps> = ({ title, subtitle, icon
         </p>
 
         <div className="pt-6 border-t border-[var(--border)] flex items-center justify-center gap-4 text-xs font-mono text-[var(--text-muted)]">
-          <span>STATUS: TELEMETRY ACTIVE</span>
+          <span>COMING SOON</span>
           <span>&bull;</span>
-          <span>CHAMPIONSHIP HUB</span>
+          <span>UNDER DEVELOPMENT</span>
         </div>
       </div>
     </div>

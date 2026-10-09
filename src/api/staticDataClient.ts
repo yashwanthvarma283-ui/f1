@@ -19,7 +19,6 @@ import {
 } from '../types/data'
 import { getTeamMeta } from '../lib/teams'
 import { jolpicaClient } from './jolpicaClient'
-import { F1MockService } from './f1MockService'
 
 class StaticDataClient {
   private cache = new Map<string, any>()
@@ -122,18 +121,10 @@ class StaticDataClient {
     const folder = await this.resolveRoundFolder(year, roundSlug)
     const meta = await this.fetchJson<RaceDetailMeta>(`/data/${year}/${folder}/meta.json`)
     if (meta) {
-      if (!meta.schedule || Object.keys(meta.schedule).length <= 1) {
-        const startIso = meta.schedule?.Race?.startIso || `${year}-06-15T14:00:00Z`
-        const datePrefix = startIso.slice(0, 10)
-        meta.schedule = {
-          FP1: { startIso: `${datePrefix}T10:30:00Z`, endIso: `${datePrefix}T11:30:00Z` },
-          FP2: { startIso: `${datePrefix}T14:00:00Z`, endIso: `${datePrefix}T15:00:00Z` },
-          FP3: { startIso: `${datePrefix}T11:30:00Z`, endIso: `${datePrefix}T12:30:00Z` },
-          Qualifying: { startIso: `${datePrefix}T15:00:00Z`, endIso: `${datePrefix}T16:00:00Z` },
-          Race: { startIso, endIso: meta.schedule?.Race?.endIso || `${datePrefix}T16:00:00Z` },
-        }
+      // Don't fabricate schedule data — leave as-is if incomplete
+      if (!meta.coverage) {
+        meta.coverage = {}
       }
-      meta.coverage = { Race: 100, Qualifying: 100, FP1: 100 }
       return meta
     }
     return null
@@ -147,42 +138,8 @@ class StaticDataClient {
     const report = await this.fetchJson<RaceCoverageReport>(`/data/${year}/${folder}/coverage.json`)
     if (report) return report
 
-    const meta = await this.getRaceMeta(year, roundSlug)
-    const matchRound = folder.match(/^(\d+)/)
-    const roundNum = meta?.round || (matchRound ? parseInt(matchRound[1], 10) : 1)
-
-    return {
-      raceName: meta?.raceName || `Round ${roundNum} Grand Prix`,
-      year,
-      round: roundNum,
-      generatedAt: new Date().toISOString(),
-      sessions: {
-        Race: {
-          driversCount: 20,
-          lapsCount: 57,
-          stintsAvailable: true,
-          pitStopsCount: 28,
-          radioClipsCount: 16,
-          radioMappedPercentage: 100,
-          raceControlMessagesCount: 12,
-          raceControlMappedPercentage: 100,
-          weatherCount: 24,
-          overallCompletenessPercent: 100,
-        },
-        Qualifying: {
-          driversCount: 20,
-          lapsCount: 45,
-          stintsAvailable: false,
-          pitStopsCount: 0,
-          radioClipsCount: 10,
-          radioMappedPercentage: 100,
-          raceControlMessagesCount: 8,
-          raceControlMappedPercentage: 100,
-          weatherCount: 12,
-          overallCompletenessPercent: 100,
-        },
-      },
-    }
+    // No coverage data available for this race
+    return null
   }
 
   /**
@@ -251,17 +208,25 @@ class StaticDataClient {
       }
     }
 
-    // Case 2: For all GPs from 2018 to 2026, generate complete high-fidelity telemetry, laps, stints, pitstops, tyre deg, radio & race control
-    const matchRound = folder.match(/^(\d+)/)
-    const roundNum = matchRound
-      ? parseInt(matchRound[1], 10)
-      : parseInt(String(roundSlug).replace(/\D/g, ''), 10) || 1
-
-    try {
-      const meta = await this.getRaceMeta(year, roundSlug)
-      return F1MockService.generateSessionDataset(year, roundNum, session, meta, results)
-    } catch {
-      return F1MockService.generateSessionDataset(year, roundNum, session, null, results)
+    // Case 2: No pre-extracted data available — return empty dataset
+    return {
+      isAvailable: false,
+      isHistoricalArchive: false,
+      dataSource: 'none',
+      results: results || [],
+      drivers: drivers || [],
+      laps: [],
+      positionsByLap: [],
+      gapsByLap: [],
+      overtakes: [],
+      stints: stints || [],
+      pitstops: pitstops || [],
+      tyreDegradation: [],
+      driverStats: driverStats || [],
+      radio: radio || [],
+      raceControl: raceControl || [],
+      weather: weather || [],
+      lapFeed: lapFeed || [],
     }
   }
 }

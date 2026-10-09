@@ -50,6 +50,46 @@ export const Dialog: React.FC<DialogProps> = ({
     }
   }, [isOpen])
 
+  // Focus trap
+  const dialogRef = useRef<HTMLDivElement>(null)
+  useEffect(() => {
+    if (!isOpen) return
+    const currentDialog = dialogRef.current
+    if (!currentDialog) return
+
+    const focusableElements = currentDialog.querySelectorAll<HTMLElement>(
+      'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+    )
+    const firstElement = focusableElements[0]
+    const lastElement = focusableElements[focusableElements.length - 1]
+
+    // Focus first element on mount
+    const previouslyFocusedElement = document.activeElement as HTMLElement
+    firstElement?.focus()
+
+    const handleTabKey = (e: KeyboardEvent) => {
+      if (e.key !== 'Tab') return
+      
+      if (e.shiftKey) {
+        if (document.activeElement === firstElement) {
+          lastElement?.focus()
+          e.preventDefault()
+        }
+      } else {
+        if (document.activeElement === lastElement) {
+          firstElement?.focus()
+          e.preventDefault()
+        }
+      }
+    }
+
+    currentDialog.addEventListener('keydown', handleTabKey)
+    return () => {
+      currentDialog.removeEventListener('keydown', handleTabKey)
+      previouslyFocusedElement?.focus()
+    }
+  }, [isOpen])
+
   const widthMap = {
     sm: 'max-w-sm',
     md: 'max-w-md',
@@ -74,6 +114,7 @@ export const Dialog: React.FC<DialogProps> = ({
 
           {/* Dialog Container */}
           <motion.div
+            ref={dialogRef}
             role="dialog"
             aria-modal="true"
             initial={{ opacity: 0, scale: 0.98, y: 4 }}

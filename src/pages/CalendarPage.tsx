@@ -45,7 +45,7 @@ const ERAS = [
 ] as const
 
 export const CalendarPage: React.FC = () => {
-  const [selectedYear, setSelectedYear] = useState<number>(2024)
+  const [selectedYear, setSelectedYear] = useState<number>(new Date().getFullYear())
   const [selectedEra, setSelectedEra] = useState<string>('all')
   const [searchQuery, setSearchQuery] = useState('')
   const [filterStatus, setFilterStatus] = useState<'all' | 'completed' | 'upcoming' | 'sprint'>('all')

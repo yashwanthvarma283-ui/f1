@@ -97,9 +97,9 @@ export const TyresStrategyTab: React.FC<TyresStrategyTabProps> = ({
     })
 
     return {
-      SOFT: groups.SOFT.count > 0 ? (groups.SOFT.totalDelta / groups.SOFT.count).toFixed(3) : '0.082',
-      MEDIUM: groups.MEDIUM.count > 0 ? (groups.MEDIUM.totalDelta / groups.MEDIUM.count).toFixed(3) : '0.054',
-      HARD: groups.HARD.count > 0 ? (groups.HARD.totalDelta / groups.HARD.count).toFixed(3) : '0.038',
+      SOFT: groups.SOFT.count > 0 ? (groups.SOFT.totalDelta / groups.SOFT.count).toFixed(3) : '0.082 (est.)',
+      MEDIUM: groups.MEDIUM.count > 0 ? (groups.MEDIUM.totalDelta / groups.MEDIUM.count).toFixed(3) : '0.054 (est.)',
+      HARD: groups.HARD.count > 0 ? (groups.HARD.totalDelta / groups.HARD.count).toFixed(3) : '0.038 (est.)',
     }
   }, [tyreDegradation])
 
@@ -270,7 +270,7 @@ export const TyresStrategyTab: React.FC<TyresStrategyTabProps> = ({
                 <span className="font-mono font-bold text-xs text-[var(--text)]">SOFT TYRE</span>
               </div>
               <div className="text-right font-mono">
-                <div className="text-sm font-bold text-red-400">+{degByCompound.SOFT}s / lap</div>
+                <div className="text-sm font-bold text-red-400">+{degByCompound.SOFT.replace(' (est.)', '')}s / lap {degByCompound.SOFT.includes('(est.)') && <span className="text-[10px] text-[var(--text-muted)]">(est.)</span>}</div>
                 <div className="text-[10px] text-[var(--text-muted)]">Pirelli C3 Red</div>
               </div>
             </div>
@@ -281,7 +281,7 @@ export const TyresStrategyTab: React.FC<TyresStrategyTabProps> = ({
                 <span className="font-mono font-bold text-xs text-[var(--text)]">MEDIUM TYRE</span>
               </div>
               <div className="text-right font-mono">
-                <div className="text-sm font-bold text-yellow-400">+{degByCompound.MEDIUM}s / lap</div>
+                <div className="text-sm font-bold text-yellow-400">+{degByCompound.MEDIUM.replace(' (est.)', '')}s / lap {degByCompound.MEDIUM.includes('(est.)') && <span className="text-[10px] text-[var(--text-muted)]">(est.)</span>}</div>
                 <div className="text-[10px] text-[var(--text-muted)]">Pirelli C2 Yellow</div>
               </div>
             </div>
@@ -292,7 +292,7 @@ export const TyresStrategyTab: React.FC<TyresStrategyTabProps> = ({
                 <span className="font-mono font-bold text-xs text-[var(--text)]">HARD TYRE</span>
               </div>
               <div className="text-right font-mono">
-                <div className="text-sm font-bold text-slate-200">+{degByCompound.HARD}s / lap</div>
+                <div className="text-sm font-bold text-slate-200">+{degByCompound.HARD.replace(' (est.)', '')}s / lap {degByCompound.HARD.includes('(est.)') && <span className="text-[10px] text-[var(--text-muted)]">(est.)</span>}</div>
                 <div className="text-[10px] text-[var(--text-muted)]">Pirelli C1 White</div>
               </div>
             </div>
