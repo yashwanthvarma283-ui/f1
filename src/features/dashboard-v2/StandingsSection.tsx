@@ -47,20 +47,20 @@ export const StandingsSection: React.FC<{ id?: string }> = ({ id }) => {
   return (
     <div id={id || 'standings'} className="w-full h-full flex flex-col">
       <div className="flex justify-start mb-6 lg:mt-2">
-        <div className="flex bg-[var(--surface-1)] p-1 rounded-lg border border-[var(--border-subtle)] relative">
+        <div className="flex bg-[var(--surface-1)] p-1 rounded-full border border-[var(--border-subtle)] relative">
           {(['results', 'drivers', 'constructors'] as const).map((t) => (
             <button
               key={t}
               onClick={() => setTab(t)}
               className={cn(
-                "relative px-4 py-1.5 md:px-5 md:py-2 text-[13px] font-semibold rounded-md transition-colors cursor-pointer capitalize z-10 outline-none",
+                "relative px-4 py-1.5 md:px-5 md:py-2 text-[13px] font-semibold rounded-full transition-colors cursor-pointer capitalize z-10 outline-none",
                 tab === t ? 'text-[var(--bg)]' : 'text-[var(--text-muted)] hover:text-[var(--text)]'
               )}
             >
               {tab === t && (
                 <motion.div
                   layoutId="standings-tab-indicator"
-                  className="absolute inset-0 bg-[var(--text)] rounded-md -z-10"
+                  className="absolute inset-0 bg-[var(--text)] rounded-full -z-10"
                   transition={{ type: 'spring', bounce: 0.15, duration: 0.4 }}
                 />
               )}
