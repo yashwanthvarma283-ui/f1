@@ -45,6 +45,11 @@ export const Header: React.FC = () => {
       : NAV_ITEMS.find((item) => location.pathname.startsWith(item.to) && item.to !== '/')?.label ??
         ''
 
+  // Automatically close drawer when navigating
+  useEffect(() => {
+    setIsDrawerOpen(false)
+  }, [location.pathname])
+
   // Keyboard-initiated, so the palette opens with no animation of its own
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {

@@ -7,6 +7,7 @@ import { StandingsSection } from '@/features/dashboard-v1/StandingsSection'
 import { CalendarSection } from '@/features/dashboard-v1/CalendarSection'
 import { DriversSection } from '@/features/dashboard-v1/DriversSection'
 import { Footer } from '@/features/dashboard-v1/Footer'
+import '@/features/dashboard-v1/dashboard-v2.css'
 
 export const TestDashboardV1: React.FC = () => {
   const [activeSection, setActiveSection] = useState('next-race')
@@ -37,7 +38,7 @@ export const TestDashboardV1: React.FC = () => {
   }, [activeSection])
 
   return (
-    <div className="flex flex-col min-h-[100dvh] w-full bg-[var(--bg)] text-[var(--text)] font-sans antialiased">
+    <div data-dv2 className="flex flex-col min-h-[100dvh] w-full bg-[var(--bg)] text-[var(--text)] font-sans antialiased">
       <Header />
       <main className="flex-1 flex flex-col">
         <DashboardHero id="next-race" />

@@ -41,8 +41,8 @@ export const MobileDrawer: React.FC<{
   return (
     <div
       className={cn(
-        'fixed inset-0 z-50 lg:hidden',
-        isOpen ? 'pointer-events-auto' : 'pointer-events-none'
+        'fixed inset-0 z-50 lg:hidden overflow-hidden transition-all duration-300',
+        isOpen ? 'pointer-events-auto visible' : 'pointer-events-none invisible'
       )}
       aria-hidden={!isOpen}
     >
@@ -66,11 +66,13 @@ export const MobileDrawer: React.FC<{
         data-state={isOpen ? 'open' : 'closed'}
         className={cn(
           'dv2-drawer absolute right-0 top-0 h-full w-[300px] max-w-[85vw]',
-          'bg-[var(--surface-1)] border-l border-[var(--border)]',
-          'flex flex-col'
+          'bg-[var(--surface-1)] border-l border-[var(--border)] shadow-2xl',
+          'flex flex-col',
+          'transform transition-transform ease-out',
+          isOpen ? 'translate-x-0 duration-260' : 'translate-x-full duration-180'
         )}
       >
-        <div className="h-16 flex items-center justify-between px-5 border-b border-[var(--border-subtle)]">
+        <div className="h-16 flex items-center justify-between px-5 border-b border-[var(--border-subtle)] shrink-0">
           <Label>Menu</Label>
           <button
             type="button"
@@ -83,7 +85,7 @@ export const MobileDrawer: React.FC<{
           </button>
         </div>
 
-        <nav className="flex flex-col py-2">
+        <nav className="flex flex-col py-2 overflow-y-auto flex-1">
           {items.map((item) => {
             const isActive = item.label === activeLabel
             return (
@@ -115,7 +117,7 @@ export const MobileDrawer: React.FC<{
         </nav>
 
         {footer ? (
-          <div className="mt-auto px-5 py-5 border-t border-[var(--border-subtle)] flex items-center gap-3">
+          <div className="mt-auto px-5 py-5 border-t border-[var(--border-subtle)] flex items-center gap-3 shrink-0">
             {footer}
           </div>
         ) : null}

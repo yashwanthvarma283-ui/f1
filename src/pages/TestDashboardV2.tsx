@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react'
-import { Header } from '@/features/dashboard-v1/Header'
+import { Header } from '@/features/dashboard-v2/Header'
 import { DashboardHero } from '@/features/dashboard-v2/DashboardHero'
 import { LatestResultSection } from '@/features/dashboard-v2/LatestResultSection'
 import { CalendarSection } from '@/features/dashboard-v2/CalendarSection'
 import { DriversSection } from '@/features/dashboard-v2/DriversSection'
-import { Footer } from '@/features/dashboard-v1/Footer'
+import { Footer } from '@/features/dashboard-v2/Footer'
+import '@/features/dashboard-v2/dashboard-v2.css'
 
 export const TestDashboardV2: React.FC = () => {
   const [activeSection, setActiveSection] = useState('next-race')
@@ -34,7 +35,7 @@ export const TestDashboardV2: React.FC = () => {
   }, [activeSection])
 
   return (
-    <div className="flex flex-col min-h-[100dvh] w-full bg-[var(--bg)] text-[var(--text)] font-sans antialiased">
+    <div data-dv2 className="flex flex-col min-h-[100dvh] w-full bg-[var(--bg)] text-[var(--text)] font-sans antialiased">
       <Header />
       
       <main className="flex-1 flex flex-col">

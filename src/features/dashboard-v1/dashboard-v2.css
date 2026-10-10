@@ -146,13 +146,16 @@ html.dark [data-dv2] {
 }
 
 /* Drawer: enters at 260ms, exits at 180ms — exit is always faster */
+.dv2-drawer,
 [data-dv2] .dv2-drawer {
   transition: transform 260ms var(--ease-out);
 }
+.dv2-drawer[data-state='closed'],
 [data-dv2] .dv2-drawer[data-state='closed'] {
   transform: translateX(100%);
   transition-duration: 180ms;
 }
+.dv2-drawer[data-state='open'],
 [data-dv2] .dv2-drawer[data-state='open'] {
   transform: translateX(0);
 }
