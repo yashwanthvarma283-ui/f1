@@ -47,7 +47,9 @@ export const TimezoneControl: React.FC<{ className?: string }> = ({ className })
         )}
       >
         <span className="dv2-fig font-medium text-[var(--text)] whitespace-nowrap">
-          {timezoneAbbr === timezoneOffset ? timezoneOffset : `${timezoneAbbr} ${timezoneOffset}`}
+          {timezoneAbbr.startsWith('GMT') || timezoneAbbr.startsWith('UTC') || timezoneAbbr === timezoneOffset
+            ? timezoneOffset 
+            : `${timezoneAbbr} ${timezoneOffset}`}
         </span>
       </button>
 

@@ -25,7 +25,7 @@ const CompactRaceCard: React.FC<{ race: any }> = ({ race }) => {
 
   return (
     <motion.div 
-      className="group bg-[var(--surface-1)] border border-[var(--border-subtle)] rounded-[4px] p-4 hover:-translate-y-1 hover:shadow-[var(--card-shadow-hover)] hover:border-[var(--border)] transition-all cursor-pointer"
+      className="group bg-[var(--surface-1)] border border-[var(--border-subtle)] rounded-[4px] p-4 dv2-card cursor-pointer"
       whileHover={{ scale: 1.02 }}
     >
       <div className="flex justify-between items-start mb-4">

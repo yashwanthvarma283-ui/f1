@@ -5,6 +5,8 @@ import { LatestResultSection } from '@/features/dashboard-v2/LatestResultSection
 import { CalendarSection } from '@/features/dashboard-v2/CalendarSection'
 import { DriversSection } from '@/features/dashboard-v2/DriversSection'
 import { Footer } from '@/features/dashboard-v2/Footer'
+import { TeamLogo } from '@/features/dashboard-v2/TeamLogo'
+import { RacingLine } from '@/features/dashboard-v2/primitives'
 import '@/features/dashboard-v2/dashboard-v2.css'
 
 export const TestDashboardV2: React.FC = () => {
@@ -41,10 +43,27 @@ export const TestDashboardV2: React.FC = () => {
       <main className="flex-1 flex flex-col">
         <DashboardHero id="next-race" />
         
-        <div className="max-w-[1560px] mx-auto w-full px-5 md:px-8 lg:px-12 pb-12 mt-4 lg:mt-6">
+        <div className="w-full flex my-5 md:my-7 lg:my-9" aria-hidden="true">
+          <RacingLine className="h-[16px] md:h-[24px] opacity-100" />
+        </div>
+
+        <div className="max-w-[1560px] mx-auto w-full px-5 md:px-8 lg:px-12 flex flex-col">
           <LatestResultSection id="results" />
+        </div>
           
+        <div className="w-full flex my-5 md:my-7 lg:my-9" aria-hidden="true">
+          <RacingLine className="h-[16px] md:h-[24px] opacity-100" />
+        </div>
+
+        <div className="max-w-[1560px] mx-auto w-full px-5 md:px-8 lg:px-12 flex flex-col">
           <CalendarSection id="calendar" />
+        </div>
+          
+        <div className="w-full flex my-5 md:my-7 lg:my-9" aria-hidden="true">
+          <RacingLine className="h-[16px] md:h-[24px] opacity-100" />
+        </div>
+
+        <div className="max-w-[1560px] mx-auto w-full px-5 md:px-8 lg:px-12 flex flex-col mb-10 md:mb-14 lg:mb-[72px]">
           <DriversSection id="drivers" />
         </div>
       </main>

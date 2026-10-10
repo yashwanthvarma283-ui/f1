@@ -118,7 +118,7 @@ export const UpcomingRaceView: React.FC<UpcomingRaceViewProps> = ({
   const formGuide: any[] = []
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-8 pb-8 md:pb-12">
       {/* 1. Processing Notice Banner */}
       <div className="p-4 rounded-2xl border border-amber-500/30 bg-amber-500/10 text-amber-300 flex items-start gap-3">
         <Clock className="w-5 h-5 shrink-0 mt-0.5" />

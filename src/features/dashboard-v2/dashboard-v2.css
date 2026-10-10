@@ -6,21 +6,8 @@
    ========================================================================== */
 
 [data-dv2] {
-  /* Dark hero panel, dark in BOTH themes (mirrors the dark-theme surfaces) */
-  --dv2-hero-bg: #15151e;
-  --dv2-hero-text: #ffffff;
-  --dv2-hero-muted: #b4b4c4;
-  --dv2-hero-border: #2e2e3e;
-
   /* Single documented radius rule */
   --dv2-radius: 4px;
-}
-
-html.dark [data-dv2] {
-  --dv2-hero-bg: var(--surface-1);
-  --dv2-hero-text: var(--text);
-  --dv2-hero-muted: var(--text-muted);
-  --dv2-hero-border: var(--border);
 }
 
 /* -----------------------------------------------------------------------------

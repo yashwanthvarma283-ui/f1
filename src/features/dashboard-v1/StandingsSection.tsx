@@ -92,8 +92,8 @@ export const StandingsSection: React.FC<{ id?: string }> = ({ id }) => {
                     </div>
                     <div className="flex-1 font-semibold text-[15px] flex items-center gap-3">
                       {item.constructor.name}
-                      {teamLogos[teamMeta.id] && (
-                        <img src={teamLogos[teamMeta.id]} alt={teamMeta.name} className={cn("w-auto object-contain", teamMeta.id === 'mclaren' ? "h-3 sm:h-4" : "h-5 sm:h-6")} />
+                      {teamLogos[teamMeta.id]?.src && (
+                        <img src={teamLogos[teamMeta.id].src!} alt={teamMeta.name} className={cn("w-auto object-contain", teamMeta.id === 'mclaren' ? "h-3 sm:h-4" : "h-5 sm:h-6")} />
                       )}
                     </div>
                     <div className="w-16 text-right ml-4">

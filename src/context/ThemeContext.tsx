@@ -95,8 +95,8 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
                 ],
               },
               {
-                duration: 400,
-                easing: 'cubic-bezier(.22,1,.36,1)',
+                duration: 500, // Slightly longer duration for smoother visual interpolation
+                easing: 'cubic-bezier(0.22, 1, 0.36, 1)',
                 pseudoElement: '::view-transition-new(root)',
               }
             )
@@ -105,13 +105,9 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
             // In case of transition abort, theme state already applied
           })
       } else {
-        // Fallback: 250ms colour crossfade
-        docAny.documentElement.classList.add('theme-transitioning')
+        // Fallback: Instant swap (prevents massive CSS transition lag)
         setThemeState(nextTheme)
         applyThemeToDOM(nextTheme)
-        setTimeout(() => {
-          docAny.documentElement.classList.remove('theme-transitioning')
-        }, 250)
       }
     },
     [applyThemeToDOM]

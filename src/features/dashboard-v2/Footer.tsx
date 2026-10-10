@@ -29,6 +29,8 @@ export const Footer: React.FC = () => {
             <h3 className="text-[11px] uppercase tracking-[0.1em] font-medium text-[var(--text-muted)] mb-2">Data Sources</h3>
             <a href="https://jolpi.ca/" target="_blank" rel="noreferrer" className="dv2-link text-[14px] font-medium text-[var(--text)] hover:underline underline-offset-4">Jolpica-F1 (Ergast API)</a>
             <a href="https://openf1.org/" target="_blank" rel="noreferrer" className="dv2-link text-[14px] font-medium text-[var(--text)] hover:underline underline-offset-4">OpenF1</a>
+            <a href="https://docs.fastf1.dev" target="_blank" rel="noreferrer" className="dv2-link text-[14px] font-medium text-[var(--text)] hover:underline underline-offset-4">FastF1</a>
+            <a href="https://github.com/IAmTomShaw/f1-race-replay" target="_blank" rel="noreferrer" className="dv2-link text-[14px] font-medium text-[var(--text)] hover:underline underline-offset-4">F1 Race Replay by IAmTomShaw</a>
           </div>
           
         </div>

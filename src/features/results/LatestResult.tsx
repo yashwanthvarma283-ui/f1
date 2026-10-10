@@ -27,12 +27,12 @@ const PodiumCard: React.FC<PodiumCardProps> = ({ position, item }) => {
     1: {
       label: 'P1 WINNER',
       badgeClass: 'bg-amber-100 text-amber-900 border-amber-300 dark:bg-amber-500/20 dark:text-amber-300 dark:border-amber-500/40',
-      elevation: 'md:-translate-y-2',
+      elevation: 'md:-translate-y-4',
     },
     2: {
       label: 'P2 PODIUM',
       badgeClass: 'bg-slate-200 text-slate-800 border-slate-300 dark:bg-slate-400/20 dark:text-slate-200 dark:border-slate-400/40',
-      elevation: '',
+      elevation: 'md:-translate-y-2',
     },
     3: {
       label: 'P3 PODIUM',

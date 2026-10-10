@@ -50,14 +50,14 @@ const Unit: React.FC<{ value: number; unit: string; large?: boolean }> = ({
   <span className="inline-flex items-baseline">
     <span
       className={cn(
-        'dv2-fig font-semibold text-[var(--dv2-hero-text)] inline-flex',
+        'dv2-fig font-semibold text-[var(--text)] inline-flex',
         large ? 'text-[36px] md:text-[48px] leading-none' : 'text-[28px] md:text-[34px] leading-none'
       )}
     >
       <RollingNumber value={value} />
     </span>
     <span
-      className="ml-0.5 mr-2 text-[12px] md:text-[13px] font-medium uppercase text-[var(--dv2-hero-muted)]"
+      className="ml-0.5 mr-2 text-[12px] md:text-[13px] font-medium uppercase text-[var(--text-muted)]"
       aria-hidden="true"
     >
       {unit}
@@ -96,13 +96,13 @@ export const Countdown: React.FC<{
 
   return (
     <div>
-      <div className="text-[11px] uppercase tracking-[0.1em] font-medium text-[var(--dv2-hero-muted)] mb-2">
+      <div className="text-[11px] uppercase tracking-[0.1em] font-medium text-[var(--text-muted)] mb-2">
         {label}
       </div>
 
       <div aria-label={spokenLabel} className="h-[48px]">
         {!state || state.isExpired ? (
-          <span className="dv2-fig text-[36px] md:text-[48px] font-semibold leading-none text-[var(--dv2-hero-text)]">
+          <span className="dv2-fig text-[36px] md:text-[48px] font-semibold leading-none text-[var(--text)]">
             —
           </span>
         ) : (

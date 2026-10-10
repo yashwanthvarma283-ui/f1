@@ -43,10 +43,9 @@ measurement, not as a "technical" costume.
 
 ## 2. Spacing scale
 
-4px base. **Only these steps**: 4, 8, 12, 16, 24, 32, 48, 64, 96.
+4px base.
 
-- Section vertical padding: 64px mobile, 96px desktop. More space above a heading
-  than below it (48px above, 24px below).
+- Section gaps: 40px mobile, 56px tablet, 72px desktop (implemented as 20px, 28px, 36px padding top and bottom).
 - Container: `max-w-[1560px]`, gutters 20 / 32 / 48.
 - Table row height: 56px mobile, 64px desktop. Cell padding 16px.
 - Card padding: 24px.
@@ -54,8 +53,8 @@ measurement, not as a "technical" costume.
 
 ## 3. Corner radius — one documented rule
 
-- Containers, panels, cards, table rows, inputs: **4px**
-- Interactive pills, buttons, segmented toggles: **full round**
+- Containers, panels, cards, table rows, inputs, etc: **4px**
+- Interactive pills, toggles, tabs, and avatar circles: **full round**
 
 No other radii anywhere. Mixed systems are broken design unless the rule is written
 down, so this is the rule.
@@ -80,10 +79,7 @@ Tokens only. No hex in components. Both themes polished.
 3. One accent rule — the full-width sheared red bar, used **once**, separating the
    hero from the content below
 
-**Hero panel** is dark in both themes, via two scoped tokens in
-`dashboard-v2.css` (`--dv2-hero-bg`, `--dv2-hero-text`) resolving to the existing
-dark-surface values. This is a deliberate, documented inversion in light mode — the
-same device formula1.com uses.
+
 
 **Team colour** appears as a **2px marker only**: a left edge on standings rows, a
 top edge on driver cards. Never a fill, never wider than 2px.
@@ -166,3 +162,5 @@ legible.
 5. **Primary button contrast needs checking**: white on `--accent` is near the AA
    boundary. To be verified programmatically; if it fails, the label goes to 600 weight
    at 16px (AA large) or the darker `--accent` light-mode value.
+
+

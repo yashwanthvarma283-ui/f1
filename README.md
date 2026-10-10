@@ -1,28 +1,28 @@
-# PitWall — Formula 1 Telemetry Command Center
+# PitWall — Formula 1 Telemetry Dashboard
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-19.x-61dafb.svg)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-6.x-646cff.svg)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.x-38bdf8.svg)](https://tailwindcss.com/)
-[![WCAG AA](https://img.shields.io/badge/WCAG_AA-100%25_Passing-success.svg)](https://www.w3.org/WAI/WCAG21/quickref/)
+[![WCAG AA](https://img.shields.io/badge/WCAG_AA-Passing-success.svg)](https://www.w3.org/WAI/WCAG21/quickref/)
 
-**PitWall** is a high-precision Formula 1 fan telemetry command center and live race dashboard. Built with modern React, Tailwind CSS v4, and Framer Motion, it delivers live session countdowns, real circuit geometry telemetry, championship standings, and season archives.
+**PitWall** is a Formula 1 fan telemetry dashboard. Built with modern React, Tailwind CSS v4, and Framer Motion, it delivers session countdowns, circuit geometry telemetry, championship standings, and season archives.
 
 ---
 
 ## Features
 
-- **Live Session Countdown**: Real-time ticker with smooth vertical digit rolls, tabular numerals, and animated tick pulses.
+- **Session Countdown**: Ticker with smooth vertical digit rolls, tabular numerals, and animated tick pulses.
 - **Accurate Circuit Telemetry**: Normalized SVG track path drawn on mount with sector colors (Sector 1 Purple, Sector 2 Green, Sector 3 Yellow), interactive turn numbers with contrast pills, and animated car lap tracer.
 - **Dual Designed Themes**:
   - **"Race Night" (Dark Mode)**: Carbon black (`#0B0B0F`), F1 official dark surfaces (`#15151E`), and F1 Red action accents.
   - **"Race Day" (Light Mode)**: Clean high-contrast surfaces (`#FFFFFF`, `#EAEAF0`), zero hard-coded dark colors.
   - **Circular Reveal Transitions**: Theme toggles expand via the View Transitions API from the toggle button coordinate with crossfade fallback.
 - **Championship Standings**: Driver and Constructor standings featuring horizontal animated team-coloured points bars scaled to the championship leader with gap-to-leader values (`LEADER` or `-XX PTS`).
-- **Season Rounds Strip**: Interactive round carousel with verified official Grand Prix names, country flags, and session status indicators.
+- **Season Rounds Strip**: Interactive round carousel with official Grand Prix names, country flags, and session status indicators.
 - **Quick Driver Telemetry Lookup**: Fast keyboard-accessible (`/`) search for all 2026 championship competitors with team colors, numbers, and nationality vector flags.
 - **Timezone Conversion**: Automatic local timezone detection with quick conversion to track time and UTC.
-- **100% WCAG AA Compliant**: Zero contrast violations audited across all viewports with axe-core.
+- **WCAG AA Compliant**: Zero contrast violations audited across all viewports with axe-core.
 
 ---
 
@@ -67,6 +67,17 @@ npm run build
 # Preview production build locally
 npm run preview
 ```
+
+---
+
+## Credits
+
+- Jolpica-F1 (Ergast API)
+- OpenF1
+- FastF1 (https://docs.fastf1.dev)
+- F1 Race Replay by IAmTomShaw (https://github.com/IAmTomShaw/f1-race-replay)
+
+*Check the licence of github.com/IAmTomShaw/f1-race-replay before copying any code from it.*
 
 ---
 

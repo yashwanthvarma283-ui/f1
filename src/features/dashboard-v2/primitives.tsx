@@ -56,7 +56,7 @@ export const SectionHeading: React.FC<{
   action?: React.ReactNode
   id?: string
 }> = ({ subtitle, children, action, id }) => (
-  <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-6 sticky top-16 z-30 bg-[var(--bg)] pt-6 pb-4 border-b border-[var(--border-subtle)] -mx-5 px-5 md:-mx-8 md:px-8 lg:-mx-12 lg:px-12">
+  <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 py-6 mb-6 sticky top-16 z-30 bg-[var(--bg)] border-b border-[var(--border-subtle)] -mx-5 px-5 md:-mx-8 md:px-8 lg:-mx-12 lg:px-12">
     <div className="flex items-center gap-4">
       <div className="flex flex-col">
         {subtitle && (
@@ -81,6 +81,21 @@ export const AccentRule: React.FC = () => (
   <div className="dv2-accent-rule" role="presentation" />
 )
 
+/** The official F1 double racing line (thick/thin appearance due to the viewBox) */
+export const RacingLine: React.FC<{ className?: string }> = ({ className }) => (
+  <svg 
+    viewBox="0 0 25200 200" 
+    fill="none" 
+    xmlns="http://www.w3.org/2000/svg"
+    className={cn("text-[var(--accent)] w-full", className)}
+    preserveAspectRatio="none"
+    aria-hidden="true"
+  >
+    <path d="M200 0h25000v91h-25091Z" fill="currentColor"></path>
+    <path d="M0 200h25200v-97h-25103Z" fill="currentColor"></path>
+  </svg>
+)
+
 /** Label-above-value fact, as used in the hero and the f1.com circuit panel. */
 export const Fact: React.FC<{
   label: string
@@ -89,15 +104,15 @@ export const Fact: React.FC<{
   index?: number
 }> = ({ label, value, mono = false, index }) => (
   <div
-    className="dv2-rise py-3 border-b border-[var(--dv2-hero-border)] last:border-b-0"
+    className="dv2-rise py-3 border-b border-[var(--border)] last:border-b-0"
     style={index === undefined ? undefined : ({ '--dv2-i': Math.min(index, 5) } as React.CSSProperties)}
   >
-    <div className="text-[11px] uppercase tracking-[0.1em] font-medium text-[var(--dv2-hero-muted)]">
+    <div className="text-[11px] uppercase tracking-[0.1em] font-medium text-[var(--text-muted)]">
       {label}
     </div>
     <div
       className={cn(
-        'mt-1 text-[var(--dv2-hero-text)] font-semibold text-[17px] md:text-[19px]',
+        'mt-1 text-[var(--text)] font-semibold text-[17px] md:text-[19px]',
         mono && 'dv2-fig'
       )}
     >
@@ -198,7 +213,7 @@ export const Section: React.FC<{
   <motion.section
     id={id}
     aria-labelledby={labelledBy}
-    className={cn("scroll-mt-[128px] py-8 md:py-12 lg:py-16", className)}
+    className={cn("scroll-mt-[128px]", className)}
     initial={{ opacity: 0, y: 20 }}
     whileInView={{ opacity: 1, y: 0 }}
     viewport={{ once: true, margin: "-100px" }}

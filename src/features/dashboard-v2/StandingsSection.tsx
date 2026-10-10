@@ -1,19 +1,18 @@
 import React, { useState } from 'react'
 import { useDriverStandings, useConstructorStandings, useLastRaceResult } from '@/api/useF1Data'
 import { getTeamMeta } from '@/lib/teams'
-import { Section, SectionHeading, RowSkeleton, QuietError, Figure, Label } from './primitives'
+import { RowSkeleton, QuietError, Figure, Label } from './primitives'
 import { cn } from '@/lib/utils'
 import { motion, AnimatePresence } from 'motion/react'
 import { Link } from 'react-router-dom'
-import { teamLogos } from '@/lib/teamLogos'
+import { TeamLogo } from './TeamLogo'
 
 export const StandingsSection: React.FC<{ id?: string }> = ({ id }) => {
   const { data: drivers, isLoading: dLoading, isError: dError, refetch: dRefetch } = useDriverStandings()
   const { data: teams, isLoading: tLoading, isError: tError, refetch: tRefetch } = useConstructorStandings()
   const { data: lastRace, isLoading: rLoading, isError: rError, refetch: rRefetch } = useLastRaceResult()
   
-  const [tab, setTab] = useState<'results' | 'drivers' | 'constructors'>('results')
-  const [expanded, setExpanded] = useState(false)
+  const [tab, setTab] = useState<'drivers' | 'constructors'>('drivers')
 
   if (dLoading || tLoading || rLoading) {
     return (
@@ -34,9 +33,8 @@ export const StandingsSection: React.FC<{ id?: string }> = ({ id }) => {
   let items: any[] = []
   if (tab === 'drivers') items = drivers
   else if (tab === 'constructors') items = teams
-  else if (tab === 'results') items = lastRace.results
 
-  const displayItems = expanded ? items : items.slice(0, 5)
+  const displayItems = items.slice(0, 5)
 
   // Determine leader points for the gap bar
   let leaderPoints = 0
@@ -48,7 +46,7 @@ export const StandingsSection: React.FC<{ id?: string }> = ({ id }) => {
     <div id={id || 'standings'} className="w-full h-full flex flex-col">
       <div className="flex justify-start mb-6 lg:mt-2">
         <div className="flex bg-[var(--surface-1)] p-1 rounded-full border border-[var(--border-subtle)] relative">
-          {(['results', 'drivers', 'constructors'] as const).map((t) => (
+          {(['drivers', 'constructors'] as const).map((t) => (
             <button
               key={t}
               onClick={() => setTab(t)}
@@ -118,10 +116,13 @@ export const StandingsSection: React.FC<{ id?: string }> = ({ id }) => {
                       aria-hidden="true"
                     />
                     
-                    {/* Points Bar Background */}
-                    <div className="absolute inset-0 z-0 opacity-[0.03] pointer-events-none group-hover:opacity-[0.05] transition-opacity">
+                    {/* Points Bar Track & Fill */}
+                    <div className="absolute bottom-0 left-4 right-4 h-[2px] z-0 pointer-events-none flex items-end">
+                      {/* Track */}
+                      <div className="absolute bottom-0 w-full h-[1px] bg-[var(--border-subtle)]" />
+                      {/* Fill */}
                       <motion.div 
-                        className="h-full origin-left"
+                        className="relative h-[2px] w-full origin-left opacity-80 group-hover:opacity-100 transition-opacity"
                         style={{ backgroundColor: teamMeta.color }}
                         initial={{ scaleX: 0 }}
                         whileInView={{ scaleX: percent / 100 }}
@@ -137,27 +138,28 @@ export const StandingsSection: React.FC<{ id?: string }> = ({ id }) => {
                     </div>
                     
                     <div className="flex-1 flex items-center relative z-10 gap-3">
-                      <div className="flex flex-col justify-center w-full">
-                        <div className="flex items-center gap-4">
-                          <span className="font-semibold text-[15px]">
-                            {isDriver ? `${driverObj.givenName} ` : ''}
-                            <span className="uppercase">{isDriver ? driverObj.familyName : teamObj.name}</span>
-                          </span>
-                          {!isDriver && teamLogos[teamMeta.id] && (
-                            <img src={teamLogos[teamMeta.id]} alt={teamMeta.name} className={cn("w-auto object-contain", teamMeta.id === 'mclaren' ? "h-4 sm:h-5" : "h-6 sm:h-7")} />
+                        <div className="flex flex-col justify-center w-full">
+                          {isDriver ? (
+                            <>
+                              <div className="font-semibold text-[15px] group-hover:text-[var(--accent)] transition-colors duration-150">
+                                {driverObj.givenName} <span className="uppercase">{driverObj.familyName}</span>
+                              </div>
+                              <div className="flex items-center gap-2 mt-0.5 flex-nowrap min-w-0">
+                                <TeamLogo teamId={teamMeta.id} teamName={teamMeta.name} className="h-4 w-5 object-contain shrink-0" showTeamNameNextToIt={false} />
+                                <div className="text-[12px] text-[var(--text-muted)] truncate min-w-0" title={teamObj.name}>
+                                  {teamObj.name}
+                                </div>
+                              </div>
+                            </>
+                          ) : (
+                            <div className="flex items-center gap-2 flex-nowrap min-w-0">
+                              <TeamLogo teamId={teamMeta.id} teamName={teamMeta.name} className="h-5 w-5 object-contain shrink-0" showTeamNameNextToIt={false} />
+                              <div className="font-semibold text-[15px] uppercase group-hover:text-[var(--accent)] transition-colors duration-150 truncate min-w-0">
+                                {teamObj.name}
+                              </div>
+                            </div>
                           )}
                         </div>
-                        {isDriver && (
-                          <div className="flex items-center gap-2 mt-0.5">
-                            {teamLogos[teamMeta.id] && (
-                              <img src={teamLogos[teamMeta.id]} alt={teamMeta.name} className="h-3 w-auto object-contain" />
-                            )}
-                            <span className="text-[12px] text-[var(--text-muted)] truncate block" title={teamObj.name}>
-                              {teamObj.name}
-                            </span>
-                          </div>
-                        )}
-                      </div>
                     </div>
                     
                     <div className="w-16 text-right hidden sm:block relative z-10">
@@ -179,23 +181,13 @@ export const StandingsSection: React.FC<{ id?: string }> = ({ id }) => {
         </div>
       </div>
       
-      {!expanded && items.length > 5 && (
-        <div className="mt-4 flex justify-center">
-          <button
-            onClick={() => setExpanded(true)}
-            className="dv2-link text-[13px] font-semibold uppercase tracking-widest text-[var(--text-muted)] hover:text-[var(--text)] transition-colors py-2 px-4"
-          >
-            View full standings
-          </button>
-        </div>
-      )}
-      {expanded && (
-        <div className="mt-4 flex justify-center">
+      {items.length > 5 && (
+        <div className="mt-4 flex justify-center pb-2">
            <Link
-            to={tab === 'drivers' ? '/drivers' : tab === 'constructors' ? '/teams' : '/calendar'}
+            to={tab === 'drivers' ? '/drivers' : '/teams'}
             className="dv2-link text-[13px] font-semibold uppercase tracking-widest text-[var(--text-muted)] hover:text-[var(--text)] transition-colors py-2 px-4"
           >
-            Go to full {tab} page
+            View full standings &rarr;
           </Link>
         </div>
       )}

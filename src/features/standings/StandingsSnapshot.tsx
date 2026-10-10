@@ -248,8 +248,8 @@ export const StandingsSnapshot: React.FC<StandingsSnapshotProps> = ({
                               {item.constructor.nationality}
                             </div>
                           </div>
-                          {teamLogos[team.id] && (
-                            <img src={teamLogos[team.id]} alt={team.name} className={cn("w-auto object-contain hidden sm:block", team.id === 'mclaren' ? "h-4 sm:h-5" : "h-6 sm:h-7")} />
+                          {teamLogos[team.id]?.src && (
+                            <img src={teamLogos[team.id].src!} alt={team.name} className={cn("w-auto object-contain hidden sm:block", team.id === 'mclaren' ? "h-4 sm:h-5" : "h-6 sm:h-7")} />
                           )}
                         </div>
                       </div>
