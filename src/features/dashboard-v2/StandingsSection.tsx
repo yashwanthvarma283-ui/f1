@@ -44,8 +44,11 @@ export const StandingsSection: React.FC<{ id?: string }> = ({ id }) => {
   }
 
   return (
-    <div className="w-full mt-12" id={id || 'standings'}>
-      <div className="flex justify-center sm:justify-start mb-6">
+    <Section id={id || 'standings'} className="w-full">
+      <SectionHeading subtitle="2026 Season">
+        Standings
+      </SectionHeading>
+      <div className="flex justify-center sm:justify-start mb-6 mt-12">
         <div className="flex bg-[var(--surface-1)] p-1 rounded-full border border-[var(--border-subtle)] relative">
           {(['results', 'drivers', 'constructors'] as const).map((t) => (
             <button
@@ -186,6 +189,6 @@ export const StandingsSection: React.FC<{ id?: string }> = ({ id }) => {
           </Link>
         </div>
       )}
-    </div>
+    </Section>
   )
 }

@@ -5,7 +5,6 @@ import { Section, SectionHeading, RowSkeleton, QuietError, Figure, Label, EMPTY 
 import { cn } from '@/lib/utils'
 import { motion } from 'motion/react'
 import type { RaceResultEntry } from '@/types/data'
-import { StandingsSection } from './StandingsSection'
 
 // Map position to podium height
 const PODIUM_HEIGHT = {
@@ -89,8 +88,66 @@ export const LatestResultSection: React.FC<{ id?: string }> = ({ id }) => {
         {p3 && <PodiumSpot entry={p3} position={3} winnerTime={p1?.Time?.time || ''} />}
       </div>
 
-      <div className="mt-8">
-        <StandingsSection id="standings" />
+      <div className="mt-8 border-t border-[var(--border-subtle)]">
+        <div className="flex items-center px-4 py-3 border-b border-[var(--border-subtle)] bg-[var(--surface-1)]">
+          <Label className="w-8">Pos</Label>
+          <Label className="flex-1">Driver</Label>
+          <Label className="w-24 text-right">Time</Label>
+          <Label className="w-12 text-right ml-4">Pts</Label>
+        </div>
+        
+        <div className="divide-y divide-[var(--border-subtle)] flex flex-col">
+          {top10.map((item, idx) => {
+            const teamMeta = getTeamMeta(item.Constructor.constructorId)
+            
+            return (
+              <motion.div 
+                key={item.Driver.driverId} 
+                initial={{ opacity: 0, x: -10 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.3, delay: idx * 0.05 }}
+                className="group relative flex items-center px-4 py-3 hover:bg-[var(--surface-1)] transition-colors duration-150 overflow-hidden"
+              >
+                {/* Hover slide-in highlight edge */}
+                <div 
+                  className="absolute left-0 top-0 bottom-0 w-1 -translate-x-full group-hover:translate-x-0 transition-transform duration-150 ease-[var(--ease-out)]"
+                  style={{ backgroundColor: teamMeta.color }}
+                  aria-hidden="true"
+                />
+
+                <div className="w-8 flex items-center">
+                  <Figure className="text-[14px] font-medium text-[var(--text-muted)]">
+                    {item.position}
+                  </Figure>
+                </div>
+                
+                <div className="flex-1 flex items-center gap-3">
+                  <div className="flex flex-col sm:flex-row sm:items-center sm:gap-2">
+                    <span className="font-semibold text-[15px]">
+                      {item.Driver.givenName} <span className="uppercase">{item.Driver.familyName}</span>
+                    </span>
+                    <span className="hidden sm:inline text-[var(--text-muted)] text-[12px] truncate max-w-[120px]">{item.Constructor.name}</span>
+                  </div>
+                </div>
+                
+                <div className="w-24 text-right">
+                  <span className="truncate block" title={item.Time?.time || item.status}>
+                    <Figure className="text-[13px] text-[var(--text-muted)]">
+                      {item.Time?.time || item.status || EMPTY}
+                    </Figure>
+                  </span>
+                </div>
+                
+                <div className="w-12 text-right ml-4">
+                  <Figure className="text-[14px] font-medium">
+                    {item.points}
+                  </Figure>
+                </div>
+              </motion.div>
+            )
+          })}
+        </div>
       </div>
     </Section>
   )
