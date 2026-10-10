@@ -21,8 +21,10 @@ export const CircuitOutline: React.FC<CircuitOutlineProps> = ({
   const info = getCircuitInfo(circuitId, circuitName)
 
   const [activeTurn, _setActiveTurn] = useState<TurnMarker | null>(null)
+  const activeTurnRef = useRef<TurnMarker | null>(null)
   const setActiveTurn = (turn: TurnMarker | null) => {
     _setActiveTurn(turn)
+    activeTurnRef.current = turn
     if (onActiveTurnChange) {
       onActiveTurnChange(turn)
     }
@@ -158,7 +160,9 @@ export const CircuitOutline: React.FC<CircuitOutlineProps> = ({
                 closestTurn = turn
               }
             })
-            setActiveTurn(prev => prev?.number === closestTurn?.number ? prev : closestTurn)
+            const currId = activeTurnRef.current ? activeTurnRef.current.number : null;
+            const newId = closestTurn ? (closestTurn as TurnMarker).number : null;
+            setActiveTurn(currId === newId ? activeTurnRef.current : closestTurn);
           }
         }
         animFrameRef.current = requestAnimationFrame(loopAnimation)
@@ -463,7 +467,7 @@ export const CircuitOutline: React.FC<CircuitOutlineProps> = ({
               {is3D && snappedTurns.map((turn) => (
                  <circle
                    key={turn.number}
-                   ref={el => anchorRefs.current[turn.number] = el}
+                   ref={el => { anchorRefs.current[turn.number] = el; }}
                    cx={turn.pillX ?? turn.x}
                    cy={turn.pillY ?? turn.y}
                    r="1"
@@ -485,7 +489,7 @@ export const CircuitOutline: React.FC<CircuitOutlineProps> = ({
               return (
                 <motion.div
                   key={turn.number}
-                  ref={el => overlayPillsRef.current[turn.number] = el}
+                  ref={el => { overlayPillsRef.current[turn.number] = el; }}
                   className="absolute flex items-center justify-center font-mono font-bold text-[13px] text-white bg-[#0B0B0F] rounded-[5px] pointer-events-none shadow-sm"
                   style={{
                     width: isDoubleDigit ? 26 : 22,
