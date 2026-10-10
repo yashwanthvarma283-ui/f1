@@ -5,6 +5,7 @@ import { Section, SectionHeading, RowSkeleton, QuietError, Figure, Label } from 
 import { cn } from '@/lib/utils'
 import { motion, AnimatePresence } from 'motion/react'
 import { Link } from 'react-router-dom'
+import { teamLogos } from '@/lib/teamLogos'
 
 export const StandingsSection: React.FC<{ id?: string }> = ({ id }) => {
   const { data: drivers, isLoading: dLoading, isError: dError, refetch: dRefetch } = useDriverStandings()
@@ -44,18 +45,15 @@ export const StandingsSection: React.FC<{ id?: string }> = ({ id }) => {
   }
 
   return (
-    <Section id={id || 'standings'} className="w-full">
-      <SectionHeading subtitle="2026 Season">
-        Standings
-      </SectionHeading>
-      <div className="flex justify-center sm:justify-start mb-6 mt-12">
+    <div id={id || 'standings'} className="w-full pt-8 md:pt-12 lg:pt-16">
+      <div className="flex justify-center sm:justify-start mb-6 mt-6 md:mt-2">
         <div className="flex bg-[var(--surface-1)] p-1 rounded-full border border-[var(--border-subtle)] relative">
           {(['results', 'drivers', 'constructors'] as const).map((t) => (
             <button
               key={t}
               onClick={() => setTab(t)}
               className={cn(
-                "relative px-5 py-2 sm:px-6 sm:py-2.5 text-[14px] font-semibold rounded-full transition-colors cursor-pointer capitalize",
+                "relative px-6 py-2.5 md:px-8 md:py-3 text-[14px] font-semibold rounded-full transition-colors cursor-pointer capitalize",
                 tab === t ? 'text-[var(--bg)]' : 'text-[var(--text-muted)] hover:text-[var(--text)]'
               )}
             >
@@ -138,16 +136,30 @@ export const StandingsSection: React.FC<{ id?: string }> = ({ id }) => {
                       </Figure>
                     </div>
                     
-                    <div className="flex-1 flex flex-col justify-center relative z-10">
-                      <span className="font-semibold text-[15px]">
-                        {isDriver ? `${driverObj.givenName} ` : ''}
-                        <span className="uppercase">{isDriver ? driverObj.familyName : teamObj.name}</span>
-                      </span>
-                      {isDriver && (
-                        <span className="text-[12px] text-[var(--text-muted)] truncate block" title={teamObj.name}>
-                          {teamObj.name}
+                    <div className="flex-1 flex items-center relative z-10 gap-3">
+                      <div className="flex flex-col justify-center">
+                        <span className="font-semibold text-[15px]">
+                          {isDriver ? `${driverObj.givenName} ` : ''}
+                          <span className="uppercase">{isDriver ? driverObj.familyName : teamObj.name}</span>
                         </span>
-                      )}
+                        {isDriver && (
+                          <div className="flex items-center gap-2">
+                            {teamLogos[teamMeta.id] && (
+                              <img src={teamLogos[teamMeta.id]} alt={teamMeta.name} className="h-3 w-auto object-contain mix-blend-screen opacity-70" />
+                            )}
+                            <span className="text-[12px] text-[var(--text-muted)] truncate block" title={teamObj.name}>
+                              {teamObj.name}
+                            </span>
+                          </div>
+                        )}
+                        {!isDriver && (
+                          <div className="flex items-center gap-2 mt-1">
+                            {teamLogos[teamMeta.id] && (
+                              <img src={teamLogos[teamMeta.id]} alt={teamMeta.name} className="h-4 w-auto object-contain mix-blend-screen opacity-70" />
+                            )}
+                          </div>
+                        )}
+                      </div>
                     </div>
                     
                     <div className="w-16 text-right hidden sm:block relative z-10">
@@ -189,6 +201,6 @@ export const StandingsSection: React.FC<{ id?: string }> = ({ id }) => {
           </Link>
         </div>
       )}
-    </Section>
+    </div>
   )
 }

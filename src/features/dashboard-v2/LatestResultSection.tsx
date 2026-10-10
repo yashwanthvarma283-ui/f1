@@ -6,6 +6,9 @@ import { cn } from '@/lib/utils'
 import { motion } from 'motion/react'
 import type { RaceResultEntry } from '@/types/data'
 
+import { driverHeadshots } from '@/lib/driverImages'
+import { teamLogos } from '@/lib/teamLogos'
+
 // Map position to podium height
 const PODIUM_HEIGHT = {
   1: 'h-[160px]',
@@ -15,15 +18,34 @@ const PODIUM_HEIGHT = {
 
 const PodiumSpot: React.FC<{ entry: any; position: 1 | 2 | 3; winnerTime: string }> = ({ entry, position }) => {
   const teamMeta = getTeamMeta(entry.Constructor.constructorId)
+  const headshot = driverHeadshots[entry.number]
+  const logo = teamLogos[teamMeta.id]
+
   return (
     <div className="flex flex-col items-center justify-end">
+      {/* Driver HD Image behind the info/number */}
+      {headshot && (
+        <motion.div 
+          className="relative w-32 h-32 md:w-40 md:h-40 -mb-4 z-10 drop-shadow-2xl flex justify-center items-end"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: position * 0.1 }}
+        >
+          <img src={headshot} alt={entry.Driver.familyName} className="max-w-full max-h-full object-contain object-bottom mask-image-bottom" style={{ WebkitMaskImage: 'linear-gradient(to top, transparent 0%, black 20%)', maskImage: 'linear-gradient(to top, transparent 0%, black 20%)' }} />
+        </motion.div>
+      )}
+
       {/* Driver info above block */}
-      <div className="text-center mb-3">
+      <div className="text-center mb-3 z-20">
         <div className="font-bold text-[18px] md:text-[22px] leading-tight uppercase tracking-tight">
           {entry.Driver.familyName}
         </div>
-        <div className="text-[12px] font-semibold uppercase tracking-wider text-[var(--text-muted)] mt-1">
-          {teamMeta.name}
+        <div className="flex items-center justify-center gap-2 mt-1">
+          {logo && <img src={logo} alt={teamMeta.name} className="h-4 w-auto object-contain mix-blend-screen opacity-90" />}
+          <div className="text-[12px] font-semibold uppercase tracking-wider text-[var(--text-muted)]">
+            {teamMeta.name}
+          </div>
         </div>
         {position !== 1 && (
           <div className="dv2-fig text-[11px] text-[var(--text-muted)] mt-1">
@@ -127,7 +149,12 @@ export const LatestResultSection: React.FC<{ id?: string }> = ({ id }) => {
                     <span className="font-semibold text-[15px]">
                       {item.Driver.givenName} <span className="uppercase">{item.Driver.familyName}</span>
                     </span>
-                    <span className="hidden sm:inline text-[var(--text-muted)] text-[12px] truncate max-w-[120px]">{item.Constructor.name}</span>
+                    <div className="hidden sm:flex items-center gap-2">
+                      {teamLogos[teamMeta.id] && (
+                        <img src={teamLogos[teamMeta.id]} alt={teamMeta.name} className="h-3 w-auto object-contain mix-blend-screen opacity-70" />
+                      )}
+                      <span className="text-[var(--text-muted)] text-[12px] truncate max-w-[120px]">{item.Constructor.name}</span>
+                    </div>
                   </div>
                 </div>
                 

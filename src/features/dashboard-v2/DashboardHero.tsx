@@ -15,7 +15,7 @@ export const DashboardHero: React.FC<{ id?: string }> = ({ id }) => {
   const { data: schedule, isLoading, isError, refetch } = useSchedule()
   const tz = useTimezone()
   const { scrollY } = useScroll()
-  const parallaxY = useTransform(scrollY, [0, 1000], [0, 12])
+  const parallaxY = useTransform(scrollY, [0, 1000], [0, 5])
   
   if (isLoading) {
     return (
