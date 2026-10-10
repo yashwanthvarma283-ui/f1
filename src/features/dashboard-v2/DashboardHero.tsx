@@ -7,15 +7,13 @@ import { CountryFlag } from '@/lib/flags'
 import { Countdown } from './Countdown'
 import { PrimaryButton, Fact, QuietError, EmptyNote, orDash } from './primitives'
 import { cn } from '@/lib/utils'
-import { motion, useScroll, useTransform } from 'motion/react'
+import { motion } from 'motion/react'
 import { CircuitOutline } from '@/features/hero/CircuitOutline'
 import { formatTimeInZone } from '@/lib/timezone'
 
 export const DashboardHero: React.FC<{ id?: string }> = ({ id }) => {
   const { data: schedule, isLoading, isError, refetch } = useSchedule()
   const tz = useTimezone()
-  const { scrollY } = useScroll()
-  const parallaxY = useTransform(scrollY, [0, 1000], [0, 5])
   
   if (isLoading) {
     return (
@@ -73,10 +71,9 @@ export const DashboardHero: React.FC<{ id?: string }> = ({ id }) => {
 
   return (
     <section id={id} className="relative w-full bg-[var(--dv2-hero-bg)] text-[var(--dv2-hero-text)] border-[var(--border-subtle)] pb-12 pt-12 md:pt-16 lg:pt-24 overflow-hidden">
-      {/* Background Circuit Outline with Parallax */}
+      {/* Background Circuit Outline */}
       <motion.div 
         className="absolute inset-0 z-0 pointer-events-none opacity-5 md:opacity-[0.07] flex items-center justify-center scale-150 md:scale-[2]"
-        style={{ y: parallaxY }}
         initial={{ strokeDashoffset: 1000, strokeDasharray: 1000 }}
         animate={{ strokeDashoffset: 0 }}
         transition={{ duration: 1.5, ease: 'easeInOut' }}
