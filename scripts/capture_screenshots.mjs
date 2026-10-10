@@ -23,7 +23,7 @@ async function getWebSocketUrl() {
         // If no page matching 4173 yet, open one
         if (list.length > 0 && !page) {
           try {
-            const newRes = await fetch('http://127.0.0.1:9222/json/new?http://127.0.0.1:4173/')
+            const newRes = await fetch('http://127.0.0.1:9222/json/new?http://127.0.0.1:4173/test/dashboard')
             if (newRes.ok) {
               const newPage = await newRes.json()
               if (newPage.webSocketDebuggerUrl) return newPage.webSocketDebuggerUrl
@@ -89,7 +89,7 @@ async function main() {
     '--guest',
     '--disable-features=Translate,OptimizationHints,MediaRouter',
     `--user-data-dir=${profileDir}`,
-    'http://127.0.0.1:4173/',
+    'http://127.0.0.1:4173/test/dashboard',
   ])
 
   try {
@@ -100,10 +100,10 @@ async function main() {
     await client.send('Page.enable')
     await client.send('Runtime.enable')
 
-    const widths = [375, 768, 1280, 1920]
+    const widths = [390, 768, 1280, 1920]
     const themes = ['dark', 'light']
 
-    const outputDir = 'F:\\F1\\screenshots'
+    const outputDir = 'F:\\F1\\screenshots\\dashboard-v2'
     if (!fs.existsSync(outputDir)) {
       fs.mkdirSync(outputDir, { recursive: true })
     }

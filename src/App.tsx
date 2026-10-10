@@ -11,7 +11,8 @@ import { HomePage } from '@/pages/HomePage'
 import { CalendarPage } from '@/pages/CalendarPage'
 import { RacePage } from '@/pages/RacePage'
 import { DriversPage, TeamsPage } from '@/pages/Placeholders'
-import { TestDashboard } from '@/pages/TestDashboard'
+import { TestDashboardV1 } from '@/pages/TestDashboardV1'
+import { TestDashboardV2 } from '@/pages/TestDashboardV2'
 import { ErrorBoundary } from '@/components/ErrorBoundary'
 
 // Configure TanStack Query with 24h cache persistence in localStorage
@@ -55,7 +56,6 @@ const AnimatedRoutes: React.FC = () => {
           <Route path="/drivers" element={<DriversPage />} />
           <Route path="/teams" element={<TeamsPage />} />
           <Route path="/race/:id" element={<RacePage />} />
-          <Route path="/test/dashboard" element={<TestDashboard />} />
           {/* Fallback to Home */}
           <Route path="*" element={<HomePage />} />
         </Routes>
@@ -73,17 +73,24 @@ export const App: React.FC = () => {
       <ThemeProvider>
         <TimezoneProvider>
           <BrowserRouter>
-            <Layout>
-              <ErrorBoundary>
-                <Suspense fallback={
-                  <div className="flex h-full w-full items-center justify-center min-h-[50vh]">
-                    <div className="w-8 h-8 rounded-full border-2 border-[var(--surface-3)] border-t-[var(--accent)] animate-spin" />
-                  </div>
-                }>
-                  <AnimatedRoutes />
-                </Suspense>
-              </ErrorBoundary>
-            </Layout>
+            <ErrorBoundary>
+              <Suspense fallback={
+                <div className="flex h-full w-full items-center justify-center min-h-[50vh]">
+                  <div className="w-8 h-8 rounded-full border-2 border-[var(--surface-3)] border-t-[var(--accent)] animate-spin" />
+                </div>
+              }>
+                <Routes>
+                  <Route path="/test/dashboard" element={<TestDashboardV2 />} />
+                  <Route path="/test/dashboard/v1" element={<TestDashboardV1 />} />
+                  <Route path="/test/dashboard/v2" element={<TestDashboardV2 />} />
+                  <Route path="*" element={
+                    <Layout>
+                      <AnimatedRoutes />
+                    </Layout>
+                  } />
+                </Routes>
+              </Suspense>
+            </ErrorBoundary>
           </BrowserRouter>
         </TimezoneProvider>
       </ThemeProvider>
