@@ -43,7 +43,7 @@ const PodiumSpot: React.FC<{ entry: any; position: 1 | 2 | 3; winnerTime: string
           {entry.Driver.familyName}
         </div>
         <div className="flex items-center justify-center gap-2 mt-1">
-          {logo && <img src={logo} alt={teamMeta.name} className="h-4 w-auto object-contain mix-blend-screen opacity-90" />}
+          {logo && <img src={logo} alt={teamMeta.name} className="h-4 w-auto object-contain opacity-90" />}
           <div className="text-[12px] font-semibold uppercase tracking-wider text-[var(--text-muted)]">
             {teamMeta.name}
           </div>
@@ -154,7 +154,7 @@ export const LatestResultSection: React.FC<{ id?: string }> = ({ id }) => {
                         </span>
                         <div className="hidden sm:flex items-center gap-2">
                           {teamLogos[teamMeta.id] && (
-                            <img src={teamLogos[teamMeta.id]} alt={teamMeta.name} className="h-3 w-auto object-contain mix-blend-screen opacity-70" />
+                            <img src={teamLogos[teamMeta.id]} alt={teamMeta.name} className="h-3 w-auto object-contain" />
                           )}
                           <span className="text-[var(--text-muted)] text-[12px] truncate max-w-[120px]">{item.Constructor.name}</span>
                         </div>

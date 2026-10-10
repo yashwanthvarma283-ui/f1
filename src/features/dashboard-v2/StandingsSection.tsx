@@ -145,7 +145,7 @@ export const StandingsSection: React.FC<{ id?: string }> = ({ id }) => {
                         {isDriver && (
                           <div className="flex items-center gap-2">
                             {teamLogos[teamMeta.id] && (
-                              <img src={teamLogos[teamMeta.id]} alt={teamMeta.name} className="h-3 w-auto object-contain mix-blend-screen opacity-70" />
+                              <img src={teamLogos[teamMeta.id]} alt={teamMeta.name} className="h-3 w-auto object-contain" />
                             )}
                             <span className="text-[12px] text-[var(--text-muted)] truncate block" title={teamObj.name}>
                               {teamObj.name}
@@ -155,7 +155,7 @@ export const StandingsSection: React.FC<{ id?: string }> = ({ id }) => {
                         {!isDriver && (
                           <div className="flex items-center gap-2 mt-1">
                             {teamLogos[teamMeta.id] && (
-                              <img src={teamLogos[teamMeta.id]} alt={teamMeta.name} className="h-4 w-auto object-contain mix-blend-screen opacity-70" />
+                              <img src={teamLogos[teamMeta.id]} alt={teamMeta.name} className="h-4 w-auto object-contain" />
                             )}
                           </div>
                         )}
