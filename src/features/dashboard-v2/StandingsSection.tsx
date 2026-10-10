@@ -137,26 +137,24 @@ export const StandingsSection: React.FC<{ id?: string }> = ({ id }) => {
                     </div>
                     
                     <div className="flex-1 flex items-center relative z-10 gap-3">
-                      <div className="flex flex-col justify-center">
-                        <span className="font-semibold text-[15px]">
-                          {isDriver ? `${driverObj.givenName} ` : ''}
-                          <span className="uppercase">{isDriver ? driverObj.familyName : teamObj.name}</span>
-                        </span>
+                      <div className="flex flex-col justify-center w-full">
+                        <div className="flex items-center gap-4">
+                          <span className="font-semibold text-[15px]">
+                            {isDriver ? `${driverObj.givenName} ` : ''}
+                            <span className="uppercase">{isDriver ? driverObj.familyName : teamObj.name}</span>
+                          </span>
+                          {!isDriver && teamLogos[teamMeta.id] && (
+                            <img src={teamLogos[teamMeta.id]} alt={teamMeta.name} className={cn("w-auto object-contain", teamMeta.id === 'mclaren' ? "h-4 sm:h-5" : "h-6 sm:h-7")} />
+                          )}
+                        </div>
                         {isDriver && (
-                          <div className="flex items-center gap-2">
+                          <div className="flex items-center gap-2 mt-0.5">
                             {teamLogos[teamMeta.id] && (
                               <img src={teamLogos[teamMeta.id]} alt={teamMeta.name} className="h-3 w-auto object-contain" />
                             )}
                             <span className="text-[12px] text-[var(--text-muted)] truncate block" title={teamObj.name}>
                               {teamObj.name}
                             </span>
-                          </div>
-                        )}
-                        {!isDriver && (
-                          <div className="flex items-center gap-2 mt-1">
-                            {teamLogos[teamMeta.id] && (
-                              <img src={teamLogos[teamMeta.id]} alt={teamMeta.name} className="h-4 w-auto object-contain" />
-                            )}
                           </div>
                         )}
                       </div>

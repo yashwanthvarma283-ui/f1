@@ -1,4 +1,5 @@
 import React, { useState, useMemo } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { motion, useReducedMotion } from 'motion/react'
 import {
   useSchedule,
@@ -18,6 +19,7 @@ import { QuickDriverLookup } from '@/features/lookup/QuickDriverLookup'
 export const HomePage: React.FC = () => {
   const [selectedSeason, setSelectedSeason] = useState('current')
   const shouldReduceMotion = useReducedMotion()
+  const navigate = useNavigate()
 
   // Queries
   const scheduleQuery = useSchedule(selectedSeason)
@@ -76,6 +78,24 @@ export const HomePage: React.FC = () => {
     >
       {/* 1. Hero Section: Next Race & Live Countdown */}
       <motion.div variants={sectionVariants}>
+        <div className="w-full flex justify-end p-4 lg:px-8">
+          <div className="flex items-center gap-2 bg-[var(--surface-2)] p-2 rounded-lg border border-[var(--surface-3)]">
+            <span className="text-sm text-[var(--text-2)] font-medium">Test Dashboard:</span>
+            <select
+              className="bg-[var(--surface-1)] text-[var(--text-1)] border border-[var(--surface-3)] rounded px-3 py-1 text-sm outline-none focus:border-[var(--accent)] transition-colors cursor-pointer"
+              onChange={(e) => {
+                if (e.target.value) {
+                  navigate(e.target.value)
+                }
+              }}
+              defaultValue=""
+            >
+              <option value="" disabled>Select version</option>
+              <option value="/test/dashboard/v1">Version 1</option>
+              <option value="/test/dashboard/v2">Version 2</option>
+            </select>
+          </div>
+        </div>
         <HeroNextRace
           race={nextRace}
           liveStatus={liveStatusQuery.data || { isLive: false, isReplay: false }}

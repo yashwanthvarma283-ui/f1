@@ -96,7 +96,7 @@ export const LatestResultSection: React.FC<{ id?: string }> = ({ id }) => {
   const p1 = result.results.find(r => r.position === '1')
   const p2 = result.results.find(r => r.position === '2')
   const p3 = result.results.find(r => r.position === '3')
-  const top10 = result.results.slice(3, 10) // table shows the rest of top 10
+  const top10 = result.results.slice(5, 10) // table shows positions 6-10
 
   return (
     <Section id={id || 'results'}>
@@ -106,14 +106,29 @@ export const LatestResultSection: React.FC<{ id?: string }> = ({ id }) => {
       
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 lg:mt-8">
         <div className="lg:col-span-7 flex flex-col">
+          {/* Race Info (Fast Lap & Laps) */}
+          <div className="flex justify-around items-center bg-[var(--surface-1)] border border-[var(--border-subtle)] rounded-lg p-3 mx-4 lg:mx-12 mt-2">
+            <div className="flex flex-col items-center">
+              <span className="text-[10px] uppercase font-bold text-[var(--text-muted)] tracking-wider">Total Laps</span>
+              <span className="font-mono text-[15px] font-bold">{p1?.laps || '-'}</span>
+            </div>
+            <div className="w-px h-6 bg-[var(--border-subtle)]"></div>
+            <div className="flex flex-col items-center">
+              <span className="text-[10px] uppercase font-bold text-[var(--text-muted)] tracking-wider">Fastest Lap</span>
+              <span className="font-mono text-[15px] font-bold text-[var(--timing-purple)]">
+                {result.fastestLap ? `${result.fastestLap.Driver.code || result.fastestLap.Driver.familyName} - ${result.fastestLap.FastestLap?.Time.time}` : '-'}
+              </span>
+            </div>
+          </div>
+
           {/* Podium Component */}
-          <div className="flex items-end justify-center gap-2 sm:gap-4 md:gap-8 mt-4 md:mt-8 mb-12 h-[240px] md:h-[260px]">
+          <div className="flex items-end justify-center gap-2 sm:gap-4 md:gap-8 mt-6 md:mt-10 mb-12 h-[240px] md:h-[260px]">
             {p2 && <PodiumSpot entry={p2} position={2} winnerTime={p1?.Time?.time || ''} />}
             {p1 && <PodiumSpot entry={p1} position={1} winnerTime={p1?.Time?.time || ''} />}
             {p3 && <PodiumSpot entry={p3} position={3} winnerTime={p1?.Time?.time || ''} />}
           </div>
 
-          <div className="mt-auto border-t border-[var(--border-subtle)]">
+          <div className="border-t border-[var(--border-subtle)]">
             <div className="flex items-center px-4 py-3 border-b border-[var(--border-subtle)] bg-[var(--surface-1)]">
               <Label className="w-8">Pos</Label>
               <Label className="flex-1">Driver</Label>

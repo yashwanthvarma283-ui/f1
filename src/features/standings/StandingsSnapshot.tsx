@@ -9,6 +9,7 @@ import { getTeamMeta } from '@/lib/teams'
 import { CountryFlag } from '@/lib/flags'
 import { ArrowUpRight, TrendingUp } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { teamLogos } from '@/lib/teamLogos'
 
 interface StandingsSnapshotProps {
   drivers: DriverStandingItem[]
@@ -238,13 +239,18 @@ export const StandingsSnapshot: React.FC<StandingsSnapshotProps> = ({
                           style={{ backgroundColor: team.color }}
                         />
 
-                        <div>
-                          <div className="font-semibold text-sm sm:text-base text-[var(--text)] tracking-[0.01em]">
-                            {item.constructor.name}
+                        <div className="flex items-center gap-4">
+                          <div>
+                            <div className="font-semibold text-sm sm:text-base text-[var(--text)] tracking-[0.01em]">
+                              {item.constructor.name}
+                            </div>
+                            <div className="text-xs text-[var(--text-muted)] font-mono">
+                              {item.constructor.nationality}
+                            </div>
                           </div>
-                          <div className="text-xs text-[var(--text-muted)] font-mono">
-                            {item.constructor.nationality}
-                          </div>
+                          {teamLogos[team.id] && (
+                            <img src={teamLogos[team.id]} alt={team.name} className={cn("w-auto object-contain hidden sm:block", team.id === 'mclaren' ? "h-4 sm:h-5" : "h-6 sm:h-7")} />
+                          )}
                         </div>
                       </div>
 

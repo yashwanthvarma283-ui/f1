@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import { Header } from '@/features/dashboard-v1/Header'
-import { StickyNav } from '@/features/dashboard-v1/StickyNav'
 import { DashboardHero } from '@/features/dashboard-v2/DashboardHero'
 import { LatestResultSection } from '@/features/dashboard-v2/LatestResultSection'
 import { CalendarSection } from '@/features/dashboard-v2/CalendarSection'
 import { DriversSection } from '@/features/dashboard-v2/DriversSection'
-import { Footer } from '@/components/layout/Footer'
+import { Footer } from '@/features/dashboard-v1/Footer'
 
 export const TestDashboardV2: React.FC = () => {
   const [activeSection, setActiveSection] = useState('next-race')
@@ -40,7 +39,6 @@ export const TestDashboardV2: React.FC = () => {
       
       <main className="flex-1 flex flex-col">
         <DashboardHero id="next-race" />
-        <StickyNav activeSection={activeSection} />
         
         <div className="max-w-[1560px] mx-auto w-full px-5 md:px-8 lg:px-12 pb-12 mt-4 lg:mt-6">
           <LatestResultSection id="results" />

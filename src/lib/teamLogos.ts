@@ -4,7 +4,7 @@ export const teamLogos: Record<string, string> = {
   mclaren: "/logos/McLaren.png",
   red_bull: "/logos/Redbull.png",
   rb: "/logos/RacingBulls.png",
-  aston_martin: "/logos/Astom martin.png",
+  aston_martin: "/logos/Astonmartin.png",
   alpine: "/logos/Alpine.png",
   haas: "/logos/Cadillac.png",
   williams: "/logos/Williams.png",

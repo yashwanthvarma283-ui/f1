@@ -3,6 +3,7 @@ import { useDriverStandings, useConstructorStandings } from '@/api/useF1Data'
 import { getTeamMeta } from '@/lib/teams'
 import { Section, SectionHeading, RowSkeleton, QuietError, Figure, Label } from './primitives'
 import { cn } from '@/lib/utils'
+import { teamLogos } from '@/lib/teamLogos'
 
 export const StandingsSection: React.FC<{ id?: string }> = ({ id }) => {
   const [activeTab, setActiveTab] = useState<'drivers' | 'constructors'>('drivers')
@@ -89,7 +90,12 @@ export const StandingsSection: React.FC<{ id?: string }> = ({ id }) => {
                       <span className="block w-1 h-6 shrink-0 rounded-[1px]" style={{ backgroundColor: teamMeta.color }} aria-hidden="true" />
                       <Figure className={cn('text-[15px]', item.position <= 3 ? 'font-bold' : 'font-medium')}>{item.position}</Figure>
                     </div>
-                    <div className="flex-1 font-semibold text-[15px]">{item.constructor.name}</div>
+                    <div className="flex-1 font-semibold text-[15px] flex items-center gap-3">
+                      {item.constructor.name}
+                      {teamLogos[teamMeta.id] && (
+                        <img src={teamLogos[teamMeta.id]} alt={teamMeta.name} className={cn("w-auto object-contain", teamMeta.id === 'mclaren' ? "h-3 sm:h-4" : "h-5 sm:h-6")} />
+                      )}
+                    </div>
                     <div className="w-16 text-right ml-4">
                       <Figure className={cn('text-[15px]', item.position <= 3 ? 'font-bold' : 'font-medium')}>{item.points}</Figure>
                     </div>
